@@ -35,21 +35,23 @@ const platforms = [
 export function PlatformLinks({ className }: PlatformLinksProps) {
   return (
     <div className={className}>
-      <h3 className="text-lg font-semibold text-foreground mb-4">
-        Suscríbete y escucha
+      <h3 className="text-lg font-semibold text-foreground mb-4 font-display glow-text">
+        SUSCRÍBETE Y ESCUCHA
       </h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
         {platforms.map((platform) => (
           <Button
             key={platform.name}
             variant={platform.primary ? "default" : "secondary"}
-            className={`h-auto p-4 flex flex-col items-center gap-2 ${
-              platform.primary ? "bg-accent hover:bg-accent/90" : ""
+            className={`h-auto p-4 flex flex-col items-center gap-2 backdrop-blur-sm border-accent/30 hover:border-accent/60 transition-all duration-300 glow-border ${
+              platform.primary 
+                ? "bg-accent hover:bg-accent/90 hover:shadow-lg hover:shadow-accent/30" 
+                : "bg-card/50 hover:bg-card/70 hover:text-accent"
             }`}
             onClick={() => window.open(platform.url, '_blank')}
           >
             <div className="flex items-center gap-2">
-              <span className="font-medium">{platform.name}</span>
+              <span className="font-medium font-display">{platform.name}</span>
               <ExternalLink size={16} />
             </div>
             <span className="text-xs opacity-80 text-center">

@@ -3,7 +3,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 export function EpisodeCardSkeleton() {
   return (
-    <Card>
+    <Card className="border-accent/30 bg-card/80 backdrop-blur-sm">
+      {/* Image skeleton */}
+      <Skeleton className="h-48 w-full rounded-t-lg" />
+      
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between gap-3">
           <div className="flex-1 space-y-2">
@@ -14,7 +17,6 @@ export function EpisodeCardSkeleton() {
         </div>
         <div className="flex items-center gap-2">
           <Skeleton className="h-5 w-20" />
-          <Skeleton className="h-5 w-16" />
         </div>
       </CardHeader>
       <CardContent className="pt-0">
@@ -31,7 +33,7 @@ export function EpisodeCardSkeleton() {
 
 export function EpisodeListSkeleton() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
       {Array.from({ length: 6 }, (_, i) => (
         <EpisodeCardSkeleton key={i} />
       ))}
