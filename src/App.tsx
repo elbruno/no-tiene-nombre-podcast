@@ -7,6 +7,7 @@ import { PlatformLinks } from "@/components/PlatformLinks";
 import { EpisodeListSkeleton } from "@/components/LoadingSkeletons";
 import { ErrorState } from "@/components/ErrorState";
 import { WarpStars } from "@/components/WarpStars";
+import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
 
@@ -51,6 +52,11 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/80" />
         
         <div className="container mx-auto px-4 py-16 sm:py-24 relative z-20">
+          {/* Social Links Quick Access */}
+          <div className="flex justify-center mb-6">
+            <SocialLinks variant="header" />
+          </div>
+          
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="p-3 rounded-xl bg-accent/20 border border-accent/40 backdrop-blur-sm glow-border">
@@ -153,14 +159,22 @@ function App() {
       {/* Footer */}
       <footer className="border-t border-accent/20 bg-card/20 mt-20 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <Microphone size={20} className="text-accent glow-text" />
-              <span className="font-medium text-foreground font-display">NO TIENE NOMBRE</span>
+          <div className="flex flex-col gap-6">
+            {/* Social Media Links */}
+            <div className="flex justify-center">
+              <SocialLinks />
             </div>
-            <p className="text-sm text-muted-foreground text-center">
-              Un podcast sobre inteligencia artificial en español
-            </p>
+            
+            {/* Footer Info */}
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-accent/20">
+              <div className="flex items-center gap-2">
+                <Microphone size={20} className="text-accent glow-text" />
+                <span className="font-medium text-foreground font-display">NO TIENE NOMBRE</span>
+              </div>
+              <p className="text-sm text-muted-foreground text-center">
+                Un podcast sobre inteligencia artificial en español
+              </p>
+            </div>
           </div>
         </div>
       </footer>
