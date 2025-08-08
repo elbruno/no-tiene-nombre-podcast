@@ -81,7 +81,6 @@ function App() {
                 variant="outline" 
                 size="lg"
                 className="backdrop-blur-sm bg-background/50 hover:bg-background/70 border-accent/40 hover:border-accent/60 text-foreground hover:text-accent transition-all duration-300"
-                onClick={() => document.getElementById('episodes')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Ver últimos episodios
               </Button>
