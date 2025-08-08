@@ -6,10 +6,12 @@ export interface Episode {
   duration?: string;
   audioUrl?: string;
   link?: string;
+  imageUrl?: string;
 }
 
 export interface PodcastData {
   title: string;
   description: string;
+  imageUrl?: string;
   episodes: Episode[];
 }

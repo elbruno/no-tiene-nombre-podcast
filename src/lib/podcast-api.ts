@@ -20,6 +20,11 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
     const title = channel.querySelector('title')?.textContent || 'No Tiene Nombre';
     const description = channel.querySelector('description')?.textContent || 'Podcast sobre IA en español';
     
+    // Extract podcast image from channel
+    const podcastImage = channel.querySelector('image url')?.textContent || 
+                        channel.querySelector('itunes\\:image')?.getAttribute('href') ||
+                        undefined;
+    
     const items = Array.from(xmlDoc.querySelectorAll('item')).slice(0, 10);
     
     const episodes: Episode[] = items.map((item, index) => {
@@ -30,6 +35,11 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
       const enclosureElement = item.querySelector('enclosure');
       const durationElement = item.querySelector('duration') || item.querySelector('itunes\\:duration');
       
+      // Extract episode image
+      const episodeImage = item.querySelector('itunes\\:image')?.getAttribute('href') ||
+                          item.querySelector('image')?.textContent ||
+                          podcastImage; // Fallback to podcast image
+      
       return {
         id: `episode-${index}`,
         title: titleElement?.textContent?.trim() || `Episodio ${index + 1}`,
@@ -38,10 +48,11 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
         duration: durationElement?.textContent || undefined,
         audioUrl: enclosureElement?.getAttribute('url') || undefined,
         link: linkElement?.textContent || undefined,
+        imageUrl: episodeImage,
       };
     });
     
-    return { title, description, episodes };
+    return { title, description, imageUrl: podcastImage, episodes };
   } catch (error) {
     console.error('Error fetching podcast RSS:', error);
     throw error;

@@ -35,14 +35,28 @@ function App() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <header className="relative overflow-hidden border-b bg-gradient-to-br from-background via-background to-muted/30">
-        <div className="container mx-auto px-4 py-16 sm:py-24">
+      <header className="relative overflow-hidden border-b">
+        {/* Hero Background Image */}
+        {!loading && !error && podcastData?.episodes[0]?.imageUrl && (
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${podcastData.episodes[0].imageUrl})` }}
+          />
+        )}
+        
+        {/* Blur overlay */}
+        <div className="absolute inset-0 bg-background/95 backdrop-blur-sm" />
+        
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/85 to-muted/60" />
+        
+        <div className="container mx-auto px-4 py-16 sm:py-24 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="p-3 rounded-xl bg-accent/10 border border-accent/20">
+              <div className="p-3 rounded-xl bg-accent/10 border border-accent/20 backdrop-blur-sm">
                 <Microphone size={32} className="text-accent" weight="duotone" />
               </div>
-              <Badge variant="secondary" className="text-sm font-medium">
+              <Badge variant="secondary" className="text-sm font-medium backdrop-blur-sm bg-secondary/80">
                 <Sparkle size={14} className="mr-1" weight="fill" />
                 Podcast sobre IA
               </Badge>
@@ -60,7 +74,7 @@ function App() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button 
                 size="lg" 
-                className="bg-accent hover:bg-accent/90 text-accent-foreground px-8"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 backdrop-blur-sm"
                 onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
               >
                 <Rss size={20} className="mr-2" />
@@ -69,6 +83,7 @@ function App() {
               <Button 
                 variant="outline" 
                 size="lg"
+                className="backdrop-blur-sm bg-background/50 hover:bg-background/70"
                 onClick={() => document.getElementById('episodes')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Ver últimos episodios
