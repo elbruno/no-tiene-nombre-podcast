@@ -19,6 +19,12 @@ const platforms = [
     description: "Escucha en Spotify"
   },
   {
+    name: "Apple Podcasts",
+    url: "https://podcasts.apple.com/us/podcast/no-tiene-nombre/id1682861526",
+    primary: false,
+    description: "Disponible en Apple"
+  },
+  {
     name: "Listen Notes",
     url: "https://lnns.co/Ytoh4vIkAjq",
     primary: false,
@@ -32,7 +38,7 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
       <h3 className="text-lg font-semibold text-foreground mb-4">
         Suscríbete y escucha
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
         {platforms.map((platform) => (
           <Button
             key={platform.name}
