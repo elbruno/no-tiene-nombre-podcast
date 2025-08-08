@@ -1,5 +1,6 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { LoadingState } from "@/components/DeathStarLoader";
 
 export function EpisodeCardSkeleton() {
   return (
@@ -33,10 +34,9 @@ export function EpisodeCardSkeleton() {
 
 export function EpisodeListSkeleton() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-      {Array.from({ length: 6 }, (_, i) => (
-        <EpisodeCardSkeleton key={i} />
-      ))}
-    </div>
+    <LoadingState 
+      message="Descargando datos del imperio..." 
+      className="min-h-[400px]" 
+    />
   );
 }
