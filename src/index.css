@@ -150,6 +150,10 @@
   .font-display {
     font-family: var(--font-display);
   }
+
+  .pao-glow {
+    animation: pao-pulse 2s ease-in-out infinite alternate;
+  }
 }
 
 @keyframes float {
