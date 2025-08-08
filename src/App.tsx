@@ -6,6 +6,7 @@ import { EpisodeCard } from "@/components/EpisodeCard";
 import { PlatformLinks } from "@/components/PlatformLinks";
 import { EpisodeListSkeleton } from "@/components/LoadingSkeletons";
 import { ErrorState } from "@/components/ErrorState";
+import { WarpStars } from "@/components/WarpStars";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
 
@@ -34,8 +35,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background starfield relative">
+      <WarpStars />
+      
       {/* Hero Section */}
-      <header className="relative overflow-hidden border-b border-accent/20">
+      <header className="relative overflow-hidden border-b border-accent/20 z-10">
         {/* Hero Background Image */}
         {!loading && !error && podcastData?.episodes[0]?.imageUrl && (
           <div 
@@ -47,7 +50,7 @@ function App() {
         {/* Cosmic overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/80" />
         
-        <div className="container mx-auto px-4 py-16 sm:py-24 relative z-10">
+        <div className="container mx-auto px-4 py-16 sm:py-24 relative z-20">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="p-3 rounded-xl bg-accent/20 border border-accent/40 backdrop-blur-sm glow-border">
@@ -89,7 +92,7 @@ function App() {
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 py-16 relative z-10">
         {/* Platform Links */}
         <PlatformLinks className="mb-16" />
 

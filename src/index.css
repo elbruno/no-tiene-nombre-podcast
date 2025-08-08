@@ -100,6 +100,45 @@
     background-size: 200px 100px;
   }
 
+  .warp-stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .warp-star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: warp 3s linear infinite;
+  }
+
+  .warp-star:nth-child(odd) {
+    animation-duration: 2.5s;
+    opacity: 0.6;
+  }
+
+  .warp-star:nth-child(3n) {
+    animation-duration: 3.5s;
+    opacity: 0.9;
+  }
+
+  .warp-star:nth-child(4n) {
+    animation-duration: 2s;
+    opacity: 0.4;
+  }
+
+  .warp-star:nth-child(5n) {
+    animation-duration: 4s;
+    opacity: 0.7;
+  }
+
   .glow-text {
     text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
   }
@@ -125,4 +164,22 @@
 @keyframes sparkle {
   0% { transform: translateY(0px); }
   100% { transform: translateY(-100px); }
+}
+
+@keyframes warp {
+  0% {
+    transform: translateX(-50%) translateY(-50%) scale(0.1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(20);
+    opacity: 0;
+  }
 }
