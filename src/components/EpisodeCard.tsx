@@ -56,7 +56,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
   })();
 
   return (
-  <Card className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
+  <Card className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
       {/* Neural glow effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
@@ -69,16 +69,16 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
 
       {/* Episode image (if present) */}
       {episode.imageUrl && (
-          <div className="w-full aspect-square relative">
-            <img
-              src={episode.imageUrl}
-              alt={episode.title}
-              className="w-full h-full object-cover rounded-xl"
-            />
-          </div>
+        <div className="w-full aspect-square relative">
+          <img
+            src={episode.imageUrl}
+            alt={episode.title}
+            className="w-full h-full object-cover rounded-lg shadow-md"
+          />
+        </div>
       )}
       {/* Main content */}
-      <div className="relative z-10 p-6 space-y-4">
+  <div className="relative z-10 p-4 md:p-6 space-y-4">
         {/* Header */}
         <div className="space-y-3">
           <div className="flex items-start justify-between gap-4">
