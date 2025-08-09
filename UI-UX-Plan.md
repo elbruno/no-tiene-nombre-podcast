@@ -15,15 +15,18 @@
  - [ ] Step 10: Add host bio and photo
  - [x] Step 10: Add host bio and photo
  - [ ] Step 11: Add call to action banners (newsletter, episode suggestions)
+ - [x] Step 11: Add call to action banners (newsletter, episode suggestions)
  - [x] Step 12: Improve accessibility (contrast, alt text, keyboard navigation)
  - [x] Step 13: Add friendly error states
  - [x] Step 14: Use skeleton loaders and spinners for async content
  - [ ] Step 15: Add SEO meta tags and Open Graph images
+ - [x] Step 15: Add SEO meta tags and Open Graph images
  - [ ] Step 16: Optimize images and lazy-load components
- - [ ] Step 17: Add episode search/filter
- - [ ] Step 18: Add share buttons for episodes
- - [ ] Step 19: Enable PWA features
- - [ ] Step 20: Integrate analytics
+ - [x] Step 16: Optimize images and lazy-load components
+ - [x] Step 17: Add episode search/filter
+ - [x] Step 18: Add share buttons for episodes
+ - [x] Step 19: Enable PWA features
+ - [x] Step 20: Integrate analytics
 ```
 
 ---

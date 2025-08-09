@@ -2,7 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { useEffect, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Play, Brain } from "@phosphor-icons/react";
+import { Play, Brain, ShareFat } from "@phosphor-icons/react";
+import useShare from "@/hooks/useShare";
 import { Episode } from "@/lib/types";
 
 interface EpisodeCardProps {
@@ -37,6 +38,15 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
     }
   };
 
+  const { share } = useShare();
+  const handleShare = () => {
+    share(
+      episode.link || episode.audioUrl || window.location.href,
+      episode.title,
+      episode.description
+    );
+  };
+
   // Helper to check if episode is new (published in last 14 days)
   const isNew = (() => {
     const now = new Date();
@@ -57,6 +67,10 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
         </div>
       </div>
 
+      {/* Episode image (if present) */}
+      {episode.imageUrl && (
+        <img src={episode.imageUrl} alt={episode.title} loading="lazy" className="w-full h-40 object-cover rounded-xl mb-4" />
+      )}
       {/* Main content */}
       <div className="relative z-10 p-6 space-y-4">
         {/* Header */}
@@ -76,9 +90,19 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
               <Button
                 size="sm"
                 onClick={handlePlay}
+                aria-label="Escuchar episodio"
                 className="bg-primary/20 hover:bg-primary text-primary hover:text-primary-foreground border border-primary/40 hover:border-primary transition-all duration-300"
               >
                 <Play size={16} weight="fill" />
+              </Button>
+              <Button
+                size="sm"
+                variant="ghost"
+                aria-label="Compartir episodio"
+                onClick={handleShare}
+                className="text-accent hover:text-primary border border-accent/30 hover:border-primary transition-all duration-300"
+              >
+                <ShareFat size={16} weight="bold" />
               </Button>
             </div>
           </div>

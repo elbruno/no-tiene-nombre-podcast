@@ -28,11 +28,14 @@ import { PodcastData } from "@/lib/types";
 import pageTexts from "@/lib/page-texts.json";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { HostBioCard } from "@/components/HostBioCard";
+import { CTABanner } from "@/components/CTABanner";
+
 
 function App() {
   const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const [search, setSearch] = useState("");
 
   const loadPodcastData = async () => {
     try {
@@ -137,11 +140,27 @@ function App() {
               {loading && <EpisodeListSkeleton />}
               {error && <ErrorState onRetry={loadPodcastData} />}
               {!loading && !error && podcastData && (
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                  {podcastData.episodes.map((episode, index) => (
-                    <EpisodeCard key={episode.id} episode={episode} index={index} />
-                  ))}
-                </div>
+                <>
+                  <div className="mb-8 flex justify-center">
+                    <input
+                      type="text"
+                      value={search}
+                      onChange={e => setSearch(e.target.value)}
+                      placeholder="Buscar episodio..."
+                      className="px-4 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground w-full max-w-md"
+                    />
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                    {podcastData.episodes
+                      .filter(ep =>
+                        ep.title.toLowerCase().includes(search.toLowerCase()) ||
+                        ep.description.toLowerCase().includes(search.toLowerCase())
+                      )
+                      .map((episode, index) => (
+                        <EpisodeCard key={episode.id} episode={episode} index={index} />
+                      ))}
+                  </div>
+                </>
               )}
             </section>
           );
@@ -229,6 +248,7 @@ function App() {
 
   {/* Testimonials Section */}
   <TestimonialsSection />
+  <CTABanner />
   </main>
 
       {/* Footer */}

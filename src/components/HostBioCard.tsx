@@ -4,7 +4,7 @@ import { Brain } from "@phosphor-icons/react";
 export function HostBioCard() {
   return (
     <Card className="glass-effect p-8 flex flex-col items-center text-center shadow-lg max-w-md mx-auto mb-12">
-      <img src="https://avatars.githubusercontent.com/u/1199142?v=4" alt="Foto del host Bruno" className="w-24 h-24 rounded-full mb-4 border-2 border-primary shadow-lg" />
+  <img src="https://avatars.githubusercontent.com/u/1199142?v=4" alt="Foto del host Bruno" loading="lazy" className="w-24 h-24 rounded-full mb-4 border-2 border-primary shadow-lg" />
       <CardHeader className="mb-2">
         <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
           <Brain size={20} className="text-primary" />

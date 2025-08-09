@@ -9,7 +9,7 @@ export function TestimonialsSection() {
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {list.map((t, i) => (
           <Card key={i} className="glass-effect p-6 flex flex-col items-center text-center shadow-lg">
-            <img src={t.avatar} alt={`Avatar de ${t.name}`} className="w-16 h-16 rounded-full mb-4 border-2 border-accent" />
+            <img src={t.avatar} alt={`Avatar de ${t.name}`} loading="lazy" className="w-16 h-16 rounded-full mb-4 border-2 border-accent" />
             <CardHeader className="mb-2">
               <CardTitle className="text-lg font-semibold text-accent">{t.name}</CardTitle>
             </CardHeader>
