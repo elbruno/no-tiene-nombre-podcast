@@ -225,30 +225,4 @@ function App() {
   );
 }
 
-export default App;      </main>
-
-      {/* Footer */}
-      <footer className="border-t border-border/20 glass-effect mt-20">
-        <div className="container mx-auto px-4 py-16">
-          <div className="flex flex-col gap-12">
-            {/* Social Media Links */}
-            <SocialLinks />
-            
-            {/* Footer Info */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-border/20">
-              <div className="flex items-center gap-3">
-                <Brain size={24} className="text-primary" weight="duotone" />
-                <span className="font-bold text-foreground font-display text-lg">NO TIENE NOMBRE</span>
-              </div>
-              <p className="text-sm text-muted-foreground text-center">
-                © 2024 - Podcast sobre inteligencia artificial en español
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
-
 export default App;
