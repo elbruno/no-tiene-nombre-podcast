@@ -1,0 +1,30 @@
+[
+    {
+        "key": "ivoox",
+        "url": "https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html",
+        "title": "iVoox",
+        "desc": "Plataforma principal del podcast",
+        "icon": "Headphones"
+    },
+    {
+        "key": "spotify",
+        "url": "https://open.spotify.com/show/2kCHrwupmLhQs5aFOBJ2z6?si=872e9b3efaa34649",
+        "title": "Spotify",
+        "desc": "Escucha en la plataforma más popular",
+        "icon": "MusicNotes"
+    },
+    {
+        "key": "apple",
+        "url": "https://podcasts.apple.com/us/podcast/no-tiene-nombre/id1682861526",
+        "title": "Apple Podcasts",
+        "desc": "Disponible en dispositivos Apple",
+        "icon": "DeviceMobile"
+    },
+    {
+        "key": "listenNotes",
+        "url": "https://lnns.co/Ytoh4vIkAjq",
+        "title": "Listen Notes",
+        "desc": "Directorio mundial de podcasts",
+        "icon": "Globe"
+    }
+]
