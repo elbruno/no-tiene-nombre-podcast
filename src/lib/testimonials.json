@@ -1,5 +1,5 @@
 {
-    "section_title": "Lo que dicen los oyentes (generados por AI)",
+    "section_title": "Lo que dicen los oyentes (generados por IA y humanos)",
     "list": [
         {
             "name": "Ana G.",
@@ -15,6 +15,271 @@
             "name": "Lucía R.",
             "text": "Me encanta la variedad de temas y la energía del programa.",
             "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        },
+        {
+            "name": "Miguel A.",
+            "text": "Lo pongo para cocinar y acabo aprendiendo más de IA que de recetas.",
+            "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
+        },
+        {
+            "name": "Sofía T.",
+            "text": "Clarito, conciso y con humor. Qué más se puede pedir.",
+            "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+            "name": "Jorge V.",
+            "text": "Buen balance entre conceptos y ejemplos prácticos.",
+            "avatar": "https://randomuser.me/api/portraits/men/54.jpg"
+        },
+        {
+            "name": "Laura C.",
+            "text": "Me acompaña camino al trabajo. ¡Gracias por hacerlo tan ameno!",
+            "avatar": "https://randomuser.me/api/portraits/women/24.jpg"
+        },
+        {
+            "name": "Pablo D.",
+            "text": "Me río y aprendo. Mis dos cosas favoritas.",
+            "avatar": "https://randomuser.me/api/portraits/men/24.jpg"
+        },
+        {
+            "name": "María N.",
+            "text": "Ideal para ponerse al día con IA sin morir en el intento.",
+            "avatar": "https://randomuser.me/api/portraits/women/30.jpg"
+        },
+        {
+            "name": "Héctor K.",
+            "text": "Se nota el cariño por la divulgación. Excelente ritmo.",
+            "avatar": "https://randomuser.me/api/portraits/men/30.jpg"
+        },
+        {
+            "name": "Claudia S.",
+            "text": "Mi abuela no entiende la IA, pero sí este podcast. Eso dice mucho.",
+            "avatar": "https://randomuser.me/api/portraits/women/31.jpg"
+        },
+        {
+            "name": "David R.",
+            "text": "Estilo cercano y cero humo. Me encanta.",
+            "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+        },
+        {
+            "name": "Irene B.",
+            "text": "El episodio de agentes me voló la cabeza (en buen plan).",
+            "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
+        },
+        {
+            "name": "Óscar J.",
+            "text": "Aprendí a explicar IA en la oficina gracias a este podcast.",
+            "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+        },
+        {
+            "name": "Nuria H.",
+            "text": "Humor inteligente y datos útiles. Win‑win.",
+            "avatar": "https://randomuser.me/api/portraits/women/33.jpg"
+        },
+        {
+            "name": "Tomás E.",
+            "text": "Lo mejor para enterarte de tendencias sin tragarte papers.",
+            "avatar": "https://randomuser.me/api/portraits/men/34.jpg"
+        },
+        {
+            "name": "Paula Z.",
+            "text": "La metáfora del robot con sueño me hizo el día.",
+            "avatar": "https://randomuser.me/api/portraits/women/34.jpg"
+        },
+        {
+            "name": "Sergio L.",
+            "text": "Contenidos cortos y al punto. Perfecto.",
+            "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
+        },
+        {
+            "name": "Rebeca Y.",
+            "text": "Ahora sí entiendo qué es un embedding, creo.",
+            "avatar": "https://randomuser.me/api/portraits/women/35.jpg"
+        },
+        {
+            "name": "Alberto U.",
+            "text": "Qué gusto escuchar divulgación sin postureo.",
+            "avatar": "https://randomuser.me/api/portraits/men/36.jpg"
+        },
+        {
+            "name": "Patricia O.",
+            "text": "Mi podcast de limpieza. Dejo la casa y mi cerebro brillando.",
+            "avatar": "https://randomuser.me/api/portraits/women/36.jpg"
+        },
+        {
+            "name": "Rafa Q.",
+            "text": "Se nota el curro detrás de cada episodio.",
+            "avatar": "https://randomuser.me/api/portraits/men/37.jpg"
+        },
+        {
+            "name": "Elena W.",
+            "text": "La parte de PWA me salvó un proyecto, literal.",
+            "avatar": "https://randomuser.me/api/portraits/women/37.jpg"
+        },
+        {
+            "name": "Diego X.",
+            "text": "Buen mix de dev y negocio. Difícil de encontrar.",
+            "avatar": "https://randomuser.me/api/portraits/men/38.jpg"
+        },
+        {
+            "name": "Noa F.",
+            "text": "¿Más episodios de agents, porfa?",
+            "avatar": "https://randomuser.me/api/portraits/women/38.jpg"
+        },
+        {
+            "name": "Bruno (no ese)",
+            "text": "Lo escucho para copiar chistes para mis standups.",
+            "avatar": "https://randomuser.me/api/portraits/men/39.jpg"
+        },
+        {
+            "name": "Carmen V.",
+            "text": "Me gusta que no asumen que ya sabes todo.",
+            "avatar": "https://randomuser.me/api/portraits/women/39.jpg"
+        },
+        {
+            "name": "Álvaro C.",
+            "text": "Aprendí más aquí que en un curso carísimo.",
+            "avatar": "https://randomuser.me/api/portraits/men/40.jpg"
+        },
+        {
+            "name": "Raquel D.",
+            "text": "Los ejemplos con analogías son oro puro.",
+            "avatar": "https://randomuser.me/api/portraits/women/40.jpg"
+        },
+        {
+            "name": "Gonzalo S.",
+            "text": "Fácil de compartir con el equipo. Todos felices.",
+            "avatar": "https://randomuser.me/api/portraits/men/41.jpg"
+        },
+        {
+            "name": "Teresa P.",
+            "text": "Lo mejor para ponerse al día sin sufrir.",
+            "avatar": "https://randomuser.me/api/portraits/women/41.jpg"
+        },
+        {
+            "name": "Ignacio N.",
+            "text": "Suenan humanos. Eso ya es mucho en IA.",
+            "avatar": "https://randomuser.me/api/portraits/men/42.jpg"
+        },
+        {
+            "name": "Aitana M.",
+            "text": "Mi jefe cree que soy experta gracias a este podcast (shhh).",
+            "avatar": "https://randomuser.me/api/portraits/women/42.jpg"
+        },
+        {
+            "name": "Hugo R.",
+            "text": "Me salvó de una reunión eterna explicando RAG en 30 segundos.",
+            "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+        },
+        {
+            "name": "Valeria T.",
+            "text": "Quiero un episodio sobre ética y galletas. Sí, juntas.",
+            "avatar": "https://randomuser.me/api/portraits/women/43.jpg"
+        },
+        {
+            "name": "Felipe B.",
+            "text": "Más benchmarks, menos humo. Gracias por eso.",
+            "avatar": "https://randomuser.me/api/portraits/men/44.jpg"
+        },
+        {
+            "name": "Isabel E.",
+            "text": "Lo pongo en el gym y de repente levanto más… neuronas.",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "name": "Mateo I.",
+            "text": "Los invitados suman un montón.",
+            "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+        },
+        {
+            "name": "Julia L.",
+            "text": "El único podcast que mi gato tolera.",
+            "avatar": "https://randomuser.me/api/portraits/women/45.jpg"
+        },
+        {
+            "name": "Andrés G.",
+            "text": "Corto, útil y con chispa. Perfecto para el bus.",
+            "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+        },
+        {
+            "name": "Berta A.",
+            "text": "Aprendí sobre PWA y ahora mi web funciona sin Wi‑Fi. Magia.",
+            "avatar": "https://randomuser.me/api/portraits/women/46.jpg"
+        },
+        {
+            "name": "Nacho O.",
+            "text": "Ritmo perfecto. Ni lento ni velocidad 2x.",
+            "avatar": "https://randomuser.me/api/portraits/men/47.jpg"
+        },
+        {
+            "name": "Silvia H.",
+            "text": "Mejor que un hilo de Twitter largo.",
+            "avatar": "https://randomuser.me/api/portraits/women/47.jpg"
+        },
+        {
+            "name": "Un tal Dev",
+            "text": "Si me río, aprendo mejor. Este podcast lo entendió.",
+            "avatar": "https://randomuser.me/api/portraits/men/48.jpg"
+        },
+        {
+            "name": "Marcos Y.",
+            "text": "El episodio de prompts me cambió la forma de trabajar.",
+            "avatar": "https://randomuser.me/api/portraits/men/49.jpg"
+        },
+        {
+            "name": "Eva Z.",
+            "text": "Necesito merch ya mismo. Una taza que diga ‘No Tiene Nombre’.",
+            "avatar": "https://randomuser.me/api/portraits/women/49.jpg"
+        },
+        {
+            "name": "Pedro H.",
+            "text": "Más deep dives técnicos, por favor. Me encantan.",
+            "avatar": "https://randomuser.me/api/portraits/men/50.jpg"
+        },
+        {
+            "name": "Lorena C.",
+            "text": "Gracias por hacerlo en español y sin elitismos.",
+            "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+        },
+        {
+            "name": "Xavier U.",
+            "text": "Buenos recursos en las notas. Se agradece.",
+            "avatar": "https://randomuser.me/api/portraits/men/51.jpg"
+        },
+        {
+            "name": "Rocío K.",
+            "text": "Lo uso en clase para explicar conceptos. Funciona.",
+            "avatar": "https://randomuser.me/api/portraits/women/51.jpg"
+        },
+        {
+            "name": "Samuel J.",
+            "text": "El mejor acompañante para pasear al perro.",
+            "avatar": "https://randomuser.me/api/portraits/men/52.jpg"
+        },
+        {
+            "name": "Marta V.",
+            "text": "El tono es justo: cercano, claro y divertido.",
+            "avatar": "https://randomuser.me/api/portraits/women/52.jpg"
+        },
+        {
+            "name": "Adrián P.",
+            "text": "No sabía que necesitaba saber sobre embeddings hasta hoy.",
+            "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+        },
+        {
+            "name": "Pili R.",
+            "text": "Me siento parte de la conversación. ¡Gracias!",
+            "avatar": "https://randomuser.me/api/portraits/women/53.jpg"
+        },
+        {
+            "name": "Gerard M.",
+            "text": "Más entrevistas a gente rara de IA, please.",
+            "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+        },
+        {
+            "name": "Lola N.",
+            "text": "Mi papá ahora dice ‘transformer’ sin pensar en Optimus Prime.",
+            "avatar": "https://randomuser.me/api/portraits/women/55.jpg"
         }
     ]
 }
