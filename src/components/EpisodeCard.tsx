@@ -69,7 +69,13 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
 
       {/* Episode image (if present) */}
       {episode.imageUrl && (
-        <img src={episode.imageUrl} alt={episode.title} loading="lazy" className="w-full h-40 object-cover rounded-xl mb-4" />
+          <div className="w-full aspect-square relative">
+            <img
+              src={episode.imageUrl}
+              alt={episode.title}
+              className="w-full h-full object-cover rounded-xl"
+            />
+          </div>
       )}
       {/* Main content */}
       <div className="relative z-10 p-6 space-y-4">
