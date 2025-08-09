@@ -105,7 +105,7 @@ function App() {
         <section className="py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
-              El podcast de IA más escuchado en español
+              El podcast de IA más escuchado... en mi casa 🏠
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-8 glass-effect rounded-2xl hover-lift">
