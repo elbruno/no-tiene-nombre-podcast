@@ -140,7 +140,7 @@ function App() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
               <div className="p-4 bg-card/50 rounded-lg border border-accent/20">
-                <div className="text-2xl font-bold text-accent mb-2 glow-text">+50</div>
+                <div className="text-2xl font-bold text-accent mb-2 glow-text">+400</div>
                 <div className="text-sm text-muted-foreground">Episodios publicados</div>
               </div>
               <div className="p-4 bg-card/50 rounded-lg border border-accent/20">
