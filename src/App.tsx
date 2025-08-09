@@ -16,7 +16,7 @@ function useSectionFadeIn() {
 }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Rss, Sparkle, TrendUp, Users, Clock } from "@phosphor-icons/react";
+import { Brain, Rss, Sparkles, TrendingUp, Users, Clock } from "lucide-react";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { PlatformLinks } from "@/components/PlatformLinks";
 import { EpisodeListSkeleton } from "@/components/LoadingSkeletons";
@@ -30,6 +30,7 @@ import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
 import { JsonLd } from "@/components/JsonLd";
+import { motion, useReducedMotion } from "framer-motion";
 
 
 function App() {
@@ -37,6 +38,21 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [search, setSearch] = useState("");
+  const prefersReduced = useReducedMotion();
+  const container = {
+    hidden: {},
+    show: {
+      transition: { staggerChildren: 0.08, delayChildren: 0.08 },
+    },
+  };
+  const item = {
+    hidden: { opacity: 0, y: prefersReduced ? 0 : 16 },
+    show: {
+      opacity: 1,
+      y: 0,
+  transition: { duration: 0.4 },
+    },
+  };
 
   const loadPodcastData = async () => {
     try {
@@ -94,7 +110,12 @@ function App() {
       
       {/* Hero Section */}
       <header className="relative min-h-screen flex items-center justify-center">
-        <div className="absolute inset-0 gradient-bg opacity-50" />
+        <motion.div
+          className="absolute inset-0 gradient-bg opacity-50"
+          initial={prefersReduced ? undefined : { opacity: 0 }}
+          animate={prefersReduced ? undefined : { opacity: 0.5 }}
+          transition={{ duration: 0.8 }}
+        />
         
         <div className="container mx-auto px-4 relative z-10">
           {/* Quick Social Access */}
@@ -102,14 +123,20 @@ function App() {
             <SocialLinks variant="header" />
           </div>
           
-          <div className="max-w-5xl mx-auto text-center space-y-8">
+          <motion.div 
+            className="max-w-5xl mx-auto text-center space-y-8"
+            initial={prefersReduced ? undefined : { opacity: 0, y: 12 }}
+            whileInView={prefersReduced ? undefined : { opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.5 }}
+          >
             {/* Icon and Badge */}
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="p-4 rounded-2xl glass-effect">
-                <Brain size={48} className="text-primary" weight="duotone" />
+                <Brain size={48} className="text-primary" />
               </div>
               <Badge variant="outline" className="text-sm font-medium glass-effect border-primary/30 text-primary">
-                <Sparkle size={14} className="mr-2" weight="fill" />
+                <Sparkles size={14} className="mr-2" />
                 {pageTexts.hero.badge}
               </Badge>
             </div>
@@ -127,7 +154,13 @@ function App() {
             </div>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
+            <motion.div 
+              className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8"
+              initial={prefersReduced ? undefined : { opacity: 0, y: 8 }}
+              whileInView={prefersReduced ? undefined : { opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.4, delay: 0.1 }}
+            >
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
@@ -144,8 +177,8 @@ function App() {
               >
                 {pageTexts.hero.cta_explore}
               </Button>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </div>
       </header>
 
@@ -184,16 +217,24 @@ function App() {
                     />
                   </div>
                   {console.log('[App] Rendering episodes:', podcastData.episodes)}
-                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                  <motion.div
+                    className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+                    variants={container}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.15 }}
+                  >
                     {podcastData.episodes
                       .filter(ep =>
                         ep.title.toLowerCase().includes(search.toLowerCase()) ||
                         ep.description.toLowerCase().includes(search.toLowerCase())
                       )
                       .map((episode, index) => (
-                        <EpisodeCard key={episode.id} episode={episode} index={index} />
+                        <motion.div key={episode.id} variants={item}>
+                          <EpisodeCard episode={episode} index={index} />
+                        </motion.div>
                       ))}
-                  </div>
+                  </motion.div>
                 </>
               )}
             </section>
@@ -209,7 +250,7 @@ function App() {
                 <div className="p-12 glass-effect rounded-3xl space-y-8">
                   <div className="flex items-center justify-center mb-6">
                     <div className="p-4 rounded-2xl bg-primary/20">
-                      <Brain size={48} className="text-primary" weight="duotone" />
+                      <Brain size={48} className="text-primary" />
                     </div>
                   </div>
                   <h3 className="text-3xl font-bold text-foreground font-display">
@@ -248,7 +289,7 @@ function App() {
                   <div className="p-8 glass-effect rounded-2xl hover-lift">
                     <div className="flex items-center justify-center mb-4">
                       <div className="p-3 rounded-xl bg-primary/20">
-                        <TrendUp size={32} className="text-primary" />
+                        <TrendingUp size={32} className="text-primary" />
                       </div>
                     </div>
                     <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.episodes}</div>
@@ -295,7 +336,7 @@ function App() {
             {/* Footer Info */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t [border-color:var(--border)]">
               <div className="flex items-center gap-3">
-                <Brain size={24} className="text-primary" weight="duotone" />
+                <Brain size={24} className="text-primary" />
                 <span className="font-bold text-foreground font-display text-lg">{pageTexts.footer.brand}</span>
               </div>
               <p className="text-sm text-muted-foreground text-center">

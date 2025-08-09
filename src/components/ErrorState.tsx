@@ -1,6 +1,6 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
-import { Warning, ArrowClockwise, Brain } from "@phosphor-icons/react";
+import { TriangleAlert, RotateCcw, Brain } from "lucide-react";
 
 interface ErrorStateProps {
   onRetry: () => void;
@@ -12,13 +12,13 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
       {/* Error Icon */}
       <div className="flex items-center justify-center mb-8">
         <div className="p-4 rounded-2xl glass-effect border border-destructive/30 bg-destructive/10">
-          <Warning size={48} className="text-destructive" weight="duotone" />
+          <TriangleAlert size={48} className="text-destructive" />
         </div>
       </div>
       
       {/* Error Alert */}
       <Alert variant="destructive" className="glass-effect border-destructive/30 bg-destructive/5 text-left">
-        <Brain size={16} />
+  <Brain size={16} />
         <AlertTitle className="font-display">Error de Conexión Neural</AlertTitle>
         <AlertDescription className="mt-2">
           No se puede establecer conexión con el servidor de podcast. 
@@ -32,7 +32,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
           onClick={onRetry} 
           className="bg-primary hover:bg-primary/90 text-primary-foreground gap-3 px-8 py-3 transition-all duration-300 hover:scale-105"
         >
-          <ArrowClockwise size={20} />
+          <RotateCcw size={20} />
           Reintentar conexión
         </Button>
       </div>

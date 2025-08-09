@@ -1,8 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useReducedMotion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Play, Brain, ShareFat } from "@phosphor-icons/react";
+import { Play, Brain, Share2 } from "lucide-react";
 import useShare from "@/hooks/useShare";
 import { Episode } from "@/lib/types";
 
@@ -13,10 +14,36 @@ interface EpisodeCardProps {
 
 export function EpisodeCard({ episode, index }: EpisodeCardProps) {
   const [visible, setVisible] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [tilt, setTilt] = useState({ rx: 0, ry: 0 });
+  const prefersReduced = useReducedMotion();
   useEffect(() => {
     const timeout = setTimeout(() => setVisible(true), 100 + index * 80);
     return () => clearTimeout(timeout);
   }, [index]);
+  // pointer-based tilt (reduced and subtle)
+  useEffect(() => {
+    if (prefersReduced) return;
+    const el = cardRef.current;
+    if (!el) return;
+    const handleMove = (e: MouseEvent) => {
+      const rect = el.getBoundingClientRect();
+      const px = (e.clientX - rect.left) / rect.width; // 0..1
+      const py = (e.clientY - rect.top) / rect.height; // 0..1
+      const ry = (px - 0.5) * 6; // rotateY
+      const rx = -(py - 0.5) * 6; // rotateX
+      setTilt({ rx, ry });
+    };
+    const reset = () => setTilt({ rx: 0, ry: 0 });
+    el.addEventListener('mousemove', handleMove);
+    el.addEventListener('mouseleave', reset);
+    el.addEventListener('blur', reset);
+    return () => {
+      el.removeEventListener('mousemove', handleMove);
+      el.removeEventListener('mouseleave', reset);
+      el.removeEventListener('blur', reset);
+    };
+  }, [prefersReduced]);
   const formatDate = (dateString: string) => {
     try {
       const date = new Date(dateString);
@@ -56,7 +83,14 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
   })();
 
   return (
-  <Card className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
+  <Card
+    ref={cardRef as any}
+    role="article"
+    aria-label={`Episodio: ${episode.title}`}
+    tabIndex={0}
+    className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+  style={{ transform: prefersReduced ? undefined : `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
+  > 
       {/* Neural glow effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
@@ -103,16 +137,16 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
                 aria-label="Escuchar episodio"
                 className="bg-primary/20 hover:bg-primary text-primary hover:text-primary-foreground border border-primary/40 hover:border-primary transition-all duration-300"
               >
-                <Play size={16} weight="fill" />
+                <Play size={16} />
               </Button>
               <Button
                 size="sm"
                 variant="ghost"
-                aria-label="Compartir episodio"
+                aria-label={`Compartir episodio: ${episode.title}`}
                 onClick={handleShare}
                 className="text-accent hover:text-primary border border-accent/30 hover:border-primary transition-all duration-300"
               >
-                <ShareFat size={16} weight="bold" />
+                <Share2 size={16} />
               </Button>
             </div>
           </div>
@@ -137,13 +171,14 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
         </CardDescription>
 
         {/* Action button */}
-        {episode.link && (
+    {episode.link && (
           <div className="pt-2">
             <Button
               variant="ghost"
               size="sm"
               className="text-accent hover:text-primary transition-colors duration-300 p-0 h-auto opacity-60 group-hover:opacity-100"
               onClick={() => window.open(episode.link, '_blank')}
+      aria-label={`Abrir episodio en iVoox: ${episode.title}`}
             >
               {/* ExternalLink icon removed */}
               Escuchar episodio

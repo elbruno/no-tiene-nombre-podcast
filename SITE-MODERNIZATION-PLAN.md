@@ -8,7 +8,7 @@ This plan is phased, evidence-based (links included), and actionable with checkl
 
 ## Quick baseline
 
-- Stack: Vite + React 19, Tailwind CSS v4, Radix UI, vite-plugin-pwa, Framer Motion, TanStack Query (installed), Three.js (installed), d3 (installed), Recharts, etc.
+- Stack: Vite + React 19, Tailwind CSS v4, Radix UI, vite-plugin-pwa, Framer Motion. Removed unused heavy deps (Recharts, d3, Three.js, TanStack Query, Heroicons, Octokit) to slim bundle.
 - Content: Single-page with Hero, Platforms, Episodes (RSS from iVoox), About, Stats, Testimonials, CTA.
 - Style: Dark “neon” theme with glass effects and a neural/star field background.
 - PWA: Manifest + autoUpdate SW configured.
@@ -166,9 +166,9 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 
 ### 1) Motion foundation
 
-- [ ] Add `framer-motion` primitives to Hero and sections
+- [x] Add `framer-motion` primitives to Hero and sections
 - [x] Add reduced motion guards
-- [ ] Stagger Episodes grid on view
+- [x] Stagger Episodes grid on view
 
 ### 2) Episode cards polish
 
@@ -181,19 +181,19 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 - [x] Inject PodcastSeries JSON-LD in `index.html`
 - [x] Add per-episode `ItemList` JSON-LD
 - [x] Add `public/sitemap.xml` and `public/robots.txt`
-- [ ] Polish OG/Twitter meta defaults and per-episode overrides (defaults updated to local `/og-image.png`)
+- [x] Polish OG/Twitter meta defaults and per-episode overrides (defaults updated to local `/og-image-1200x630.png`)
 
 ### 4) PWA & data
 
 - [ ] Prompt-for-update UI with vite-plugin-pwa
 - [ ] SW strategies: precache app shell, cache RSS JSON
-- [ ] GH Action to snapshot RSS into `public/episodes.json`
+- [x] GH Action to snapshot RSS into `public/episodes.json`
 
 ### 5) CI & performance
 
-- [ ] Add Lighthouse CI workflow + thresholds
+- [x] Add Lighthouse CI workflow + thresholds
 - [x] Add bundle visualizer (dev) and document largest modules (visualizer integrated; documenting largest modules pending)
-- [ ] Remove unused heavy deps if not used
+- [x] Remove unused heavy deps if not used (removed: recharts, d3, three, @tanstack/react-query, @heroicons/react, @octokit/core, octokit)
 
 ### 6) Accessibility
 

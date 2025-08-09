@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { TwitterLogo, InstagramLogo, LinkedinLogo, YoutubeLogo, TiktokLogo } from "@phosphor-icons/react";
+import { SiX, SiInstagram, SiYoutube, SiTiktok } from "@icons-pack/react-simple-icons";
+import { Linkedin } from "lucide-react";
 import socialLinks from "@/lib/social-links.json";
 
 interface SocialLinksProps {
@@ -11,31 +12,31 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
   const socialMedia = [
     {
       name: 'Twitter',
-      icon: TwitterLogo,
+      icon: SiX,
       url: socialLinks.twitter,
       color: 'hover:text-blue-400'
     },
     {
       name: 'Instagram',
-      icon: InstagramLogo,
+      icon: SiInstagram,
       url: socialLinks.instagram,
       color: 'hover:text-pink-400'
     },
     {
       name: 'LinkedIn',
-      icon: LinkedinLogo,
+  icon: Linkedin,
       url: socialLinks.linkedin,
       color: 'hover:text-blue-500'
     },
     {
       name: 'YouTube',
-      icon: YoutubeLogo,
+      icon: SiYoutube,
       url: socialLinks.youtube,
       color: 'hover:text-red-500'
     },
     {
       name: 'TikTok',
-      icon: TiktokLogo,
+      icon: SiTiktok,
       url: socialLinks.tiktok,
       color: 'hover:text-white'
     }
@@ -55,7 +56,7 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
               className={`p-2 h-8 w-8 glass-effect hover:bg-primary/20 ${social.color} transition-all duration-300 hover:scale-110`}
               onClick={() => window.open(social.url, '_blank')}
             >
-              <social.icon size={16} weight="fill" />
+              <social.icon size={16} />
             </Button>
           ))}
       </div>
@@ -84,7 +85,7 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
               onClick={() => window.open(social.url, '_blank')}
               title={`Sígueme en ${social.name}`}
             >
-              <social.icon size={24} weight="fill" />
+              <social.icon size={24} />
             </Button>
           ))}
       </div>

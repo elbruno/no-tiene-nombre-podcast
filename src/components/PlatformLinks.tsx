@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Headphones, MusicNotes, DeviceMobile, Globe } from "@phosphor-icons/react";
+import { Headphones, Music, Smartphone, Globe } from "lucide-react";
 import subscriptions from "@/lib/subscriptions.json";
 
 interface PlatformLinksProps {
@@ -8,8 +8,8 @@ interface PlatformLinksProps {
 
 const iconMap = {
   Headphones,
-  MusicNotes,
-  DeviceMobile,
+  Music,
+  DeviceMobile: Smartphone,
   Globe
 };
 
@@ -41,7 +41,7 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
               onClick={() => window.open(sub.url, '_blank')}
             >
               <div className="p-3 rounded-xl glass-effect">
-                <Icon size={32} weight="duotone" />
+                <Icon size={32} />
               </div>
               <div className="text-center space-y-1">
                 <div className="flex items-center gap-2 justify-center">

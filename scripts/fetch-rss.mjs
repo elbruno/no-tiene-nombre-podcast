@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+import fs from 'fs/promises';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+async function main() {
+  const configPath = path.join(__dirname, '..', 'src', 'lib', 'podcast-config.json');
+  const publicDir = path.join(__dirname, '..', 'public');
+  const outputPath = path.join(publicDir, 'episodes.json');
+
+  const configRaw = await fs.readFile(configPath, 'utf-8');
+  const config = JSON.parse(configRaw);
+  const rssUrl = config.rssFeedUrl;
+  if (!rssUrl) {
+    console.error('Missing rssFeedUrl in src/lib/podcast-config.json');
+    process.exit(1);
+  }
+
+  console.log('[fetch-rss] Fetching', rssUrl);
+  const res = await fetch(rssUrl);
+  if (!res.ok) {
+    console.error('[fetch-rss] HTTP error', res.status, res.statusText);
+    process.exit(2);
+  }
+  const xml = await res.text();
+  // Save raw XML (optional)
+  const rawXmlPath = path.join(publicDir, 'episodes.xml');
+  await fs.writeFile(rawXmlPath, xml, 'utf-8');
+
+  // Minimal parse to JSON using a tiny regex-based approach (no external deps)
+  // Note: This is a lightweight snapshot, the app still parses on client for full fidelity.
+  const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+  const titleRegex = /<title>([\s\S]*?)<\/title>/;
+  const descRegex = /<description>([\s\S]*?)<\/description>/;
+  const pubRegex = /<pubDate>([\s\S]*?)<\/pubDate>/;
+  const linkRegex = /<link>([\s\S]*?)<\/link>/;
+  const enclosureRegex = /<enclosure[^>]*url="([^"]+)"[^>]*>/;
+  const itunesImgRegex = /<itunes:image[^>]*href="([^"]+)"[^>]*\/?>(?:<\/itunes:image>)?/;
+
+  const items = [];
+  let match;
+  while ((match = itemRegex.exec(xml)) !== null) {
+    const itemXml = match[1];
+    const title = (itemXml.match(titleRegex)?.[1] || '').replace(/<[^>]*>/g, '').trim();
+    const description = (itemXml.match(descRegex)?.[1] || '').replace(/<[^>]*>/g, '').trim();
+    const pubDate = (itemXml.match(pubRegex)?.[1] || '').trim();
+    const link = (itemXml.match(linkRegex)?.[1] || '').trim();
+    const audioUrl = itemXml.match(enclosureRegex)?.[1];
+    const imageUrl = itemXml.match(itunesImgRegex)?.[1];
+    items.push({ title, description, pubDate, link, audioUrl, imageUrl });
+    if (items.length >= 20) break;
+  }
+
+  const snapshot = { generatedAt: new Date().toISOString(), items };
+  await fs.writeFile(outputPath, JSON.stringify(snapshot, null, 2), 'utf-8');
+  console.log('[fetch-rss] Wrote', outputPath, 'with', items.length, 'items');
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(99);
+});

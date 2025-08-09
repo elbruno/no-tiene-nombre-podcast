@@ -16,6 +16,28 @@ export default defineConfig(({ mode }) => ({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
+      workbox: {
+        cleanupOutdatedCaches: true,
+        runtimeCaching: [
+          {
+            urlPattern: /^\/episodes\.json$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'episodes-json',
+              expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 * 24 * 7 },
+              fetchOptions: { cache: 'no-store' },
+            },
+          },
+          {
+            urlPattern: /^https:\/\/fonts\.(?:googleapis|gstatic)\.com\/.*$/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts',
+              expiration: { maxEntries: 8, maxAgeSeconds: 60 * 60 * 24 * 365 },
+            },
+          },
+        ],
+      },
       manifest: {
         name: "No Tiene Nombre Podcast",
         short_name: "NTN Podcast",

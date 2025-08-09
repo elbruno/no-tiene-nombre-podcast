@@ -78,6 +78,31 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
     return { title, description, imageUrl: podcastImage, episodes };
   } catch (error) {
     console.error('Error fetching podcast RSS:', error);
-    throw error;
+    // Attempt offline fallback to public/episodes.json
+    try {
+      console.log('[PodcastAPI] Trying offline snapshot fallback /episodes.json');
+      const fallbackRes = await fetch('/episodes.json', { cache: 'no-store' });
+      if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
+      const snapshot = await fallbackRes.json();
+      const episodes = (snapshot.items || []).map((it: any, index: number) => ({
+        id: `snapshot-${index}`,
+        title: it.title || `Episodio ${index + 1}`,
+        description: (it.description || '').trim(),
+        pubDate: it.pubDate || new Date().toISOString(),
+        duration: undefined,
+        audioUrl: it.audioUrl,
+        link: it.link,
+        imageUrl: it.imageUrl,
+      }));
+      return {
+        title: 'No Tiene Nombre',
+        description: 'Podcast sobre IA en español',
+        imageUrl: episodes[0]?.imageUrl,
+        episodes,
+      };
+    } catch (fallbackErr) {
+      console.error('[PodcastAPI] Offline fallback also failed:', fallbackErr);
+      throw error;
+    }
   }
 }

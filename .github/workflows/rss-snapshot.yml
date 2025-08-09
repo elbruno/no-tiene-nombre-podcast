@@ -1,0 +1,35 @@
+name: RSS Snapshot
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Every Monday at 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate RSS snapshot
+        run: npm run rss:snapshot
+
+      - name: Commit snapshot
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(snapshot): update public/episodes.json from RSS"
+          file_pattern: public/episodes.json public/episodes.xml

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain } from "@phosphor-icons/react";
+import { Brain } from "lucide-react";
 
 export function HostBioCard() {
   return (
