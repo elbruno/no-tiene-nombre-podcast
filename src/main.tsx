@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import { ErrorBoundary } from "react-error-boundary";
-import "@github/spark/spark"
+// Spark import removed
 
 import App from './App.tsx'
 import { ErrorFallback } from './ErrorFallback.tsx'

@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Play, ExternalLink, Brain } from "@phosphor-icons/react";
+import { Play, Brain } from "@phosphor-icons/react";
 import { Episode } from "@/lib/types";
 
 interface EpisodeCardProps {
@@ -90,7 +90,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
               className="text-accent hover:text-primary transition-colors duration-300 p-0 h-auto opacity-60 group-hover:opacity-100"
               onClick={() => window.open(episode.link, '_blank')}
             >
-              <ExternalLink size={14} className="mr-2" />
+              {/* ExternalLink icon removed */}
               Escuchar episodio
             </Button>
           </div>

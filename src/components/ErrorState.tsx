@@ -1,6 +1,6 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
-import { Warning, ArrowClockwise, Brain, ExternalLink } from "@phosphor-icons/react";
+import { Warning, ArrowClockwise, Brain } from "@phosphor-icons/react";
 
 interface ErrorStateProps {
   onRetry: () => void;
@@ -53,7 +53,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
             onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
           >
             iVoox
-            <ExternalLink size={14} />
+            {/* ExternalLink icon removed */}
           </Button>
           <Button 
             variant="outline" 
@@ -62,7 +62,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
             onClick={() => window.open("https://open.spotify.com/show/2kCHrwupmLhQs5aFOBJ2z6", '_blank')}
           >
             Spotify
-            <ExternalLink size={14} />
+            {/* ExternalLink icon removed */}
           </Button>
           <Button 
             variant="outline" 
@@ -71,7 +71,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
             onClick={() => window.open("https://podcasts.apple.com/us/podcast/no-tiene-nombre/id1682861526", '_blank')}
           >
             Apple Podcasts
-            <ExternalLink size={14} />
+            {/* ExternalLink icon removed */}
           </Button>
           <Button 
             variant="outline" 
@@ -80,7 +80,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
             onClick={() => window.open("https://lnns.co/Ytoh4vIkAjq", '_blank')}
           >
             Listen Notes
-            <ExternalLink size={14} />
+            {/* ExternalLink icon removed */}
           </Button>
         </div>
       </div>

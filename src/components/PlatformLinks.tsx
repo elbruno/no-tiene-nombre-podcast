@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Headphones, MusicNotes, DeviceMobile, Globe } from "@phosphor-icons/react";
+import { Headphones, MusicNotes, DeviceMobile, Globe } from "@phosphor-icons/react";
 
 interface PlatformLinksProps {
   className?: string;
@@ -67,7 +67,7 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
             <div className="text-center space-y-1">
               <div className="flex items-center gap-2 justify-center">
                 <span className="font-semibold font-display">{platform.name}</span>
-                <ExternalLink size={14} className="opacity-60" />
+                {/* ExternalLink icon removed */}
               </div>
               <p className="text-xs opacity-80 leading-relaxed">
                 {platform.description}
