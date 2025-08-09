@@ -16,8 +16,8 @@ const iconMap = {
 const colorMap = {
   ivoox: "bg-primary/10 hover:bg-primary/20 border-primary/30 hover:border-primary text-primary",
   spotify: "bg-accent/10 hover:bg-accent/20 border-accent/30 hover:border-accent text-accent",
-  apple: "bg-muted/50 hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground",
-  listenNotes: "bg-muted/50 hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground"
+  apple: "bg-muted/50 hover:bg-muted [border-color:var(--border)] hover:[border-color:var(--muted-foreground)] text-muted-foreground hover:text-foreground",
+  listenNotes: "bg-muted/50 hover:bg-muted [border-color:var(--border)] hover:[border-color:var(--muted-foreground)] text-muted-foreground hover:text-foreground"
 };
 
 export function PlatformLinks({ className }: PlatformLinksProps) {
@@ -32,7 +32,7 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {subscriptions.map((sub) => {
           const Icon = iconMap[sub.icon] || Headphones;
-          const color = colorMap[sub.key] || "bg-muted/50 hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground";
+          const color = colorMap[sub.key] || "bg-muted/50 hover:bg-muted [border-color:var(--border)] hover:[border-color:var(--muted-foreground)] text-muted-foreground hover:text-foreground";
           return (
             <Button
               key={sub.key}

@@ -1,4 +1,19 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+function useSectionFadeIn() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!ref.current) return;
+      const rect = ref.current.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) setVisible(true);
+    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  return [ref, visible] as const;
+}
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Brain, Rss, Sparkle, TrendUp, Users, Clock } from "@phosphor-icons/react";
@@ -101,112 +116,124 @@ function App() {
         <PlatformLinks />
 
         {/* Episodes Section */}
-        <section id="episodes" className="scroll-mt-20">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-foreground font-display mb-4">
-              {pageTexts.episodes.section_title}
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              
-            </p>
-            <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
-              {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
-            </Badge>
-          </div>
+        {(() => {
+          const [episodesRef, episodesVisible] = useSectionFadeIn();
+          return (
+            <section id="episodes" ref={episodesRef} className={`scroll-mt-20 transition-all duration-700 ease-out ${episodesVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+              <div className="text-center mb-12">
+                <h2 className="text-4xl font-bold text-foreground font-display mb-4">
+                  {pageTexts.episodes.section_title}
+                </h2>
+                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                  
+                </p>
+                <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
+                  {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
+                </Badge>
+              </div>
 
-          {loading && <EpisodeListSkeleton />}
-          
-          {error && <ErrorState onRetry={loadPodcastData} />}
-          
-          {!loading && !error && podcastData && (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-              {podcastData.episodes.map((episode, index) => (
-                <EpisodeCard key={episode.id} episode={episode} index={index} />
-              ))}
-            </div>
-          )}
-        </section>
+              {loading && <EpisodeListSkeleton />}
+              {error && <ErrorState onRetry={loadPodcastData} />}
+              {!loading && !error && podcastData && (
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                  {podcastData.episodes.map((episode, index) => (
+                    <EpisodeCard key={episode.id} episode={episode} index={index} />
+                  ))}
+                </div>
+              )}
+            </section>
+          );
+        })()}
 
         {/* About Section */}
-        <section className="py-20">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="p-12 glass-effect rounded-3xl space-y-8">
-              <div className="flex items-center justify-center mb-6">
-                <div className="p-4 rounded-2xl bg-primary/20">
-                  <Brain size={48} className="text-primary" weight="duotone" />
+        {(() => {
+          const [aboutRef, aboutVisible] = useSectionFadeIn();
+          return (
+            <section ref={aboutRef} className={`py-20 transition-all duration-700 ease-out ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+              <div className="max-w-4xl mx-auto text-center">
+                <div className="p-12 glass-effect rounded-3xl space-y-8">
+                  <div className="flex items-center justify-center mb-6">
+                    <div className="p-4 rounded-2xl bg-primary/20">
+                      <Brain size={48} className="text-primary" weight="duotone" />
+                    </div>
+                  </div>
+                  <h3 className="text-3xl font-bold text-foreground font-display">
+                    {pageTexts.about.section_title}
+                  </h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+                    {pageTexts.about.description}
+                  </p>
+                  <div className="pt-6">
+                    <Button 
+                      size="lg"
+                      variant="outline"
+                      className="glass-effect border-primary/40 hover:border-primary text-primary hover:text-primary"
+                      onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
+                    >
+                      {pageTexts.about.cta_about}
+                    </Button>
+                  </div>
                 </div>
               </div>
-              
-              <h3 className="text-3xl font-bold text-foreground font-display">
-                {pageTexts.about.section_title}
-              </h3>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                {pageTexts.about.description}
-              </p>
-              <div className="pt-6">
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="glass-effect border-primary/40 hover:border-primary text-primary hover:text-primary"
-                  onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
-                >
-                  {pageTexts.about.cta_about}
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
+          );
+        })()}
 
         {/* Stats Section */}
-        <section className="py-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
-              {pageTexts.stats.section_title}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-primary/20">
-                    <TrendUp size={32} className="text-primary" />
+        {(() => {
+          const [statsRef, statsVisible] = useSectionFadeIn();
+          return (
+            <section ref={statsRef} className={`py-16 transition-all duration-700 ease-out ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
+                  {pageTexts.stats.section_title}
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="p-8 glass-effect rounded-2xl hover-lift">
+                    <div className="flex items-center justify-center mb-4">
+                      <div className="p-3 rounded-xl bg-primary/20">
+                        <TrendUp size={32} className="text-primary" />
+                      </div>
+                    </div>
+                    <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.episodes}</div>
+                    <div className="text-muted-foreground">{pageTexts.stats.episodes_label}</div>
+                    <div className="text-muted-foreground">{pageTexts.stats.episodes_label_funny}</div>
+                  </div>
+                  <div className="p-8 glass-effect rounded-2xl hover-lift">
+                    <div className="flex items-center justify-center mb-4">
+                      <div className="p-3 rounded-xl bg-accent/20">
+                        <Users size={32} className="text-accent" />
+                      </div>
+                    </div>
+                    <div className="text-4xl font-bold text-accent mb-2 font-display">{pageTexts.stats.spanish}</div>
+                    <div className="text-muted-foreground">{pageTexts.stats.spanish_label}</div>
+                  </div>
+                  <div className="p-8 glass-effect rounded-2xl hover-lift">
+                    <div className="flex items-center justify-center mb-4">
+                      <div className="p-3 rounded-xl bg-primary/20">
+                        <Clock size={32} className="text-primary" />
+                      </div>
+                    </div>
+                    <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.focus}</div>
+                    <div className="text-muted-foreground">{pageTexts.stats.focus_label}</div>
+                    <div className="text-muted-foreground">{pageTexts.stats.focus_label_funny}</div>
                   </div>
                 </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.episodes}</div>
-                <div className="text-muted-foreground">{pageTexts.stats.episodes_label}</div>
-                <div className="text-muted-foreground">{pageTexts.stats.episodes_label_funny}</div>
               </div>
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-accent/20">
-                    <Users size={32} className="text-accent" />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-accent mb-2 font-display">{pageTexts.stats.spanish}</div>
-                <div className="text-muted-foreground">{pageTexts.stats.spanish_label}</div>
-              </div>
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-primary/20">
-                    <Clock size={32} className="text-primary" />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.focus}</div>
-                <div className="text-muted-foreground">{pageTexts.stats.focus_label}</div>
-                <div className="text-muted-foreground">{pageTexts.stats.focus_label_funny}</div>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
+          );
+        })()}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border/20 glass-effect mt-20">
+  <footer className="border-t [border-color:var(--border)] glass-effect mt-20">
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col gap-12">
             {/* Social Media Links */}
             <SocialLinks />
             
             {/* Footer Info */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-border/20">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t [border-color:var(--border)]">
               <div className="flex items-center gap-3">
                 <Brain size={24} className="text-primary" weight="duotone" />
                 <span className="font-bold text-foreground font-display text-lg">{pageTexts.footer.brand}</span>

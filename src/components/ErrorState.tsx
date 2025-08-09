@@ -38,7 +38,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
       </div>
       
       {/* Alternative Platforms */}
-      <div className="p-6 glass-effect rounded-2xl border border-border/20 text-left space-y-4">
+  <div className="p-6 glass-effect rounded-2xl border [border-color:var(--border)] text-left space-y-4">
         <h4 className="font-semibold text-foreground text-center font-display">
           Plataformas Alternativas
         </h4>
@@ -67,7 +67,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
           <Button 
             variant="outline" 
             size="sm" 
-            className="glass-effect hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground justify-between"
+            className="glass-effect hover:bg-muted [border-color:var(--border)] hover:[border-color:var(--muted-foreground)] text-muted-foreground hover:text-foreground justify-between"
             onClick={() => window.open("https://podcasts.apple.com/us/podcast/no-tiene-nombre/id1682861526", '_blank')}
           >
             Apple Podcasts
@@ -76,7 +76,7 @@ export function ErrorState({ onRetry }: ErrorStateProps) {
           <Button 
             variant="outline" 
             size="sm" 
-            className="glass-effect hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground justify-between"
+            className="glass-effect hover:bg-muted [border-color:var(--border)] hover:[border-color:var(--muted-foreground)] text-muted-foreground hover:text-foreground justify-between"
             onClick={() => window.open("https://lnns.co/Ytoh4vIkAjq", '_blank')}
           >
             Listen Notes

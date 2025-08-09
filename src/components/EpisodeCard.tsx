@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { useEffect, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Play, Brain } from "@phosphor-icons/react";
@@ -10,6 +11,11 @@ interface EpisodeCardProps {
 }
 
 export function EpisodeCard({ episode, index }: EpisodeCardProps) {
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => setVisible(true), 100 + index * 80);
+    return () => clearTimeout(timeout);
+  }, [index]);
   const formatDate = (dateString: string) => {
     try {
       const date = new Date(dateString);
@@ -32,7 +38,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
   };
 
   return (
-    <Card className="group hover-lift glass-effect border-border/20 hover:border-primary/40 relative overflow-hidden perspective-1000">
+  <Card className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
       {/* Neural glow effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       

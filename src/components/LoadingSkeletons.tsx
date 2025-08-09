@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export function EpisodeCardSkeleton() {
   return (
-    <Card className="glass-effect border-border/20 relative overflow-hidden perspective-1000 p-6 space-y-4">
+  <Card className="glass-effect [border-color:var(--border)] relative overflow-hidden perspective-1000 p-6 space-y-4">
       {/* Episode number indicator */}
       <div className="absolute top-4 left-4">
         <Skeleton className="w-8 h-8 rounded-full" />
