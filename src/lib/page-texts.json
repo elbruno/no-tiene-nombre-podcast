@@ -32,11 +32,11 @@
         "copyright": "© 2025 - Podcast de IA en español. Generado con Github Spark. Si entiendes, eres más listo que un bot."
     },
     "cta_banner": {
-        "title": "¿Tienes una idea para un episodio o quieres recibir novedades?",
-        "subtitle": "Sugiere un tema o suscríbete al newsletter para no perderte nada.",
-        "newsletter_placeholder": "Tu email...",
-        "newsletter_button": "Suscribirme",
-        "suggestion_placeholder": "¿Qué tema te gustaría escuchar?",
-        "suggestion_button": "Enviar sugerencia"
+        "title": "¿Tienes una idea o pregunta?",
+        "subtitle": "Escríbeme por redes sociales usando los botones de abajo y hablemos.",
+        "newsletter_placeholder": "",
+        "newsletter_button": "",
+        "suggestion_placeholder": "",
+        "suggestion_button": ""
     }
 }
