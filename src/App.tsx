@@ -29,6 +29,7 @@ import pageTexts from "@/lib/page-texts.json";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
+import { JsonLd } from "@/components/JsonLd";
 
 
 function App() {
@@ -60,6 +61,36 @@ function App() {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <NeuralBackground />
+      {podcastData && podcastData.episodes?.length > 0 && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": podcastData.episodes.map((ep, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "PodcastEpisode",
+                name: ep.title,
+                description: ep.description,
+                datePublished: ep.pubDate,
+                url: ep.link || "https://notienenombre.com/",
+                image: ep.imageUrl,
+                partOfSeries: {
+                  "@type": "PodcastSeries",
+                  name: podcastData.title || "No Tiene Nombre Podcast",
+                },
+                potentialAction: ep.audioUrl
+                  ? {
+                      "@type": "ListenAction",
+                      target: [ep.audioUrl],
+                    }
+                  : undefined,
+              },
+            })),
+          }}
+        />
+      )}
       
       {/* Hero Section */}
       <header className="relative min-h-screen flex items-center justify-center">

@@ -167,7 +167,7 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 ### 1) Motion foundation
 
 - [ ] Add `framer-motion` primitives to Hero and sections
-- [ ] Add reduced motion guards
+- [x] Add reduced motion guards
 - [ ] Stagger Episodes grid on view
 
 ### 2) Episode cards polish
@@ -178,9 +178,10 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 
 ### 3) SEO & social
 
-- [ ] Inject PodcastSeries JSON-LD in `index.html`
-- [ ] Add per-episode `ItemList` JSON-LD
-- [ ] Add `public/sitemap.xml` and `public/robots.txt`
+- [x] Inject PodcastSeries JSON-LD in `index.html`
+- [x] Add per-episode `ItemList` JSON-LD
+- [x] Add `public/sitemap.xml` and `public/robots.txt`
+- [ ] Polish OG/Twitter meta defaults and per-episode overrides (defaults updated to local `/og-image.png`)
 
 ### 4) PWA & data
 
@@ -191,7 +192,7 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 ### 5) CI & performance
 
 - [ ] Add Lighthouse CI workflow + thresholds
-- [ ] Add bundle visualizer (dev) and document largest modules
+- [x] Add bundle visualizer (dev) and document largest modules (visualizer integrated; documenting largest modules pending)
 - [ ] Remove unused heavy deps if not used
 
 ### 6) Accessibility
@@ -246,9 +247,9 @@ Rollback: Feature flags per phase; keep changes small and reversible.
 
 ## Next 3 “quick wins”
 
-- [ ] Inject PodcastSeries JSON-LD and OG meta tidy in `index.html`.
-- [ ] Add reduced-motion guards to existing animations; tone down glow.
-- [ ] Add bundle visualizer (dev-only) to identify easy savings.
+- [x] Inject PodcastSeries JSON-LD and OG meta tidy in `index.html`. (JSON-LD + canonical added; OG fine-tuning pending)
+- [x] Add reduced-motion guards to existing animations; tone down glow.
+- [x] Add bundle visualizer (dev-only) to identify easy savings.
 
 ---
 

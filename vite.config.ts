@@ -2,6 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react-swc";
 import { defineConfig, PluginOption } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import { visualizer } from "rollup-plugin-visualizer";
 
 // Spark plugins removed
 import { resolve } from 'path'
@@ -9,7 +10,7 @@ import { resolve } from 'path'
 const projectRoot = process.env.PROJECT_ROOT || import.meta.dirname
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
@@ -36,11 +37,23 @@ export default defineConfig({
           }
         ]
       }
-    })
+    }),
+    // Dev-only bundle analysis: run `vite build --mode analyze` to generate stats.html
+    ...(mode === 'analyze'
+      ? [
+          visualizer({
+            filename: 'stats.html',
+            template: 'treemap',
+            gzipSize: true,
+            brotliSize: true,
+            open: false,
+          }) as PluginOption,
+        ]
+      : [])
   ],
   resolve: {
     alias: {
       '@': resolve(projectRoot, 'src')
     }
   },
-});
+}));
