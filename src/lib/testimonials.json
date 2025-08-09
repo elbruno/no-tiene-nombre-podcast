@@ -1,0 +1,20 @@
+{
+    "section_title": "Lo que dicen los oyentes (generados por AI)",
+    "list": [
+        {
+            "name": "Ana G.",
+            "text": "¡Este podcast me hizo entender IA sin aburrirme! Súper recomendado.",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "name": "Carlos P.",
+            "text": "Los hosts tienen un humor genial y explican todo clarísimo.",
+            "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+            "name": "Lucía R.",
+            "text": "Me encanta la variedad de temas y la energía del programa.",
+            "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        }
+    ]
+}

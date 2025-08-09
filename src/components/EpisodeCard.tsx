@@ -37,6 +37,14 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
     }
   };
 
+  // Helper to check if episode is new (published in last 14 days)
+  const isNew = (() => {
+    const now = new Date();
+    const pub = new Date(episode.pubDate);
+    const diffDays = (now.getTime() - pub.getTime()) / (1000 * 60 * 60 * 24);
+    return diffDays <= 14;
+  })();
+
   return (
   <Card className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
       {/* Neural glow effect */}
@@ -54,9 +62,16 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
         {/* Header */}
         <div className="space-y-3">
           <div className="flex items-start justify-between gap-4">
-            <CardTitle className="text-xl font-bold leading-tight line-clamp-2 group-hover:text-primary transition-colors duration-300 font-display">
-              {episode.title}
-            </CardTitle>
+            <div className="flex items-center gap-2">
+              <CardTitle className="text-xl font-bold leading-tight line-clamp-2 group-hover:text-primary transition-colors duration-300 font-display">
+                {episode.title}
+              </CardTitle>
+              {isNew && (
+                <Badge variant="default" className="ml-2 animate-pulse bg-accent text-accent-foreground shadow-lg font-bold px-2 py-0.5 rounded-full">
+                  Nuevo
+                </Badge>
+              )}
+            </div>
             <div className="flex items-center gap-2 shrink-0">
               <Button
                 size="sm"

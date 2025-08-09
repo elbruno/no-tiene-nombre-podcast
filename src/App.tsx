@@ -26,6 +26,8 @@ import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
 import pageTexts from "@/lib/page-texts.json";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { HostBioCard } from "@/components/HostBioCard";
 
 function App() {
   const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
@@ -163,6 +165,7 @@ function App() {
                   <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                     {pageTexts.about.description}
                   </p>
+                  <HostBioCard />
                   <div className="pt-6">
                     <Button 
                       size="lg"
@@ -223,7 +226,10 @@ function App() {
             </section>
           );
         })()}
-      </main>
+
+  {/* Testimonials Section */}
+  <TestimonialsSection />
+  </main>
 
       {/* Footer */}
   <footer className="border-t [border-color:var(--border)] glass-effect mt-20">

@@ -1,0 +1,10 @@
+{
+    "speakers": [
+        {
+            "id": "bruno",
+            "name": "Bruno Capuano",
+            "bio": "Ingeniero, speaker y podcaster. Me gusta hablar de IA, robots y cosas tech. Si no entiendes algo, ¡es culpa mía!",
+            "avatar": "https://avatars.githubusercontent.com/u/1199142?v=4"
+        }
+    ]
+}

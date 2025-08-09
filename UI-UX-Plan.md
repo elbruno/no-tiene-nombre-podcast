@@ -9,8 +9,11 @@
  - [x] Step 6: Add micro-interactions (feedback for actions)
  - [x] Step 7: Make all texts concise, witty, and easy to scan
  - [ ] Step 8: Highlight new episodes with a “New” badge or animation
+ - [x] Step 8: Highlight new episodes with a “New” badge or animation
  - [ ] Step 9: Add listener testimonials or reviews section
+ - [x] Step 9: Add listener testimonials or reviews section
  - [ ] Step 10: Add host bio and photo
+ - [x] Step 10: Add host bio and photo
  - [ ] Step 11: Add call to action banners (newsletter, episode suggestions)
  - [x] Step 12: Improve accessibility (contrast, alt text, keyboard navigation)
  - [x] Step 13: Add friendly error states
