@@ -10,6 +10,7 @@ import { NeuralBackground } from "@/components/NeuralBackground";
 import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
+import pageTexts from "@/lib/page-texts.json";
 
 function App() {
   const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
@@ -56,20 +57,19 @@ function App() {
               </div>
               <Badge variant="outline" className="text-sm font-medium glass-effect border-primary/30 text-primary">
                 <Sparkle size={14} className="mr-2" weight="fill" />
-                Podcast sobre Inteligencia Artificial
+                {pageTexts.hero.badge}
               </Badge>
             </div>
             
             {/* Main Title */}
             <div className="space-y-6">
               <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold text-foreground tracking-tight font-display">
-                NO TIENE
+                {pageTexts.hero.title.split(' ')[0]}
                 <br />
-                <span className="text-primary glow-text">NOMBRE</span>
+                <span className="text-primary glow-text">{pageTexts.hero.title.split(' ').slice(1).join(' ')}</span>
               </h1>
-              
               <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Charlas de IA tan profundas que hasta los robots se ríen. ¡En español y sin miedo al futuro!
+                {pageTexts.hero.subtitle}
               </p>
             </div>
             
@@ -81,7 +81,7 @@ function App() {
                 onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
               >
                 <Rss size={24} className="mr-3" />
-                Suscríbete gratis
+                {pageTexts.hero.cta_subscribe}
               </Button>
               <Button 
                 variant="outline" 
@@ -89,7 +89,7 @@ function App() {
                 className="glass-effect hover:bg-accent/10 border-accent/40 hover:border-accent text-accent hover:text-accent px-8 py-4 text-lg font-semibold transition-all duration-300"
                 onClick={() => document.getElementById('episodes')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Explorar episodios
+                {pageTexts.hero.cta_explore}
               </Button>
             </div>
           </div>
@@ -104,13 +104,13 @@ function App() {
         <section id="episodes" className="scroll-mt-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground font-display mb-4">
-              Últimos Episodios
+              {pageTexts.episodes.section_title}
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               
             </p>
             <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
-              {loading ? "Cargando..." : `${podcastData?.episodes.length || 0} episodios disponibles`}
+              {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
             </Badge>
           </div>
 
@@ -138,13 +138,11 @@ function App() {
               </div>
               
               <h3 className="text-3xl font-bold text-foreground font-display">
-                Sobre el Podcast
+                {pageTexts.about.section_title}
               </h3>
-              
               <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                "No Tiene Nombre": el podcast donde la IA y el humor se encuentran. Aquí hablamos de robots, dilemas y cosas que ni ChatGPT entiende. Corto, divertido y en español.
+                {pageTexts.about.description}
               </p>
-              
               <div className="pt-6">
                 <Button 
                   size="lg"
@@ -152,7 +150,7 @@ function App() {
                   className="glass-effect border-primary/40 hover:border-primary text-primary hover:text-primary"
                   onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
                 >
-                  Conoce más sobre nosotros
+                  {pageTexts.about.cta_about}
                 </Button>
               </div>
             </div>
@@ -163,7 +161,7 @@ function App() {
         <section className="py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
-              El podcast de IA más escuchado... por mi abuela 🧓
+              {pageTexts.stats.section_title}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-8 glass-effect rounded-2xl hover-lift">
@@ -172,9 +170,9 @@ function App() {
                     <TrendUp size={32} className="text-primary" />
                   </div>
                 </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">+400</div>
-                <div className="text-muted-foreground">Episodios publicados</div>
-                <div className="text-muted-foreground">Episodios (y algún chiste malo)</div>
+                <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.episodes}</div>
+                <div className="text-muted-foreground">{pageTexts.stats.episodes_label}</div>
+                <div className="text-muted-foreground">{pageTexts.stats.episodes_label_funny}</div>
               </div>
               <div className="p-8 glass-effect rounded-2xl hover-lift">
                 <div className="flex items-center justify-center mb-4">
@@ -182,8 +180,8 @@ function App() {
                     <Users size={32} className="text-accent" />
                   </div>
                 </div>
-                <div className="text-4xl font-bold text-accent mb-2 font-display">🇪🇸</div>
-                <div className="text-muted-foreground">Contenido en español</div>
+                <div className="text-4xl font-bold text-accent mb-2 font-display">{pageTexts.stats.spanish}</div>
+                <div className="text-muted-foreground">{pageTexts.stats.spanish_label}</div>
               </div>
               <div className="p-8 glass-effect rounded-2xl hover-lift">
                 <div className="flex items-center justify-center mb-4">
@@ -191,9 +189,9 @@ function App() {
                     <Clock size={32} className="text-primary" />
                   </div>
                 </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">🤖</div>
-                <div className="text-muted-foreground">Enfoque en IA</div>
-                <div className="text-muted-foreground">IA y humanos confundidos</div>
+                <div className="text-4xl font-bold text-primary mb-2 font-display">{pageTexts.stats.focus}</div>
+                <div className="text-muted-foreground">{pageTexts.stats.focus_label}</div>
+                <div className="text-muted-foreground">{pageTexts.stats.focus_label_funny}</div>
               </div>
             </div>
           </div>
@@ -211,10 +209,10 @@ function App() {
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-border/20">
               <div className="flex items-center gap-3">
                 <Brain size={24} className="text-primary" weight="duotone" />
-                <span className="font-bold text-foreground font-display text-lg">NO TIENE NOMBRE</span>
+                <span className="font-bold text-foreground font-display text-lg">{pageTexts.footer.brand}</span>
               </div>
               <p className="text-sm text-muted-foreground text-center">
-                © 2024 - Podcast de IA en español. Si entiendes, eres más listo que un bot.
+                {pageTexts.footer.copyright}
               </p>
             </div>
           </div>

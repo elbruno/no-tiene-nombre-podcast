@@ -1,0 +1,34 @@
+{
+    "hero": {
+        "badge": "Podcast sobre Inteligencia Artificial",
+        "title": "NO TIENE NOMBRE",
+        "subtitle": "Charlas de IA tan profundas que hasta los robots se ríen. ¡En español y sin miedo al futuro!",
+        "cta_subscribe": "Suscríbete gratis",
+        "cta_explore": "Explorar episodios"
+    },
+    "episodes": {
+        "section_title": "Últimos Episodios",
+        "badge_loading": "Cargando...",
+        "badge_available": "episodios disponibles"
+    },
+    "about": {
+        "section_title": "Sobre el Podcast",
+        "description": "\"No Tiene Nombre\": el podcast donde la IA y el humor se encuentran. Aquí hablamos de robots, dilemas y cosas que ni ChatGPT entiende. Corto, divertido y en español.",
+        "cta_about": "Conoce más sobre nosotros"
+    },
+    "stats": {
+        "section_title": "El podcast de IA más escuchado... por mi abuela 🧓",
+        "episodes": "+400",
+        "episodes_label": "Episodios publicados",
+        "episodes_label_funny": "Episodios (y algún chiste malo)",
+        "spanish": "🇪🇸",
+        "spanish_label": "Contenido en español",
+        "focus": "🤖",
+        "focus_label": "Enfoque en IA",
+        "focus_label_funny": "IA y humanos confundidos"
+    },
+    "footer": {
+        "brand": "NO TIENE NOMBRE",
+        "copyright": "© 2024 - Podcast de IA en español. Si entiendes, eres más listo que un bot."
+    }
+}
