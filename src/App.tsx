@@ -41,10 +41,12 @@ function App() {
     try {
       setLoading(true);
       setError(false);
+      console.log('[App] Loading podcast data...');
       const data = await fetchPodcastRSS();
+      console.log('[App] Podcast data loaded:', data);
       setPodcastData(data);
     } catch (err) {
-      console.error('Failed to load podcast data:', err);
+      console.error('[App] Failed to load podcast data:', err);
       setError(true);
     } finally {
       setLoading(false);
@@ -150,6 +152,7 @@ function App() {
                       className="px-4 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground w-full max-w-md"
                     />
                   </div>
+                  {console.log('[App] Rendering episodes:', podcastData.episodes)}
                   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                     {podcastData.episodes
                       .filter(ep =>
@@ -184,7 +187,7 @@ function App() {
                   <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                     {pageTexts.about.description}
                   </p>
-                  <HostBioCard />
+                  {/* <HostBioCard /> Removed as requested */}
                   <div className="pt-6">
                     <Button 
                       size="lg"
