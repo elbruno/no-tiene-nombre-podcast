@@ -47,9 +47,6 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
         <h3 className="text-2xl font-bold text-foreground mb-3 font-display">
           Escúchanos en todas las plataformas
         </h3>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Elige tu plataforma favorita y nunca te pierdas un episodio de nuestro podcast sobre inteligencia artificial
-        </p>
       </div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

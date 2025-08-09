@@ -69,8 +69,7 @@ function App() {
               </h1>
               
               <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Explorando el futuro de la inteligencia artificial a través de 
-                conversaciones profundas y análisis experto en español.
+                Charlas de IA tan profundas que hasta los robots se ríen. ¡En español y sin miedo al futuro!
               </p>
             </div>
             
@@ -108,7 +107,7 @@ function App() {
               Últimos Episodios
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Sumérgete en las conversaciones más actuales sobre inteligencia artificial
+              
             </p>
             <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
               {loading ? "Cargando..." : `${podcastData?.episodes.length || 0} episodios disponibles`}
@@ -143,9 +142,7 @@ function App() {
               </h3>
               
               <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                "No Tiene Nombre" es el podcast de referencia sobre inteligencia artificial en español. 
-                Cada episodio profundiza en las últimas tendencias, innovaciones y debates éticos del mundo de la IA, 
-                presentado de manera accesible y con análisis experto.
+                "No Tiene Nombre": el podcast donde la IA y el humor se encuentran. Aquí hablamos de robots, dilemas y cosas que ni ChatGPT entiende. Corto, divertido y en español.
               </p>
               
               <div className="pt-6">
@@ -166,7 +163,7 @@ function App() {
         <section className="py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
-              El podcast de IA más escuchado... en mi casa 🏠
+              El podcast de IA más escuchado... por mi abuela 🧓
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-8 glass-effect rounded-2xl hover-lift">
@@ -177,6 +174,7 @@ function App() {
                 </div>
                 <div className="text-4xl font-bold text-primary mb-2 font-display">+400</div>
                 <div className="text-muted-foreground">Episodios publicados</div>
+                <div className="text-muted-foreground">Episodios (y algún chiste malo)</div>
               </div>
               <div className="p-8 glass-effect rounded-2xl hover-lift">
                 <div className="flex items-center justify-center mb-4">
@@ -195,6 +193,7 @@ function App() {
                 </div>
                 <div className="text-4xl font-bold text-primary mb-2 font-display">🤖</div>
                 <div className="text-muted-foreground">Enfoque en IA</div>
+                <div className="text-muted-foreground">IA y humanos confundidos</div>
               </div>
             </div>
           </div>
@@ -215,7 +214,7 @@ function App() {
                 <span className="font-bold text-foreground font-display text-lg">NO TIENE NOMBRE</span>
               </div>
               <p className="text-sm text-muted-foreground text-center">
-                © 2024 - Podcast sobre inteligencia artificial en español
+                © 2024 - Podcast de IA en español. Si entiendes, eres más listo que un bot.
               </p>
             </div>
           </div>
