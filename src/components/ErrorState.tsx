@@ -1,7 +1,6 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
-import { WarningCircle, ArrowClockwise } from "@phosphor-icons/react";
-import { DeathStarLoader } from "@/components/DeathStarLoader";
+import { Warning, ArrowClockwise, Brain, ExternalLink } from "@phosphor-icons/react";
 
 interface ErrorStateProps {
   onRetry: () => void;
@@ -9,65 +8,79 @@ interface ErrorStateProps {
 
 export function ErrorState({ onRetry }: ErrorStateProps) {
   return (
-    <div className="max-w-md mx-auto text-center py-16">
-      <DeathStarLoader size={100} className="mx-auto mb-6 opacity-50" />
+    <div className="max-w-lg mx-auto text-center py-16 space-y-8">
+      {/* Error Icon */}
+      <div className="flex items-center justify-center mb-8">
+        <div className="p-4 rounded-2xl glass-effect border border-destructive/30 bg-destructive/10">
+          <Warning size={48} className="text-destructive" weight="duotone" />
+        </div>
+      </div>
       
-      <Alert variant="destructive" className="border-destructive/30 bg-destructive/10 backdrop-blur-sm text-left">
-        <WarningCircle size={16} />
-        <AlertTitle className="font-display">FALLO EN LOS SISTEMAS IMPERIALES</AlertTitle>
+      {/* Error Alert */}
+      <Alert variant="destructive" className="glass-effect border-destructive/30 bg-destructive/5 text-left">
+        <Brain size={16} />
+        <AlertTitle className="font-display">Error de Conexión Neural</AlertTitle>
         <AlertDescription className="mt-2">
-          La estación espacial no puede acceder a los archivos del podcast. 
-          Verifica las comunicaciones hiperespaciales e intenta reconectar.
+          No se puede establecer conexión con el servidor de podcast. 
+          Verifica tu conexión a internet e intenta nuevamente.
         </AlertDescription>
       </Alert>
       
-      <div className="mt-6">
+      {/* Retry Button */}
+      <div>
         <Button 
           onClick={onRetry} 
-          variant="outline" 
-          className="gap-2 border-accent/40 hover:border-accent/60 hover:text-accent hover:glow-text transition-all duration-300"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground gap-3 px-8 py-3 transition-all duration-300 hover:scale-105"
         >
-          <ArrowClockwise size={16} />
-          Reestablecer conexión
+          <ArrowClockwise size={20} />
+          Reintentar conexión
         </Button>
       </div>
       
-      <div className="mt-8 p-4 bg-card/50 rounded-lg border border-accent/20 backdrop-blur-sm text-left">
-        <h4 className="font-medium text-foreground mb-2 font-display text-center">
-          CANALES ALTERNATIVOS DISPONIBLES:
+      {/* Alternative Platforms */}
+      <div className="p-6 glass-effect rounded-2xl border border-border/20 text-left space-y-4">
+        <h4 className="font-semibold text-foreground text-center font-display">
+          Plataformas Alternativas
         </h4>
-        <div className="space-y-2 text-sm">
+        <p className="text-sm text-muted-foreground text-center mb-4">
+          Mientras solucionamos el problema, puedes acceder directamente:
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Button 
-            variant="ghost" 
+            variant="outline" 
             size="sm" 
-            className="w-full justify-start p-0 h-auto hover:text-accent transition-colors duration-200"
+            className="glass-effect hover:bg-primary/10 border-primary/30 hover:border-primary text-primary justify-between"
             onClick={() => window.open("https://www.ivoox.com/podcast-bruno-no-tiene-nombre_sq_f1277993_1.html", '_blank')}
           >
-            → iVoox (Base principal)
+            iVoox
+            <ExternalLink size={14} />
           </Button>
           <Button 
-            variant="ghost" 
+            variant="outline" 
             size="sm" 
-            className="w-full justify-start p-0 h-auto hover:text-accent transition-colors duration-200"
+            className="glass-effect hover:bg-accent/10 border-accent/30 hover:border-accent text-accent justify-between"
             onClick={() => window.open("https://open.spotify.com/show/2kCHrwupmLhQs5aFOBJ2z6", '_blank')}
           >
-            → Spotify (Sector externo)
+            Spotify
+            <ExternalLink size={14} />
           </Button>
           <Button 
-            variant="ghost" 
+            variant="outline" 
             size="sm" 
-            className="w-full justify-start p-0 h-auto hover:text-accent transition-colors duration-200"
+            className="glass-effect hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground justify-between"
             onClick={() => window.open("https://podcasts.apple.com/us/podcast/no-tiene-nombre/id1682861526", '_blank')}
           >
-            → Apple Podcasts (Red rebelde)
+            Apple Podcasts
+            <ExternalLink size={14} />
           </Button>
           <Button 
-            variant="ghost" 
+            variant="outline" 
             size="sm" 
-            className="w-full justify-start p-0 h-auto hover:text-accent transition-colors duration-200"
+            className="glass-effect hover:bg-muted border-border hover:border-muted-foreground text-muted-foreground hover:text-foreground justify-between"
             onClick={() => window.open("https://lnns.co/Ytoh4vIkAjq", '_blank')}
           >
-            → Listen Notes (Archivo Jedi)
+            Listen Notes
+            <ExternalLink size={14} />
           </Button>
         </div>
       </div>

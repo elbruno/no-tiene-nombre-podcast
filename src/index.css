@@ -8,31 +8,31 @@
 }
 
 :root {
-  /* Star Wars Dark Space Theme */
-  --background: oklch(0.08 0.01 240);
-  --foreground: oklch(0.92 0.02 50);
+  /* Modern AI/Tech Theme - Deep Space Navy with Electric Accents */
+  --background: oklch(0.05 0.02 230); /* Deep space navy */
+  --foreground: oklch(0.98 0.01 230); /* Pure white */
 
-  --card: oklch(0.12 0.02 240);
-  --card-foreground: oklch(0.90 0.02 50);
-  --popover: oklch(0.10 0.01 240);
-  --popover-foreground: oklch(0.92 0.02 50);
+  --card: oklch(0.08 0.02 230); /* Slightly lighter navy */
+  --card-foreground: oklch(0.95 0.01 230);
+  --popover: oklch(0.06 0.02 230);
+  --popover-foreground: oklch(0.98 0.01 230);
 
-  --primary: oklch(0.35 0.20 250);
-  --primary-foreground: oklch(0.95 0.02 50);
-  --secondary: oklch(0.16 0.02 240);
-  --secondary-foreground: oklch(0.85 0.02 50);
-  --accent: oklch(0.70 0.25 120); /* Jedi green/cyan */
-  --accent-foreground: oklch(0.08 0.01 240);
-  --destructive: oklch(0.60 0.30 15); /* Sith red */
-  --destructive-foreground: oklch(0.95 0.02 50);
+  --primary: oklch(0.75 0.25 200); /* Electric cyan */
+  --primary-foreground: oklch(0.05 0.02 230);
+  --secondary: oklch(0.12 0.02 230); /* Dark navy */
+  --secondary-foreground: oklch(0.90 0.01 230);
+  --accent: oklch(0.65 0.30 280); /* Neon purple */
+  --accent-foreground: oklch(0.05 0.02 230);
+  --destructive: oklch(0.60 0.35 15); /* Bright red */
+  --destructive-foreground: oklch(0.98 0.01 230);
 
-  --muted: oklch(0.14 0.01 240);
-  --muted-foreground: oklch(0.60 0.02 50);
-  --border: oklch(0.20 0.02 240);
-  --input: oklch(0.18 0.02 240);
-  --ring: oklch(0.70 0.25 120);
+  --muted: oklch(0.10 0.02 230);
+  --muted-foreground: oklch(0.65 0.02 230);
+  --border: oklch(0.15 0.02 230);
+  --input: oklch(0.12 0.02 230);
+  --ring: oklch(0.75 0.25 200);
 
-  --radius: 0.75rem;
+  --radius: 1rem;
 }
 
 @theme {
@@ -63,8 +63,8 @@
   --radius-2xl: calc(var(--radius) * 3);
   --radius-full: 9999px;
 
-  --font-sans: 'Exo 2', system-ui, sans-serif;
-  --font-display: 'Orbitron', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
 }
 
 @layer utilities {
@@ -90,69 +90,54 @@
     animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 
-  .starfield {
-    background-image: radial-gradient(2px 2px at 20px 30px, white, transparent),
-                      radial-gradient(2px 2px at 40px 70px, white, transparent),
-                      radial-gradient(1px 1px at 90px 40px, white, transparent),
-                      radial-gradient(1px 1px at 130px 80px, white, transparent),
-                      radial-gradient(2px 2px at 160px 30px, white, transparent);
-    background-repeat: repeat;
-    background-size: 200px 100px;
+  .gradient-bg {
+    background: linear-gradient(135deg, var(--background) 0%, var(--card) 50%, var(--background) 100%);
   }
 
-  .warp-stars {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 1;
-    overflow: hidden;
-  }
-
-  .warp-star {
-    position: absolute;
-    background: white;
-    border-radius: 50%;
-    opacity: 0.8;
-    animation: warp 3s linear infinite;
-  }
-
-  .warp-star:nth-child(odd) {
-    animation-duration: 2.5s;
-    opacity: 0.6;
-  }
-
-  .warp-star:nth-child(3n) {
-    animation-duration: 3.5s;
-    opacity: 0.9;
-  }
-
-  .warp-star:nth-child(4n) {
-    animation-duration: 2s;
-    opacity: 0.4;
-  }
-
-  .warp-star:nth-child(5n) {
-    animation-duration: 4s;
-    opacity: 0.7;
+  .neural-bg {
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, rgba(139, 95, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, rgba(0, 212, 255, 0.05) 0%, transparent 50%);
   }
 
   .glow-text {
-    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+    text-shadow: 0 0 20px currentColor;
   }
 
   .glow-border {
-    box-shadow: 0 0 20px rgba(var(--accent), 0.3), inset 0 0 20px rgba(var(--accent), 0.1);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.1);
+  }
+
+  .glass-effect {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .font-display {
     font-family: var(--font-display);
   }
 
-  .pao-glow {
-    animation: pao-pulse 2s ease-in-out infinite alternate;
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .rotate-y-12 {
+    transform: rotateY(12deg);
+  }
+
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
   }
 }
 
@@ -170,20 +155,27 @@
   100% { transform: translateY(-100px); }
 }
 
-@keyframes warp {
-  0% {
-    transform: translateX(-50%) translateY(-50%) scale(0.1);
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.8;
+@keyframes neural-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
   }
   50% {
-    transform: translateX(-50%) translateY(-50%) scale(1);
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes data-flow {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
     opacity: 1;
   }
   100% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(20);
+    transform: translateX(100%);
     opacity: 0;
   }
 }
