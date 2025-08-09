@@ -11,31 +11,31 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
     {
       name: 'Twitter',
       icon: TwitterLogo,
-      url: 'https://twitter.com/notientenombre',
+      url: 'https://twitter.com/elbruno',
       color: 'hover:text-blue-400'
     },
     {
       name: 'Instagram', 
       icon: InstagramLogo,
-      url: 'https://instagram.com/notientenombre',
+      url: 'https://instagram.com/elbruno',
       color: 'hover:text-pink-400'
     },
     {
       name: 'LinkedIn',
       icon: LinkedinLogo, 
-      url: 'https://linkedin.com/in/notientenombre',
+      url: 'https://linkedin.com/in/elbruno',
       color: 'hover:text-blue-500'
     },
     {
       name: 'YouTube',
       icon: YoutubeLogo,
-      url: 'https://youtube.com/@notientenombre',
+      url: 'https://youtube.com/@elbruno',
       color: 'hover:text-red-500'
     },
     {
       name: 'TikTok',
       icon: TiktokLogo,
-      url: 'https://tiktok.com/@notientenombre', 
+      url: 'https://tiktok.com/@elbruno', 
       color: 'hover:text-white'
     }
   ];
@@ -43,7 +43,7 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
   if (variant === 'header') {
     return (
       <div className={`flex items-center gap-3 ${className}`}>
-        <span className="text-sm text-muted-foreground">Síguenos:</span>
+        <span className="text-sm text-muted-foreground">Sígueme:</span>
         {socialMedia.slice(0, 3).map((social) => (
           <Button
             key={social.name}
@@ -63,10 +63,10 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
     <div className={`flex flex-col items-center gap-6 ${className}`}>
       <div className="text-center">
         <h3 className="text-lg font-semibold text-foreground font-display mb-2">
-          Conecta con el Podcast
+          Conecta con Bruno
         </h3>
         <p className="text-sm text-muted-foreground">
-          Síguenos en redes sociales para contenido exclusivo
+          Sígueme en redes sociales para más contenido sobre IA
         </p>
       </div>
       <div className="flex items-center gap-4">
@@ -77,7 +77,7 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
             size="sm"
             className={`p-3 h-12 w-12 glass-effect hover:bg-primary/10 border border-border/20 hover:border-primary/40 ${social.color} transition-all duration-300 hover:scale-110 hover:-translate-y-1`}
             onClick={() => window.open(social.url, '_blank')}
-            title={`Síguenos en ${social.name}`}
+            title={`Sígueme en ${social.name}`}
           >
             <social.icon size={24} weight="fill" />
           </Button>
