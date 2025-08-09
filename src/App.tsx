@@ -101,44 +101,6 @@ function App() {
         {/* Platform Links */}
         <PlatformLinks />
 
-        {/* Stats Section */}
-        <section className="py-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
-              El podcast de IA más escuchado... en mi casa 🏠
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-primary/20">
-                    <TrendUp size={32} className="text-primary" />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">+400</div>
-                <div className="text-muted-foreground">Episodios publicados</div>
-              </div>
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-accent/20">
-                    <Users size={32} className="text-accent" />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-accent mb-2 font-display">🇪🇸</div>
-                <div className="text-muted-foreground">Contenido en español</div>
-              </div>
-              <div className="p-8 glass-effect rounded-2xl hover-lift">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="p-3 rounded-xl bg-primary/20">
-                    <Clock size={32} className="text-primary" />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-primary mb-2 font-display">🤖</div>
-                <div className="text-muted-foreground">Enfoque en IA</div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Episodes Section */}
         <section id="episodes" className="scroll-mt-20">
           <div className="text-center mb-12">
@@ -195,6 +157,44 @@ function App() {
                 >
                   Conoce más sobre nosotros
                 </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Stats Section */}
+        <section className="py-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-12 font-display">
+              El podcast de IA más escuchado... en mi casa 🏠
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="p-8 glass-effect rounded-2xl hover-lift">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="p-3 rounded-xl bg-primary/20">
+                    <TrendUp size={32} className="text-primary" />
+                  </div>
+                </div>
+                <div className="text-4xl font-bold text-primary mb-2 font-display">+400</div>
+                <div className="text-muted-foreground">Episodios publicados</div>
+              </div>
+              <div className="p-8 glass-effect rounded-2xl hover-lift">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="p-3 rounded-xl bg-accent/20">
+                    <Users size={32} className="text-accent" />
+                  </div>
+                </div>
+                <div className="text-4xl font-bold text-accent mb-2 font-display">🇪🇸</div>
+                <div className="text-muted-foreground">Contenido en español</div>
+              </div>
+              <div className="p-8 glass-effect rounded-2xl hover-lift">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="p-3 rounded-xl bg-primary/20">
+                    <Clock size={32} className="text-primary" />
+                  </div>
+                </div>
+                <div className="text-4xl font-bold text-primary mb-2 font-display">🤖</div>
+                <div className="text-muted-foreground">Enfoque en IA</div>
               </div>
             </div>
           </div>
