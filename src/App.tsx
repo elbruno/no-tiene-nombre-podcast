@@ -177,6 +177,14 @@ function App() {
               >
                 {pageTexts.hero.cta_explore}
               </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="glass-effect hover:bg-secondary/10 border-secondary/40 hover:border-secondary text-secondary hover:text-secondary px-8 py-4 text-lg font-semibold transition-all duration-300"
+                onClick={() => document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                {pageTexts.hero.cta_testimonials}
+              </Button>
             </motion.div>
           </motion.div>
         </div>

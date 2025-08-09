@@ -16,7 +16,7 @@ export function TestimonialsSection() {
     return arr.slice(0, 3);
   }, [list]);
   return (
-    <section className="max-w-4xl mx-auto py-16 px-4">
+    <section id="testimonials" className="max-w-4xl mx-auto py-16 px-4 scroll-mt-20">
       <h2 className="text-3xl font-bold text-center mb-10 text-foreground font-display">{section_title}</h2>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {picks.map((t, i) => (

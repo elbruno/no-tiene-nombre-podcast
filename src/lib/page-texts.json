@@ -4,7 +4,8 @@
         "title": "NO TIENE NOMBRE",
         "subtitle": "Charlas de IA y tech en general. ¡En español y sin miedo al futuro!",
         "cta_subscribe": "Suscríbete gratis",
-        "cta_explore": "Explorar episodios"
+        "cta_explore": "Explorar episodios",
+        "cta_testimonials": "Testimonios"
     },
     "episodes": {
         "section_title": "Últimos Episodios",
