@@ -2,7 +2,7 @@
     "hero": {
         "badge": "Podcast sobre Inteligencia Artificial",
         "title": "NO TIENE NOMBRE",
-        "subtitle": "Charlas de IA tan profundas que hasta los robots se ríen. ¡En español y sin miedo al futuro!",
+        "subtitle": "Charlas de IA y tech en general. ¡En español y sin miedo al futuro!",
         "cta_subscribe": "Suscríbete gratis",
         "cta_explore": "Explorar episodios"
     },
@@ -13,8 +13,8 @@
     },
     "about": {
         "section_title": "Sobre el Podcast",
-        "description": "\"No Tiene Nombre\": el podcast donde la IA y el humor se encuentran. Aquí hablamos de robots, dilemas y cosas que ni ChatGPT entiende. Corto, divertido y en español.",
-        "cta_about": "Conoce más sobre nosotros"
+        "description": "\"No Tiene Nombre\": el podcast donde hablamos un poco de IA. Aquí hablamos de robots, tech y cosas que ChatGPT o Claude me explican. Corto, divertido y en español.",
+        "cta_about": "Conoce más sobre NTN"
     },
     "stats": {
         "section_title": "El podcast de IA más escuchado... por mi abuela 🧓",
@@ -25,10 +25,10 @@
         "spanish_label": "Contenido en español",
         "focus": "🤖",
         "focus_label": "Enfoque en IA",
-        "focus_label_funny": "IA y humanos confundidos"
+        "focus_label_funny": "Inteligencia Artificial"
     },
     "footer": {
         "brand": "NO TIENE NOMBRE",
-        "copyright": "© 2024 - Podcast de IA en español. Si entiendes, eres más listo que un bot."
+        "copyright": "© 2025 - Podcast de IA en español. Generado con Github Spark. Si entiendes, eres más listo que un bot."
     }
 }
