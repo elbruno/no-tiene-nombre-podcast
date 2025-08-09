@@ -192,7 +192,7 @@ Use these to track progress. Keep ticks up-to-date in this doc.
 ### 5) CI & performance
 
 - [x] Add Lighthouse CI workflow + thresholds
-- [x] Add bundle visualizer (dev) and document largest modules (visualizer integrated; documenting largest modules pending)
+- [x] Add bundle visualizer (dev) and document largest modules (visualizer integrated; notes added 2025‑08‑09)
 - [x] Remove unused heavy deps if not used (removed: recharts, d3, three, @tanstack/react-query, @heroicons/react, @octokit/core, octokit)
 
 ### 6) Accessibility
@@ -250,6 +250,38 @@ Rollback: Feature flags per phase; keep changes small and reversible.
 - [x] Inject PodcastSeries JSON-LD and OG meta tidy in `index.html`. (JSON-LD + canonical added; OG fine-tuning pending)
 - [x] Add reduced-motion guards to existing animations; tone down glow.
 - [x] Add bundle visualizer (dev-only) to identify easy savings.
+
+---
+
+## Bundle analysis notes — 2025‑08‑09
+
+- Current build snapshot
+  - CSS: 332.95 kB (gzip 63.93 kB)
+  - JS: 417.28 kB (gzip 130.85 kB)
+  - PWA: generateSW precache 8 entries (~742.91 KiB)
+- Largest contributors (qualitative): React/React‑DOM, Framer Motion, Radix UI packages, date-fns, carousel (Embla), icon libraries (Lucide + Simple Icons).
+- Actions taken
+  - Consolidated icons: Lucide for app/non‑brand icons; Simple Icons for brand logos; LinkedIn via Lucide’s `Linkedin`.
+  - Removed `@phosphor-icons/react` from dependencies and source.
+  - Ensured icon components inherit `currentColor` for Tailwind‑driven hover states (updated `SocialLinks.tsx`).
+- Next candidates (optional)
+  - Ensure tree‑shaking of Framer Motion imports (component‑level imports already light, verify per usage).
+  - Audit Radix components in use and prune unused ones.
+  - Consider lazy‑loading carousel/assets if used below the fold.
+
+## Icon system unification — status
+
+- [x] Non‑brand icons migrated to `lucide-react` (App shell, cards, UI states)
+- [x] Brand icons via `@icons-pack/react-simple-icons` (X, Instagram, YouTube, TikTok)
+- [x] LinkedIn replaced with Lucide’s `Linkedin` to avoid missing export
+- [x] Removed `@phosphor-icons/react` dependency and references
+- [x] `SocialLinks` updated to inherit colors; hover colors via Tailwind classes
+
+## PWA & data — status update (2025‑08‑09)
+
+- [x] Service worker strategy tuning (generateSW; CacheFirst for fonts; Stale‑While‑Revalidate for `episodes.json`)
+- [x] Build‑time RSS snapshot via script/GitHub Action writes `public/episodes.json`
+- [ ] Install experience and maskable icons (pending)
 
 ---
 
