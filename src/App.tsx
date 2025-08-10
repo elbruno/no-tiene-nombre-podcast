@@ -16,7 +16,7 @@ function useSectionFadeIn() {
 }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Rss, Sparkles, TrendingUp, Users, Clock } from "lucide-react";
+import { Brain, Rss, Sparkles, TrendingUp, Users, Clock, Github } from "lucide-react";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { EpisodeListItem } from "@/components/EpisodeListItem";
 import { PlatformLinks } from "@/components/PlatformLinks";
@@ -373,9 +373,21 @@ function App() {
                 <Brain size={24} className="text-primary" />
                 <span className="font-bold text-foreground font-display text-lg">{pageTexts.footer.brand}</span>
               </div>
-              <p className="text-sm text-muted-foreground text-center">
-                {pageTexts.footer.copyright}
-              </p>
+              <div className="flex items-center gap-4">
+                <p className="text-sm text-muted-foreground text-center">
+                  {pageTexts.footer.copyright}
+                </p>
+                <a
+                  href="https://github.com/elbruno/no-tiene-nombre-podcast"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  title="Código fuente en GitHub"
+                >
+                  <Github size={16} />
+                  <span>Código en GitHub</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
