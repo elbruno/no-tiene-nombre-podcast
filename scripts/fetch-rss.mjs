@@ -40,12 +40,26 @@ async function main() {
   const enclosureRegex = /<enclosure[^>]*url="([^"]+)"[^>]*>/;
   const itunesImgRegex = /<itunes:image[^>]*href="([^"]+)"[^>]*\/?>(?:<\/itunes:image>)?/;
 
+  // Helper function to extract content from CDATA or regular text
+  const extractContent = (rawContent) => {
+    if (!rawContent) return '';
+    // Check if content is wrapped in CDATA
+    const cdataMatch = rawContent.match(/^<!\[CDATA\[([\s\S]*?)\]\]>$/);
+    if (cdataMatch) {
+      return cdataMatch[1].trim();
+    }
+    // Otherwise, strip HTML tags and return
+    return rawContent.replace(/<[^>]*>/g, '').trim();
+  };
+
   const items = [];
   let match;
   while ((match = itemRegex.exec(xml)) !== null) {
     const itemXml = match[1];
-    const title = (itemXml.match(titleRegex)?.[1] || '').replace(/<[^>]*>/g, '').trim();
-    const description = (itemXml.match(descRegex)?.[1] || '').replace(/<[^>]*>/g, '').trim();
+    const titleRaw = itemXml.match(titleRegex)?.[1] || '';
+    const descRaw = itemXml.match(descRegex)?.[1] || '';
+    const title = extractContent(titleRaw);
+    const description = extractContent(descRaw);
     const pubDate = (itemXml.match(pubRegex)?.[1] || '').trim();
     const link = (itemXml.match(linkRegex)?.[1] || '').trim();
     const audioUrl = itemXml.match(enclosureRegex)?.[1];
