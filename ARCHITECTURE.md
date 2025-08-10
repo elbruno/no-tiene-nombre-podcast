@@ -2,6 +2,10 @@
 
 This document provides a detailed technical overview of the notienenombre.com website architecture.
 
+<div align="center">
+  <img src="architecture-overview.svg" alt="notienenombre.com Architecture Overview" width="600" />
+</div>
+
 ## High-Level Architecture
 
 ```mermaid
