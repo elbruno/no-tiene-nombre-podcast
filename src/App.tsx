@@ -194,11 +194,10 @@ function App() {
         {/* Platform Links */}
         <PlatformLinks />
 
-        {/* Episodes Section */}
-        {(() => {
-          const [episodesRef, episodesVisible] = useSectionFadeIn();
-          return (
-            <section id="episodes" ref={episodesRef} className={`scroll-mt-20 transition-all duration-700 ease-out ${episodesVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        {/* Episodes Section - render immediately on load */}
+        {
+          (
+            <section id="episodes" className="scroll-mt-20">
               <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-foreground font-display mb-4">
                   {pageTexts.episodes.section_title}
@@ -229,8 +228,7 @@ function App() {
                     className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
                     variants={container}
                     initial="hidden"
-                    whileInView="show"
-                    viewport={{ once: true, amount: 0.15 }}
+                    animate="show"
                   >
                     {podcastData.episodes
                       .filter(ep =>
@@ -246,8 +244,8 @@ function App() {
                 </>
               )}
             </section>
-          );
-        })()}
+          )
+        }
 
         {/* About Section */}
         {(() => {
