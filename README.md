@@ -104,7 +104,7 @@ References:
 ![Homepage](docs/screenshots/home.png)
 *Homepage with episode listings*
 
-![Episode Detail](docs/screenshots/episode-list.png)
+![Episode List](docs/screenshots/episode-list.png)
 *Episode detail view*
 
 > Screenshots are automatically generated using Playwright. See [docs/screenshots/](docs/screenshots/) for all available images.
