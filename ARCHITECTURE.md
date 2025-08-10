@@ -53,6 +53,31 @@ sequenceDiagram
     SWA-->>User: Serve static content
 ```
 
+### Runtime Data Path (Episodes)
+
+At runtime, the app prefers live data and falls back to a local snapshot for resilience:
+
+```mermaid
+sequenceDiagram
+    participant Browser as Browser
+    participant RSS as RSS Feed (Provider)
+    participant CDN as Azure SWA CDN
+    participant Snapshot as /episodes.json (snapshot)
+
+    Browser->>RSS: Fetch RSS (cache: no-store)
+    alt RSS fetch succeeds
+        RSS-->>Browser: XML (latest episodes)
+    else RSS fetch fails (CORS/outage)
+        Browser->>CDN: GET /episodes.json
+        CDN-->>Browser: Snapshot JSON
+    end
+```
+
+Notes:
+
+- Live RSS fetch uses a network-first strategy with `cache: no-store` to avoid stale caches.
+- A scheduled GitHub Action refreshes `public/episodes.json` and `public/episodes.xml` daily at 03:00 UTC, commits changes, and triggers an Azure SWA deploy.
+
 ## Component Architecture
 
 ### Core Components
@@ -197,6 +222,7 @@ graph TB
 ### Lighthouse Metrics
 
 Target scores:
+
 - **Performance**: 95+
 - **Accessibility**: 100
 - **Best Practices**: 100

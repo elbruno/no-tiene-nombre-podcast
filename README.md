@@ -18,6 +18,7 @@ This repository powers the main page of [notienenombre.com](https://notienenombr
 ## Goals and Non-Goals
 
 ### Goals
+
 - **Fast, accessible podcast website** - Optimized performance and accessibility for all users
 - **Modern web standards** - PWA capabilities, responsive design, semantic HTML
 - **Automated content pipeline** - RSS feed integration with prebuild content fetching
@@ -25,6 +26,7 @@ This repository powers the main page of [notienenombre.com](https://notienenombr
 - **Developer experience** - Clear documentation, easy local development, automated tooling
 
 ### Non-Goals
+
 - **Content management system** - Static site generation focused on performance
 - **User authentication** - Public-facing content only
 - **Complex interactivity** - Simple, fast browsing experience prioritized
@@ -33,6 +35,7 @@ This repository powers the main page of [notienenombre.com](https://notienenombr
 ## Architecture Overview
 
 ### Stack
+
 - **Framework**: React 19 with TypeScript
 - **Build Tool**: Vite 6.x
 - **Styling**: Tailwind CSS 4.x with custom design system
@@ -40,6 +43,7 @@ This repository powers the main page of [notienenombre.com](https://notienenombr
 - **CI/CD**: GitHub Actions
 
 ### Key Folders
+
 ```
 src/                     # Application source code
 ├── components/          # React components
@@ -60,6 +64,7 @@ dist/                   # Build output (generated)
 ```
 
 ### Build Output
+
 - **Static Assets**: Generated to `dist/` directory
 - **PWA Features**: Service worker, manifest, offline capabilities
 - **Optimized Bundle**: Tree-shaken, minified production build
@@ -67,17 +72,32 @@ dist/                   # Build output (generated)
 ## CI/CD Overview
 
 ### Workflows
+
 - **[Azure SWA Deploy](.github/workflows/azure-static-web-apps-kind-sky-0b305f010.yml)** - Automatic deployment on push to main
 - **[Lighthouse CI](.github/workflows/lighthouse-ci.yml)** - Performance and accessibility testing
-- **[RSS Snapshot](.github/workflows/rss-snapshot.yml)** - Content pipeline automation
+- **[RSS Snapshot](.github/workflows/rss-snapshot.yml)** - Content pipeline automation; runs daily at 03:00 UTC to refresh `public/episodes.json` and `public/episodes.xml` and trigger a deploy
 
 ### Deployment Pipeline
+
 1. Code pushed to `main` branch
 2. GitHub Actions triggers build process
 3. RSS content fetched and processed
 4. Vite builds optimized static assets
 5. Azure SWA deploys to global CDN
 6. Lighthouse CI validates performance
+
+## Episode Data Freshness
+
+The site prioritizes live data while remaining resilient offline:
+
+- **Runtime (primary path)**: The client fetches the live RSS feed on every load using a network-first strategy with `cache: 'no-store'` so new episodes appear promptly.
+- **Fallback**: If the live RSS fetch fails (e.g., CORS or provider outage), the app falls back to the local snapshot at `/episodes.json`.
+- **Daily snapshot**: A GitHub Action updates `/public/episodes.json` and `/public/episodes.xml` daily at 03:00 UTC, committing changes to the repo which triggers a new Azure SWA deploy. This keeps the fallback fresh even if the provider is temporarily unavailable.
+
+References:
+
+- Live feed URL is configured in [`src/lib/podcast-config.json`](src/lib/podcast-config.json)
+- Fallback snapshot lives at [`public/episodes.json`](public/episodes.json)
 
 ## Screenshots
 
@@ -92,10 +112,12 @@ dist/                   # Build output (generated)
 ## Local Development
 
 ### Prerequisites
+
 - Node.js LTS (see [.nvmrc](.nvmrc) for exact version)
 - npm (comes with Node.js)
 
 ### Getting Started
+
 ```bash
 # Install dependencies
 npm install
@@ -114,7 +136,8 @@ npm run screenshots
 ```
 
 ### Available Scripts
-- `npm run dev` - Start development server on http://localhost:5173
+
+- `npm run dev` - Start development server on <http://localhost:5173>
 - `npm run build` - Build for production (includes RSS fetch prebuild step)
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint for code quality
@@ -123,11 +146,13 @@ npm run screenshots
 ## Deployment
 
 ### Azure Static Web Apps
+
 Deployment is automated via GitHub Actions. The following secret is required:
 
 - `AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_SKY_0B305F010` - Azure SWA deployment token
 
 ### Manual Deployment
+
 ```bash
 npm run build
 # Upload dist/ folder to your static hosting provider
