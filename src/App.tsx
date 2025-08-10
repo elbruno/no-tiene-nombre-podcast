@@ -18,6 +18,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Brain, Rss, Sparkles, TrendingUp, Users, Clock } from "lucide-react";
 import { EpisodeCard } from "@/components/EpisodeCard";
+import { EpisodeListItem } from "@/components/EpisodeListItem";
 import { PlatformLinks } from "@/components/PlatformLinks";
 import { EpisodeListSkeleton } from "@/components/LoadingSkeletons";
 import { ErrorState } from "@/components/ErrorState";
@@ -31,6 +32,8 @@ import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
 import { JsonLd } from "@/components/JsonLd";
 import { motion, useReducedMotion } from "framer-motion";
+import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
+import { EpisodesToolbar } from "@/components/EpisodesToolbar";
 
 
 function App() {
@@ -38,6 +41,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [search, setSearch] = useState("");
+  const [pageSize, setPageSize] = useState<number>(10);
+  const [viewMode, setViewMode] = useState<'cards' | 'list'>('cards');
   const prefersReduced = useReducedMotion();
   const container = {
     hidden: {},
@@ -76,6 +81,11 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
+      {/* Promote latest episode immediately */}
+      {loading && <LatestEpisodePromo loading variant="banner" />}
+      {!loading && !error && podcastData?.episodes?.[0] && (
+        <LatestEpisodePromo episode={podcastData.episodes[0]} variant="floating" />
+      )}
       <NeuralBackground />
       {podcastData && podcastData.episodes?.length > 0 && (
         <JsonLd
@@ -194,11 +204,10 @@ function App() {
         {/* Platform Links */}
         <PlatformLinks />
 
-        {/* Episodes Section */}
-        {(() => {
-          const [episodesRef, episodesVisible] = useSectionFadeIn();
-          return (
-            <section id="episodes" ref={episodesRef} className={`scroll-mt-20 transition-all duration-700 ease-out ${episodesVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        {/* Episodes Section - render immediately on load */}
+        {
+          (
+            <section id="episodes" className="scroll-mt-20">
               <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-foreground font-display mb-4">
                   {pageTexts.episodes.section_title}
@@ -206,48 +215,68 @@ function App() {
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   
                 </p>
-                <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
-                  {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
-                </Badge>
+                <div className="mt-4">
+                  <EpisodesToolbar
+                    total={podcastData?.episodes.length || 0}
+                    search={search}
+                    setSearch={setSearch}
+                    pageSize={pageSize}
+                    setPageSize={setPageSize}
+                    viewMode={viewMode}
+                    setViewMode={setViewMode}
+                  />
+                </div>
               </div>
 
               {loading && <EpisodeListSkeleton />}
               {error && <ErrorState onRetry={loadPodcastData} />}
               {!loading && !error && podcastData && (
                 <>
-                  <div className="mb-8 flex justify-center">
-                    <input
-                      type="text"
-                      value={search}
-                      onChange={e => setSearch(e.target.value)}
-                      placeholder="Buscar episodio..."
-                      className="px-4 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground w-full max-w-md"
-                    />
-                  </div>
+                  {/* Search moved into EpisodesToolbar */}
                   {console.log('[App] Rendering episodes:', podcastData.episodes)}
-                  <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
-                    variants={container}
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={{ once: true, amount: 0.15 }}
-                  >
-                    {podcastData.episodes
+                  {(() => {
+                    const eps = podcastData.episodes
                       .filter(ep =>
                         ep.title.toLowerCase().includes(search.toLowerCase()) ||
                         ep.description.toLowerCase().includes(search.toLowerCase())
                       )
-                      .map((episode, index) => (
-                        <motion.div key={episode.id} variants={item}>
-                          <EpisodeCard episode={episode} index={index} />
+                      .slice(0, pageSize);
+                    if (viewMode === 'list') {
+                      return (
+                        <motion.div
+                          className="flex flex-col gap-4"
+                          variants={container}
+                          initial="hidden"
+                          animate="show"
+                        >
+                          {eps.map((episode, index) => (
+                            <motion.div key={episode.id} variants={item}>
+                              <EpisodeListItem episode={episode} index={index} />
+                            </motion.div>
+                          ))}
                         </motion.div>
-                      ))}
-                  </motion.div>
+                      );
+                    }
+                    return (
+                      <motion.div
+                        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+                        variants={container}
+                        initial="hidden"
+                        animate="show"
+                      >
+                        {eps.map((episode, index) => (
+                          <motion.div key={episode.id} variants={item}>
+                            <EpisodeCard episode={episode} index={index} />
+                          </motion.div>
+                        ))}
+                      </motion.div>
+                    );
+                  })()}
                 </>
               )}
             </section>
-          );
-        })()}
+          )
+        }
 
         {/* About Section */}
         {(() => {
@@ -338,9 +367,6 @@ function App() {
   <footer className="border-t [border-color:var(--border)] glass-effect mt-20">
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col gap-12">
-            {/* Social Media Links */}
-            <SocialLinks />
-            
             {/* Footer Info */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t [border-color:var(--border)]">
               <div className="flex items-center gap-3">

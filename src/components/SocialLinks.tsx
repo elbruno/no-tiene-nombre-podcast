@@ -4,7 +4,7 @@ import { Linkedin } from "lucide-react";
 import socialLinks from "@/lib/social-links.json";
 
 interface SocialLinksProps {
-  variant?: 'header' | 'footer';
+  variant?: 'header' | 'footer' | 'cta';
   className?: string;
 }
 
@@ -57,6 +57,28 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
               onClick={() => window.open(social.url, '_blank')}
             >
               <social.icon size={16} />
+            </Button>
+          ))}
+      </div>
+    );
+  }
+
+  // CTA variant: buttons only (no extra title/description)
+  if (variant === 'cta') {
+    return (
+      <div className={`flex items-center justify-center gap-4 ${className}`}>
+        {socialMedia
+          .filter(social => ['Twitter', 'LinkedIn', 'YouTube', 'Instagram', 'TikTok'].includes(social.name) && social.url)
+          .map((social) => (
+            <Button
+              key={social.name}
+              variant="ghost"
+              size="sm"
+              className={`p-3 h-12 w-12 glass-effect hover:bg-primary/10 border [border-color:var(--border)] hover:[border-color:var(--primary)] ${social.color} transition-all duration-300 hover:scale-110 hover:-translate-y-1`}
+              onClick={() => window.open(social.url, '_blank')}
+              title={`Sígueme en ${social.name}`}
+            >
+              <social.icon size={24} />
             </Button>
           ))}
       </div>
