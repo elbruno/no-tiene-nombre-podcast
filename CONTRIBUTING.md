@@ -1,245 +1,93 @@
 # Contributing to notienenombre.com
 
-Thank you for your interest in contributing to notienenombre.com! This document provides guidelines and information for contributors.
+Thanks for your interest in contributing! This short guide gets you set up and ready to open great pull requests.
 
-## 🚀 Getting Started
+Please read and follow our Code of Conduct: CODE_OF_CONDUCT.md.
 
-### Prerequisites
+## Quick start
 
-- **Node.js**: Version 18.17.0 or higher (see [.nvmrc](.nvmrc))
-- **npm**: Version 9.0.0 or higher
-- **Git**: For version control
-- **Modern Browser**: For testing (Chrome, Firefox, Safari, Edge)
+- Node.js >= 18.17 and npm >= 9 (see engines in package.json)
+- Fork and clone the repo
+- Install deps and run the dev server
 
-### Development Setup
-
-1. **Fork and Clone**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/no-tiene-nombre-podc.git
-   cd no-tiene-nombre-podc
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Install Playwright (for screenshots)**
-   ```bash
-   npm run screenshots:install
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Visit Development Site**
-   Open http://localhost:5173 in your browser
-
-## 🛠 Development Workflow
-
-### Branch Naming
-
-Use descriptive branch names following this pattern:
-- `feature/description` - New features
-- `fix/description` - Bug fixes
-- `docs/description` - Documentation updates
-- `refactor/description` - Code refactoring
-- `test/description` - Test improvements
-
-### Commit Messages
-
-Follow [Conventional Commits](https://conventionalcommits.org/) specification:
-
-```
-type(scope): description
-
-Examples:
-feat(player): add skip silence functionality
-fix(rss): handle malformed episode data
-docs(readme): update installation instructions
-style(components): improve button accessibility
-refactor(hooks): optimize useEpisodes performance
-test(screenshots): add mobile navigation tests
+```powershell
+npm install
+npm run dev
 ```
 
-### Pull Request Process
+Open <http://localhost:5173> in your browser.
 
-1. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+Optional (one-time for screenshots):
 
-2. **Make Changes**
-   - Write clean, readable code
-   - Follow existing code style and conventions
-   - Add tests for new functionality
-   - Update documentation as needed
+```powershell
+npm run screenshots:install
+```
 
-3. **Test Locally**
-   ```bash
-   npm run build        # Verify build works
-   npm run lint         # Check code quality
-   npm run screenshots  # Generate updated screenshots
-   ```
+## Useful scripts
 
-4. **Commit and Push**
-   ```bash
-   git add .
-   git commit -m "feat(scope): description"
-   git push origin feature/your-feature-name
-   ```
+- `npm run dev` — Start the Vite dev server
+- `npm run build` — Type-check and build for production (runs RSS prebuild)
+- `npm run preview` — Preview the production build locally
+- `npm run lint` — Run ESLint
+- `npm run rss:snapshot` — Refresh `public/episodes.json` and `public/episodes.xml`
+- `npm run screenshots` — Generate UI screenshots with Playwright
 
-5. **Create Pull Request**
-   - Use the provided PR template
-   - Include description of changes
-   - Add screenshots for UI changes
-   - Link related issues
+Notes:
 
-6. **Code Review**
-   - Address feedback promptly
-   - Update documentation if needed
-   - Ensure CI/CD passes
+- At runtime, the app fetches the live RSS feed with `cache: 'no-store'`; if it fails, it falls back to `/episodes.json`.
+- A scheduled GitHub Action refreshes the snapshot daily at 03:00 UTC.
 
-## 📋 Contribution Guidelines
+## Branching and commits
 
-### Code Style
+- Branch from `main` (e.g., `feat/improve-episode-card`)
+- Keep commits focused; prefer Conventional Commits (e.g., `feat: add episode search`, `fix: date parsing`)
 
-- **TypeScript**: Use strict TypeScript configuration
-- **React**: Follow React best practices and hooks patterns
-- **CSS**: Use Tailwind CSS utilities, avoid custom CSS when possible
-- **Imports**: Use absolute imports from `src/` directory
-- **Naming**: Use descriptive names for variables, functions, and components
+## Coding guidelines
 
-### Testing
+- TypeScript: clear types for public APIs and props
+- React: functional components and hooks
+- Styling: Tailwind CSS utilities; small, composable components
+- Accessibility: semantic HTML, keyboard navigation, ARIA where needed
+- Performance: avoid unnecessary re-renders; lazy-load heavy UI
 
-- **Unit Tests**: Add tests for utility functions and hooks
-- **Component Tests**: Test React components with user interactions
-- **E2E Tests**: Add Playwright tests for critical user flows
-- **Visual Tests**: Update screenshots when UI changes are made
+## Validate before PR
 
-### Performance
+```powershell
+npm run lint
+npm run build
+npm run preview
+```
 
-- **Bundle Size**: Keep bundle size minimal, check with `npm run analyze`
-- **Lighthouse**: Maintain 95+ performance score
-- **Accessibility**: Ensure WCAG 2.1 AA compliance
-- **Core Web Vitals**: Optimize for Google's performance metrics
+Smoke-test locally and update screenshots if the UI changed:
 
-### Documentation
+```powershell
+npm run screenshots
+```
 
-- **Code Comments**: Add comments for complex logic
-- **Component Props**: Document component interfaces
-- **README Updates**: Update README for new features
-- **Architecture**: Update ARCHITECTURE.md for structural changes
+## Submitting a pull request
 
-## 🎯 Types of Contributions
+- Keep diffs minimal and focused; avoid unrelated formatting churn
+- Use the PR template; link issues; include screenshots for UI changes
+- Ensure CI checks pass
 
-### 🐛 Bug Reports
+PR checklist:
 
-When reporting bugs, please include:
+- [ ] Linted and built locally
+- [ ] Manually smoke-tested via `npm run preview`
+- [ ] Updated docs (README/ARCHITECTURE) if applicable
+- [ ] Included screenshots for UI changes (if applicable)
 
-- **Environment**: Browser, OS, Node.js version
-- **Steps to Reproduce**: Clear steps to reproduce the issue
-- **Expected Behavior**: What should happen
-- **Actual Behavior**: What actually happens
-- **Screenshots**: Visual evidence if applicable
-- **Console Errors**: Any JavaScript errors or warnings
+## Docs and references
 
-### ✨ Feature Requests
+- Architecture: ARCHITECTURE.md
+- README: project usage and scripts
+- Security policy: SECURITY.md
+- Code of Conduct: CODE_OF_CONDUCT.md
 
-For new features, please provide:
+## Security
 
-- **Problem Statement**: What problem does this solve?
-- **Proposed Solution**: How should this work?
-- **Alternatives**: Other solutions you've considered
-- **User Stories**: Who benefits and how?
-- **Technical Considerations**: Implementation complexity
+If you discover a security issue, follow SECURITY.md and avoid filing a public issue for sensitive reports.
 
-### 📚 Documentation
+## License
 
-Documentation improvements are always welcome:
-
-- **Clarity**: Make instructions clearer
-- **Completeness**: Fill in missing information
-- **Examples**: Add code examples and use cases
-- **Screenshots**: Update visual documentation
-
-### 🔧 Code Contributions
-
-Code contributions should:
-
-- **Solve Real Problems**: Address actual user needs
-- **Follow Standards**: Match existing code style and patterns
-- **Include Tests**: Cover new functionality with tests
-- **Maintain Performance**: Not degrade site performance
-- **Be Accessible**: Support all users including those with disabilities
-
-## 🚫 What We Don't Accept
-
-- **Breaking Changes**: Without clear migration path and major version bump
-- **Large Refactors**: Without prior discussion and planning
-- **Proprietary Code**: Code that cannot be open-sourced under MIT license
-- **Performance Regressions**: Changes that significantly slow down the site
-- **Accessibility Regressions**: Changes that reduce accessibility compliance
-
-## 🤖 AI-Assisted Development
-
-This project leverages AI assistance through:
-
-- **GitHub Copilot**: Code generation and completion
-- **GPT-5 with Beast-Mode**: Enhanced development assistance
-- **Documentation**: AI-generated documentation improvements
-
-When using AI assistance:
-- Review all generated code carefully
-- Ensure code follows project conventions
-- Test thoroughly for edge cases
-- Document AI-assisted contributions when significant
-
-## 🔒 Security
-
-- **Vulnerabilities**: Report security issues via [SECURITY.md](SECURITY.md)
-- **Dependencies**: Keep dependencies updated and secure
-- **Content Security**: Be mindful of XSS and other web security issues
-- **Data Privacy**: Respect user privacy and data protection
-
-## 📞 Getting Help
-
-- **Issues**: Search existing issues before creating new ones
-- **Discussions**: Use GitHub Discussions for questions
-- **Documentation**: Check existing documentation first
-- **Code Review**: Request specific feedback in PR comments
-
-### Maintainer Response Times
-
-- **Security Issues**: Within 24 hours
-- **Bug Reports**: Within 48 hours
-- **Feature Requests**: Within 1 week
-- **Pull Requests**: Within 1 week
-
-## 🏆 Recognition
-
-Contributors are recognized through:
-
-- **CONTRIBUTORS.md**: List of all contributors
-- **Release Notes**: Credit in changelog for significant contributions
-- **GitHub**: Automatic contribution tracking
-- **Social Media**: Highlighting major contributions
-
-## 📄 License
-
-By contributing to this project, you agree that your contributions will be licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## 📚 Additional Resources
-
-- **Architecture**: [ARCHITECTURE.md](ARCHITECTURE.md) - Technical architecture overview
-- **History**: [HISTORY.md](HISTORY.md) - Project development timeline
-- **Roadmap**: [ROADMAP.md](ROADMAP.md) - Future development plans
-- **Security**: [SECURITY.md](SECURITY.md) - Security policies and reporting
-
----
-
-**Thank you for contributing to notienenombre.com!** 🎉
-
-Your contributions help make this the fastest, most accessible podcast website possible.
+By contributing, you agree your contributions are licensed under the MIT License in LICENSE.

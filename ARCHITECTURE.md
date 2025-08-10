@@ -82,7 +82,7 @@ Notes:
 
 ### Core Components
 
-```
+```text
 src/components/
 ├── ui/                 # Reusable UI components (Radix-based)
 │   ├── Button/
@@ -105,7 +105,7 @@ src/components/
 
 ### Hooks Architecture
 
-```
+```text
 src/hooks/
 ├── useEpisodes.ts     # Episode data management
 ├── usePlayer.ts       # Audio player state
@@ -115,7 +115,7 @@ src/hooks/
 
 ### Libraries and Types
 
-```
+```text
 src/lib/
 ├── types/            # TypeScript type definitions
 │   ├── episode.ts
@@ -143,7 +143,7 @@ src/lib/
 
 ### Design System
 
-```
+```text
 styles/
 ├── globals.css       # Global styles and CSS variables
 ├── components.css    # Component-specific styles

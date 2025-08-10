@@ -44,7 +44,7 @@ This repository powers the main page of [notienenombre.com](https://notienenombr
 
 ### Key Folders
 
-```
+```text
 src/                     # Application source code
 ├── components/          # React components
 ├── hooks/              # Custom React hooks
@@ -186,6 +186,17 @@ This project leverages GitHub Copilot with GPT-5 in Beast-Mode for enhanced deve
 - [Roadmap](ROADMAP.md) - Future development plans
 - [Contributing Guidelines](CONTRIBUTING.md) - How to contribute
 - [Code of Conduct](CODE_OF_CONDUCT.md) - Community standards
+
+## Contributing
+
+Want to help? Quick start:
+
+- Fork the repo and create a feature branch from `main`
+- Install and run locally: `npm install` then `npm run dev`
+- Before opening a PR: `npm run lint` and `npm run build` (and `npm run screenshots` if the UI changed)
+- Open a PR using the template and include screenshots for UI changes
+
+See CONTRIBUTING.md for the full guide.
 
 ## License and Security
 
