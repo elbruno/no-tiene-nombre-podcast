@@ -31,6 +31,7 @@ import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
 import { JsonLd } from "@/components/JsonLd";
 import { motion, useReducedMotion } from "framer-motion";
+import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
 
 
 function App() {
@@ -76,6 +77,11 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
+      {/* Promote latest episode immediately */}
+      {loading && <LatestEpisodePromo loading variant="banner" />}
+      {!loading && !error && podcastData?.episodes?.[0] && (
+        <LatestEpisodePromo episode={podcastData.episodes[0]} variant="floating" />
+      )}
       <NeuralBackground />
       {podcastData && podcastData.episodes?.length > 0 && (
         <JsonLd
