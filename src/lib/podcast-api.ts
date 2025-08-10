@@ -4,7 +4,8 @@ import config from './podcast-config.json';
 export async function fetchPodcastRSS(): Promise<PodcastData> {
   try {
     console.log('[PodcastAPI] Fetching RSS feed from:', config.rssFeedUrl);
-    const response = await fetch(config.rssFeedUrl);
+  // Bypass any HTTP/browser caches to reflect new episodes promptly
+  const response = await fetch(config.rssFeedUrl, { cache: 'no-store' });
     console.log('[PodcastAPI] Fetch response:', response);
     if (!response.ok) {
       console.error('[PodcastAPI] HTTP error:', response.status);

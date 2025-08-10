@@ -2,7 +2,7 @@ name: RSS Snapshot
 
 on:
   schedule:
-    - cron: "0 3 * * 1" # Every Monday at 03:00 UTC
+    - cron: "0 3 * * *" # Daily at 03:00 UTC
   workflow_dispatch:
 
 permissions:
