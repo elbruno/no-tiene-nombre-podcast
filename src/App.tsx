@@ -33,6 +33,7 @@ import { CTABanner } from "@/components/CTABanner";
 import { JsonLd } from "@/components/JsonLd";
 import { motion, useReducedMotion } from "framer-motion";
 import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
+import { EpisodesToolbar } from "@/components/EpisodesToolbar";
 
 
 function App() {
@@ -214,38 +215,16 @@ function App() {
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   
                 </p>
-                <div className="mt-4 flex flex-col items-center gap-4">
-                  <Badge variant="outline" className="glass-effect border-primary/30 text-primary">
-                    {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
-                  </Badge>
-                  {/* Page size selector */}
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <label htmlFor="page-size" className="hidden sm:block">Mostrar</label>
-                    <select
-                      id="page-size"
-                      className="px-3 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground"
-                      value={pageSize}
-                      onChange={(e) => setPageSize(parseInt(e.target.value, 10))}
-                    >
-                      {[10,25,50,100].map(n => (
-                        <option key={n} value={n}>{n}</option>
-                      ))}
-                    </select>
-                    <span>episodios</span>
-                  </div>
-                  {/* View mode toggle */}
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <label htmlFor="view-mode" className="hidden sm:block">Vista</label>
-                    <select
-                      id="view-mode"
-                      className="px-3 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground"
-                      value={viewMode}
-                      onChange={(e) => setViewMode(e.target.value as 'cards' | 'list')}
-                    >
-                      <option value="cards">Tarjetas</option>
-                      <option value="list">Lista</option>
-                    </select>
-                  </div>
+                <div className="mt-4">
+                  <EpisodesToolbar
+                    total={podcastData?.episodes.length || 0}
+                    search={search}
+                    setSearch={setSearch}
+                    pageSize={pageSize}
+                    setPageSize={setPageSize}
+                    viewMode={viewMode}
+                    setViewMode={setViewMode}
+                  />
                 </div>
               </div>
 
@@ -253,15 +232,7 @@ function App() {
               {error && <ErrorState onRetry={loadPodcastData} />}
               {!loading && !error && podcastData && (
                 <>
-                  <div className="mb-8 flex justify-center">
-                    <input
-                      type="text"
-                      value={search}
-                      onChange={e => setSearch(e.target.value)}
-                      placeholder="Buscar episodio..."
-                      className="px-4 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground w-full max-w-md"
-                    />
-                  </div>
+                  {/* Search moved into EpisodesToolbar */}
                   {console.log('[App] Rendering episodes:', podcastData.episodes)}
                   {(() => {
                     const eps = podcastData.episodes
