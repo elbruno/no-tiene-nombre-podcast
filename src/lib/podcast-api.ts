@@ -37,9 +37,10 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
       }
     }
     console.log('[PodcastAPI] Podcast image:', podcastImage);
-    const items = Array.from(xmlDoc.querySelectorAll('item'));
+  const items = Array.from(xmlDoc.querySelectorAll('item'));
     console.log('[PodcastAPI] Found episode items:', items.length);
-    const episodes: Episode[] = items.slice(0, 10).map((item, index) => {
+  // Cap at 100 to keep memory reasonable while supporting UI page size options
+  const episodes: Episode[] = items.slice(0, 100).map((item, index) => {
       const titleElement = item.querySelector('title');
       const descriptionElement = item.querySelector('description');
       const pubDateElement = item.querySelector('pubDate');

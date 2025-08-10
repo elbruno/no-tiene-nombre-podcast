@@ -39,6 +39,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [search, setSearch] = useState("");
+  const [pageSize, setPageSize] = useState<number>(10);
   const prefersReduced = useReducedMotion();
   const container = {
     hidden: {},
@@ -211,9 +212,26 @@ function App() {
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   
                 </p>
-                <Badge variant="outline" className="mt-4 glass-effect border-primary/30 text-primary">
-                  {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
-                </Badge>
+                <div className="mt-4 flex flex-col items-center gap-4">
+                  <Badge variant="outline" className="glass-effect border-primary/30 text-primary">
+                    {loading ? pageTexts.episodes.badge_loading : `${podcastData?.episodes.length || 0} ${pageTexts.episodes.badge_available}`}
+                  </Badge>
+                  {/* Page size selector */}
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <label htmlFor="page-size" className="hidden sm:block">Mostrar</label>
+                    <select
+                      id="page-size"
+                      className="px-3 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground"
+                      value={pageSize}
+                      onChange={(e) => setPageSize(parseInt(e.target.value, 10))}
+                    >
+                      {[10,25,50,100].map(n => (
+                        <option key={n} value={n}>{n}</option>
+                      ))}
+                    </select>
+                    <span>episodios</span>
+                  </div>
+                </div>
               </div>
 
               {loading && <EpisodeListSkeleton />}
@@ -241,6 +259,7 @@ function App() {
                         ep.title.toLowerCase().includes(search.toLowerCase()) ||
                         ep.description.toLowerCase().includes(search.toLowerCase())
                       )
+                      .slice(0, pageSize)
                       .map((episode, index) => (
                         <motion.div key={episode.id} variants={item}>
                           <EpisodeCard episode={episode} index={index} />
