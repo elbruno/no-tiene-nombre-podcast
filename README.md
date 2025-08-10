@@ -1,9 +1,5 @@
 # notienenombre.com
 
-<div align="center">
-  <img src="docs/logo.svg" alt="No Tiene Nombre - Podcast de IA en Español" width="400" />
-</div>
-
 [![Azure SWA Deploy](https://github.com/elbruno/no-tiene-nombre-podc/actions/workflows/azure-static-web-apps-kind-sky-0b305f010.yml/badge.svg?branch=main)](https://github.com/elbruno/no-tiene-nombre-podc/actions/workflows/azure-static-web-apps-kind-sky-0b305f010.yml)
 [![Lighthouse CI](https://github.com/elbruno/no-tiene-nombre-podc/actions/workflows/lighthouse-ci.yml/badge.svg?branch=main)](https://github.com/elbruno/no-tiene-nombre-podc/actions/workflows/lighthouse-ci.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/elbruno/no-tiene-nombre-podc/blob/main/.github/dependabot.yml)
