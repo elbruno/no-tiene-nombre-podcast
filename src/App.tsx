@@ -338,9 +338,6 @@ function App() {
   <footer className="border-t [border-color:var(--border)] glass-effect mt-20">
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col gap-12">
-            {/* Social Media Links */}
-            <SocialLinks />
-            
             {/* Footer Info */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t [border-color:var(--border)]">
               <div className="flex items-center gap-3">
