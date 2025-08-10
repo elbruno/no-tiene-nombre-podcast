@@ -18,6 +18,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Brain, Rss, Sparkles, TrendingUp, Users, Clock } from "lucide-react";
 import { EpisodeCard } from "@/components/EpisodeCard";
+import { EpisodeListItem } from "@/components/EpisodeListItem";
 import { PlatformLinks } from "@/components/PlatformLinks";
 import { EpisodeListSkeleton } from "@/components/LoadingSkeletons";
 import { ErrorState } from "@/components/ErrorState";
@@ -40,6 +41,7 @@ function App() {
   const [error, setError] = useState(false);
   const [search, setSearch] = useState("");
   const [pageSize, setPageSize] = useState<number>(10);
+  const [viewMode, setViewMode] = useState<'cards' | 'list'>('cards');
   const prefersReduced = useReducedMotion();
   const container = {
     hidden: {},
@@ -231,6 +233,19 @@ function App() {
                     </select>
                     <span>episodios</span>
                   </div>
+                  {/* View mode toggle */}
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <label htmlFor="view-mode" className="hidden sm:block">Vista</label>
+                    <select
+                      id="view-mode"
+                      className="px-3 py-2 rounded-lg border [border-color:var(--border)] bg-background text-foreground"
+                      value={viewMode}
+                      onChange={(e) => setViewMode(e.target.value as 'cards' | 'list')}
+                    >
+                      <option value="cards">Tarjetas</option>
+                      <option value="list">Lista</option>
+                    </select>
+                  </div>
                 </div>
               </div>
 
@@ -248,24 +263,44 @@ function App() {
                     />
                   </div>
                   {console.log('[App] Rendering episodes:', podcastData.episodes)}
-                  <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
-                    variants={container}
-                    initial="hidden"
-                    animate="show"
-                  >
-                    {podcastData.episodes
+                  {(() => {
+                    const eps = podcastData.episodes
                       .filter(ep =>
                         ep.title.toLowerCase().includes(search.toLowerCase()) ||
                         ep.description.toLowerCase().includes(search.toLowerCase())
                       )
-                      .slice(0, pageSize)
-                      .map((episode, index) => (
-                        <motion.div key={episode.id} variants={item}>
-                          <EpisodeCard episode={episode} index={index} />
+                      .slice(0, pageSize);
+                    if (viewMode === 'list') {
+                      return (
+                        <motion.div
+                          className="flex flex-col gap-4"
+                          variants={container}
+                          initial="hidden"
+                          animate="show"
+                        >
+                          {eps.map((episode, index) => (
+                            <motion.div key={episode.id} variants={item}>
+                              <EpisodeListItem episode={episode} index={index} />
+                            </motion.div>
+                          ))}
                         </motion.div>
-                      ))}
-                  </motion.div>
+                      );
+                    }
+                    return (
+                      <motion.div
+                        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+                        variants={container}
+                        initial="hidden"
+                        animate="show"
+                      >
+                        {eps.map((episode, index) => (
+                          <motion.div key={episode.id} variants={item}>
+                            <EpisodeCard episode={episode} index={index} />
+                          </motion.div>
+                        ))}
+                      </motion.div>
+                    );
+                  })()}
                 </>
               )}
             </section>
