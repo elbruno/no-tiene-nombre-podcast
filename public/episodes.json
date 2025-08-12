@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-08-11T04:03:56.122Z",
+  "generatedAt": "2025-08-12T03:47:55.480Z",
   "items": [
+    {
+      "title": "NTN 410 -   GPT-5: ¿Revolución o simple update?",
+      "description": "¡GPT-5 YA ESTÁ AQUÍ Y ES GRATIS! \r\nHoy hablamos sobre el modelo que está revolucionando la IA\r\n✨ En este episodio: \r\n• Por qué GPT-5 \"simplemente hace cosas\" \r\n• El fin de elegir modelos manualmente\r\n• Programar sin saber programar (en serio) \r\n• Cognición colaborativa vs prompt engineering\r\n  Fuentes: \r\n• https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff",
+      "pubDate": "Tue, 12 Aug 2025 03:47:43 +0200",
+      "link": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple-audios-mp3_rf_155278423_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple_mf_155278423_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/e/1/6/1/e161f01bfc2df5ea4bb4a57ddb6d036b_XXL.jpg"
+    },
     {
       "title": "NTN 409 -   Acepté sin leer y ahora vendo churros en Uzbekistán",
       "description": "¿Alguna vez aceptaste los Términos sin leer?   En este episodio te cuento cómo casi pierdo el control de mi podcast por apurarme con el \"Acepto\" y cómo ChatGPT se convirtió en mi superhéroe legal.\r\n \r\n✔️ Lecciones duras\r\n✔️ IA al rescate\r\n✔️ Un toque de churros uzbekos",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-391-meta-vs-openai-100m-audios-mp3_rf_150512651_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-391-meta-vs-openai-100m_mf_150512651_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/4/9/1/3/49136f5df68a1013b65a76cbaf84e2c8_XXL.jpg"
-    },
-    {
-      "title": "NTN 390 -   AMD vs Nvidia: Round 1",
-      "description": "•   AMD desafía a Nvidia con chips 35x más potentes \r\n•  ️ Microsoft Copilot ahora ve TODO en tu pantalla\r\n•   ByteDance crea videos AI en tiempo real que dan miedo \r\n•   ¿El futuro llegó o nos alcanzó corriendo?\r\nFuentes: \r\n• TechCrunch, The Verge, Wired, VentureBeat",
-      "pubDate": "Fri, 13 Jun 2025 16:26:12 +0200",
-      "link": "https://www.ivoox.com/ntn-390-amd-vs-nvidia-round-audios-mp3_rf_150143492_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-390-amd-vs-nvidia-round_mf_150143492_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/a/2/e/ba2efb2ac637146115aca8a7e2665d0e_XXL.jpg"
     }
   ]
 }
