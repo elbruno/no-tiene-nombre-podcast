@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-08-15T03:51:18.278Z",
+  "generatedAt": "2025-08-16T03:44:30.737Z",
   "items": [
+    {
+      "title": "NTN 411 -   Perplexity vs Google",
+      "description": "En este episodio te cuento cómo Perplexity lanzó su navegador con IA Comet a todos los Pro en EE. UU., y cómo ahora busca comprar Chrome por 34 500 millones de dólares. IA, ambición y un browser que piensa por ti.",
+      "pubDate": "Fri, 15 Aug 2025 15:58:04 +0200",
+      "link": "https://www.ivoox.com/ntn-411-perplexity-vs-google-audios-mp3_rf_155551275_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-411-perplexity-vs-google_mf_155551275_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/7/4/6/67460aaa4136558259696d3fe6976899_XXL.jpg"
+    },
     {
       "title": "NTN 410 -   GPT-5: ¿Revolución o simple update?",
       "description": "¡GPT-5 YA ESTÁ AQUÍ Y ES GRATIS! \r\nHoy hablamos sobre el modelo que está revolucionando la IA\r\n✨ En este episodio: \r\n• Por qué GPT-5 \"simplemente hace cosas\" \r\n• El fin de elegir modelos manualmente\r\n• Programar sin saber programar (en serio) \r\n• Cognición colaborativa vs prompt engineering\r\n  Fuentes: \r\n• https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-92-karpathy-altman-la-audios-mp3_rf_150702142_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-92-karpathy-altman-la_mf_150702142_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/5/2/3/9/5239b2f771d3076af3438c9ecfccb0cc_XXL.jpg"
-    },
-    {
-      "title": "NTN 391 -   Meta vs OpenAI: 100M de Bonos",
-      "description": "Meta ofrece bonos de 100 MILLONES de dólares para robar talento de OpenAI  \r\n•   Los sueldos más locos del mundo tech \r\n•   La guerra épica entre gigantes de la IA\r\n•   El circo millonario de Silicon Valley \r\n•   Análisis con todo el humor de Bruno\r\nFuentes: \r\n• https://www.reuters.com/business/sam-altman-says-meta-offered-100-million-bonuses-openai-employees-2025-06-18/ \r\n• https://x.com/Yuchenj_UW/status/1935116041866330378?t=Va04a_2FFk7Dzawkv10XMA&s=19",
-      "pubDate": "Wed, 18 Jun 2025 14:45:49 +0200",
-      "link": "https://www.ivoox.com/ntn-391-meta-vs-openai-100m-audios-mp3_rf_150512651_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-391-meta-vs-openai-100m_mf_150512651_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/9/1/3/49136f5df68a1013b65a76cbaf84e2c8_XXL.jpg"
     }
   ]
 }
