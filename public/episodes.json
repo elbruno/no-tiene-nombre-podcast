@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-08-19T03:40:42.697Z",
+  "generatedAt": "2025-08-20T03:39:38.771Z",
   "items": [
+    {
+      "title": "NTN 412 -   La Burbuja de IA: ¿Explota o No?",
+      "description": "¿Estamos viviendo la gran burbuja de la IA?   En este episodio de NO TIENE NOMBRE repasamos inversiones millonarias, consumos de energía que asustan y quiénes se van a comer el marrón si todo explota. Con datos duros, mirada LATAM y humor ácido, te contamos la cara seria (y la divertida) de este boom.\r\n\r\n  Fuentes citadas:\r\nMcKinsey: https://www.mckinsey.com\r\nGoldman Sachs: https://www.goldmansachs.com\r\nDOE / LBNL: https://www.energy.gov\r\nJLL: https://www.us.jll.com\r\nMicrosoft: https://blogs.microsoft.com\r\nNVIDIA: https://www.nvidia.com\r\nPantheon Macro: https://www.pantheonmacro.com\r\nMMC Ventures: https://www.mmcventures.com\r\nBanco Mundial: https://www.worldbank.org",
+      "pubDate": "Tue, 19 Aug 2025 18:23:21 +0200",
+      "link": "https://www.ivoox.com/ntn-412-la-burbuja-ia-audios-mp3_rf_155834498_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-412-la-burbuja-ia_mf_155834498_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/2/1/c/921cae165cbd5df4363971ffc5979184_XXL.jpg"
+    },
     {
       "title": "NTN 411 -   Perplexity vs Google",
       "description": "En este episodio te cuento cómo Perplexity lanzó su navegador con IA Comet a todos los Pro en EE. UU., y cómo ahora busca comprar Chrome por 34 500 millones de dólares. IA, ambición y un browser que piensa por ti.",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-393-ia-vs-recruiters-audios-mp3_rf_150976301_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-393-ia-vs-recruiters_mf_150976301_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/c/7/c/1/c7c1c75a90c5daad50d959881308bbd9_XXL.jpg"
-    },
-    {
-      "title": "NTN #92 -   Karpathy y Altman: La IA se nos fue de las manos",
-      "description": "¿Qué pasa cuando Sam Altman usa ChatGPT para cambiar pañales y Karpathy programa con “vibes”?  \r\nEn este episodio:\r\n\t•   AGI, GPT‑5 y paternidad tech\r\n\t•  ‍  El Software 3.0 y el coding sin código\r\n\t•   ¡IA, biberones y bugs!\r\n  Fuentes:\r\n\t• Sam Altman en OpenAI Podcast: https://www.youtube.com/watch?v=DB9mjd-65gw\r\n\t• Andrej Karpathy: https://www.youtube.com/watch?v=LCEmiRjPEtQ",
-      "pubDate": "Fri, 20 Jun 2025 21:14:30 +0200",
-      "link": "https://www.ivoox.com/ntn-92-karpathy-altman-la-audios-mp3_rf_150702142_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-92-karpathy-altman-la_mf_150702142_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/2/3/9/5239b2f771d3076af3438c9ecfccb0cc_XXL.jpg"
     }
   ]
 }
