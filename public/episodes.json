@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-08-25T03:45:58.470Z",
+  "generatedAt": "2025-08-26T03:40:16.525Z",
   "items": [
+    {
+      "title": "NTN 414 - Educación, chips y políticas",
+      "description": "India lanza bootcamps gratuitos de IA, Nvidia acapara la atención con sus resultados y Ohio empieza a regular el uso escolar de IA. ¿Qué nos enseña esto sobre política, educación y oportunidades para LATAM?\r\nFuentes:\r\n\t• https://timesofindia.indiatimes.com/…\r\n\t• https://www.barrons.com/…\r\n\t• https://www.statenews.org/…",
+      "pubDate": "Mon, 25 Aug 2025 15:29:11 +0200",
+      "link": "https://www.ivoox.com/ntn-414-educacion-chips-politicas-audios-mp3_rf_156240994_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-414-educacion-chips-politicas_mf_156240994_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/4/6/9/54699836230253d823a9911fc04d63e8_XXL.jpg"
+    },
     {
       "title": "₩100 Billones, Chips en Crisis y Cloud Millonario",
       "description": "Corea del Sur lanza un fondo millonario de ₩100 billones para impulsar proyectos de IA. Nvidia detiene producción de su chip H20 por presiones chinas. Y Meta firma un acuerdo de nube de IA por US$10 mil millones con Google.",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-395-amor-modo-ia-audios-mp3_rf_151365678_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-395-amor-modo-ia_mf_151365678_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/e/8/a/e/e8ae224df9c469dc5fc2c0f55058481e_XXL.jpg"
-    },
-    {
-      "title": "NTN 394 -   OpenAI, Sam, Jony y el iYO Fantasma",
-      "description": "¡El deal del siglo se va a juicio! Sam Altman y Jony Ive querían revolucionar la IA con hardware, pero una startup los frenó en seco\r\n⚖️ • $6.5 mil millones en pausa por marca registrada \r\n  • OpenAI vs iyO: ¿quién dijo \"io\" primero? \r\n  • La disputa más absurda de Silicon Valley\r\nFuentes: \r\n• https://apnews.com/article/iyo-io-products-openai-trademark-dispute-jony-ive-sam-altman-39c18d183f8fb8d0ec3af38ffa61ff7d \r\n• https://www.fastcompany.com/91356722/io-vs-iyo-the-way-your-company-sounds-really-does-matter \r\n• https://x.com/sama/status/1937606794362388674",
-      "pubDate": "Thu, 26 Jun 2025 16:21:41 +0200",
-      "link": "https://www.ivoox.com/ntn-394-openai-sam-jony-y-audios-mp3_rf_151147808_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-394-openai-sam-jony-y_mf_151147808_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/c/e/5/1ce5a6f5f12ccf7c4cf06c5e38956479_XXL.jpg"
     }
   ]
 }
