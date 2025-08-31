@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-08-30T03:28:07.607Z",
+  "generatedAt": "2025-08-31T03:36:04.846Z",
   "items": [
+    {
+      "title": "NTN 416 - ⚡ Microsoft local, Nvidia negociando e IA obligatoria",
+      "description": "• Microsoft lanza MAI‑Voice‑1 y MAI‑1‑preview, hablando como nunca antes.\r\n\t• Nvidia negocia que “toma tiempo” vender chips Blackwell a China.\r\n\t• En Google y Microsoft, IA ya decide ascensos o exclusión.\r\n\t• Fuentes:\r\n\t• https://www.theverge.com/news/767809/microsoft-in-house-ai-models-launch-openai\r\n\t• https://www.reuters.com/world/china/trump-nvidia-talks-allow-advanced-ai-chip-sales-china-will-take-time-ceo-say-2025-08-28/\r\nhttps://timesofindia.indiatimes.com/technology/tech-news/google-and-microsoft-execs-have-same-warning-for-employees-learn-to-use-ai-or/articleshow/123576697.cms",
+      "pubDate": "Sat, 30 Aug 2025 19:28:12 +0200",
+      "link": "https://www.ivoox.com/ntn-416-microsoft-local-nvidia-negociando-audios-mp3_rf_156577020_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-416-microsoft-local-nvidia-negociando_mf_156577020_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/2/2/2/3222bd9f3e482ca11afa67714e41e938_XXL.jpg"
+    },
     {
       "title": "NTN 415 -  ️ Chips, guardrails y México en modo server",
       "description": "• NVIDIA récord y guía más fría.\r\n\t• OpenAI añade controles parentales y emergencias.\r\n\t• Foxconn invierte en AI servers en México.\r\n\t• Oportunidades LATAM: energía, compliance y nearshoring.\r\nFuentes:\r\n\t• https://www.reuters.com/business/nvidia-ceo-says-ai-boom-far-over-after-tepid-sales-forecast-2025-08-28/ \r\n\t• https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026 \r\n\t• https://www.indiatoday.in/technology/news/story/openai-to-add-parental-controls-emergency-contacts-in-chatgpt-after-teen-suicide-case-2777984-2025-08-28 \r\nhttps://mexiconewsdaily.com/business/foxconn-investing-in-mexico/",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-397-amazon-meta-project-audios-mp3_rf_151755844_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-397-amazon-meta-project_mf_151755844_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/c/f/9/6/cf961d4226ae74d4727ea7ae454b2337_XXL.jpg"
-    },
-    {
-      "title": "NTN 396 -   Zuckerberg suelta la billetera",
-      "description": "¡El drama tech más jugoso del año! \r\n  Meta está ofreciendo bonos de ¡$100 MILLONES! para robar talentos de OpenAI \r\n • Zuckerberg tiene una lista secreta de reclutamiento \r\n  • OpenAI contraataca con bonos de retención \r\n ️ • Guerra de declaraciones entre CEOs \r\n  • El \"Recruiting Party\" más caro de la historia \r\n\r\nFuentes: \r\n• https://www.wired.com/story/meta-openai-poaching-war-heats-up/ \r\n• https://techcrunch.com/2025/01/20/meta-openai-researchers-recruiting/",
-      "pubDate": "Tue, 01 Jul 2025 17:10:56 +0200",
-      "link": "https://www.ivoox.com/ntn-396-zuckerberg-suelta-billetera-audios-mp3_rf_151500715_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-396-zuckerberg-suelta-billetera_mf_151500715_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/f/c/0/9fc0f4b0ec08e33447e6b98762183fa8_XXL.jpg"
     }
   ]
 }
