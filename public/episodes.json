@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-01T03:50:36.126Z",
+  "generatedAt": "2025-09-02T03:37:30.115Z",
   "items": [
+    {
+      "title": "NTN 417 - ⚡️Gigavatios, etiquetas y vacunas: IA en modo global",
+      "description": "⚡️ Data center de ≥1 GW en India\r\n ️ China enciende etiquetado AIGC\r\n  Oxford: £118 M para vacunas con IA\r\n\r\nFuentes:\r\n- https://www.reuters.com/world/india/openai-plans-india-data-center-with-least-1-gigawatt-capacity-bloomberg-news-2025-09-01/\r\n- https://www.ox.ac.uk/news/2025-09-01-oxford-launches-major-new-ai-vaccine-research-programme-ellison-institute-technology\r\n- https://www.ft.com/content/e21af386-2171-4d2d-a4a6-9d52761261ff\r\n- https://news.cgtn.com/news/2025-09-01/China-enforces-new-rules-on-labeling-AI-generated-content-1Gj1GWXQeJi/p.html",
+      "pubDate": "Tue, 02 Sep 2025 02:34:58 +0200",
+      "link": "https://www.ivoox.com/ntn-417-gigavatios-etiquetas-vacunas-ia-audios-mp3_rf_156751468_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-417-gigavatios-etiquetas-vacunas-ia_mf_156751468_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/5/a/4/65a4357401a98c8782443df89a19ab12_XXL.jpg"
+    },
     {
       "title": "NTN 416 - ⚡ Microsoft local, Nvidia negociando e IA obligatoria",
       "description": "• Microsoft lanza MAI‑Voice‑1 y MAI‑1‑preview, hablando como nunca antes.\r\n\t• Nvidia negocia que “toma tiempo” vender chips Blackwell a China.\r\n\t• En Google y Microsoft, IA ya decide ascensos o exclusión.\r\n\t• Fuentes:\r\n\t• https://www.theverge.com/news/767809/microsoft-in-house-ai-models-launch-openai\r\n\t• https://www.reuters.com/world/china/trump-nvidia-talks-allow-advanced-ai-chip-sales-china-will-take-time-ceo-say-2025-08-28/\r\nhttps://timesofindia.indiatimes.com/technology/tech-news/google-and-microsoft-execs-have-same-warning-for-employees-learn-to-use-ai-or/articleshow/123576697.cms",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-398-la-super-historia-soham-parekh-audios-mp3_rf_151899495_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-398-la-super-historia-soham-parekh_mf_151899495_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/2/8/c/5/28c5538e3bd2cf65dfeec4b66ec7a163_XXL.jpg"
-    },
-    {
-      "title": "NTN 397 -   Amazon y Meta: Project Rainier y los Lentes del Futuro",
-      "description": "•   Amazon construye su Death Star computacional con Project Rainier \r\n•   Meta inventa lentes que te ven hasta el alma con Aria Gen 2 \r\n•   ¿Quién ganará la carrera de la IA? \r\n\r\nFuentes: \r\n• https://www.nytimes.com/2024/12/amazon-project-rainier-data-centers \r\n• https://about.fb.com/news/2024/aria-generation-2-smart-glasses \r\n• https://aws.amazon.com/blogs/aws/project-rainier-announcement",
-      "pubDate": "Fri, 04 Jul 2025 16:10:00 +0200",
-      "link": "https://www.ivoox.com/ntn-397-amazon-meta-project-audios-mp3_rf_151755844_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-397-amazon-meta-project_mf_151755844_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/f/9/6/cf961d4226ae74d4727ea7ae454b2337_XXL.jpg"
     }
   ]
 }
