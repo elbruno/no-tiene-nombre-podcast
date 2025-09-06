@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-05T03:29:40.741Z",
+  "generatedAt": "2025-09-06T03:25:09.836Z",
   "items": [
+    {
+      "title": "NTN 418 -  ️ Cómo funciona un generador de imágenes",
+      "description": "• Del ruido al arte: DDPM → Latent Diffusion → Stable Diffusion.\r\n\t• CLIP + latentes + CFG: la fórmula que escaló calidad/costo.\r\n\t• ControlNet/DreamBooth/LoRA/DiT: control, personalización y escala.\r\n\r\nFuentes: \r\n\t• https://arxiv.org/abs/2006.11239  \r\n\t• https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf \r\n\t• https://arxiv.org/abs/2302.05543 · https://arxiv.org/abs/2208.12242",
+      "pubDate": "Fri, 05 Sep 2025 17:04:27 +0200",
+      "link": "https://www.ivoox.com/ntn-418-como-funciona-generador-audios-mp3_rf_157017432_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-418-como-funciona-generador_mf_157017432_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/1/d/7/71d787e269c5ca457f0d67f2a25782f4_XXL.jpg"
+    },
     {
       "title": "NTN 417 - ⚡️Gigavatios, etiquetas y vacunas: IA en modo global",
       "description": "⚡️ Data center de ≥1 GW en India\r\n ️ China enciende etiquetado AIGC\r\n  Oxford: £118 M para vacunas con IA\r\n\r\nFuentes:\r\n- https://www.reuters.com/world/india/openai-plans-india-data-center-with-least-1-gigawatt-capacity-bloomberg-news-2025-09-01/\r\n- https://www.ox.ac.uk/news/2025-09-01-oxford-launches-major-new-ai-vaccine-research-programme-ellison-institute-technology\r\n- https://www.ft.com/content/e21af386-2171-4d2d-a4a6-9d52761261ff\r\n- https://news.cgtn.com/news/2025-09-01/China-enforces-new-rules-on-labeling-AI-generated-content-1Gj1GWXQeJi/p.html",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-399-alexander-wang-scale-audios-mp3_rf_152589384_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-399-alexander-wang-scale_mf_152589384_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/8/0/e/a/80ea56f0f4d7988b98ee7fc4af1d1f7c_XXL.jpg"
-    },
-    {
-      "title": "NTN 398 - La super-historia de Soham Parekh",
-      "description": "¡La historia MÁS LOCA de Silicon Valley en 2025!\r\n•   Un ingeniero indio que trabajaba en 4 startups AL MISMO TIEMPO \r\n•   $40K mensuales sin que nadie se diera cuenta \r\n•  ️ 15 empresas y 3 años de engaño perfecto \r\n•   El malabarista que hizo temblar a Y Combinator\r\nHoy hablamos de Soham Parekh, el tipo que convirtió el trabajo remoto en su juego personal. \r\n\r\nFuentes: \r\n• https://www.businessinsider.com/soham-parekh-engineer-hired-multiple-startups-silicon-valley-2025-1 \r\n• https://techcrunch.com/2025/07/03/the-soham-parekh-story-how-one-engineer-gamed-silicon-valley/",
-      "pubDate": "Mon, 07 Jul 2025 06:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-398-la-super-historia-soham-parekh-audios-mp3_rf_151899495_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-398-la-super-historia-soham-parekh_mf_151899495_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/8/c/5/28c5538e3bd2cf65dfeec4b66ec7a163_XXL.jpg"
     }
   ]
 }

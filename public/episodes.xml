@@ -22,6 +22,24 @@
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 418 -  ️ Cómo funciona un generador de imágenes]]></title>
+<link>https://www.ivoox.com/ntn-418-como-funciona-generador-audios-mp3_rf_157017432_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-418-como-funciona-generador_mf_157017432_feed_1.mp3" type="audio/mpeg" length="18010279"/>
+<description><![CDATA[• Del ruido al arte: DDPM → Latent Diffusion → Stable Diffusion.
+	• CLIP + latentes + CFG: la fórmula que escaló calidad/costo.
+	• ControlNet/DreamBooth/LoRA/DiT: control, personalización y escala.
+
+Fuentes: 
+	• https://arxiv.org/abs/2006.11239  
+	• https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf 
+	• https://arxiv.org/abs/2302.05543 · https://arxiv.org/abs/2208.12242]]></description>
+<pubDate>Fri, 05 Sep 2025 17:04:27 +0200</pubDate>
+<itunes:duration>18:45</itunes:duration>
+<guid>https://www.ivoox.com/157017432</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/7/1/d/7/71d787e269c5ca457f0d67f2a25782f4_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 417 - ⚡️Gigavatios, etiquetas y vacunas: IA en modo global]]></title>
 <link>https://www.ivoox.com/ntn-417-gigavatios-etiquetas-vacunas-ia-audios-mp3_rf_156751468_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-417-gigavatios-etiquetas-vacunas-ia_mf_156751468_feed_1.mp3" type="audio/mpeg" length="10727340"/>
