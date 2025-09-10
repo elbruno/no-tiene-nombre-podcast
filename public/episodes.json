@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-09T03:32:14.547Z",
+  "generatedAt": "2025-09-10T03:25:50.293Z",
   "items": [
+    {
+      "title": "NTN 419 -  ️IA, dinero y survival kit",
+      "description": "• Tres noticias clave de IA hoy: ética extrema, gasto monstruo e ingeniería defensiva.\r\n\t• Fuentes:\r\nhttps://www.theguardian.com/technology/2025/sep/08/chatbots-mental-health-warning-super-intelligent-ai-nate-soares\r\nhttps://www.pymnts.com/artificial-intelligence-2/2025/openai-forecasts-spending-will-jump-to-115-billion-through-2029/\r\nhttps://www.einpresswire.com/article/846843456/pace-anti-piracy-announces-fusion-ai-to-protect-audio-and-media-ai-models-from-ip-theft",
+      "pubDate": "Tue, 09 Sep 2025 15:35:42 +0200",
+      "link": "https://www.ivoox.com/ntn-419-ia-dinero-survival-kit-audios-mp3_rf_157488122_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-419-ia-dinero-survival-kit_mf_157488122_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/a/1/a/a/a1aa62fc47663f8a66a66f7114f6e561_XXL.jpg"
+    },
     {
       "title": "NTN 418 -  ️ Cómo funciona un generador de imágenes",
       "description": "• Del ruido al arte: DDPM → Latent Diffusion → Stable Diffusion.\r\n\t• CLIP + latentes + CFG: la fórmula que escaló calidad/costo.\r\n\t• ControlNet/DreamBooth/LoRA/DiT: control, personalización y escala.\r\n\r\nFuentes: \r\n\t• https://arxiv.org/abs/2006.11239  \r\n\t• https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf \r\n\t• https://arxiv.org/abs/2302.05543 · https://arxiv.org/abs/2208.12242",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-400-grok-4-esta-aqui-audios-mp3_rf_152750031_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-400-grok-4-esta-aqui_mf_152750031_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/3/f/a/a/3faa5223ce9e07cadaf916d13d7c0442_XXL.jpg"
-    },
-    {
-      "title": "NTN 399 -   Alexander Wang y Scale AI, de MIT a $14.3B",
-      "description": "•   La historia INCREÍBLE de Alexander Wang \r\n•   De estudiante del MIT a multimillonario a los 25 \r\n•   El MEGA deal de $14.3 mil millones con Meta \r\n•   Scale AI: La empresa que revolucionó la IA \r\n•   Por qué la calidad de datos es el nuevo oro \r\n•   Cómo un chico de 19 años cambió Silicon Valley\r\n\r\nFuentes: \r\n• https://www.forbes.com/profile/alexandr-wang/ \r\n• https://techcrunch.com/2024/06/scale-ai-meta-deal/ \r\n• https://www.bloomberg.com/news/articles/scale-ai-valuation",
-      "pubDate": "Wed, 09 Jul 2025 16:44:56 +0200",
-      "link": "https://www.ivoox.com/ntn-399-alexander-wang-scale-audios-mp3_rf_152589384_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-399-alexander-wang-scale_mf_152589384_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/0/e/a/80ea56f0f4d7988b98ee7fc4af1d1f7c_XXL.jpg"
     }
   ]
 }
