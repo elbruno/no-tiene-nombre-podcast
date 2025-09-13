@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-11T03:31:07.718Z",
+  "generatedAt": "2025-09-13T03:19:45.940Z",
   "items": [
+    {
+      "title": "NTN 420 -   Así funcionan las IAs de video",
+      "description": "• Descubrí cómo funcionan las IAs que generan video: modelos de difusión, coherencia temporal y arquitecturas que pasan de imágenes a clips con movimiento y sonido.\r\n\t• Hablamos de ejemplos como Veo, Sora y Dream Machine.\r\n\t• Oportunidades para LATAM: datasets propios, talento y acceso a hardware.\r\nFuentes importantes\r\n\t• “Video Diffusion Models: A Survey.” arXiv, mayo 2024. https://arxiv.org/abs/2405.03150 arXiv\r\n\t• “Survey of Video Diffusion Models: Foundations, Implementations, and Applications.” arXiv, abril 2025. https://arxiv.org/abs/2504.16081 arXiv\r\n\t• “Diffusion Models for Video Generation” — Lil’Log, abril 2024. https://lilianweng.github.io/posts/2024-04-12-diffusion-video/ Lil'Log\r\n\t• “LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models.” arXiv, septiembre 2023. https://arxiv.org/abs/2309.15103 arXiv\r\n\t• Sora — OpenAI. “Introducing Sora, our text-to-video model.” https://openai.com/index/sora/ OpenAI\r\n\t• Veo — Google DeepMind. Veo 3 con audio sincronizado, etc. https://deepmind.google/models/veo/ Wikipedia\r\n\t• Dream Machine — Luma Labs. pertenece al modelo de texto a video/imágenes animadas. https://lumalabs.ai/dream-machine Wikipedia",
+      "pubDate": "Fri, 12 Sep 2025 17:00:28 +0200",
+      "link": "https://www.ivoox.com/ntn-420-asi-funcionan-ias-audios-mp3_rf_157722728_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-420-asi-funcionan-ias_mf_157722728_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/9/3/d/593ddc49913af35c0c63f796d068c8b9_XXL.jpg"
+    },
     {
       "title": "NTN 419 -  ️IA, dinero y survival kit",
       "description": "• Tres noticias clave de IA hoy: ética extrema, gasto monstruo e ingeniería defensiva.\r\n\t• Fuentes:\r\nhttps://www.theguardian.com/technology/2025/sep/08/chatbots-mental-health-warning-super-intelligent-ai-nate-soares\r\nhttps://www.pymnts.com/artificial-intelligence-2/2025/openai-forecasts-spending-will-jump-to-115-billion-through-2029/\r\nhttps://www.einpresswire.com/article/846843456/pace-anti-piracy-announces-fusion-ai-to-protect-audio-and-media-ai-models-from-ip-theft",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-401-windsurf-vs-openai-vs-audios-mp3_rf_152951312_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-401-windsurf-vs-openai-vs_mf_152951312_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/1/9/0/2/19020d39d1797f5e4971b4fe69294a8d_XXL.jpg"
-    },
-    {
-      "title": "NTN 400 - ⚡ Grok 4 está aquí, PhD-Level AI o Puro Marketing de Musk?",
-      "description": "¡Grok 4 está aquí y viene con TODO el drama! \r\nElon lanzó su nueva IA \"PhD-level\" por $300 al mes... ¿en serio?\r\n  En este episodio cubrimos: \r\n• El lanzamiento más dramático del año \r\n• ¿Qué trae de nuevo Grok 4? \r\n• Benchmarks: ¿realidad o puro marketing? \r\n• Las controversias que Elon no quiere que sepas \r\n• ¿Vale la pena $300 al mes?\r\n\r\nFuentes: \r\n• https://x.com/elonmusk/status/1810789020792721563 \r\n• https://blog.x.ai/grok-4-announcement \r\n• https://techcrunch.com/2024/07/09/xai-grok-4-launch",
-      "pubDate": "Fri, 11 Jul 2025 16:24:40 +0200",
-      "link": "https://www.ivoox.com/ntn-400-grok-4-esta-aqui-audios-mp3_rf_152750031_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-400-grok-4-esta-aqui_mf_152750031_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/f/a/a/3faa5223ce9e07cadaf916d13d7c0442_XXL.jpg"
     }
   ]
 }

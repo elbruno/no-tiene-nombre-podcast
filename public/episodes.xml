@@ -22,6 +22,27 @@
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 420 -   Así funcionan las IAs de video]]></title>
+<link>https://www.ivoox.com/ntn-420-asi-funcionan-ias-audios-mp3_rf_157722728_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-420-asi-funcionan-ias_mf_157722728_feed_1.mp3" type="audio/mpeg" length="16281600"/>
+<description><![CDATA[• Descubrí cómo funcionan las IAs que generan video: modelos de difusión, coherencia temporal y arquitecturas que pasan de imágenes a clips con movimiento y sonido.
+	• Hablamos de ejemplos como Veo, Sora y Dream Machine.
+	• Oportunidades para LATAM: datasets propios, talento y acceso a hardware.
+Fuentes importantes
+	• “Video Diffusion Models: A Survey.” arXiv, mayo 2024. https://arxiv.org/abs/2405.03150 arXiv
+	• “Survey of Video Diffusion Models: Foundations, Implementations, and Applications.” arXiv, abril 2025. https://arxiv.org/abs/2504.16081 arXiv
+	• “Diffusion Models for Video Generation” — Lil’Log, abril 2024. https://lilianweng.github.io/posts/2024-04-12-diffusion-video/ Lil'Log
+	• “LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models.” arXiv, septiembre 2023. https://arxiv.org/abs/2309.15103 arXiv
+	• Sora — OpenAI. “Introducing Sora, our text-to-video model.” https://openai.com/index/sora/ OpenAI
+	• Veo — Google DeepMind. Veo 3 con audio sincronizado, etc. https://deepmind.google/models/veo/ Wikipedia
+	• Dream Machine — Luma Labs. pertenece al modelo de texto a video/imágenes animadas. https://lumalabs.ai/dream-machine Wikipedia]]></description>
+<pubDate>Fri, 12 Sep 2025 17:00:28 +0200</pubDate>
+<itunes:duration>16:57</itunes:duration>
+<guid>https://www.ivoox.com/157722728</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/9/3/d/593ddc49913af35c0c63f796d068c8b9_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 419 -  ️IA, dinero y survival kit]]></title>
 <link>https://www.ivoox.com/ntn-419-ia-dinero-survival-kit-audios-mp3_rf_157488122_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-419-ia-dinero-survival-kit_mf_157488122_feed_1.mp3" type="audio/mpeg" length="9511079"/>
