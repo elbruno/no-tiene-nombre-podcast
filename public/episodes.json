@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-16T03:27:55.772Z",
+  "generatedAt": "2025-09-17T03:26:58.364Z",
   "items": [
+    {
+      "title": "NTN 421 -   Fotos que hackean",
+      "description": "•  ️ Un ataque invisible: imágenes que esconden comandos\r\n\t• ⚠️ Riesgos en IA y empresas de LATAM\r\n\t•   Oportunidades en ciberseguridad y regulación\r\nFuentes:\r\n\t• https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems\r\n\t• https://www.securityweek.com/ai-systems-vulnerable-to-prompt-injection-via-image-scaling-attack\r\nhttps://www.bleepingcomputer.com/news/security/new-ai-attack-hides-data-theft-prompts-in-downscaled-images",
+      "pubDate": "Tue, 16 Sep 2025 16:15:00 +0200",
+      "link": "https://www.ivoox.com/ntn-421-fotos-hackean-audios-mp3_rf_158061802_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-421-fotos-hackean_mf_158061802_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/a/8/d/4a8d7010f4b36b51cbf6588091f30520_XXL.jpg"
+    },
     {
       "title": "NTN 420 -   Así funcionan las IAs de video",
       "description": "• Descubrí cómo funcionan las IAs que generan video: modelos de difusión, coherencia temporal y arquitecturas que pasan de imágenes a clips con movimiento y sonido.\r\n\t• Hablamos de ejemplos como Veo, Sora y Dream Machine.\r\n\t• Oportunidades para LATAM: datasets propios, talento y acceso a hardware.\r\nFuentes importantes\r\n\t• “Video Diffusion Models: A Survey.” arXiv, mayo 2024. https://arxiv.org/abs/2405.03150 arXiv\r\n\t• “Survey of Video Diffusion Models: Foundations, Implementations, and Applications.” arXiv, abril 2025. https://arxiv.org/abs/2504.16081 arXiv\r\n\t• “Diffusion Models for Video Generation” — Lil’Log, abril 2024. https://lilianweng.github.io/posts/2024-04-12-diffusion-video/ Lil'Log\r\n\t• “LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models.” arXiv, septiembre 2023. https://arxiv.org/abs/2309.15103 arXiv\r\n\t• Sora — OpenAI. “Introducing Sora, our text-to-video model.” https://openai.com/index/sora/ OpenAI\r\n\t• Veo — Google DeepMind. Veo 3 con audio sincronizado, etc. https://deepmind.google/models/veo/ Wikipedia\r\n\t• Dream Machine — Luma Labs. pertenece al modelo de texto a video/imágenes animadas. https://lumalabs.ai/dream-machine Wikipedia",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-402-chatgpt-agent-ia-con-audios-mp3_rf_153296991_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-402-chatgpt-agent-ia-con_mf_153296991_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/9/4/5/6/94560c08c9f8132fc0dba453bd03cc83_XXL.jpg"
-    },
-    {
-      "title": "NTN 401 -   Windsurf vs OpenAI vs Google, El Hackquisition de $3B:",
-      "description": "OpenAI ofreció $3B por Windsurf, pero se arruinó la cita \r\n  Google llegó como galán de telenovela con $2.4B y se llevó al CEO \r\n ‍♂️ Una historia épica de hackquisitions, dinero loco y decisiones raras \r\n•   El deal de $3B que se desplomó \r\n•   Cómo Google ganó la partida \r\n•   Qué significa para el futuro de la IA\r\n\r\nFuentes:\r\n • https://techcrunch.com/2024/12/13/openais-windsurf-deal-is-off-and-its-ceo-is-going-to-google/ \r\n• https://www.theverge.com/2024/12/13/24320798/google-windsurf-ceo-varun-mohan-deepmind-openai \r\n• https://www.bloomberg.com/news/articles/2024-12-13/google-hires-windsurf-ceo-after-openai-deal-falls-through",
-      "pubDate": "Mon, 14 Jul 2025 16:01:19 +0200",
-      "link": "https://www.ivoox.com/ntn-401-windsurf-vs-openai-vs-audios-mp3_rf_152951312_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-401-windsurf-vs-openai-vs_mf_152951312_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/9/0/2/19020d39d1797f5e4971b4fe69294a8d_XXL.jpg"
     }
   ]
 }
