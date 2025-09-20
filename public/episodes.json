@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-19T03:31:37.743Z",
+  "generatedAt": "2025-09-20T03:25:58.257Z",
   "items": [
+    {
+      "title": "NTN 422 -   Chrome piensa, Nvidia invierte, Notion trabaja",
+      "description": "¡Episodio cargado de AI!  \r\n\t• Chrome suma a Gemini para pensar entre pestañas y recordar lo que viste  \r\n\t• Nvidia invierte $5B en Intel: rivales que ahora hacen match  \r\n\t• Notion lanza agentes que hacen el trabajo pesado ✍️\r\nFuentes:\r\n\t• Google: https://blog.google/products/chrome/new-ai-features-for-chrome\r\n\t• Reuters: https://www.reuters.com/world/asia-pacific/nvidia-bets-big-intel-with-5-billion-stake-chip-partnership-2025-09-18\r\n\t• Notion: https://www.notion.com/blog/introducing-notion-3-0",
+      "pubDate": "Fri, 19 Sep 2025 17:12:12 +0200",
+      "link": "https://www.ivoox.com/ntn-422-chrome-piensa-nvidia-invierte-audios-mp3_rf_158528050_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-422-chrome-piensa-nvidia-invierte_mf_158528050_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/2/8/8/c/288c23ad496b525f67b468ae92d027e9_XXL.jpg"
+    },
     {
       "title": "NTN 421 -   Fotos que hackean",
       "description": "•  ️ Un ataque invisible: imágenes que esconden comandos\r\n\t• ⚠️ Riesgos en IA y empresas de LATAM\r\n\t•   Oportunidades en ciberseguridad y regulación\r\nFuentes:\r\n\t• https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems\r\n\t• https://www.securityweek.com/ai-systems-vulnerable-to-prompt-injection-via-image-scaling-attack\r\nhttps://www.bleepingcomputer.com/news/security/new-ai-attack-hides-data-theft-prompts-in-downscaled-images",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-403-sundar-gemini-el-audios-mp3_rf_153515257_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-403-sundar-gemini-el_mf_153515257_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/0/d/c/7/0dc7dadbfaa0fe9be612ea65a3cc8e26_XXL.jpg"
-    },
-    {
-      "title": "NTN 402 -  ️ ChatGPT Agent, IA Con Superpoderes",
-      "description": "¡OpenAI nos vuelve a sorprender! \r\n  ChatGPT Agent llega con capacidades INCREÍBLES:\r\n ️ Su propia computadora virtual \r\n  Conecta con Gmail, GitHub y más \r\n  Automatiza tareas complejas \r\n  Crea presentaciones y analiza datos \r\n⚠️ Clasificado como \"alta capacidad\"\r\nFuentes: \r\n• OpenAI Official Blog \r\n• AI Research Papers \r\n• Tech Industry Reports",
-      "pubDate": "Fri, 18 Jul 2025 21:24:56 +0200",
-      "link": "https://www.ivoox.com/ntn-402-chatgpt-agent-ia-con-audios-mp3_rf_153296991_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-402-chatgpt-agent-ia-con_mf_153296991_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/4/5/6/94560c08c9f8132fc0dba453bd03cc83_XXL.jpg"
     }
   ]
 }
