@@ -22,6 +22,22 @@
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 423 - l  Ollama Cloud: del living a la nube]]></title>
+<link>https://www.ivoox.com/ntn-423-l-ollama-cloud-del-living-audios-mp3_rf_159313531_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-423-l-ollama-cloud-del-living_mf_159313531_feed_1.mp3" type="audio/mpeg" length="10255464"/>
+<description><![CDATA[Ollama se pasó a la nube  ️ y promete modelos gigantes sin quemar tu GPU  . ¿Dónde corren esos modelos? ¿Qué dicen los competidores como vLLM y los grandes APIs? Te lo contamos con humor y mirada LATAM.
+Fuentes:
+	• Ollama blog: https://ollama.com/blog/cloud-models
+	• Ollama Cloud: https://ollama.com/cloud
+	• RedHat análisis: https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking
+	• Reddit feedback: https://www.reddit.com/r/ollama]]></description>
+<pubDate>Thu, 25 Sep 2025 16:41:14 +0200</pubDate>
+<itunes:duration>10:40</itunes:duration>
+<guid>https://www.ivoox.com/159313531</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/0/b/5/f0b570e1a02514c5ea4b4fa6b690c3f6_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 422 -   Chrome piensa, Nvidia invierte, Notion trabaja]]></title>
 <link>https://www.ivoox.com/ntn-422-chrome-piensa-nvidia-invierte-audios-mp3_rf_158528050_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-422-chrome-piensa-nvidia-invierte_mf_158528050_feed_1.mp3" type="audio/mpeg" length="9975013"/>

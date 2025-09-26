@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-25T03:32:38.793Z",
+  "generatedAt": "2025-09-26T03:31:01.536Z",
   "items": [
+    {
+      "title": "NTN 423 - l  Ollama Cloud: del living a la nube",
+      "description": "Ollama se pasó a la nube  ️ y promete modelos gigantes sin quemar tu GPU  . ¿Dónde corren esos modelos? ¿Qué dicen los competidores como vLLM y los grandes APIs? Te lo contamos con humor y mirada LATAM.\r\nFuentes:\r\n\t• Ollama blog: https://ollama.com/blog/cloud-models\r\n\t• Ollama Cloud: https://ollama.com/cloud\r\n\t• RedHat análisis: https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking\r\n\t• Reddit feedback: https://www.reddit.com/r/ollama",
+      "pubDate": "Thu, 25 Sep 2025 16:41:14 +0200",
+      "link": "https://www.ivoox.com/ntn-423-l-ollama-cloud-del-living-audios-mp3_rf_159313531_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-423-l-ollama-cloud-del-living_mf_159313531_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/0/b/5/f0b570e1a02514c5ea4b4fa6b690c3f6_XXL.jpg"
+    },
     {
       "title": "NTN 422 -   Chrome piensa, Nvidia invierte, Notion trabaja",
       "description": "¡Episodio cargado de AI!  \r\n\t• Chrome suma a Gemini para pensar entre pestañas y recordar lo que viste  \r\n\t• Nvidia invierte $5B en Intel: rivales que ahora hacen match  \r\n\t• Notion lanza agentes que hacen el trabajo pesado ✍️\r\nFuentes:\r\n\t• Google: https://blog.google/products/chrome/new-ai-features-for-chrome\r\n\t• Reuters: https://www.reuters.com/world/asia-pacific/nvidia-bets-big-intel-with-5-billion-stake-chip-partnership-2025-09-18\r\n\t• Notion: https://www.notion.com/blog/introducing-notion-3-0",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-404-cuda-el-infierno-audios-mp3_rf_153909631_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-404-cuda-el-infierno_mf_153909631_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/f/7/f/c/f7fcc3afe9de2de7322b4c32843b19b0_XXL.jpg"
-    },
-    {
-      "title": "NTN 403 -  ‍♂️ Sundar, Gemini y el futuro que Google se está inventando",
-      "description": "En este episodio nos metemos en la cabeza de Sundar Pichai gracias a su charla con Lex Fridman  ️\r\nReflexiones sobre IA, Gemini, el futuro de Google y por qué no deberías tener miedo (pero sí respeto).\r\n  Fuentes:\r\n\t• https://lexfridman.com/sundar-pichai-transcript",
-      "pubDate": "Tue, 22 Jul 2025 00:26:05 +0200",
-      "link": "https://www.ivoox.com/ntn-403-sundar-gemini-el-audios-mp3_rf_153515257_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-403-sundar-gemini-el_mf_153515257_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/d/c/7/0dc7dadbfaa0fe9be612ea65a3cc8e26_XXL.jpg"
     }
   ]
 }
