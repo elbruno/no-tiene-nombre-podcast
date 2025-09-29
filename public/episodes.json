@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-28T03:36:57.738Z",
+  "generatedAt": "2025-09-29T03:35:58.083Z",
   "items": [
+    {
+      "title": "NTN 424 -  ️ De Skynet a Latam-GPT",
+      "description": "Esta semana en NO TIENE NOMBRE:\r\n\t•   Mustafa Suleyman (Microsoft) advierte sobre “intervención militar” en IA\r\n\t•   La ONU dice que la IA puede salvarnos del clima… pero se come la luz\r\n\t•   Latam-GPT: el modelo hecho en y para LATAM\r\nFuentes:\r\n\t• https://www.windowscentral.com/artificial-intelligence/microsoft-ai-chief-warns-military-grade-intervention\r\n\t• https://www.theguardian.com/technology/2025/sep/22/ai-carries-risks-but-will-help-tackle-global-heating-says-uns-climate-chief\r\n\t• https://colombiaone.com/2025/09/02/ai-latam-gpt",
+      "pubDate": "Sun, 28 Sep 2025 18:25:23 +0200",
+      "link": "https://www.ivoox.com/ntn-424-de-skynet-a-latam-gpt-audios-mp3_rf_159488689_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-424-de-skynet-a-latam-gpt_mf_159488689_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/a/4/3/4a4380d5493d2f7a10644bc981a1d6cc_XXL.jpg"
+    },
     {
       "title": "NTN 423 - l  Ollama Cloud: del living a la nube",
       "description": "Ollama se pasó a la nube  ️ y promete modelos gigantes sin quemar tu GPU  . ¿Dónde corren esos modelos? ¿Qué dicen los competidores como vLLM y los grandes APIs? Te lo contamos con humor y mirada LATAM.\r\nFuentes:\r\n\t• Ollama blog: https://ollama.com/blog/cloud-models\r\n\t• Ollama Cloud: https://ollama.com/cloud\r\n\t• RedHat análisis: https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking\r\n\t• Reddit feedback: https://www.reddit.com/r/ollama",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-405-tea-app-el-vibe-coding-audios-mp3_rf_154121133_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-405-tea-app-el-vibe-coding_mf_154121133_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/a/c/9/9/ac9931344c7512fc5dab084a1a7f2861_XXL.jpg"
-    },
-    {
-      "title": "NTN 404 -   CUDA: El Infierno",
-      "description": "¡Exploramos el mundo traumático de CUDA!   \r\nDescubrí por qué esta tecnología de NVIDIA nos hace sufrir tanto a los developers  \r\n\r\n  En este episodio: \r\n• Qué es CUDA y por qué es tan importante ⚡ \r\n• El infierno de instalar y actualizar versiones   \r\n• Historia épica de un developer vs CUDA   \r\n• Consejos para sobrevivir al proceso  ️\r\n\r\nFuentes: \r\n• https://developer.nvidia.com/cuda-zone \r\n• https://stackoverflow.com/questions/tagged/cuda \r\n• https://github.com/pytorch/pytorch/issues \r\n• https://docs.nvidia.com/cuda/cuda-installation-guide-linux/",
-      "pubDate": "Sun, 27 Jul 2025 01:38:41 +0200",
-      "link": "https://www.ivoox.com/ntn-404-cuda-el-infierno-audios-mp3_rf_153909631_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-404-cuda-el-infierno_mf_153909631_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/7/f/c/f7fcc3afe9de2de7322b4c32843b19b0_XXL.jpg"
     }
   ]
 }
