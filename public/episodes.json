@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-09-30T03:30:06.741Z",
+  "generatedAt": "2025-10-01T03:41:21.342Z",
   "items": [
+    {
+      "title": "NTN 425 -   Claude 4.5 & Sora 2: la batalla de las IAs",
+      "description": "Hoy en NO TIENE NOMBRE nos vamos de viaje con dos pesos pesados: Claude Sonnet 4.5, el modelo más autónomo y coder de Anthropic, y Sora 2, la nueva bestia audiovisual de OpenAI.\r\n\t•   Claude promete 30h de autonomía y ser “el mejor para programar”\r\n\t•   Sora 2 quiere revolucionar el video con audio y control total\r\nFuentes:\r\n\t• https://www.axios.com/2025/09/29/anthropic-claude-sonnet-coding-agent\r\n\t• https://www.techradar.com/ai-platforms-assistants/claude/anthropics-claude-sonnet-4-5\r\n\t• https://www.barrons.com/articles/openai-sora-2-video-generation-ai-model-111c73d9\r\nhttps://www.theverge.com/ai-artificial-intelligence/788786/openais-new-ai-sora-ios-social-video-app-will-let-you-deepfake-your-friends",
+      "pubDate": "Tue, 30 Sep 2025 23:28:33 +0200",
+      "link": "https://www.ivoox.com/ntn-425-claude-4-5-sora-audios-mp3_rf_159814609_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-425-claude-4-5-sora_mf_159814609_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/7/d/e/b7de802acf17f32d6a78f3e8fedb08cf_XXL.jpg"
+    },
     {
       "title": "NTN 424 -  ️ De Skynet a Latam-GPT",
       "description": "Esta semana en NO TIENE NOMBRE:\r\n\t•   Mustafa Suleyman (Microsoft) advierte sobre “intervención militar” en IA\r\n\t•   La ONU dice que la IA puede salvarnos del clima… pero se come la luz\r\n\t•   Latam-GPT: el modelo hecho en y para LATAM\r\nFuentes:\r\n\t• https://www.windowscentral.com/artificial-intelligence/microsoft-ai-chief-warns-military-grade-intervention\r\n\t• https://www.theguardian.com/technology/2025/sep/22/ai-carries-risks-but-will-help-tackle-global-heating-says-uns-climate-chief\r\n\t• https://colombiaone.com/2025/09/02/ai-latam-gpt",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-406-amazon-q-vs-el-audios-mp3_rf_154392440_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-406-amazon-q-vs-el_mf_154392440_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/1/d/f/f/1dffc9e628a7b21419f711cb2b49b693_XXL.jpg"
-    },
-    {
-      "title": "NTN 405 -  Tea App: El Vibe Coding que Rompió Internet",
-      "description": "La historia completa de Tea App, que prometía ser el refugio seguro para mujeres... y terminó siendo todo lo contrario.\r\n  En este episodio descubrirás: \r\n•   Qué era Tea y por qué se volvió viral \r\n•   El primer hack masivo: 72,000 imágenes filtradas \r\n•   El segundo hack: 1.1M de mensajes privados expuestos \r\n•   El \"vibe coding\": cuando ChatGPT programa tu desastre \r\n•  ️ Las fallas técnicas de Firebase que causaron todo \r\n•   4chan y el circo digital que siguió\r\nFuentes: \r\n• https://www.404media.co/tea-app-data-breach/ \r\n• https://techcrunch.com/2025/01/27/tea-womens-safety-app-hacked/ \r\n• https://www.theverge.com/2025/1/27/24353580/tea-app-data-breach-hack",
-      "pubDate": "Tue, 29 Jul 2025 15:39:36 +0200",
-      "link": "https://www.ivoox.com/ntn-405-tea-app-el-vibe-coding-audios-mp3_rf_154121133_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-405-tea-app-el-vibe-coding_mf_154121133_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/a/c/9/9/ac9931344c7512fc5dab084a1a7f2861_XXL.jpg"
     }
   ]
 }
