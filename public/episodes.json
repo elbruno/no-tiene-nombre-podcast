@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-04T03:23:06.200Z",
+  "generatedAt": "2025-10-05T03:34:33.363Z",
   "items": [
+    {
+      "title": "NTN 426 - Spotify, Daniel Ek se baja… pero no del todo",
+      "description": "Spotify sacude la industria: Daniel Ek deja su puesto de CEO y llegan dos co-CEOs a la cabina. Hablamos de cambios, polémicas y futuro de la música con IA.  \r\nFuentes:\r\n\t• https://apnews.com/article/9a798d91c9aad8e8e8cb09f232339369?utm_source=chatgpt.com\r\n\t• https://pitchfork.com/news/spotify-appoints-new-ceos-as-daniel-ek-becomes-executive-chair?utm_source=chatgpt.com\r\n\t• https://www.theverge.com/news/788278/spotify-founder-daniel-ek-stepping-down-ceo-executive-chairman?utm_source=chatgpt.com",
+      "pubDate": "Sat, 04 Oct 2025 13:35:11 +0200",
+      "link": "https://www.ivoox.com/ntn-426-spotify-daniel-ek-se-baja-audios-mp3_rf_160091040_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-426-spotify-daniel-ek-se-baja_mf_160091040_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/0/7/f/307fb34ea3e073767adc03f32b45a627_XXL.jpg"
+    },
     {
       "title": "NTN 425 -   Claude 4.5 & Sora 2: la batalla de las IAs",
       "description": "Hoy en NO TIENE NOMBRE nos vamos de viaje con dos pesos pesados: Claude Sonnet 4.5, el modelo más autónomo y coder de Anthropic, y Sora 2, la nueva bestia audiovisual de OpenAI.\r\n\t•   Claude promete 30h de autonomía y ser “el mejor para programar”\r\n\t•   Sora 2 quiere revolucionar el video con audio y control total\r\nFuentes:\r\n\t• https://www.axios.com/2025/09/29/anthropic-claude-sonnet-coding-agent\r\n\t• https://www.techradar.com/ai-platforms-assistants/claude/anthropics-claude-sonnet-4-5\r\n\t• https://www.barrons.com/articles/openai-sora-2-video-generation-ai-model-111c73d9\r\nhttps://www.theverge.com/ai-artificial-intelligence/788786/openais-new-ai-sora-ios-social-video-app-will-let-you-deepfake-your-friends",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-407-44-genios-100m-cada-audios-mp3_rf_154606123_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-407-44-genios-100m-cada_mf_154606123_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/1/d/9/2/1d929e88ee1e0281b6d29b3bbcbb11e7_XXL.jpg"
-    },
-    {
-      "title": "NTN 406 - ⚡ Amazon Q vs. el Hacker del rm -rf",
-      "description": "Un hacker infiltró Amazon Q y le enseñó a borrar computadoras  \r\n  Descubre cómo: \r\n• Un pull request comprometió a 1M de usuarios \r\n• Amazon distribuyó un AI \"suicida\" sin darse cuenta \r\n• El futuro de la seguridad en IA cambió para siempre\r\n  ¡Prompt engineering del lado oscuro!\r\n\r\nFuentes: \r\n• https://www.404media.co/hacker-plants-computer-wiping-commands-in-amazons-ai-coding-agent/ \r\n• https://news.ycombinator.com/item?id=44721485",
-      "pubDate": "Fri, 01 Aug 2025 16:14:05 +0200",
-      "link": "https://www.ivoox.com/ntn-406-amazon-q-vs-el-audios-mp3_rf_154392440_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-406-amazon-q-vs-el_mf_154392440_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/d/f/f/1dffc9e628a7b21419f711cb2b49b693_XXL.jpg"
     }
   ]
 }
