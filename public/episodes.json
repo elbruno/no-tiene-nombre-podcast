@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-06T03:32:49.074Z",
+  "generatedAt": "2025-10-07T03:29:39.380Z",
   "items": [
+    {
+      "title": "NTN 427 -   OpenAI DevDay 2025: el día que ChatGPT se volvió un sistema operativo",
+      "description": "¡Se armó la fiesta en San Francisco!   En este episodio repasamos TODO lo que trajo el OpenAI DevDay 2025:\r\n\t•   Apps dentro de ChatGPT\r\n\t•   AgentKit y agentes inteligentes\r\n\t•   Sora 2: video y audio generativo\r\n\t• ⚙️ Alianza con AMD\r\nFuentes:\r\n\t• https://openai.com/devday\r\n\t• https://www.theverge.com/news/793039/openai-chatgpt-apps-developers-sdk-canva-zillow-devday-2025\r\n\t• https://techcrunch.com/2025/10/03/what-to-expect-at-openais-devday-2025",
+      "pubDate": "Tue, 07 Oct 2025 02:07:25 +0200",
+      "link": "https://www.ivoox.com/ntn-427-openai-devday-2025-el-audios-mp3_rf_160185745_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-427-openai-devday-2025-el_mf_160185745_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/7/9/f/979fb50e94c8d4708aca6b5038784785_XXL.jpg"
+    },
     {
       "title": "NTN 426 - Spotify, Daniel Ek se baja… pero no del todo",
       "description": "Spotify sacude la industria: Daniel Ek deja su puesto de CEO y llegan dos co-CEOs a la cabina. Hablamos de cambios, polémicas y futuro de la música con IA.  \r\nFuentes:\r\n\t• https://apnews.com/article/9a798d91c9aad8e8e8cb09f232339369?utm_source=chatgpt.com\r\n\t• https://pitchfork.com/news/spotify-appoints-new-ceos-as-daniel-ek-becomes-executive-chair?utm_source=chatgpt.com\r\n\t• https://www.theverge.com/news/788278/spotify-founder-daniel-ek-stepping-down-ceo-executive-chairman?utm_source=chatgpt.com",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-408-gpt-oss-openai-se-vuelve-open-audios-mp3_rf_154875629_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-408-gpt-oss-openai-se-vuelve-open_mf_154875629_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/9/c/a/8/9ca8b5cd26379c75ea26bd06151b1267_XXL.jpg"
-    },
-    {
-      "title": "NTN 407 -   44 Genios, $100M Cada Uno",
-      "description": "¡Zuckerberg está tirando LA CASA POR LA VENTANA!\r\n•   Ofertas de $1000M rechazadas como spam \r\n•   44 genios de IA ganando $10-100M/año \r\n•  50% del equipo es de China - ¿Geopolítica? \r\n•   Guerra épica Meta vs OpenAI por talentos \r\n•   ¿El futuro en manos de 44 personas?\r\n\r\nFuentes: \r\n• https://www.wsj.com/tech/ai/meta-zuckerberg-ai-recruiting-fail-e6107555 \r\n• https://x.com/deedydas/status/1946597162068091177",
-      "pubDate": "Mon, 04 Aug 2025 08:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-407-44-genios-100m-cada-audios-mp3_rf_154606123_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-407-44-genios-100m-cada_mf_154606123_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/d/9/2/1d929e88ee1e0281b6d29b3bbcbb11e7_XXL.jpg"
     }
   ]
 }
