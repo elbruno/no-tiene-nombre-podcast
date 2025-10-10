@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-09T03:31:18.613Z",
+  "generatedAt": "2025-10-10T03:31:18.809Z",
   "items": [
+    {
+      "title": "NTN 428 -   Australia y Deloitte, cuando la IA mete la pata",
+      "description": "Deloitte Australia entregó al gobierno un informe lleno de errores generados por IA  .\r\n  Tuvieron que devolver parte de los 440 000 AUD.\r\n  Citas falsas, juicios inventados y “alucinaciones” de manual.\r\nEscuchá cómo un informe se convirtió en un caso de estudio global.\r\n  Fuentes:\r\n\t• The Guardian: https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report\r\n\t• Business Insider: https://www.businessinsider.com/deloitte-australia-issues-refund-ai-assurance-project-2025-10\r\n\t• AP News: https://apnews.com/article/ab54858680ffc4ae6555b31c8fb987f3",
+      "pubDate": "Fri, 10 Oct 2025 02:55:47 +0200",
+      "link": "https://www.ivoox.com/ntn-428-australia-deloitte-cuando-audios-mp3_rf_160450878_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-428-australia-deloitte-cuando_mf_160450878_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/d/0/3/6d03e34d90e100f12922494b08f3733a_XXL.jpg"
+    },
     {
       "title": "NTN 427 -   OpenAI DevDay 2025: el día que ChatGPT se volvió un sistema operativo",
       "description": "¡Se armó la fiesta en San Francisco!   En este episodio repasamos TODO lo que trajo el OpenAI DevDay 2025:\r\n\t•   Apps dentro de ChatGPT\r\n\t•   AgentKit y agentes inteligentes\r\n\t•   Sora 2: video y audio generativo\r\n\t• ⚙️ Alianza con AMD\r\nFuentes:\r\n\t• https://openai.com/devday\r\n\t• https://www.theverge.com/news/793039/openai-chatgpt-apps-developers-sdk-canva-zillow-devday-2025\r\n\t• https://techcrunch.com/2025/10/03/what-to-expect-at-openais-devday-2025",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-409-acepte-sin-leer-y-audios-mp3_rf_155024785_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-409-acepte-sin-leer-y_mf_155024785_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/1/4/d/a/14da96f87dcb6926c53a99f692d30569_XXL.jpg"
-    },
-    {
-      "title": "NTN 408 - GPT-OSS, OpenAI se vuelve Open Source (¡Por fin!)",
-      "description": "¡OpenAI vuelve a sus raíces open source! Después de años cerrados, lanzan GPT-OSS 120B y 20B bajo licencia Apache 2.0\r\n•   Modelos gratis y modificables \r\n•   Rendimiento comparable a o4-mini\r\n•   Ejecutables en tu propia GPU \r\n•   Sin límites de API ni costos \r\n•   Multilingües y súper eficientes\r\n¡La democratización de la IA llegó para quedarse!\r\nFuentes: \r\n• https://openai.com/index/introducing-gpt-oss/",
-      "pubDate": "Wed, 06 Aug 2025 23:50:56 +0200",
-      "link": "https://www.ivoox.com/ntn-408-gpt-oss-openai-se-vuelve-open-audios-mp3_rf_154875629_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-408-gpt-oss-openai-se-vuelve-open_mf_154875629_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/c/a/8/9ca8b5cd26379c75ea26bd06151b1267_XXL.jpg"
     }
   ]
 }
