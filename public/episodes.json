@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-13T03:40:54.335Z",
+  "generatedAt": "2025-10-14T03:32:09.088Z",
   "items": [
+    {
+      "title": "NTN 429 -   OpenAI arma sus chips y conquista el Sur",
+      "description": "¡OpenAI va con todo!  \r\nEsta semana hablamos de cómo Sam Altman se puso el casco de ingeniero para:\r\n  Diseñar chips con Broadcom\r\n  Firmar con AMD para asegurar GPUs\r\n  Y construir un data center de 25 mil millones en la Patagonia\r\n\r\n* OpenAI + Broadcom partnership\r\n- https://apnews.com/article/1bef0e0216d3878feefcb003e89b08e4\r\n- https://www.reuters.com/business/openai-taps-broadcom-build-its-first-ai-processor-latest-chip-deal-2025-10-13\r\n- https://www.theverge.com/news/798827/openai-broadcom-custom-ai-chips\r\n\r\n* OpenAI + AMD deal\r\n- https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus\r\n- https://www.reuters.com/business/amd-signs-ai-chip-supply-deal-with-openai-gives-it-option-take-10-stake-2025-10-06\r\n\r\n* OpenAI Data Center in Argentina\r\n- https://www.reuters.com/world/americas/openai-sur-energy-weigh-25-billion-argentina-data-center-project-2025-10-10\r\n- https://www.businessinsider.com/openai-data-center-argentina-sur-engery-ai-compute-2025-10\r\n- https://www.datacenterdynamics.com/en/news/openai-plans-500mw-data-center-in-argentina",
+      "pubDate": "Mon, 13 Oct 2025 20:02:16 +0200",
+      "link": "https://www.ivoox.com/ntn-429-openai-arma-sus-chips-audios-mp3_rf_160583876_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-429-openai-arma-sus-chips_mf_160583876_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/0/0/1/100158b9da1871a1331e21b717773b65_XXL.jpg"
+    },
     {
       "title": "NTN 428 -   Australia y Deloitte, cuando la IA mete la pata",
       "description": "Deloitte Australia entregó al gobierno un informe lleno de errores generados por IA  .\r\n  Tuvieron que devolver parte de los 440 000 AUD.\r\n  Citas falsas, juicios inventados y “alucinaciones” de manual.\r\nEscuchá cómo un informe se convirtió en un caso de estudio global.\r\n  Fuentes:\r\n\t• The Guardian: https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report\r\n\t• Business Insider: https://www.businessinsider.com/deloitte-australia-issues-refund-ai-assurance-project-2025-10\r\n\t• AP News: https://apnews.com/article/ab54858680ffc4ae6555b31c8fb987f3",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple-audios-mp3_rf_155278423_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple_mf_155278423_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/e/1/6/1/e161f01bfc2df5ea4bb4a57ddb6d036b_XXL.jpg"
-    },
-    {
-      "title": "NTN 409 -   Acepté sin leer y ahora vendo churros en Uzbekistán",
-      "description": "¿Alguna vez aceptaste los Términos sin leer?   En este episodio te cuento cómo casi pierdo el control de mi podcast por apurarme con el \"Acepto\" y cómo ChatGPT se convirtió en mi superhéroe legal.\r\n \r\n✔️ Lecciones duras\r\n✔️ IA al rescate\r\n✔️ Un toque de churros uzbekos",
-      "pubDate": "Fri, 08 Aug 2025 17:24:10 +0200",
-      "link": "https://www.ivoox.com/ntn-409-acepte-sin-leer-y-audios-mp3_rf_155024785_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-409-acepte-sin-leer-y_mf_155024785_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/4/d/a/14da96f87dcb6926c53a99f692d30569_XXL.jpg"
     }
   ]
 }
