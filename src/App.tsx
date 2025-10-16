@@ -26,7 +26,7 @@ import { NeuralBackground } from "@/components/NeuralBackground";
 import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
-import pageTexts from "@/lib/page-texts.json";
+import { useLanguage } from "@/lib/LanguageContext";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
@@ -34,15 +34,45 @@ import { JsonLd } from "@/components/JsonLd";
 import { motion, useReducedMotion } from "framer-motion";
 import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
 import { EpisodesToolbar } from "@/components/EpisodesToolbar";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SpanishEpisodeWarning } from "@/components/SpanishEpisodeWarning";
+import { Switch } from "@/components/ui/switch";
 
 
 function App() {
+  const { language, texts: pageTexts } = useLanguage();
   const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [search, setSearch] = useState("");
   const [pageSize, setPageSize] = useState<number>(10);
   const [viewMode, setViewMode] = useState<'cards' | 'list'>('cards');
+  // Dev-only: prefer snapshot toggle for faster local development
+  // Initialize from localStorage when available (browser-only)
+  const [preferSnapshot, setPreferSnapshot] = useState<boolean>(() => {
+    try {
+      if (typeof window === 'undefined') return true;
+      const raw = window.localStorage.getItem('preferSnapshot');
+      return raw === null ? true : raw === 'true';
+    } catch (e) {
+      return true;
+    }
+  });
+
+  // Safe development flag - avoid using import.meta directly without guards
+  let isDev = false;
+  try {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore - import.meta is replaced by Vite
+    isDev = typeof window !== 'undefined' && (import.meta as any)?.env?.DEV;
+  } catch (e) {
+    isDev = false;
+  }
+
+  // Track which data source was used last
+  const [dataSource, setDataSource] = useState<'snapshot' | 'live' | null>(null);
+  const [dataSourceReason, setDataSourceReason] = useState<string | null>(null);
   const prefersReduced = useReducedMotion();
   const container = {
     hidden: {},
@@ -59,14 +89,19 @@ function App() {
     },
   };
 
-  const loadPodcastData = async () => {
+  const loadPodcastData = async (preferSnapshotOverride?: boolean) => {
     try {
       setLoading(true);
       setError(false);
       console.log('[App] Loading podcast data...');
-      const data = await fetchPodcastRSS();
-      console.log('[App] Podcast data loaded:', data);
-      setPodcastData(data);
+  // decide whether to prefer snapshot: override if provided, otherwise use state
+  const prefer = typeof preferSnapshotOverride === 'boolean' ? preferSnapshotOverride : preferSnapshot;
+  const result = await fetchPodcastRSS(prefer ? { preferSnapshot: true } : {});
+  // result contains { data, source }
+  setDataSource(result.source);
+  setDataSourceReason(result.reason || null);
+  console.log('[App] Podcast data loaded:', result);
+  setPodcastData(result.data);
     } catch (err) {
       console.error('[App] Failed to load podcast data:', err);
       setError(true);
@@ -80,7 +115,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
       {/* Promote latest episode immediately */}
       {loading && <LatestEpisodePromo loading variant="banner" />}
       {!loading && !error && podcastData?.episodes?.[0] && (
@@ -128,6 +163,26 @@ function App() {
         />
         
         <div className="container mx-auto px-4 relative z-10">
+          {/* Theme and Language Switchers */}
+          <div className="absolute top-4 right-4 flex gap-2 z-20">
+            <ThemeSwitcher />
+            <LanguageSwitcher />
+            {/* Dev-only prefer-snapshot toggle + reload */}
+            {isDev && (
+              <div className="flex items-center gap-2 p-2 rounded-md bg-muted/10">
+                <label className="text-xs text-muted-foreground mr-2">Dev snapshot</label>
+                <Switch checked={preferSnapshot} onCheckedChange={(v: boolean) => { setPreferSnapshot(v); try { window.localStorage.setItem('preferSnapshot', String(!!v)); } catch {} }} />
+                <Button size="sm" variant="outline" onClick={() => loadPodcastData()} className="ml-2">Reload</Button>
+                {/* indicator of last used data source */}
+                {dataSource && (
+                  <span title={dataSourceReason || ''} className={`ml-2 text-xs font-medium px-2 py-1 rounded ${dataSource === 'snapshot' ? 'bg-primary/20 text-primary' : 'bg-green-100 text-green-800'}`}>
+                    {dataSource === 'snapshot' ? 'Snapshot' : 'Live'}
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+          
           {/* Quick Social Access */}
           <div className="flex justify-center mb-8">
             <SocialLinks variant="header" />
@@ -215,6 +270,11 @@ function App() {
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   
                 </p>
+                {language === 'en' && (
+                  <div className="mt-6 max-w-3xl mx-auto">
+                    <SpanishEpisodeWarning />
+                  </div>
+                )}
                 <div className="mt-4">
                   <EpisodesToolbar
                     total={podcastData?.episodes.length || 0}

@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-15T03:35:44.434Z",
+  "generatedAt": "2025-10-16T01:34:08.216Z",
   "items": [
+    {
+      "title": "NTN 430 -   3 tecnologías que dominarán la IA (y tu futuro)",
+      "description": "¡La revolución de los agentes ya empezó! En este episodio te cuento las 3 tecnologías que necesitas aprender hoy para surfear la ola de la inteligencia artificial:\r\n\t•   MCP: el nuevo estándar de conexión entre modelos y datos\r\n\t•   A2A: agentes hablando entre sí\r\n\t•   ACP: la promesa que unirá todo\r\nFuentes:\r\n\t• https://modelcontextprotocol.io/introduction\r\n\t• https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/\r\n\t• https://research.ibm.com/blog/agent-communication-protocol-ai",
+      "pubDate": "Thu, 16 Oct 2025 00:46:20 +0200",
+      "link": "https://www.ivoox.com/ntn-430-3-tecnologias-dominaran-audios-mp3_rf_160793589_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-430-3-tecnologias-dominaran_mf_160793589_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/c/5/1/9c51d440a55213f8cb331ad9f05ded08_XXL.jpg"
+    },
     {
       "title": "NTN 429 -   OpenAI arma sus chips y conquista el Sur",
       "description": "¡OpenAI va con todo!  \r\nEsta semana hablamos de cómo Sam Altman se puso el casco de ingeniero para:\r\n  Diseñar chips con Broadcom\r\n  Firmar con AMD para asegurar GPUs\r\n  Y construir un data center de 25 mil millones en la Patagonia\r\n\r\n* OpenAI + Broadcom partnership\r\n- https://apnews.com/article/1bef0e0216d3878feefcb003e89b08e4\r\n- https://www.reuters.com/business/openai-taps-broadcom-build-its-first-ai-processor-latest-chip-deal-2025-10-13\r\n- https://www.theverge.com/news/798827/openai-broadcom-custom-ai-chips\r\n\r\n* OpenAI + AMD deal\r\n- https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus\r\n- https://www.reuters.com/business/amd-signs-ai-chip-supply-deal-with-openai-gives-it-option-take-10-stake-2025-10-06\r\n\r\n* OpenAI Data Center in Argentina\r\n- https://www.reuters.com/world/americas/openai-sur-energy-weigh-25-billion-argentina-data-center-project-2025-10-10\r\n- https://www.businessinsider.com/openai-data-center-argentina-sur-engery-ai-compute-2025-10\r\n- https://www.datacenterdynamics.com/en/news/openai-plans-500mw-data-center-in-argentina",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-411-perplexity-vs-google-audios-mp3_rf_155551275_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-411-perplexity-vs-google_mf_155551275_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/6/7/4/6/67460aaa4136558259696d3fe6976899_XXL.jpg"
-    },
-    {
-      "title": "NTN 410 -   GPT-5: ¿Revolución o simple update?",
-      "description": "¡GPT-5 YA ESTÁ AQUÍ Y ES GRATIS! \r\nHoy hablamos sobre el modelo que está revolucionando la IA\r\n✨ En este episodio: \r\n• Por qué GPT-5 \"simplemente hace cosas\" \r\n• El fin de elegir modelos manualmente\r\n• Programar sin saber programar (en serio) \r\n• Cognición colaborativa vs prompt engineering\r\n  Fuentes: \r\n• https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff",
-      "pubDate": "Tue, 12 Aug 2025 03:47:43 +0200",
-      "link": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple-audios-mp3_rf_155278423_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-410-gpt-5-revolucion-o-simple_mf_155278423_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/e/1/6/1/e161f01bfc2df5ea4bb4a57ddb6d036b_XXL.jpg"
     }
   ]
 }

@@ -15,3 +15,9 @@ export interface PodcastData {
   imageUrl?: string;
   episodes: Episode[];
 }
+
+export interface FetchPodcastResult {
+  data: PodcastData;
+  source: 'snapshot' | 'live';
+  reason?: string;
+}

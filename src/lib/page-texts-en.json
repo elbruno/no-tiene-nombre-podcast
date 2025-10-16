@@ -1,0 +1,43 @@
+{
+    "hero": {
+        "badge": "AI Podcast",
+        "title": "NO TIENE NOMBRE",
+        "subtitle": "AI and tech talks. In Spanish, fearless about the future!",
+        "cta_subscribe": "Subscribe for free",
+        "cta_explore": "Explore episodes",
+        "cta_testimonials": "Testimonials"
+    },
+    "episodes": {
+        "section_title": "Latest Episodes",
+        "badge_loading": "Loading...",
+        "badge_available": "episodes available"
+    },
+    "about": {
+        "section_title": "About the Podcast",
+        "description": "\"No Tiene Nombre\": the podcast where we talk a bit about AI. Here we discuss robots, tech and things that ChatGPT or Claude explain to me. Short, fun and in Spanish.",
+        "cta_about": "Learn more about NTN"
+    },
+    "stats": {
+        "section_title": "The most listened AI podcast... by my grandma 🧓",
+        "episodes": "+400",
+        "episodes_label": "Published episodes",
+        "episodes_label_funny": "Episodes (and some bad jokes)",
+        "spanish": "🇪🇸",
+        "spanish_label": "Content in Spanish",
+        "focus": "🤖",
+        "focus_label": "AI focused",
+        "focus_label_funny": "Artificial Intelligence"
+    },
+    "footer": {
+        "brand": "NO TIENE NOMBRE",
+        "copyright": "© 2025 - AI Podcast in Spanish. Generated with Github Spark. If you understand, you're smarter than a bot."
+    },
+    "cta_banner": {
+        "title": "Do you have an idea or question?",
+        "subtitle": "Write to me on social media using the buttons below and let's talk.",
+        "newsletter_placeholder": "",
+        "newsletter_button": "",
+        "suggestion_placeholder": "",
+        "suggestion_button": ""
+    }
+}

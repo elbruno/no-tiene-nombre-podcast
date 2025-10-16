@@ -5,8 +5,15 @@ import { AlertTriangleIcon, RefreshCwIcon } from "lucide-react";
 
 export const ErrorFallback = ({ error, resetErrorBoundary }) => {
   // When encountering an error in the development mode, rethrow it and don't display the boundary.
-  // The parent UI will take care of showing a more helpful dialog.
-  if (import.meta.env.DEV) throw error;
+  // In development we used to rethrow so the overlay would show, but that
+  // causes the app to crash to a blank page in some environments. Instead
+  // log the error and show the fallback UI so developers still have feedback.
+  if (import.meta.env.DEV) {
+    // Log a full error to the console to keep the dev overlay informative
+    // while still rendering an actionable fallback in the page.
+    // eslint-disable-next-line no-console
+    console.error('ErrorBoundary caught error (dev):', error);
+  }
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
