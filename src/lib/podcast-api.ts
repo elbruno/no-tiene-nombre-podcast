@@ -1,17 +1,74 @@
-import { PodcastData, Episode } from './types';
+import { PodcastData, Episode, FetchPodcastResult } from './types';
 import config from './podcast-config.json';
 
-export async function fetchPodcastRSS(): Promise<PodcastData> {
+// Timeout (ms) for remote RSS fetch to avoid long hangs in the browser
+const REMOTE_FETCH_TIMEOUT = 3000;
+
+export type FetchPodcastOptions = { preferSnapshot?: boolean };
+
+export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promise<FetchPodcastResult> {
   try {
+    // If caller explicitly requests preferSnapshot, or we detect Vite dev mode
+    // and the caller didn't opt out, prefer the local snapshot for speed.
+    const preferSnapshot = options.preferSnapshot === true;
+    try {
+      // Determine dev mode safely without using `typeof import` which some
+      // parsers (SWC) choke on when used in expressions. Use a guarded
+      // try/catch and check `import.meta` in browser context.
+      let isDev = false;
+      try {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore - import.meta is replaced by Vite
+        isDev = typeof window !== 'undefined' && (import.meta as any)?.env?.DEV;
+      } catch (e) {
+        isDev = false;
+      }
+      if (preferSnapshot || isDev) {
+        console.log('[PodcastAPI] preferSnapshot/dev mode: attempting local snapshot /episodes.json for speed');
+        const snapshotRes = await fetch('/episodes.json', { cache: 'no-store' });
+        if (snapshotRes.ok) {
+          const snapshot = await snapshotRes.json();
+          const episodes = (snapshot.items || []).map((it: any, index: number) => ({
+            id: `snapshot-${index}`,
+            title: it.title || `Episodio ${index + 1}`,
+            description: (it.description || '').trim(),
+            pubDate: it.pubDate || new Date().toISOString(),
+            duration: undefined,
+            audioUrl: it.audioUrl,
+            link: it.link,
+            imageUrl: it.imageUrl,
+          }));
+          return {
+            data: {
+              title: snapshot.title || 'No Tiene Nombre',
+              description: snapshot.description || 'Podcast sobre IA en español',
+              imageUrl: episodes[0]?.imageUrl,
+              episodes,
+            },
+            source: 'snapshot',
+            reason: 'requested-snapshot',
+          };
+        }
+        console.log('[PodcastAPI] DEV snapshot not available, falling back to remote RSS');
+      }
+    } catch (devErr) {
+      // Non-fatal — continue to attempt remote fetch
+      console.warn('[PodcastAPI] Dev snapshot check failed, will try remote RSS:', devErr);
+    }
+
     console.log('[PodcastAPI] Fetching RSS feed from:', config.rssFeedUrl);
-  // Bypass any HTTP/browser caches to reflect new episodes promptly
-  const response = await fetch(config.rssFeedUrl, { cache: 'no-store' });
+    // Use AbortController to implement a short timeout to avoid long waits
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), REMOTE_FETCH_TIMEOUT);
+    // Bypass any HTTP/browser caches to reflect new episodes promptly
+  const response = await fetch(config.rssFeedUrl, { cache: 'no-store', signal: controller.signal });
+    clearTimeout(timeoutId);
     console.log('[PodcastAPI] Fetch response:', response);
     if (!response.ok) {
       console.error('[PodcastAPI] HTTP error:', response.status);
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const xmlText = await response.text();
+  const xmlText = await response.text();
     console.log('[PodcastAPI] RSS XML text length:', xmlText.length);
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
@@ -37,10 +94,10 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
       }
     }
     console.log('[PodcastAPI] Podcast image:', podcastImage);
-  const items = Array.from(xmlDoc.querySelectorAll('item'));
+    const items = Array.from(xmlDoc.querySelectorAll('item'));
     console.log('[PodcastAPI] Found episode items:', items.length);
-  // Cap at 100 to keep memory reasonable while supporting UI page size options
-  const episodes: Episode[] = items.slice(0, 100).map((item, index) => {
+    // Cap at 100 to keep memory reasonable while supporting UI page size options
+    const episodes: Episode[] = items.slice(0, 100).map((item, index) => {
       const titleElement = item.querySelector('title');
       const descriptionElement = item.querySelector('description');
       const pubDateElement = item.querySelector('pubDate');
@@ -77,7 +134,7 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
       };
     });
     console.log('[PodcastAPI] Returning podcast data:', { title, description, imageUrl: podcastImage, episodes });
-    return { title, description, imageUrl: podcastImage, episodes };
+    return { data: { title, description, imageUrl: podcastImage, episodes }, source: 'live', reason: 'remote-success' };
   } catch (error) {
     console.error('Error fetching podcast RSS:', error);
     // Attempt offline fallback to public/episodes.json
@@ -96,14 +153,16 @@ export async function fetchPodcastRSS(): Promise<PodcastData> {
         link: it.link,
         imageUrl: it.imageUrl,
       }));
-      return {
-        title: 'No Tiene Nombre',
-        description: 'Podcast sobre IA en español',
+      return { data: {
+        title: snapshot.title || 'No Tiene Nombre',
+        description: snapshot.description || 'Podcast sobre IA en español',
         imageUrl: episodes[0]?.imageUrl,
         episodes,
-      };
+      }, source: 'snapshot', reason: 'fallback-snapshot' };
     } catch (fallbackErr) {
       console.error('[PodcastAPI] Offline fallback also failed:', fallbackErr);
+      // annotate the original error with a reason and rethrow
+      (error as any).reason = 'remote-error';
       throw error;
     }
   }
