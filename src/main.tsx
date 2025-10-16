@@ -1,5 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import { ErrorBoundary } from "react-error-boundary";
+import { ThemeProvider } from "next-themes";
+import { LanguageProvider } from "@/lib/LanguageContext";
 // Spark import removed
 
 import App from './App.tsx'
@@ -37,7 +39,11 @@ if ('serviceWorker' in navigator) {
 
 createRoot(document.getElementById('root')!).render(
   <ErrorBoundary FallbackComponent={ErrorFallback}>
-  <App />
-  <Toaster position="bottom-right" richColors closeButton />
-   </ErrorBoundary>
+    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+      <LanguageProvider>
+        <App />
+        <Toaster position="bottom-right" richColors closeButton />
+      </LanguageProvider>
+    </ThemeProvider>
+  </ErrorBoundary>
 )

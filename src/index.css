@@ -6,8 +6,36 @@
 }
 
 :root {
+  /* Light Theme - Clean and Modern */
+  --background: #ffffff;
+  --foreground: oklch(0.15 0.01 230); /* Dark text */
+
+  --card: rgba(255, 255, 255, 0.9);
+  --card-foreground: oklch(0.15 0.01 230);
+  --popover: rgba(255, 255, 255, 0.95);
+  --popover-foreground: oklch(0.15 0.01 230);
+
+  --primary: oklch(0.50 0.25 220); /* Bright blue */
+  --primary-foreground: oklch(0.98 0.01 230);
+  --secondary: oklch(0.95 0.01 230); /* Light gray */
+  --secondary-foreground: oklch(0.15 0.01 230);
+  --accent: oklch(0.55 0.30 280); /* Purple accent */
+  --accent-foreground: oklch(0.98 0.01 230);
+  --destructive: oklch(0.60 0.35 15); /* Bright red */
+  --destructive-foreground: oklch(0.98 0.01 230);
+
+  --muted: oklch(0.95 0.01 230);
+  --muted-foreground: oklch(0.45 0.02 230);
+  --border: oklch(0.85 0.01 230);
+  --input: oklch(0.95 0.01 230);
+  --ring: oklch(0.50 0.25 220);
+
+  --radius: 1rem;
+}
+
+.dark {
   /* Modern AI/Tech Theme - Deep Space Navy with Electric Accents */
-  --background: linear-gradient(135deg, #181c2b 0%, #232946 100%);
+  --background: #0f111a;
   --foreground: oklch(0.98 0.01 230); /* Pure white */
 
   --card: rgba(20, 30, 50, 0.7); /* Glassmorphism card */
@@ -29,19 +57,28 @@
   --border: oklch(0.15 0.02 230);
   --input: oklch(0.12 0.02 230);
   --ring: oklch(0.75 0.25 200);
-
-  --radius: 1rem;
 }
 @layer utilities {
   .glass-effect {
-    background: rgba(24, 28, 43, 0.85);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(24px) saturate(180%);
     -webkit-backdrop-filter: blur(24px) saturate(180%);
     border-radius: var(--radius);
-    border: 1px solid rgba(255,255,255,0.10);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
   }
+  
+  .dark .glass-effect {
+    background: rgba(24, 28, 43, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  }
+  
   .gradient-bg {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+  }
+  
+  .dark .gradient-bg {
     background: linear-gradient(135deg, #181c2b 0%, #232946 100%);
   }
 }

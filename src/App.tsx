@@ -26,7 +26,7 @@ import { NeuralBackground } from "@/components/NeuralBackground";
 import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
-import pageTexts from "@/lib/page-texts.json";
+import { useLanguage } from "@/lib/LanguageContext";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { HostBioCard } from "@/components/HostBioCard";
 import { CTABanner } from "@/components/CTABanner";
@@ -34,9 +34,13 @@ import { JsonLd } from "@/components/JsonLd";
 import { motion, useReducedMotion } from "framer-motion";
 import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
 import { EpisodesToolbar } from "@/components/EpisodesToolbar";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SpanishEpisodeWarning } from "@/components/SpanishEpisodeWarning";
 
 
 function App() {
+  const { language, texts: pageTexts } = useLanguage();
   const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -80,7 +84,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
       {/* Promote latest episode immediately */}
       {loading && <LatestEpisodePromo loading variant="banner" />}
       {!loading && !error && podcastData?.episodes?.[0] && (
@@ -128,6 +132,12 @@ function App() {
         />
         
         <div className="container mx-auto px-4 relative z-10">
+          {/* Theme and Language Switchers */}
+          <div className="absolute top-4 right-4 flex gap-2 z-20">
+            <ThemeSwitcher />
+            <LanguageSwitcher />
+          </div>
+          
           {/* Quick Social Access */}
           <div className="flex justify-center mb-8">
             <SocialLinks variant="header" />
@@ -215,6 +225,11 @@ function App() {
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   
                 </p>
+                {language === 'en' && (
+                  <div className="mt-6 max-w-3xl mx-auto">
+                    <SpanishEpisodeWarning />
+                  </div>
+                )}
                 <div className="mt-4">
                   <EpisodesToolbar
                     total={podcastData?.episodes.length || 0}
