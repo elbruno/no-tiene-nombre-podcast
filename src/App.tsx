@@ -38,6 +38,7 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SpanishEpisodeWarning } from "@/components/SpanishEpisodeWarning";
 import { Switch } from "@/components/ui/switch";
+import { VisitorStatsDialog } from "@/components/VisitorStatsDialog";
 
 
 function App() {
@@ -165,6 +166,7 @@ function App() {
         <div className="container mx-auto px-4 relative z-10">
           {/* Theme and Language Switchers */}
           <div className="absolute top-4 right-4 flex gap-2 z-20">
+            <VisitorStatsDialog />
             <ThemeSwitcher />
             <LanguageSwitcher />
             {/* Dev-only prefer-snapshot toggle + reload */}
