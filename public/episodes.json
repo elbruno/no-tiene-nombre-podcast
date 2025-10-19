@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-18T03:27:11.748Z",
+  "generatedAt": "2025-10-19T03:43:51.035Z",
   "items": [
+    {
+      "title": "NTN 431 -   Claude Skills: el update que mató mi último episodio",
+      "description": "Tres días después de hablar de MCP y A2A… ¡Anthropic me deja obsoleto!  \r\nEn este episodio te cuento qué son las Claude Skills, por qué podrían superar a MCP y cómo esto puede cambiar el juego en LATAM.\r\nFuentes  \r\n\t•   Simon Willison Blog: https://simonwillison.net/2025/Oct/16/claude-skills/\r\n\t•   Reddit Thread: https://www.reddit.com/r/ClaudeAI/comments/1o9ph4u/",
+      "pubDate": "Sat, 18 Oct 2025 16:18:47 +0200",
+      "link": "https://www.ivoox.com/ntn-431-claude-skills-update-audios-mp3_rf_160907740_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-431-claude-skills-update_mf_160907740_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/8/d/1/38d18dd0be8d050c03d339fa2182a2bd_XXL.jpg"
+    },
     {
       "title": "NTN 430 -   3 tecnologías que dominarán la IA (y tu futuro)",
       "description": "¡La revolución de los agentes ya empezó! En este episodio te cuento las 3 tecnologías que necesitas aprender hoy para surfear la ola de la inteligencia artificial:\r\n\t•   MCP: el nuevo estándar de conexión entre modelos y datos\r\n\t•   A2A: agentes hablando entre sí\r\n\t•   ACP: la promesa que unirá todo\r\nFuentes:\r\n\t• https://modelcontextprotocol.io/introduction\r\n\t• https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/\r\n\t• https://research.ibm.com/blog/agent-communication-protocol-ai",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-412-la-burbuja-ia-audios-mp3_rf_155834498_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-412-la-burbuja-ia_mf_155834498_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/9/2/1/c/921cae165cbd5df4363971ffc5979184_XXL.jpg"
-    },
-    {
-      "title": "NTN 411 -   Perplexity vs Google",
-      "description": "En este episodio te cuento cómo Perplexity lanzó su navegador con IA Comet a todos los Pro en EE. UU., y cómo ahora busca comprar Chrome por 34 500 millones de dólares. IA, ambición y un browser que piensa por ti.",
-      "pubDate": "Fri, 15 Aug 2025 15:58:04 +0200",
-      "link": "https://www.ivoox.com/ntn-411-perplexity-vs-google-audios-mp3_rf_155551275_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-411-perplexity-vs-google_mf_155551275_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/7/4/6/67460aaa4136558259696d3fe6976899_XXL.jpg"
     }
   ]
 }
