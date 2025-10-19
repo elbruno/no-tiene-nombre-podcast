@@ -13,7 +13,8 @@ const STATS_STORAGE_KEY = 'visitor_stats';
 const SESSION_STORAGE_KEY = 'session_id';
 const LOCATION_STORAGE_KEY = 'visitor_location';
 
-// Generate a simple session ID
+// Generate a simple session ID (not for security purposes)
+// This is used only for visitor analytics tracking, not authentication
 const generateSessionId = () => {
   return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 };
