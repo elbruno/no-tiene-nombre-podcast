@@ -15,7 +15,7 @@ const LOCATION_STORAGE_KEY = 'visitor_location';
 
 // Generate a simple session ID
 const generateSessionId = () => {
-  return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 };
 
 // Get or create session ID
@@ -38,7 +38,7 @@ const isUniqueVisitor = (): boolean => {
   return false;
 };
 
-// Get visitor location using browser's geolocation API
+// Get visitor location using IP geolocation service
 const getVisitorLocation = async (): Promise<string> => {
   // Check if we already have location stored
   const storedLocation = localStorage.getItem(LOCATION_STORAGE_KEY);
@@ -51,8 +51,24 @@ const getVisitorLocation = async (): Promise<string> => {
     const response = await fetch('https://ipapi.co/json/', {
       cache: 'force-cache',
     });
+    
+    if (!response.ok) {
+      console.warn('Geolocation API returned error:', response.status);
+      return 'Unknown';
+    }
+    
     const data = await response.json();
-    const location = `${data.city || 'Unknown'}, ${data.country_name || 'Unknown'}`;
+    
+    // Validate response structure
+    if (!data || typeof data !== 'object') {
+      console.warn('Invalid geolocation response structure');
+      return 'Unknown';
+    }
+    
+    const city = data.city || 'Unknown';
+    const country = data.country_name || 'Unknown';
+    const location = `${city}, ${country}`;
+    
     localStorage.setItem(LOCATION_STORAGE_KEY, location);
     return location;
   } catch (error) {
@@ -98,13 +114,25 @@ export const useVisitorStats = () => {
     const trackVisit = async () => {
       setIsLoading(true);
 
-      // Get session info
-      getSessionId();
+      // Ensure session exists and get unique visitor status
+      const sessionId = getSessionId();
       const isUnique = isUniqueVisitor();
       const location = await getVisitorLocation();
 
       // Load current stats
       const currentStats = loadLocalStats();
+
+      // Check if this is a new session to reset session counter
+      const SESSION_VISIT_KEY = 'session_visit_count';
+      const currentSessionId = sessionStorage.getItem(SESSION_STORAGE_KEY);
+      let sessionVisits = parseInt(sessionStorage.getItem(SESSION_VISIT_KEY) || '0', 10);
+      
+      // Only increment if it's a fresh page load (not hot reload)
+      if (!sessionStorage.getItem('page_loaded')) {
+        sessionVisits += 1;
+        sessionStorage.setItem(SESSION_VISIT_KEY, sessionVisits.toString());
+        sessionStorage.setItem('page_loaded', 'true');
+      }
 
       // Update stats
       const updatedStats: VisitorStats = {
@@ -112,7 +140,7 @@ export const useVisitorStats = () => {
         uniqueVisitors: isUnique
           ? currentStats.uniqueVisitors + 1
           : currentStats.uniqueVisitors,
-        currentSessionVisits: (currentStats.currentSessionVisits || 0) + 1,
+        currentSessionVisits: sessionVisits,
         locations: {
           ...currentStats.locations,
           [location]: (currentStats.locations[location] || 0) + 1,
