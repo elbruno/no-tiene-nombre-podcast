@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-23T03:35:02.666Z",
+  "generatedAt": "2025-10-24T03:32:28.025Z",
   "items": [
+    {
+      "title": "NTN 433 -   OpenAI lanza su navegador y hace sudar a Chrome",
+      "description": "OpenAI lanzó su navegador con IA, y Google... perdió más de  150 mil millones en valor de mercado.\r\nHablamos del nuevo ChatGPT Atlas, la reacción del mercado y cómo este cambio podría transformar   el futuro de la web (y de Latam).\r\n  Fuentes:\r\n\t• https://www.reuters.com/technology/openai-unveils-ai-browser-atlas-2025-10-21\r\n\t• https://www.theguardian.com/technology/2025/oct/21/openai-chatgpt-web-browser-atlas\r\n\t• https://timesofindia.indiatimes.com/technology/tech-news/how-google-lost-more-than-150-billion",
+      "pubDate": "Thu, 23 Oct 2025 22:23:08 +0200",
+      "link": "https://www.ivoox.com/ntn-433-openai-lanza-su-navegador-audios-mp3_rf_161217914_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-433-openai-lanza-su-navegador_mf_161217914_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/e/4/1/fe41fa7d9a88679c3c6656cac67121b7_XXL.jpg"
+    },
     {
       "title": "NTN 432 -  ️ AWS se cayó... y arrastró medio Internet",
       "description": "El 20 de octubre de 2025, AWS se cayó… y con ella medio Internet  \r\nEn este episodio te cuento:\r\n\t• Qué servicios y empresas se vieron afectadas  \r\n\t• Qué revela esto sobre nuestra dependencia digital ⚙️\r\n\t• Y cómo LATAM también sintió el temblor",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-414-educacion-chips-politicas-audios-mp3_rf_156240994_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-414-educacion-chips-politicas_mf_156240994_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/5/4/6/9/54699836230253d823a9911fc04d63e8_XXL.jpg"
-    },
-    {
-      "title": "₩100 Billones, Chips en Crisis y Cloud Millonario",
-      "description": "Corea del Sur lanza un fondo millonario de ₩100 billones para impulsar proyectos de IA. Nvidia detiene producción de su chip H20 por presiones chinas. Y Meta firma un acuerdo de nube de IA por US$10 mil millones con Google.",
-      "pubDate": "Fri, 22 Aug 2025 16:19:04 +0200",
-      "link": "https://www.ivoox.com/100-billones-chips-crisis-cloud-millonario-audios-mp3_rf_156055013_1.html",
-      "audioUrl": "https://www.ivoox.com/100-billones-chips-crisis-cloud-millonario_mf_156055013_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/3/d/5/23d5d47d61aa633fa96e51b07a5fb9aa_XXL.jpg"
     }
   ]
 }
