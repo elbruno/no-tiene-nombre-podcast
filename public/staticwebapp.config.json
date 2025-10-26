@@ -1,0 +1,27 @@
+{
+    "navigationFallback": {
+        "rewrite": "/index.html",
+        "exclude": [
+            "/assets/*",
+            "/*.{css,scss,js,json,xml,svg,png,jpg,jpeg,gif,ico,woff,woff2,ttf,eot,webmanifest}"
+        ]
+    },
+    "mimeTypes": {
+        ".json": "application/json",
+        ".xml": "application/xml",
+        ".js": "text/javascript",
+        ".css": "text/css"
+    },
+    "globalHeaders": {
+        "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:; img-src 'self' https: data: blob:; media-src 'self' https: blob:; frame-src 'self' https:;",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "no-referrer-when-downgrade"
+    },
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/index.html",
+            "statusCode": 200
+        }
+    }
+}
