@@ -62,14 +62,16 @@ function App() {
   });
 
   // Safe development flag - avoid using import.meta directly without guards
-  let isDev = false;
-  try {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore - import.meta is replaced by Vite
-    isDev = typeof window !== 'undefined' && (import.meta as any)?.env?.DEV;
-  } catch (e) {
-    isDev = false;
-  }
+  const isDev = (() => {
+    try {
+      // In production builds, import.meta.env will be replaced with actual values
+      // If DEV is false or undefined, we're in production
+      return import.meta.env.DEV === true;
+    } catch (e) {
+      // If there's any error accessing import.meta, assume production
+      return false;
+    }
+  })();
 
   // Track which data source was used last
   const [dataSource, setDataSource] = useState<'snapshot' | 'live' | null>(null);

@@ -11,7 +11,7 @@
         "dev": "vite",
         "kill": "fuser -k 5000/tcp",
         "prebuild": "node ./scripts/fetch-rss.mjs",
-        "build": "tsc -b --noCheck && vite build",
+        "build": "vite build",
         "lint": "eslint .",
         "optimize": "vite optimize",
         "preview": "vite preview",

@@ -33,7 +33,10 @@ if ('serviceWorker' in navigator) {
           toast.success('Listo para usar sin conexión');
         },
       });
-    }).catch(() => {});
+    }).catch((err) => {
+      // Silently fail if PWA module not available (production build issue)
+      console.warn('PWA registration failed:', err);
+    });
   });
 }
 

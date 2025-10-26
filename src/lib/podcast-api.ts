@@ -12,17 +12,14 @@ export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promis
     // and the caller didn't opt out, prefer the local snapshot for speed.
     const preferSnapshot = options.preferSnapshot === true;
     try {
-      // Determine dev mode safely without using `typeof import` which some
-      // parsers (SWC) choke on when used in expressions. Use a guarded
-      // try/catch and check `import.meta` in browser context.
-      let isDev = false;
-      try {
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore - import.meta is replaced by Vite
-        isDev = typeof window !== 'undefined' && (import.meta as any)?.env?.DEV;
-      } catch (e) {
-        isDev = false;
-      }
+      // Determine dev mode safely - import.meta.env is replaced at build time
+      const isDev = (() => {
+        try {
+          return import.meta.env.DEV === true;
+        } catch (e) {
+          return false;
+        }
+      })();
       if (preferSnapshot || isDev) {
         console.log('[PodcastAPI] preferSnapshot/dev mode: attempting local snapshot /episodes.json for speed');
         const snapshotRes = await fetch('/episodes.json', { cache: 'no-store' });
