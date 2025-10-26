@@ -16,7 +16,17 @@ const LOCATION_STORAGE_KEY = 'visitor_location';
 // Generate a simple session ID (not for security purposes)
 // This is used only for visitor analytics tracking, not authentication
 const generateSessionId = () => {
-  return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
+  const randomBytes = new Uint8Array(12);
+  if (window.crypto && window.crypto.getRandomValues) {
+    window.crypto.getRandomValues(randomBytes);
+    // Use base64 for compactness; remove non-alphanumerics if desired
+    const randomStr = Array.from(randomBytes).map(b => b.toString(36)).join('');
+    return `${Date.now()}-${randomStr}`;
+  } else {
+    // Fallback to Math.random(), but warn (should never happen in modern browsers)
+    console.warn('window.crypto.getRandomValues not available. Using Math.random() fallback.');
+    return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
+  }
 };
 
 // Get or create session ID
