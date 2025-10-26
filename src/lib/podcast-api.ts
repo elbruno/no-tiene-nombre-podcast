@@ -57,18 +57,47 @@ export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promis
     }
 
     console.log('[PodcastAPI] Fetching RSS feed from:', config.rssFeedUrl);
-    // Use AbortController to implement a short timeout to avoid long waits
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), REMOTE_FETCH_TIMEOUT);
-    // Bypass any HTTP/browser caches to reflect new episodes promptly
-  const response = await fetch(config.rssFeedUrl, { cache: 'no-store', signal: controller.signal });
-    clearTimeout(timeoutId);
-    console.log('[PodcastAPI] Fetch response:', response);
-    if (!response.ok) {
-      console.error('[PodcastAPI] HTTP error:', response.status);
-      throw new Error(`HTTP error! status: ${response.status}`);
+    // Helper to attempt fetch with timeout
+    const tryFetchText = async (url: string, timeout = REMOTE_FETCH_TIMEOUT) => {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeout);
+      try {
+        const res = await fetch(url, { cache: 'no-store', signal: controller.signal });
+        clearTimeout(timeoutId);
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return await res.text();
+      } catch (err) {
+        clearTimeout(timeoutId);
+        throw err;
+      }
+    };
+
+    let xmlText: string | undefined;
+    try {
+      // First try a direct fetch. This may fail in-browser due to CORS on some hosts.
+      xmlText = await tryFetchText(config.rssFeedUrl);
+    } catch (err) {
+      console.warn('[PodcastAPI] Direct RSS fetch failed (possible CORS/network). Will try proxy fallback:', err);
+      // Try a public CORS proxy fallback (allorigins) as a best-effort to work around CORS.
+      // Note: using third-party proxies has trade-offs; it's preferable to serve the RSS from your own server-side snapshot.
+      try {
+        const proxy = `https://api.allorigins.win/raw?url=${encodeURIComponent(config.rssFeedUrl)}`;
+        xmlText = await tryFetchText(proxy, REMOTE_FETCH_TIMEOUT * 2);
+        console.log('[PodcastAPI] Successfully fetched RSS via allorigins proxy');
+      } catch (proxyErr) {
+        console.warn('[PodcastAPI] allorigins proxy failed, trying jina.ai reader as last resort:', proxyErr);
+        try {
+          // jina.ai reader works over http; if the feed is https, try with https -> jina supports https prefix too
+          const jina = `https://r.jina.ai/http://${config.rssFeedUrl.replace(/^https?:\/\//, '')}`;
+          xmlText = await tryFetchText(jina, REMOTE_FETCH_TIMEOUT * 2);
+          console.log('[PodcastAPI] Successfully fetched RSS via jina.ai reader proxy');
+        } catch (lastErr) {
+          console.error('[PodcastAPI] All remote fetch attempts failed');
+          throw lastErr;
+        }
+      }
     }
-  const xmlText = await response.text();
+    if (!xmlText) throw new Error('Failed to obtain RSS XML text');
     console.log('[PodcastAPI] RSS XML text length:', xmlText.length);
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
