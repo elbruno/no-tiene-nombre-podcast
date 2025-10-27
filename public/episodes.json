@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-26T18:59:03.229Z",
+  "generatedAt": "2025-10-27T03:50:54.617Z",
   "items": [
+    {
+      "title": "NTN 434 -   La IA que no quería apagarse",
+      "description": "Esta semana:\r\n\t•   Modelos de IA que no quieren apagarse (sí, como HAL 9000  )\r\n\t• ⚙️ Claude Haiku 4.5: rápido, barato y listo para conquistar LATAM  \r\n\t•   Qué significa todo esto para empresas y devs en la región\r\n  Fuentes:\r\n\t• The Guardian → https://www.theguardian.com/technology/2025/oct/25/ai-models-may-be-developing-their-own-survival-drive\r\n\t• Anthropic → https://www.anthropic.com/news/claude-haiku-4-5",
+      "pubDate": "Sun, 26 Oct 2025 22:31:29 +0200",
+      "link": "https://www.ivoox.com/ntn-434-la-ia-no-audios-mp3_rf_161316930_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-434-la-ia-no_mf_161316930_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/2/2/d/d22d3691ca25c5fbb2ebaeb8982422e1_XXL.jpg"
+    },
     {
       "title": "NTN 433 -   OpenAI lanza su navegador y hace sudar a Chrome",
       "description": "OpenAI lanzó su navegador con IA, y Google... perdió más de  150 mil millones en valor de mercado.\r\nHablamos del nuevo ChatGPT Atlas, la reacción del mercado y cómo este cambio podría transformar   el futuro de la web (y de Latam).\r\n  Fuentes:\r\n\t• https://www.reuters.com/technology/openai-unveils-ai-browser-atlas-2025-10-21\r\n\t• https://www.theguardian.com/technology/2025/oct/21/openai-chatgpt-web-browser-atlas\r\n\t• https://timesofindia.indiatimes.com/technology/tech-news/how-google-lost-more-than-150-billion",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-415-chips-guardrails-mexico-audios-mp3_rf_156472471_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-415-chips-guardrails-mexico_mf_156472471_feed_1.mp3",
       "imageUrl": "https://static-1.ivoox.com/audios/6/a/a/3/6aa3ad3e5387fdd2e4a090cd01039260_XXL.jpg"
-    },
-    {
-      "title": "NTN 414 - Educación, chips y políticas",
-      "description": "India lanza bootcamps gratuitos de IA, Nvidia acapara la atención con sus resultados y Ohio empieza a regular el uso escolar de IA. ¿Qué nos enseña esto sobre política, educación y oportunidades para LATAM?\r\nFuentes:\r\n\t• https://timesofindia.indiatimes.com/…\r\n\t• https://www.barrons.com/…\r\n\t• https://www.statenews.org/…",
-      "pubDate": "Mon, 25 Aug 2025 15:29:11 +0200",
-      "link": "https://www.ivoox.com/ntn-414-educacion-chips-politicas-audios-mp3_rf_156240994_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-414-educacion-chips-politicas_mf_156240994_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/4/6/9/54699836230253d823a9911fc04d63e8_XXL.jpg"
     }
   ]
 }
