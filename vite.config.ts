@@ -21,11 +21,15 @@ export default defineConfig(({ mode }) => ({
         runtimeCaching: [
           {
             urlPattern: /^\/episodes\.json$/,
-            handler: 'StaleWhileRevalidate',
+            // Prefer network first so clients get fresh snapshot after a deployment;
+            // fall back to cache when network is unavailable.
+            handler: 'NetworkFirst',
             options: {
               cacheName: 'episodes-json',
-              expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 * 24 * 7 },
+              // Keep a small cache to reduce stale-wait — 1 hour
+              expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 },
               fetchOptions: { cache: 'no-store' },
+              networkTimeoutSeconds: 5,
             },
           },
           {

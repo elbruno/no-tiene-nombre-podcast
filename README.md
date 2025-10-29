@@ -187,6 +187,36 @@ This project leverages GitHub Copilot with GPT-5 in Beast-Mode for enhanced deve
 - [Contributing Guidelines](CONTRIBUTING.md) - How to contribute
 - [Code of Conduct](CODE_OF_CONDUCT.md) - Community standards
 
+## RSS Snapshot & Scheduled Deploys (important)
+
+The repository includes an automated content pipeline that refreshes episode data daily. There are two supported modes for the scheduled job — direct deploy (recommended) and commit+push (history kept). The repository currently uses the direct deploy approach.
+
+1. Direct deploy (current recommended flow)
+
+- The scheduled workflow `.github/workflows/rss-snapshot.yml` runs daily, generates `public/episodes.json` and `public/episodes.xml`, builds the site, and deploys the `dist/` output directly to Azure Static Web Apps using the `AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_SKY_0B305F010` secret. This avoids needing any Personal Access Token (PAT) and ensures the site is updated immediately after the schedule run.
+
+1. Commit + push (optional — keeps snapshot history in git)
+
+If you want to retain snapshots in git history (useful for auditing), re-enable the commit+push approach. Important: pushes created by workflows using the default `GITHUB_TOKEN` may not trigger other workflows. To ensure a commit created by the RSS snapshot workflow triggers the Azure deploy workflow you must:
+
+- Create a GitHub Personal Access Token (PAT) with `repo` scope (write access to repo).
+- Add it to repository secrets as `SNAPSHOT_PUSH_TOKEN`.
+- Update `.github/workflows/rss-snapshot.yml` to use that token when pushing (or revert to the previous commit step that used the PAT). Example (high level):
+
+  - Use `persist-credentials: false` on `actions/checkout` step.
+  - After generating the snapshot, run a scripted `git commit` and `git push https://x-access-token:${{ secrets.SNAPSHOT_PUSH_TOKEN }}@github.com/<owner>/<repo>.git HEAD:main`.
+
+Trade-offs:
+
+- Pros: you keep a historical record of snapshots in the repo.
+- Cons: requires securely storing a PAT and rotating it occasionally; if misconfigured, the push may still not trigger downstream workflows.
+
+Which to choose?
+
+For reliability and simplicity, we recommend the direct-deploy approach (already enabled). Use commit+push only if you need snapshots in git for auditing or tracking.
+
+If you want me to switch the workflow to the commit+push approach instead, I can implement that and add a README sample script for generating the PAT and storing it in secrets.
+
 ## Contributing
 
 Want to help? Quick start:

@@ -51,13 +51,20 @@ function App() {
   const [viewMode, setViewMode] = useState<'cards' | 'list'>('cards');
   // Dev-only: prefer snapshot toggle for faster local development
   // Initialize from localStorage when available (browser-only)
+  // Default behavior: in development prefer snapshot (true), in production prefer live RSS (false)
   const [preferSnapshot, setPreferSnapshot] = useState<boolean>(() => {
     try {
-      if (typeof window === 'undefined') return true;
+      if (typeof window === 'undefined') return false; // assume production server environment
       const raw = window.localStorage.getItem('preferSnapshot');
-      return raw === null ? true : raw === 'true';
+      if (raw !== null) return raw === 'true';
+      try {
+        // import.meta.env may be replaced at build time; guard access
+        return import.meta.env.DEV === true ? true : false;
+      } catch (e) {
+        return false;
+      }
     } catch (e) {
-      return true;
+      return false;
     }
   });
 
