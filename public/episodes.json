@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2025-10-28T03:40:02.890Z",
+  "generatedAt": "2025-10-29T03:47:07.989Z",
   "items": [
+    {
+      "title": "NTN 435 -   Grokipedia: la enciclopedia que se cree más lista que Wikipedia",
+      "description": "En este episodio exploramos Grokipedia, la nueva “enciclopedia sin sesgos” de Elon Musk  \r\n  Hablamos de:\r\nQué es y cómo funciona  \r\nLas críticas y polémicas  \r\nLos riesgos para la info en el mundo  \r\n\r\n  Fuentes:\r\n\r\nWired   https://www.wired.com/story/elon-musk-launches-grokipedia-wikipedia-competitor/?utm_source=chatgpt.com\r\n\r\nThe Guardian   https://www.theguardian.com/technology/2025/oct/28/elon-musk-grokipedia?utm_source=chatgpt.com\r\n\r\nPeople   https://people.com/elon-musk-launches-ai-powered-grokipedia-compete-with-wikipedia-11838303?utm_source=chatgpt.com",
+      "pubDate": "Tue, 28 Oct 2025 20:12:15 +0200",
+      "link": "https://www.ivoox.com/ntn-435-grokipedia-enciclopedia-que-audios-mp3_rf_161475196_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-435-grokipedia-enciclopedia-que_mf_161475196_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/7/d/d/c7dd3f6f4ba444bc0313456b762a5f0d_XXL.jpg"
+    },
     {
       "title": "NTN 434 -   La IA que no quería apagarse",
       "description": "Esta semana:\r\n\t•   Modelos de IA que no quieren apagarse (sí, como HAL 9000  )\r\n\t• ⚙️ Claude Haiku 4.5: rápido, barato y listo para conquistar LATAM  \r\n\t•   Qué significa todo esto para empresas y devs en la región\r\n  Fuentes:\r\n\t• The Guardian → https://www.theguardian.com/technology/2025/oct/25/ai-models-may-be-developing-their-own-survival-drive\r\n\t• Anthropic → https://www.anthropic.com/news/claude-haiku-4-5",
@@ -152,14 +160,6 @@
       "link": "https://www.ivoox.com/ntn-416-microsoft-local-nvidia-negociando-audios-mp3_rf_156577020_1.html",
       "audioUrl": "https://www.ivoox.com/ntn-416-microsoft-local-nvidia-negociando_mf_156577020_feed_1.mp3",
       "imageUrl": "https://static-2.ivoox.com/audios/3/2/2/2/3222bd9f3e482ca11afa67714e41e938_XXL.jpg"
-    },
-    {
-      "title": "NTN 415 -  ️ Chips, guardrails y México en modo server",
-      "description": "• NVIDIA récord y guía más fría.\r\n\t• OpenAI añade controles parentales y emergencias.\r\n\t• Foxconn invierte en AI servers en México.\r\n\t• Oportunidades LATAM: energía, compliance y nearshoring.\r\nFuentes:\r\n\t• https://www.reuters.com/business/nvidia-ceo-says-ai-boom-far-over-after-tepid-sales-forecast-2025-08-28/ \r\n\t• https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026 \r\n\t• https://www.indiatoday.in/technology/news/story/openai-to-add-parental-controls-emergency-contacts-in-chatgpt-after-teen-suicide-case-2777984-2025-08-28 \r\nhttps://mexiconewsdaily.com/business/foxconn-investing-in-mexico/",
-      "pubDate": "Thu, 28 Aug 2025 17:24:06 +0200",
-      "link": "https://www.ivoox.com/ntn-415-chips-guardrails-mexico-audios-mp3_rf_156472471_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-415-chips-guardrails-mexico_mf_156472471_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/a/a/3/6aa3ad3e5387fdd2e4a090cd01039260_XXL.jpg"
     }
   ]
 }
