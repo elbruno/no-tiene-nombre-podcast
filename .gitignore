@@ -31,3 +31,4 @@ packages
 .devcontainer/
 
 .spark-workbench-id
+data/visitor-stats.json

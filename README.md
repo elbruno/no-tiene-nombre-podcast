@@ -141,7 +141,16 @@ npm run screenshots
 - `npm run build` - Build for production (includes RSS fetch prebuild step)
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint for code quality
+- `npm run test` - Run server-side analytics tests (requires local Node environment)
 - `npm run screenshots` - Generate screenshots using Playwright
+
+### Visitor Analytics
+
+- **Aggregation service**: A lightweight Node middleware persists visit counts to `data/visitor-stats.json`, providing cross-user totals and per-location counts.
+- **Local cache**: The client still stores a fallback snapshot in `localStorage` so stats display offline; server totals take precedence when available.
+- **Cookie-based dedupe**: Unique visitors are deduplicated via an HTTP-only `visitor_id` cookie that the middleware issues automatically.
+- **Running locally**: Start `npm run dev` as usual; the `/api/visitor-stats` endpoint is served via Vite middleware and writes to `data/visitor-stats.json`. Ensure the process has write permissions.
+- **Testing**: Execute `npm run test` to validate the file-backed store and API middleware. Install dependencies after pulling to include the new `tsx` test runner.
 
 ## Deployment
 

@@ -6,6 +6,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 
 // Spark plugins removed
 import { resolve } from 'path'
+import { visitorStatsPlugin } from './server/visitorStatsPlugin';
 
 const projectRoot = process.env.PROJECT_ROOT || import.meta.dirname
 
@@ -14,6 +15,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
+    visitorStatsPlugin(),
     VitePWA({
       registerType: "autoUpdate",
       workbox: {

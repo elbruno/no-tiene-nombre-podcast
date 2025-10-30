@@ -12,6 +12,15 @@ export interface VisitorStats {
 const STATS_STORAGE_KEY = 'visitor_stats';
 const SESSION_STORAGE_KEY = 'session_id';
 const LOCATION_STORAGE_KEY = 'visitor_location';
+const SESSION_VISIT_KEY = 'session_visit_count';
+const PAGE_LOADED_KEY = 'page_loaded';
+
+interface AggregatedVisitorStats {
+  totalVisits: number;
+  uniqueVisitors: number;
+  locations: Record<string, number>;
+  lastUpdated: string;
+}
 
 // Generate a simple session ID (not for security purposes)
 // This is used only for visitor analytics tracking, not authentication
@@ -122,45 +131,77 @@ export const useVisitorStats = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const updateSessionVisitCount = () => {
+      const currentSessionId = sessionStorage.getItem(SESSION_STORAGE_KEY);
+      if (!currentSessionId) {
+        sessionStorage.setItem(SESSION_STORAGE_KEY, getSessionId());
+      }
+
+      let sessionVisits = parseInt(sessionStorage.getItem(SESSION_VISIT_KEY) || '0', 10);
+
+      if (!sessionStorage.getItem(PAGE_LOADED_KEY)) {
+        sessionVisits += 1;
+        sessionStorage.setItem(SESSION_VISIT_KEY, sessionVisits.toString());
+        sessionStorage.setItem(PAGE_LOADED_KEY, 'true');
+      }
+
+      return sessionVisits;
+    };
+
+    const fetchAggregatedStats = async (location: string | undefined): Promise<AggregatedVisitorStats> => {
+      const response = await fetch('/api/visitor-stats', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ location }),
+        credentials: 'include',
+      });
+
+      if (!response.ok) {
+        throw new Error(`Failed to record visit: ${response.status}`);
+      }
+
+      return response.json();
+    };
+
     const trackVisit = async () => {
       setIsLoading(true);
 
       // Ensure session exists and get unique visitor status
-      const sessionId = getSessionId();
+      getSessionId();
       const isUnique = isUniqueVisitor();
       const location = await getVisitorLocation();
+      const sessionVisits = updateSessionVisitCount();
 
-      // Load current stats
-      const currentStats = loadLocalStats();
+      let updatedStats: VisitorStats;
 
-      // Check if this is a new session to reset session counter
-      const SESSION_VISIT_KEY = 'session_visit_count';
-      const currentSessionId = sessionStorage.getItem(SESSION_STORAGE_KEY);
-      let sessionVisits = parseInt(sessionStorage.getItem(SESSION_VISIT_KEY) || '0', 10);
-      
-      // Only increment if it's a fresh page load (not hot reload)
-      if (!sessionStorage.getItem('page_loaded')) {
-        sessionVisits += 1;
-        sessionStorage.setItem(SESSION_VISIT_KEY, sessionVisits.toString());
-        sessionStorage.setItem('page_loaded', 'true');
+      try {
+        const aggregated = await fetchAggregatedStats(location);
+        updatedStats = {
+          totalVisits: aggregated.totalVisits,
+          uniqueVisitors: aggregated.uniqueVisitors,
+          currentSessionVisits: sessionVisits,
+          locations: aggregated.locations,
+          userLocation: location,
+          lastUpdated: aggregated.lastUpdated,
+        };
+      } catch (error) {
+        console.warn('Failed to reach visitor stats API. Falling back to local counters.', error);
+        const localStats = loadLocalStats();
+        updatedStats = {
+          totalVisits: localStats.totalVisits + 1,
+          uniqueVisitors: isUnique ? localStats.uniqueVisitors + 1 : localStats.uniqueVisitors,
+          currentSessionVisits: sessionVisits,
+          locations: {
+            ...localStats.locations,
+            [location]: (localStats.locations[location] || 0) + 1,
+          },
+          userLocation: location,
+          lastUpdated: new Date().toISOString(),
+        };
       }
 
-      // Update stats
-      const updatedStats: VisitorStats = {
-        totalVisits: currentStats.totalVisits + 1,
-        uniqueVisitors: isUnique
-          ? currentStats.uniqueVisitors + 1
-          : currentStats.uniqueVisitors,
-        currentSessionVisits: sessionVisits,
-        locations: {
-          ...currentStats.locations,
-          [location]: (currentStats.locations[location] || 0) + 1,
-        },
-        userLocation: location,
-        lastUpdated: new Date().toISOString(),
-      };
-
-      // Save and update state
       saveLocalStats(updatedStats);
       setStats(updatedStats);
       setIsLoading(false);
