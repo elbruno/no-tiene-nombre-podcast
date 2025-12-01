@@ -25,6 +25,7 @@ export function EpisodeEmbeddedPlayer({ audioUrl, embedUrl, title }: EpisodeEmbe
       return () => {
         if (timeoutRef.current) {
           clearTimeout(timeoutRef.current);
+          timeoutRef.current = null;
         }
       };
     }
@@ -75,7 +76,6 @@ export function EpisodeEmbeddedPlayer({ audioUrl, embedUrl, title }: EpisodeEmbe
               onLoad={handleIframeLoad}
               className="w-full h-48"
               style={{ border: 'none' }}
-              allow="autoplay"
             />
           ) : audioUrl ? (
             <div className="p-4">

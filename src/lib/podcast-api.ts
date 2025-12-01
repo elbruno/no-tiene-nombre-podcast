@@ -9,9 +9,9 @@ export type FetchPodcastOptions = { preferSnapshot?: boolean };
 // Helper to extract embedId from Ivoox URLs
 function extractEmbedId(url?: string): string | undefined {
   if (!url) return undefined;
-  // Pattern: /[rm]f_(\d+)/ - matches both rf_ (link) and mf_ (audio) patterns
-  const match = url.match(/[rm]f_(\d+)/);
-  return match ? match[1] : undefined;
+  // Pattern: /(rf_|mf_)(\d+)/ - matches rf_ (link) or mf_ (audio) followed by digits
+  const match = url.match(/(rf_|mf_)(\d+)/);
+  return match ? match[2] : undefined;
 }
 
 // Helper to generate Ivoox embed URL from embedId

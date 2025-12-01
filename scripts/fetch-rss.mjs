@@ -55,9 +55,9 @@ async function main() {
   // Helper function to extract embedId from Ivoox URLs
   const extractEmbedId = (url) => {
     if (!url) return null;
-    // Pattern: /[rm]f_(\d+)/ - matches both rf_ (link) and mf_ (audio) patterns
-    const match = url.match(/[rm]f_(\d+)/);
-    return match ? match[1] : null;
+    // Pattern: /(rf_|mf_)(\d+)/ - matches rf_ (link) or mf_ (audio) followed by digits
+    const match = url.match(/(rf_|mf_)(\d+)/);
+    return match ? match[2] : null;
   };
 
   // Helper function to generate Ivoox embed URL from embedId
