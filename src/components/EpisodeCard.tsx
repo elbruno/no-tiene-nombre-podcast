@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Play, Brain, Share2 } from "lucide-react";
 import useShare from "@/hooks/useShare";
 import { Episode } from "@/lib/types";
+import { EpisodeEmbeddedPlayer } from "@/components/EpisodeEmbeddedPlayer";
 
 interface EpisodeCardProps {
   episode: Episode;
@@ -169,6 +170,13 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
         <CardDescription className="line-clamp-3 leading-relaxed text-muted-foreground group-hover:text-foreground/90 transition-colors duration-300">
           {episode.description}
         </CardDescription>
+
+        {/* Embedded Player */}
+        <EpisodeEmbeddedPlayer
+          audioUrl={episode.audioUrl}
+          embedUrl={episode.embedUrl}
+          title={episode.title}
+        />
 
         {/* Action button */}
     {episode.link && (

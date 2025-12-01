@@ -52,6 +52,20 @@ async function main() {
     return rawContent.replace(/<[^>]*>/g, '').trim();
   };
 
+  // Helper function to extract embedId from Ivoox URLs
+  const extractEmbedId = (url) => {
+    if (!url) return null;
+    // Pattern: /[rm]f_(\d+)/ - matches both rf_ (link) and mf_ (audio) patterns
+    const match = url.match(/[rm]f_(\d+)/);
+    return match ? match[1] : null;
+  };
+
+  // Helper function to generate Ivoox embed URL from embedId
+  const generateEmbedUrl = (embedId) => {
+    if (!embedId) return null;
+    return `https://www.ivoox.com/player_ej_${embedId}_6_1.html?c1=d69776`;
+  };
+
   const items = [];
   let match;
   while ((match = itemRegex.exec(xml)) !== null) {
@@ -64,7 +78,12 @@ async function main() {
     const link = (itemXml.match(linkRegex)?.[1] || '').trim();
     const audioUrl = itemXml.match(enclosureRegex)?.[1];
     const imageUrl = itemXml.match(itunesImgRegex)?.[1];
-    items.push({ title, description, pubDate, link, audioUrl, imageUrl });
+    
+    // Extract embedId from link or audioUrl
+    const embedId = extractEmbedId(link) || extractEmbedId(audioUrl);
+    const embedUrl = generateEmbedUrl(embedId);
+    
+    items.push({ title, description, pubDate, link, audioUrl, imageUrl, embedId, embedUrl });
     if (items.length >= 20) break;
   }
 

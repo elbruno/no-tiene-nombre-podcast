@@ -6,6 +6,20 @@ const REMOTE_FETCH_TIMEOUT = 3000;
 
 export type FetchPodcastOptions = { preferSnapshot?: boolean };
 
+// Helper to extract embedId from Ivoox URLs
+function extractEmbedId(url?: string): string | undefined {
+  if (!url) return undefined;
+  // Pattern: /[rm]f_(\d+)/ - matches both rf_ (link) and mf_ (audio) patterns
+  const match = url.match(/[rm]f_(\d+)/);
+  return match ? match[1] : undefined;
+}
+
+// Helper to generate Ivoox embed URL from embedId
+function generateEmbedUrl(embedId?: string): string | undefined {
+  if (!embedId) return undefined;
+  return `https://www.ivoox.com/player_ej_${embedId}_6_1.html?c1=d69776`;
+}
+
 export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promise<FetchPodcastResult> {
   try {
     // If caller explicitly requests preferSnapshot, or we detect Vite dev mode
@@ -34,6 +48,8 @@ export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promis
             audioUrl: it.audioUrl,
             link: it.link,
             imageUrl: it.imageUrl,
+            embedId: it.embedId,
+            embedUrl: it.embedUrl,
           }));
           return {
             data: {
@@ -148,15 +164,21 @@ export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promis
         imageUrl: episodeImage,
         audioUrl: enclosureElement?.getAttribute('url'),
       });
+      const link = linkElement?.textContent || undefined;
+      const audioUrl = enclosureElement?.getAttribute('url') || undefined;
+      const embedId = extractEmbedId(link) || extractEmbedId(audioUrl);
+      const embedUrl = generateEmbedUrl(embedId);
       return {
         id: `episode-${index}`,
         title: titleElement?.textContent?.trim() || `Episodio ${index + 1}`,
         description: descriptionElement?.textContent?.replace(/<[^>]*>/g, '').trim() || 'Sin descripción disponible',
         pubDate: pubDateElement?.textContent || new Date().toISOString(),
         duration: durationElement?.textContent || undefined,
-        audioUrl: enclosureElement?.getAttribute('url') || undefined,
-        link: linkElement?.textContent || undefined,
+        audioUrl,
+        link,
         imageUrl: episodeImage,
+        embedId,
+        embedUrl,
       };
     });
     console.log('[PodcastAPI] Returning podcast data:', { title, description, imageUrl: podcastImage, episodes });
@@ -178,6 +200,8 @@ export async function fetchPodcastRSS(options: FetchPodcastOptions = {}): Promis
         audioUrl: it.audioUrl,
         link: it.link,
         imageUrl: it.imageUrl,
+        embedId: it.embedId,
+        embedUrl: it.embedUrl,
       }));
       return { data: {
         title: snapshot.title || 'No Tiene Nombre',
