@@ -7,6 +7,8 @@ export interface Episode {
   audioUrl?: string;
   link?: string;
   imageUrl?: string;
+  embedId?: string;
+  embedUrl?: string;
 }
 
 export interface PodcastData {

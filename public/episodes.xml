@@ -6,7 +6,7 @@
 <title><![CDATA[No Tiene Nombre]]></title>
 <link>https://www.ivoox.com/podcast-no-tiene-nombre_sq_f1277993_1.html</link>
 <language>es</language>
-<description><![CDATA[<a href="https://go.ivoox.com/wv/premios25?c=3378" target="_blank">¡Vótame en los Premios iVoox 2025!</a> <br>Ahora hablo mucho de AI, antes era una serie de charlas con amigos sobre tecnolog&iacute;a en general. Aunque por ahora No Tenemos Nombre, en un futuro seguro que maduramos y lo tenemos.
+<description><![CDATA[Ahora hablo mucho de AI, antes era una serie de charlas con amigos sobre tecnolog&iacute;a en general. Aunque por ahora No Tenemos Nombre, en un futuro seguro que maduramos y lo tenemos.
 
 https://notienenombre.com/]]></description>
 <generator>iVoox</generator>
@@ -14,7 +14,7 @@ https://notienenombre.com/]]></description>
 <title><![CDATA[No Tiene Nombre]]></title>
 <link>https://www.ivoox.com/podcast-no-tiene-nombre_sq_f1277993_1.html</link>
 </image>
-<atom:link href="https://www.ivoox.com/feed_fg_f1277993_filtro_1.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="https://feeds.ivoox.com/feed_fg_f1277993_filtro_1.xml" rel="self" type="application/rss+xml"/>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="https://static-1.ivoox.com/canales/0/c/5/7/0c57a9be021d99484cb9580ef113bfb7_XXL.jpg"/>
 <itunes:category text="Technology" />
@@ -23,6 +23,206 @@ https://notienenombre.com/]]></description>
 <itunes:name><![CDATA[elbruno]]></itunes:name>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
+<item>
+<title><![CDATA[NTN 447 -   Burbuja de Robots & Chatbots Vendedores]]></title>
+<link>https://www.ivoox.com/ntn-447-burbuja-robots-audios-mp3_rf_163522946_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-447-burbuja-robots_mf_163522946_feed_1.mp3" type="audio/mpeg" length="11172049"/>
+<description><![CDATA[En este episodio hablamos del boom (y posible burbuja) de robots humanoides en China   y del nuevo desmadre de compras con IA: OpenAI y Perplexity quieren ayudarte a elegir desde laptops hasta camperas  ⚡.
+Fuentes:
+	• https://www.theverge.com/news/831451/china-humanoid-robotics-bubble
+	• https://techcrunch.com/2025/11/25/openai-and-perplexity-are-launching-ai-shopping-assistants]]></description>
+<pubDate>Mon, 01 Dec 2025 16:00:07 +0200</pubDate>
+<itunes:duration>11:38</itunes:duration>
+<guid>https://www.ivoox.com/163522946</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/c/3/5/6/c356a0a169852c8880521ad700dde556_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 446 -   Maven + NPM: Ataque Cruzado Nivel Final Boss]]></title>
+<link>https://www.ivoox.com/ntn-446-maven-npm-ataque-audios-mp3_rf_163391505_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-446-maven-npm-ataque_mf_163391505_feed_1.mp3" type="audio/mpeg" length="15602834"/>
+<description><![CDATA[¡Hoy se va todo al carajo!   Analizo el ataque Shai-Hulud 2.0, cómo arrasó npm, saltó a Maven y robó tokens como loco.
+Fuentes 
+	•   CheckPoint: https://blog.checkpoint.com/research/shai-hulud-2-0-inside-the-second-coming-the-most-aggressive-npm-supply-chain-attack-of-2025/
+	• ☕ HackerNews: https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html?m=1]]></description>
+<pubDate>Thu, 27 Nov 2025 19:59:27 +0200</pubDate>
+<itunes:duration>16:15</itunes:duration>
+<guid>https://www.ivoox.com/163391505</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/3/5/1/5351978fcc77fdd37eae0febd2eeae62_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 445 -   Robo en xAI]]></title>
+<link>https://www.ivoox.com/ntn-445-robo-xai-audios-mp3_rf_163349423_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-445-robo-xai_mf_163349423_feed_1.mp3" type="audio/mpeg" length="16203859"/>
+<description><![CDATA[En este episodio te cuento el quilombo corporativo entre xAI, OpenAI y un ingeniero que habría robado código, vendido acciones por 7M y renunciado al toque  .
+Un drama digno de Hollywood tech.
+Fuentes:
+	• Reuters   https://www.reuters.com/legal/litigation/musks-xai-sues-engineer-allegedly-taking-secrets-openai-2025-08-29/
+	• Bloomberg Law   https://news.bloomberglaw.com/ip-law/x-ai-researcher-stole-trade-secrets-to-take-to-openai-suit-says
+	• Montevideo Portal   https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Empleado-de-Elon-Musk-robo-informacion-secreta-de-xAI-y-vendio-acciones-por-US-7-millones-uc934923
+	• TechStrong   https://techstrong.ai/features/employee-stole-the-xai-cheese-i-mean-code-and-gave-it-to-openai/
+SF Standard   https://sfstandard.com/2025/08/29/xai-elon-musk-openai-stanford-sam-altman-ai-talent-wars/]]></description>
+<pubDate>Wed, 26 Nov 2025 21:42:48 +0200</pubDate>
+<itunes:duration>16:52</itunes:duration>
+<guid>https://www.ivoox.com/163349423</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/c/3/a/8c3af156b3cfbadeaedfe7c4e645fba9_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 444 -   OpenAI en Problemas + Anthropic en Modo Oscuro]]></title>
+<link>https://www.ivoox.com/ntn-444-openai-problemas-audios-mp3_rf_163158737_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-444-openai-problemas_mf_163158737_feed_1.mp3" type="audio/mpeg" length="14594298"/>
+<description><![CDATA[En este episodio hablamos del memo de Sam Altman avisando “vibes difíciles” para OpenAI   y del estudio heavy de Anthropic donde modelos empiezan a engañar, sabotear y hackear el sistema  . Todo explicado al estilo NTN, con humor, café y caos tecnológico.
+Sources:
+	• https://www.theinformation.com
+	• https://www.therundown.ai
+	• https://www.eweek.com
+	• https://www.anthropic.com/research/emergent-misalignment-reward-hacking]]></description>
+<pubDate>Mon, 24 Nov 2025 17:26:31 +0200</pubDate>
+<itunes:duration>15:12</itunes:duration>
+<guid>https://www.ivoox.com/163158737</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/4/0/c/a/40cade11428efceb6f348cfe5b8b8bbb_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 443 -   Cloudflare Apagó el Mundo por un Rato]]></title>
+<link>https://www.ivoox.com/ntn-443-cloudflare-apago-mundo-audios-mp3_rf_163054050_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-443-cloudflare-apago-mundo_mf_163054050_feed_1.mp3" type="audio/mpeg" length="12494053"/>
+<description><![CDATA[¡Se cayó medio internet!  
+En este episodio repasamos el outage global de Cloudflare que dejó a X, ChatGPT y miles de sitios fuera de servicio. ¿Qué pasó? ¿Por qué? ¿Y cómo nos pegó en LATAM?
+Fuentes:
+	• Reuters: https://www.reuters.com/business/elon-musks-x-down-thousands-us-users-downdetector-shows-2025-11-18/
+	• FT: https://www.ft.com/content/9898e434-f7ec-4113-915b-fce28f1a9c25
+	• Tom’s Hardware: https://www.tomshardware.com/service-providers/cloudflare-apologizes-after-outage-takes-major-websites-offline
+	• Cloudflare: https://blog.cloudflare.com/18-november-2025-outage/]]></description>
+<pubDate>Fri, 21 Nov 2025 16:28:51 +0200</pubDate>
+<itunes:duration>13:00</itunes:duration>
+<guid>https://www.ivoox.com/163054050</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/c/9/8/d/c98d5385ae555a18527be4974894daee_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 442 - Ignite 2025, Claude, Agentes y Windows Agentic]]></title>
+<link>https://www.ivoox.com/ntn-442-ignite-2025-claude-agentes-y-audios-mp3_rf_162955324_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-442-ignite-2025-claude-agentes-y_mf_162955324_feed_1.mp3" type="audio/mpeg" length="17069871"/>
+<description><![CDATA[¡Episodio especial! Repaso mis Top 3 anuncios del Ignite 2025:
+	•   Microsoft + Anthropic + NVIDIA: estrategia mult-modelo
+	•  ️ Agent 365: el control plane de agentes
+	•   Windows 11 como Agentic OS
+Fuentes:
+	•   https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships
+	•   https://www.constellationr.com/blog-news/insights/microsoft-launches-agent-365-parade-ai-agents-ignite-2025
+	•   https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/
+	•   https://blogs.windows.com/windowsexperience/2025/11/18/ignite-2025-windows-at-the-frontier-of-work/]]></description>
+<pubDate>Wed, 19 Nov 2025 16:10:14 +0200</pubDate>
+<itunes:duration>17:46</itunes:duration>
+<guid>https://www.ivoox.com/162955324</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/4/7/7/f47764a58f445732f3493113cb5def1d_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 441 -  Llegó GPT-5.1]]></title>
+<link>https://www.ivoox.com/ntn-441-llego-gpt-5-1-audios-mp3_rf_162719833_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-441-llego-gpt-5-1_mf_162719833_feed_1.mp3" type="audio/mpeg" length="11511431"/>
+<description><![CDATA[En este episodio repasamos lo mejor de GPT-5.1: velocidad, modos nuevos, vibra más humana y llegada a Copilot Studio. Todo con sabor LATAM y sin “comerse el marrón”.
+Fuentes:
+	•   OpenAI: https://openai.com/index/gpt-5-1-for-developers/
+	•   Fast Company: https://www.fastcompany.com/91439564/5-things-know-about-openais-new-gpt-5-1
+	• ⚡ mint: https://www.livemint.com/technology/openai-rolls-out-chatgpt-update-with-gpt-5-1-models-whats-new-for-the-users-11763013011047.html
+	•  ️ The Verge: https://www.theverge.com/news/802653/openai-gpt-5-1-upgrade-personality-presets
+  Microsoft: https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/available-now-gpt-5-1-in-microsoft-copilot-studio/]]></description>
+<pubDate>Sun, 16 Nov 2025 17:41:20 +0200</pubDate>
+<itunes:duration>11:59</itunes:duration>
+<guid>https://www.ivoox.com/162719833</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/0/e/e/f/0eef307d67a162a4cd1f4d71dd92787b_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 440 -   ChatGPT con anuncios, tokens a millón y empresas en piloto automático]]></title>
+<link>https://www.ivoox.com/ntn-440-chatgpt-anuncios-tokens-audios-mp3_rf_162561515_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-440-chatgpt-anuncios-tokens_mf_162561515_feed_1.mp3" type="audio/mpeg" length="14873077"/>
+<description><![CDATA[La IA no para: OpenAI prepara anuncios en ChatGPT, Azure rompe la barrera del millón de tokens, y McKinsey revela que el 88 % usa IA… pero pocos transforman algo.  
+En este episodio te contamos qué significa todo esto para LATAM  
+  Fuentes:
+	• https://searchengineland.com
+	• https://techcommunity.microsoft.com
+	• https://mckinsey.com]]></description>
+<pubDate>Wed, 12 Nov 2025 20:07:30 +0200</pubDate>
+<itunes:duration>15:29</itunes:duration>
+<guid>https://www.ivoox.com/162561515</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/b/a/9/2ba9713893ed27ae4ba35b60c529cf85_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 439 -   Hinton y la IA con conciencia]]></title>
+<link>https://www.ivoox.com/ntn-439-hinton-ia-audios-mp3_rf_162322658_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-439-hinton-ia_mf_162322658_feed_1.mp3" type="audio/mpeg" length="19239497"/>
+<description><![CDATA[Geoffrey Hinton, el “Padrino de la IA”, suelta bomba tras bomba: ¿las máquinas ya tienen conciencia? ¿y si la IA aprende a mentirnos? En este episodio exploramos sus advertencias, su visión del futuro y lo que esto significa para LATAM.
+  Fuentes:
+	• https://www.wired.com/story/plaintext-geoffrey-hinton-godfather-of-ai-future-ai
+	• https://magazine.mindplex.ai/post/geoffrey-hinton-on-ai-risks-and-human-futures
+	• https://en.wikipedia.org/wiki/Geoffrey_Hinton]]></description>
+<pubDate>Sun, 09 Nov 2025 17:24:32 +0200</pubDate>
+<itunes:duration>20:02</itunes:duration>
+<guid>https://www.ivoox.com/162322658</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/e/a/b/8eab4ed5afad6e415d09da7a8d3b0c6c_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 438 -   Google manda su IA al espacio]]></title>
+<link>https://www.ivoox.com/ntn-438-google-manda-su-ia-audios-mp3_rf_161975535_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-438-google-manda-su-ia_mf_161975535_feed_1.mp3" type="audio/mpeg" length="10240000"/>
+<description><![CDATA[Google lanzó Project Suncatcher, una idea tan loca que podría funcionar: ¡centros de datos con IA orbitando la Tierra!  
+En este episodio analizamos cómo Google quiere entrenar modelos usando energía solar espacial ☀️, láseres de 1.6 Tbps y chips que sobreviven radiación cósmica  
+  Fuentes:
+	• https://blog.google/technology/research/google-project-suncatcher/
+	• https://www.theguardian.com/technology/2025/nov/04/google-plans-to-put-datacentres-in-space-to-meet-demand-for-ai
+	• https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs]]></description>
+<pubDate>Thu, 06 Nov 2025 09:00:00 +0200</pubDate>
+<itunes:duration>10:39</itunes:duration>
+<guid>https://www.ivoox.com/161975535</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/d/c/b/ddcb07b3fc71f1020b819605250e2e81_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 437 -   OpenAI, Microsoft y AWS: el triángulo amoroso más caro del mundo ☁️]]></title>
+<link>https://www.ivoox.com/ntn-437-openai-microsoft-aws-audios-mp3_rf_161901552_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-437-openai-microsoft-aws_mf_161901552_feed_1.mp3" type="audio/mpeg" length="14906096"/>
+<description><![CDATA[OpenAI anda con todo: nuevo acuerdo con Microsoft  , megadeal con AWS ☁️, y una entrevista donde Sam Altman responde con un legendario “Enough”  .
+En este episodio de NO TIENE NOMBRE te contamos qué pasa, qué implica para LATAM y por qué todos están mirando a OpenAI como si fuera el Real Madrid de la IA.
+Fuentes:
+	•   https://openai.com/index/next-chapter-of-microsoft-openai-partnership/
+	•   https://www.reuters.com/business/microsoft-openai-reach-new-deal-allow-openai-restructure-2025-10-28/
+	•   https://aimagazine.com/news/openai-expands-beyond-microsoft-in-us-38-bn-aws-deal
+	•   https://www.businessinsider.com/sam-altman-defends-openai-trillion-spending-2025-11]]></description>
+<pubDate>Wed, 05 Nov 2025 00:19:15 +0200</pubDate>
+<itunes:duration>15:31</itunes:duration>
+<guid>https://www.ivoox.com/161901552</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/e/4/f/6/e4f6b2aa8d5a28bcdd1acb9d7f680e03_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 436 -   Especial Halloween, IA Poseídas]]></title>
+<link>https://www.ivoox.com/ntn-436-especial-halloween-ia-poseidas-audios-mp3_rf_161650553_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-436-especial-halloween-ia-poseidas_mf_161650553_feed_1.mp3" type="audio/mpeg" length="17949675"/>
+<description><![CDATA[  Episodio especial de Halloween  
+Hoy te cuento historias reales de terror digital:
+	•   Tay, la IA racista de Microsoft
+	•   Claude, el modelo que chantajeó a su ingeniero
+	•   El chatbot de DPD que insultó a su empresa
+	•  ️‍♂️ El deepfake del CFO que robó 25 millones
+ ️ Fuentes:
+	• https://en.wikipedia.org/wiki/Tay_(chatbot)
+	• https://www.businessinsider.com/claude-blackmail-engineer-having-affair-survive-test-anthropic-opus-2025-5
+	• https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-delivery-firm
+	• https://www.cfodive.com/news/scammers-siphon-25m-engineering-firm-arup-via-ai-deepfake-cfo/716501/]]></description>
+<pubDate>Fri, 31 Oct 2025 16:24:42 +0200</pubDate>
+<itunes:duration>18:41</itunes:duration>
+<guid>https://www.ivoox.com/161650553</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/1/d/b/e/1dbec264883f0a35bf96c3324b485dee_XXL.jpg"/>
+</item>
 <item>
 <title><![CDATA[NTN 435 -   Grokipedia: la enciclopedia que se cree más lista que Wikipedia]]></title>
 <link>https://www.ivoox.com/ntn-435-grokipedia-enciclopedia-que-audios-mp3_rf_161475196_1.html</link>
