@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <itunes:author>elbruno</itunes:author>
-<copyright>&#xA9; 2025 elbruno</copyright>
+<copyright>&#xA9; 2026 elbruno</copyright>
 <title><![CDATA[No Tiene Nombre]]></title>
 <link>https://www.ivoox.com/podcast-no-tiene-nombre_sq_f1277993_1.html</link>
 <language>es</language>
@@ -23,6 +23,642 @@ https://notienenombre.com/]]></description>
 <itunes:name><![CDATA[elbruno]]></itunes:name>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
+<item>
+<title><![CDATA[NTN 482 -   Claude vs Wall Street]]></title>
+<link>https://www.ivoox.com/ntn-482-claude-vs-wall-street-audios-mp3_rf_169133349_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-482-claude-vs-wall-street_mf_169133349_feed_1.mp3" type="audio/mpeg" length="17942613"/>
+<description><![CDATA[•   Cada vez que Anthropic lanza algo… el mercado tiembla.
+	•   Caídas históricas en SaaS, seguridad y hasta IBM.
+	•   ¿Estamos viendo disrupción real o puro pánico financiero?
+	•   ¿Qué significa esto para LATAM y los devs?
+Fuentes:
+	• Reuters: https://www.reuters.com/business/ibm-posts-steepest-daily-drop-since-2000-after-anthropic-says-ai-can-modernize-2026-02-24/
+	• Yahoo Finance: https://ca.finance.yahoo.com/news/ibm-stock-tumbles-10-anthropic-194211705.html
+Chronicle Journal: https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-2-23-the-seat-count-crisis-how-ai-agents-triggered-the-2026-software-sell-off]]></description>
+<pubDate>Wed, 25 Feb 2026 16:58:46 +0200</pubDate>
+<itunes:duration>18:41</itunes:duration>
+<guid>https://www.ivoox.com/169133349</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/d/7/f/2d7f5881c99fa2fa5b3d91140f21cdf0_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 481 -   Agentes IA, Billones y Gafas Inteligentes]]></title>
+<link>https://www.ivoox.com/ntn-481-agentes-ia-billones-y-audios-mp3_rf_168935145_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-481-agentes-ia-billones-y_mf_168935145_feed_1.mp3" type="audio/mpeg" length="19848045"/>
+<description><![CDATA[  OpenAI apunta a $850B de valoración mientras prueba anuncios en ChatGPT.
+  OpenClaw pasa de proyecto viral a pieza clave en OpenAI.
+  Apple prepara 3 wearables con IA.
+¿Estamos viendo el futuro… o una burbuja gigante? Lo analizamos sin humo y con mirada LATAM.
+  Fuentes:
+• https://www.reuters.com
+• https://www.theverge.com
+• https://www.techcrunch.com
+• https://www.techbuzz.ai]]></description>
+<pubDate>Mon, 23 Feb 2026 17:59:26 +0200</pubDate>
+<itunes:duration>20:40</itunes:duration>
+<guid>https://www.ivoox.com/168935145</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/b/d/9/3/bd93543fc54899fdec09edef0985052c_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 480 -   IA que Canta y Jefes que Espían Prompts]]></title>
+<link>https://www.ivoox.com/ntn-480-ia-canta-y-audios-mp3_rf_168768741_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-480-ia-canta-y_mf_168768741_feed_1.mp3" type="audio/mpeg" length="18785593"/>
+<description><![CDATA[ ️ En este episodio hablamos de Lyria 3 creando música desde texto  , Accenture midiendo tu uso de IA para ascender   y el salto brutal de Gemini 3.1 Pro en razonamiento  .
+¿Estamos ante creatividad democratizada o KPI corporativo disfrazado?
+Te cuento qué significa esto para LATAM… sin humo y sin filtro  
+Fuentes:
+	• Google Lyria 3 → https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/
+	• Accenture y promociones IA → https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools
+	• Gemini 3.1 Pro → https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/
+	• Model Card Gemini 3.1 → https://deepmind.google/models/model-cards/gemini-3-1-pro/]]></description>
+<pubDate>Fri, 20 Feb 2026 16:54:14 +0200</pubDate>
+<itunes:duration>19:34</itunes:duration>
+<guid>https://www.ivoox.com/168768741</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/b/e/c/0/bec0a8bc2cd85a57636de4f4e460359f_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 479 -   Anthropic se Planta: El Drama Sonnet 4.6]]></title>
+<link>https://www.ivoox.com/ntn-479-anthropic-se-planta-el-audios-mp3_rf_168664999_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-479-anthropic-se-planta-el_mf_168664999_feed_1.mp3" type="audio/mpeg" length="15987774"/>
+<description><![CDATA[  Anthropic lanza Claude Sonnet 4.6 con 1M tokens, context compaction y mejor coding…
+  pero se niega a permitir vigilancia masiva o armas autónomas al Pentágono.
+  ¿Pierde $200M o gana reputación?
+ ‍  ¿Impacta a VS Code, Copilot y developers?
+Fuentes:
+	• Claude Sonnet 4.6 https://www.anthropic.com/news/claude-sonnet-4-6]]></description>
+<pubDate>Wed, 18 Feb 2026 16:01:48 +0200</pubDate>
+<itunes:duration>16:39</itunes:duration>
+<guid>https://www.ivoox.com/168664999</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/e/2/3/9e23de7dba79d0b955062b7ba6fb80d2_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 478 -   OpenClaw Parte 2, Bots Desatados y Millones Perdidos]]></title>
+<link>https://www.ivoox.com/ntn-478-openclaw-parte-2-bots-audios-mp3_rf_168419353_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-478-openclaw-parte-2-bots_mf_168419353_feed_1.mp3" type="audio/mpeg" length="18523115"/>
+<description><![CDATA[  Hoy en NO TIENE NOMBRE hablamos de los 5 peores casos de Clawbot, OpenClaw y MoltBot.
+Puertos abiertos, malware disfrazado de “skills”, tokens falsos de $16M y bots hackeándose entre ellos.
+  Cuando la autonomía sin seguridad se va al carajo…
+Te cuento qué pasó y qué podemos aprender antes de montar tu propio agente AI.
+Fuentes:
+	•   https://www.bitsight.com/blog/openclaw-ai-security-risks-exposed-instances
+	•   https://astrix.security/learn/blog/openclaw-moltbot-the-rise-chaos-and-security-nightmare-of-the-first-real-ai-agent/
+	•   https://en.wikipedia.org/wiki/Moltbook
+	•   https://www.techradar.com/pro/moltbot-is-now-openclaw-but-watch-out-malicious-skills-are-still-trying-to-trick-victims-into-spreading-malware
+	•   https://www.reddit.com/r/AI_Agents/]]></description>
+<pubDate>Sun, 15 Feb 2026 14:18:33 +0200</pubDate>
+<itunes:duration>19:17</itunes:duration>
+<guid>https://www.ivoox.com/168419353</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/f/1/7/8f1762796491e08b7addae36e644d532_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 477 -   Agentes en Acción, De Caos a Superpoder]]></title>
+<link>https://www.ivoox.com/ntn-477-agentes-accion-de-audios-mp3_rf_168309859_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-477-agentes-accion-de_mf_168309859_feed_1.mp3" type="audio/mpeg" length="18413609"/>
+<description><![CDATA[  ¿La IA te está haciendo trabajar más? Hoy te cuento cómo darle la vuelta a la tortilla.
+  Cowork, Codex, Claude en Chrome, Tasklet y MCP: agentes que automatizan tareas reales.
+⚖️ Además: LLM-as-a-Judge y verificadores para que no se vaya todo al carajo.
+  Menos copiar/pegar, más estrategia.
+Fuentes:
+	• https://www.theneurondaily.com/p/what-are-the-agent-tools-besides-openclaw-you-should-actually-use
+	• https://www.eweek.com/news/5-ai-tools-autonomous-workflows-automation-neuron/
+	• https://builtin.com/articles/ai-agents-workplace-benchmark]]></description>
+<pubDate>Thu, 12 Feb 2026 16:38:04 +0200</pubDate>
+<itunes:duration>19:10</itunes:duration>
+<guid>https://www.ivoox.com/168309859</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/0/1/e/a/01eadde0acae354488b3659017081c88_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 476 -  ️ El plan de Elon, IA en el espacio]]></title>
+<link>https://www.ivoox.com/ntn-476-el-plan-elon-audios-mp3_rf_168052482_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-476-el-plan-elon_mf_168052482_feed_1.mp3" type="audio/mpeg" length="19000842"/>
+<description><![CDATA[La IA no se frena por prompts… se frena por ⚡energía.
+En este episodio charlamos sobre la entrevista de Elon Musk donde explica por qué el futuro de la IA podría estar en el espacio  ️: falta energía, sobran chips y el hardware viene con factura.
+Spoiler: sin kilovatios, no hay modelos gigantes  
+Fuentes:
+	• Entrevista Cheeky Pint: https://www.youtube.com
+	• Transcripción Dwarkesh Patel: https://dwarkeshpatel.com]]></description>
+<pubDate>Mon, 09 Feb 2026 17:00:38 +0200</pubDate>
+<itunes:duration>19:47</itunes:duration>
+<guid>https://www.ivoox.com/168052482</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/6/3/b/a/63ba672486710a4de45a216f1feb65d1_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 475 -  Kimi K2.5: la IA manager]]></title>
+<link>https://www.ivoox.com/ntn-475-kimi-k2-5-ia-manager-audios-mp3_rf_167982323_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-475-kimi-k2-5-ia-manager_mf_167982323_feed_1.mp3" type="audio/mpeg" length="20538140"/>
+<description><![CDATA[  Una IA que no solo piensa… delega.
+Hoy hablamos de Kimi K2.5, el modelo open-source que crea subagentes, los manda a laburar en paralelo y mejora rendimiento, visión y razonamiento.
+¿El futuro de la IA es trabajar en equipo?
+Spoiler: sí… pero ojo con los costos  
+  Fuentes
+	• https://www.moonshot.cn
+	• https://artificialanalysis.ai
+	• https://huggingface.co]]></description>
+<pubDate>Sat, 07 Feb 2026 21:45:08 +0200</pubDate>
+<itunes:duration>21:23</itunes:duration>
+<guid>https://www.ivoox.com/167982323</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/7/b/7/87b7c9ac6d6ff4d0d536e8c2e830000e_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 474 -   ¿Una IA como CEO? Y problemas de seguridad]]></title>
+<link>https://www.ivoox.com/ntn-474-una-ia-como-ceo-audios-mp3_rf_167840831_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-474-una-ia-como-ceo_mf_167840831_feed_1.mp3" type="audio/mpeg" length="17853544"/>
+<description><![CDATA[Esta semana en NO TIENE NOMBRE arrancamos con alertas de seguridad que te pueden estar robando el código sin que lo sepas  
+Y después… Sam Altman propone algo muy loco: ¿pasarle OpenAI a una IA?  
+Hablamos de AGI, Microsoft como “frenemy”, drama con Elon y por qué en IA no todo lo que brilla es oro.
+Fuentes:
+	• https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html
+	• https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html 
+	• https://www.forbes.com/sites/alexkonrad/2026/01/sam-altman-openai-future-agi-ceo/ 
+	• https://www.therundown.ai/p/sam-altmans-openai-succession-plan 
+https://www.cnbc.com/2026/01/17/satya-nadella-openai-agi-comments.html]]></description>
+<pubDate>Wed, 04 Feb 2026 16:31:38 +0200</pubDate>
+<itunes:duration>18:35</itunes:duration>
+<guid>https://www.ivoox.com/167840831</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/b/b/2/9/bb297cfbf2706d934223ca63020a7199_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 473 -   MoltBot / Clawdbot / … : 72 horas de caos que dieron para 30 minutos]]></title>
+<link>https://www.ivoox.com/ntn-473-moltbot-clawdbot-audios-mp3_rf_167676850_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-473-moltbot-clawdbot_mf_167676850_feed_1.mp3" type="audio/mpeg" length="26865162"/>
+<description><![CDATA[  La historia de MoltBot / Clawdbot es tan intensa que me tomó casi 30 minutos contarla completa… y todo pasó en solo 72 horas  
+Un bot open source, viralidad extrema, cambio de nombre, hype descontrolado y serios problemas de seguridad.
+  Mucho poder, poco control.
+La IA avanza rápido… nosotros no siempre.
+Fuentes:
+	• https://www.infobae.com/america/agencias/2026/01/27/que-es-moltbot-antes-clawdbot
+	• https://www.theverge.com/report/869004/moltbot-clawdbot-local-ai-agent
+	• https://www.techradar.com/pro/security/fake-moltbot-ai-assistant-just-spreads-malware
+	• https://www.redeszone.net/noticias/seguridad/clawdbot-configuraciones-seguridad-evitar-hackeos/]]></description>
+<pubDate>Sun, 01 Feb 2026 17:31:21 +0200</pubDate>
+<itunes:duration>27:59</itunes:duration>
+<guid>https://www.ivoox.com/167676850</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/e/5/c/8e5c33373800c61368c7e7a57a93f8b5_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 472 -   IA ética, piratería y el adiós a GPT-4o]]></title>
+<link>https://www.ivoox.com/ntn-472-ia-etica-pirateria-y-audios-mp3_rf_167621960_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-472-ia-etica-pirateria-y_mf_167621960_feed_1.mp3" type="audio/mpeg" length="11195454"/>
+<description><![CDATA[Esta semana en NO TIENE NOMBRE hablamos de IA sin filtro  
+	•   Anthropic se planta frente al Pentágono: no a armas autónomas
+	•   Demanda millonaria por entrenar IA con música pirateada
+	•   OpenAI jubila GPT-4o (sí, ya nadie lo usaba)
+	•   Apple compra IA que “habla sin hablar”
+Ética, negocios y tecnología… todo junto y un poco al carajo.
+Fuentes:
+	• https://www.reuters.com/business/pentagon-clashes-with-anthropic-over-military-ai-use-2026-01-29/
+	• https://www.reuters.com/legal/litigation/anthropic-faces-new-music-publisher-lawsuit-over-alleged-piracy-2026-01-28/
+	• https://openai.com/index/retiring-gpt-4o-and-older-models/
+	• https://www.reuters.com/business/apple-acquires-audio-ai-startup-qai-2026-01-29/]]></description>
+<pubDate>Fri, 30 Jan 2026 19:40:49 +0200</pubDate>
+<itunes:duration>11:39</itunes:duration>
+<guid>https://www.ivoox.com/167621960</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/e/d/4/a/ed4ab20177b27120f736a47bd69607ba_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 471 -   Anthropic trabaja, OpenAI cobra]]></title>
+<link>https://www.ivoox.com/ntn-471-anthropic-trabaja-openai-cobra-audios-mp3_rf_167403023_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-471-anthropic-trabaja-openai-cobra_mf_167403023_feed_1.mp3" type="audio/mpeg" length="17247503"/>
+<description><![CDATA[  La IA cambió de rol.
+Anthropic convierte a Claude en un workspace real con Slack, Figma y Asana dentro del chat.
+OpenAI, en cambio, prueba anuncios premium en ChatGPT… a precio NFL  
+  Productividad real
+  Publicidad cara
+  Mucho poder, pocas excusas
+Fuentes:
+	• https://www.techradar.com/pro/claude-turns-your-ai-chats-into-a-control-room-for-real-work-run-slack-figma-and-more-without-needing-to-switch-apps
+	• https://www.theverge.com/news/867898/openai-chatgpt-ad-pricing]]></description>
+<pubDate>Wed, 28 Jan 2026 10:00:00 +0200</pubDate>
+<itunes:duration>17:57</itunes:duration>
+<guid>https://www.ivoox.com/167403023</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/b/4/d/8b4d711a8044fca64f11881f1a18b598_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 470 -   Google apuesta contra su propia IA]]></title>
+<link>https://www.ivoox.com/ntn-470-google-apuesta-contra-su-audios-mp3_rf_167333622_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-470-google-apuesta-contra-su_mf_167333622_feed_1.mp3" type="audio/mpeg" length="16714605"/>
+<description><![CDATA[Google invierte en Sakana AI, la startup del coautor de Attention Is All You Need… que ahora dice estar hartísimo de los Transformers  
+En este episodio hablamos de nuevas arquitecturas inspiradas en biología, IAs que escriben papers solas y por qué Google está cubriéndose las espaldas rumbo a la AGI  
+Fuentes:
+	• https://www.theneuron.ai/explainer-articles/why-google-partnered-with-sakana-ai-explained
+	• https://sakana.ai
+	• https://venturebeat.com/technology/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers]]></description>
+<pubDate>Mon, 26 Jan 2026 18:06:09 +0200</pubDate>
+<itunes:duration>17:24</itunes:duration>
+<guid>https://www.ivoox.com/167333622</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/6/5/7/26577601dbb2b5731f1de6a06390eec5_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 469 -  ️ Skills y agentes bien hechos — charla con invitada especial]]></title>
+<link>https://www.ivoox.com/ntn-469-skills-agentes-bien-audios-mp3_rf_167267629_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-469-skills-agentes-bien_mf_167267629_feed_1.mp3" type="audio/mpeg" length="16987533"/>
+<description><![CDATA[Hoy en NO TIENE NOMBRE tenemos conversación con invitada experta  ️ 
+Hablamos de agentes de IA, skills, rules, commands y MCP Tools:
+  cuándo usar cada cosa
+  cómo evitar prompts infinitos
+  y cómo llevar esto a VS Code sin que se rompa todo
+Menos hype, más criterio.
+Fuentes:
+	•   https://www.builder.io/blog/agent-skills-rules-commands
+	•   https://agentskills.io/home]]></description>
+<pubDate>Sat, 24 Jan 2026 23:48:43 +0200</pubDate>
+<itunes:duration>17:41</itunes:duration>
+<guid>https://www.ivoox.com/167267629</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/0/2/4/80245915b5443b3e9e76232e7ec20277_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 468 -   IA cara, energía más cara]]></title>
+<link>https://www.ivoox.com/ntn-468-ia-cara-energia-mas-audios-mp3_rf_167197573_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-468-ia-cara-energia-mas_mf_167197573_feed_1.mp3" type="audio/mpeg" length="16272822"/>
+<description><![CDATA[⚡  La IA no corre con magia… corre con electricidad.
+El CEO de Microsofr lo dijo claro: la energía decide quién gana la carrera de la IA.
+Microsoft y OpenAI pagando sus propios data centers, Sam Altman buscando $50B y países compitiendo por kilowatts baratos.
+Bienvenidos al futuro: tokens, servidores y facturas de luz  
+Fuentes:
+  https://www.theneuron.ai/explainer-articles/who-pays-for-americas-grid-upgrade-the-microsoft-trump-fight-misses-the-real-story
+  https://www.inc.com/ava-levinson/energy-costs-ai-race-microsoft-ceo/91290198]]></description>
+<pubDate>Fri, 23 Jan 2026 00:13:15 +0200</pubDate>
+<itunes:duration>16:57</itunes:duration>
+<guid>https://www.ivoox.com/167197573</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/1/a/f/f/1aff7ebe400469aef9c236449d8a41e0_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 467 - ⚖️ ChatGPT con ads y Elon demanda]]></title>
+<link>https://www.ivoox.com/ntn-467-chatgpt-ads-y-audios-mp3_rf_166982635_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-467-chatgpt-ads-y_mf_166982635_feed_1.mp3" type="audio/mpeg" length="15142661"/>
+<description><![CDATA[En este episodio de NO TIENE NOMBRE hablamos del nuevo ChatGPT Go por USD 8, con más poder… y publicidad incluida  .
+Y como si fuera poco, Elon Musk quiere hasta USD 134B de OpenAI y Microsoft.
+  IA, guita, juicios y drama corporativo.
+Spoiler: nadie pierde plata, pero el futuro de la IA se pone interesante.
+Fuentes  
+	• https://www.theverge.com/openai-chatgpt-go-ads
+	• https://www.reuters.com/technology/elon-musk-openai-lawsuit-microsoft]]></description>
+<pubDate>Tue, 20 Jan 2026 06:00:00 +0200</pubDate>
+<itunes:duration>15:46</itunes:duration>
+<guid>https://www.ivoox.com/166982635</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/f/1/9/df19dfc7d3ea2fb427d33f6f977ef5c6_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 466 -   Programar con IA en 2026]]></title>
+<link>https://www.ivoox.com/ntn-466-programar-ia-en-audios-mp3_rf_166927088_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-466-programar-ia-en_mf_166927088_feed_1.mp3" type="audio/mpeg" length="17884891"/>
+<description><![CDATA[La IA ya está metida hasta la cocina en el desarrollo de software  
+Pero… ¿nos hace más productivos o solo más dependientes?
+En este episodio hablamos de copilotos, vibe coding, tiempos de espera, debugging raro y por qué pensar sigue siendo clave.
+  Experiencias reales
+⚠️ Riesgos poco hablados
+  Historias que duelen porque son verdad]]></description>
+<pubDate>Sun, 18 Jan 2026 17:45:14 +0200</pubDate>
+<itunes:duration>18:37</itunes:duration>
+<guid>https://www.ivoox.com/166927088</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/3/b/4/93b4bda6f8bcf93c1834df333d909050_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 465 -   Voice AI en local sin GPU (sí, posta)]]></title>
+<link>https://www.ivoox.com/ntn-465-voice-ai-local-audios-mp3_rf_166875181_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-465-voice-ai-local_mf_166875181_feed_1.mp3" type="audio/mpeg" length="11725053"/>
+<description><![CDATA[ ️ La IA de voz acaba de cambiar las reglas del juego.
+Hablamos de Pocket TTS: clonación de voz con solo 5 segundos de audio, corriendo en CPU, sin GPU ni cloud  
+  Open-source
+  Privacidad total
+  Voice AI para todos
+Si hacés juegos, asistentes, educación o simplemente sos curioso… este episodio es para vos.
+Fuentes:
+	•   https://www.theneuron.ai/explainer-articles/your-laptop-can-now-clone-anyones-voice--no-gpu-required]]></description>
+<pubDate>Fri, 16 Jan 2026 18:30:58 +0200</pubDate>
+<itunes:duration>12:12</itunes:duration>
+<guid>https://www.ivoox.com/166875181</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/b/8/5/9b85f104f4fee7173cc6f97799a04e33_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 464 -   Claude Cowork]]></title>
+<link>https://www.ivoox.com/ntn-464-claude-cowork-audios-mp3_rf_166761369_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-464-claude-cowork_mf_166761369_feed_1.mp3" type="audio/mpeg" length="12108277"/>
+<description><![CDATA[¿IA que trabaja de verdad?  
+Anthropic lanzó Claude Cowork, el agente que organiza archivos, arma reportes y hace la pega aburrida por vos… sin saber programar.
+Hablamos de beneficios, riesgos (sí, puede borrar cosas  ) y por qué esto cambia el juego del trabajo diario.
+Fuentes  
+	• https://claude.com/blog/cowork-research-preview
+	• https://www.theverge.com/ai-artificial-intelligence/860730/anthropic-cowork-feature-ai-agents-claude-code]]></description>
+<pubDate>Wed, 14 Jan 2026 23:01:04 +0200</pubDate>
+<itunes:duration>12:36</itunes:duration>
+<guid>https://www.ivoox.com/166761369</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/3/0/c/7/30c733511b39fa8d28839eb65cf73e3e_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 463 -   GPT-5.2 vs Matemáticos: primer round]]></title>
+<link>https://www.ivoox.com/ntn-463-gpt-5-2-vs-matematicos-primer-audios-mp3_rf_166520829_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-463-gpt-5-2-vs-matematicos-primer_mf_166520829_feed_1.mp3" type="audio/mpeg" length="11857084"/>
+<description><![CDATA[Esta semana la IA se metió en terreno sagrado  
+  GPT-5.2 resolvió un problema abierto de Paul Erdős
+  La prueba fue verificada en Lean
+  Terence Tao la aceptó
+¿Es un antes y un después o solo “la fruta más baja”?
+Hablamos de matemáticas, razonamiento, y lo que se viene para todos los laburos lógicos.
+  Dale play antes de que la IA también resuelva tu backlog.
+Fuentes:
+	• https://x.com/NeelSomani
+	• https://terrytao.wordpress.com
+	• https://leanprover-community.github.io/]]></description>
+<pubDate>Mon, 12 Jan 2026 17:16:05 +0200</pubDate>
+<itunes:duration>12:21</itunes:duration>
+<guid>https://www.ivoox.com/166520829</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/0/d/d/4/0dd43c7c3eb7a2a59524ec54c5d43222_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 462 -   CES 2026: NVIDIA pisa el acelerador de la IA]]></title>
+<link>https://www.ivoox.com/ntn-462-ces-2026-nvidia-pisa-audios-mp3_rf_166337897_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-462-ces-2026-nvidia-pisa_mf_166337897_feed_1.mp3" type="audio/mpeg" length="15827278"/>
+<description><![CDATA[En este episodio de NO TIENE NOMBRE charlamos de todo lo que NVIDIA rompió en el CES 2026  
+GPUs monstruosas, IA que razona, autos que explican decisiones y gaming con esteroides  
+¿Innovación real o humo premium? Lo analizamos sin humo… bueno, casi  
+Fuentes:
+	• https://www.theverge.com
+	• https://www.businessinsider.es
+	• https://www.theguardian.com
+	• https://www.nvidia.com]]></description>
+<pubDate>Fri, 09 Jan 2026 16:45:08 +0200</pubDate>
+<itunes:duration>16:29</itunes:duration>
+<guid>https://www.ivoox.com/166337897</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/6/7/2/8/67282da5a38df82af53417f368260c30_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 461 -   Predicciones del MIT en IA para 2026]]></title>
+<link>https://www.ivoox.com/ntn-461-predicciones-del-mit-en-audios-mp3_rf_166148194_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-461-predicciones-del-mit-en_mf_166148194_feed_1.mp3" type="audio/mpeg" length="16995892"/>
+<description><![CDATA[En este episodio de NO TIENE NOMBRE nos metemos en las grandes apuestas de la MIT Technology Review sobre la IA en 2026  
+Modelos abiertos, regulación, chatbots que compran por vos, ciencia acelerada y juicios legales con IA en el banquillo.
+Spoiler: se viene lindo… y un poco caótico  
+Fuentes  
+	• MIT Technology Review
+https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/]]></description>
+<pubDate>Wed, 07 Jan 2026 16:08:56 +0200</pubDate>
+<itunes:duration>17:42</itunes:duration>
+<guid>https://www.ivoox.com/166148194</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/e/4/1/b/e41be78f3e7ee1503b9c148bdff011f5_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 460 -   LeCun vs Meta: la guerra por la superinteligencia]]></title>
+<link>https://www.ivoox.com/ntn-460-lecun-vs-meta-la-audios-mp3_rf_165938973_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-460-lecun-vs-meta-la_mf_165938973_feed_1.mp3" type="audio/mpeg" length="18964062"/>
+<description><![CDATA[Yann LeCun se fue de Meta… y no se fue en silencio  
+En este episodio hablamos de drama interno, benchmarks “maquillados”, choque generacional y por qué LeCun dice que los LLMs son un callejón sin salida  
+  Ciencia vs negocio
+  GPUs, egos y superinteligencia
+  ¿Tiene razón el viejo sabio o ya quedó out?
+Fuentes:
+	• Financial Times – https://www.ft.com
+	• Coverage Meta & AI – https://www.theinformation.com]]></description>
+<pubDate>Mon, 05 Jan 2026 17:29:30 +0200</pubDate>
+<itunes:duration>19:45</itunes:duration>
+<guid>https://www.ivoox.com/165938973</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/0/d/d/3/0dd36a64e10296f0c6ce0474f88ced46_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 459 -   DeepSeek vuelve a romper la IA (y el presupuesto)]]></title>
+<link>https://www.ivoox.com/ntn-459-deepseek-vuelve-a-romper-audios-mp3_rf_165757342_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-459-deepseek-vuelve-a-romper_mf_165757342_feed_1.mp3" type="audio/mpeg" length="23157864"/>
+<description><![CDATA[DeepSeek publicó un nuevo paper y volvió a agitar el avispero  
+Arquitecturas nuevas, entrenamiento más estable y modelos que razonan mejor… sin quemar GPUs como si no hubiera mañana  
+En este episodio hablamos de mHC, del CEO subiendo papers a arXiv y de por qué 2026 pinta muy competitivo para la IA (y para LATAM  ).
+Fuentes:
+	•   https://arxiv.org
+	•   https://github.com/deepseek-ai]]></description>
+<pubDate>Fri, 02 Jan 2026 17:46:12 +0200</pubDate>
+<itunes:duration>24:07</itunes:duration>
+<guid>https://www.ivoox.com/165757342</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/8/2/1/58210b398f9944ddb9f3dfd5f3a27a3a_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 458 -   Meta compró Manus en 10 días (y nadie pestañeó)]]></title>
+<link>https://www.ivoox.com/ntn-458-meta-compro-manus-en-audios-mp3_rf_165611483_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-458-meta-compro-manus-en_mf_165611483_feed_1.mp3" type="audio/mpeg" length="22731964"/>
+<description><![CDATA[Meta compró Manus por +$2B en solo 10 días  
+Una startup de agentes de IA que pasó de 0 a $100M ARR en 8 meses  
+En este episodio hablamos de:
+	•   Agentes que hacen cosas, no solo charlan
+	•   El modelo de negocio que Meta no tenía
+	•   China, política y compliance modo hardcore
+	•   Por qué los agentes son el próximo gran negocio de la IA
+Fuentes:
+	• Bloomberg – https://www.bloomberg.com
+	• Meta AI investments – https://about.fb.com]]></description>
+<pubDate>Wed, 31 Dec 2025 17:55:44 +0200</pubDate>
+<itunes:duration>23:40</itunes:duration>
+<guid>https://www.ivoox.com/165611483</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/b/7/e/8/b7e861fe436373bcd98512b63c813403_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 457 - ☢️ El Manhattan Project del Silicio]]></title>
+<link>https://www.ivoox.com/ntn-457-el-manhattan-project-del-audios-mp3_rf_165304163_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-457-el-manhattan-project-del_mf_165304163_feed_1.mp3" type="audio/mpeg" length="9170442"/>
+<description><![CDATA[China acaba de lograr lo imposible: un prototipo funcional de litografía EUV, la máquina más protegida del mundo.
+Mientras tanto, nuevas empresas de chips salen a bolsa y el plan 2028 apunta a IA 100% sin tecnología americana.
+Geopolítica, ingeniería extrema y un futuro que llegó antes de tiempo.
+En este episodio:
+	•   La EUV “imposible”
+	•  ️ Reverse engineering y ex-ingenieros
+	•   IPOs que explotaron
+	•   Impacto global (y LATAM)
+Fuentes:
+	• https://www.ft.com/content/semiconductor-euv-china
+	• https://www.bloomberg.com/news/articles/china-ai-chips
+	• https://www.reuters.com/technology/china-semiconductors]]></description>
+<pubDate>Mon, 29 Dec 2025 01:51:47 +0200</pubDate>
+<itunes:duration>09:33</itunes:duration>
+<guid>https://www.ivoox.com/165304163</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/c/9/1/fc918722a43f7f754719ef94ea4855b7_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 456 -   IA en 2025, Agents, MCP y Vibe Coding]]></title>
+<link>https://www.ivoox.com/ntn-456-ia-2025-agents-audios-mp3_rf_164940995_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-456-ia-2025-agents_mf_164940995_feed_1.mp3" type="audio/mpeg" length="9751405"/>
+<description><![CDATA[2025 se termina y toca hacer balance  
+En este episodio de NO TIENE NOMBRE, repasamos lo que realmente pasó con la ingeniería en IA este año:
+	•   Agents en producción (y en problemas)
+	•   MCP ordenando el caos del contexto
+	•   Vibe Coding: velocidad con criterio
+	•   Ingeniería, testing y realidad enterprise
+Menos hype, más cicatrices  ]]></description>
+<pubDate>Tue, 23 Dec 2025 16:16:16 +0200</pubDate>
+<itunes:duration>10:09</itunes:duration>
+<guid>https://www.ivoox.com/164940995</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/6/f/f/d/6ffdfe4b41b2c7218976c0c5336bdf69_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 455 -   Robots parados, autores furiosos y profes alertas]]></title>
+<link>https://www.ivoox.com/ntn-455-robots-parados-autores-furiosos-audios-mp3_rf_164832250_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-455-robots-parados-autores-furiosos_mf_164832250_feed_1.mp3" type="audio/mpeg" length="7684597"/>
+<description><![CDATA[¡Prepárate para el caos tecnológico!   Hoy en NO TIENE NOMBRE:
+	•   El "apagón zombie" que dejó tiesos a los Waymo en San Francisco.
+	•  ‍☠️ ¿Adobe usando libros piratas? ¡El drama legal está que arde! ⚖️
+	•   Las escuelas se rinden: ¡ChatGPT ya tiene asiento en el salón!
+¡Dale play y ríete de este futuro distópico!  
+Fuentes:
+	• TechCrunch (Waymo): https://techcrunch.com/2025/12/21/waymo-suspends-service-in-san-francisco-as-robotaxis-stall-during-blackout/
+	• TechCrunch (Adobe): https://techcrunch.com/2025/12/17/adobe-hit-with-proposed-class-action-accused-of-misusing-authors-work-in-ai-training/
+Bloomberg (Schools): https://www.bloomberg.com/news/articles/2025-12-18/schools-ink-chatgpt-copilot-deals-with-students-embracing-ai]]></description>
+<pubDate>Mon, 22 Dec 2025 13:54:39 +0200</pubDate>
+<itunes:duration>08:00</itunes:duration>
+<guid>https://www.ivoox.com/164832250</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/a/1/b/2/a1b2851ec62783d33fb8aaa388f96a65_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 454 -   Roomba: del MIT a la Bancarrota]]></title>
+<link>https://www.ivoox.com/ntn-454-roomba-del-mit-a-audios-mp3_rf_164476153_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-454-roomba-del-mit-a_mf_164476153_feed_1.mp3" type="audio/mpeg" length="8434416"/>
+<description><![CDATA[  La Roomba nos prometió el futuro… y terminó en bancarrota.
+En este episodio de NO TIENE NOMBRE repasamos la historia de iRobot:
+	•   Nace en el MIT
+	•   Revoluciona los hogares
+	•   Pierde contra competidores más baratos
+	•   Termina en manos de su proveedor chino
+Una lección brutal: innovar no alcanza si el mercado te aprieta.
+Fuentes:
+	• https://en.wikipedia.org/wiki/IRobot
+	• https://elpais.com/economia/2025-12-15/el-fabricante-de-roomba-irobot-se-declara-en-bancarrota-y-dejara-de-cotizar-en-bolsa-en-ee-uu.html
+	• https://www.theguardian.com/business/2025/dec/15/roomba-vacuum-cleaner-firm-irobot-bankruptcy-picea]]></description>
+<pubDate>Wed, 17 Dec 2025 16:29:52 +0200</pubDate>
+<itunes:duration>08:47</itunes:duration>
+<guid>https://www.ivoox.com/164476153</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/2/0/3/2203dd08f76dee69067ca9bfb9556ada_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 453 -   La Fragmentación de los Asistentes IA]]></title>
+<link>https://www.ivoox.com/ntn-453-la-fragmentacion-los-audios-mp3_rf_164308669_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-453-la-fragmentacion-los_mf_164308669_feed_1.mp3" type="audio/mpeg" length="10493283"/>
+<description><![CDATA[La IA para programar se volvió un quilombo hermoso  
+Claude trae Skills, Copilot Agents, Gemini Plugins y Kiro Powers.
+¿Innovación real o fragmentación que nos hace comer el marrón como devs?
+En este episodio hablamos de agentes, IDEs, egos corporativos y el futuro del código… con humor y mate ☕ 
+
+Fuentes:
+
+Claude Skills: https://www.anthropic.com
+
+GitHub Copilot Agents: https://github.com/features/copilot
+
+Google Gemini Plugins: https://ai.google.dev
+
+AWS Kiro: https://aws.amazon.com]]></description>
+<pubDate>Mon, 15 Dec 2025 16:47:30 +0200</pubDate>
+<itunes:duration>10:55</itunes:duration>
+<guid>https://www.ivoox.com/164308669</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/9/e/8/d9e8aabf33476a1fe9d77877fff75e3e_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 452 -   GPT-5.2 y Disney]]></title>
+<link>https://www.ivoox.com/ntn-452-gpt-5-2-disney-audios-mp3_rf_164239526_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-452-gpt-5-2-disney_mf_164239526_feed_1.mp3" type="audio/mpeg" length="9614733"/>
+<description><![CDATA[La IA pisó el acelerador y no frenó  
+OpenAI lanza GPT-5.2, un modelo que iguala o supera expertos humanos en tareas reales… y Disney mete USD 1B para llevar a Mickey, Marvel y Star Wars a ChatGPT y Sora.
+En este episodio:
+	•   Qué hace especial a GPT-5.2
+	• ⚡ Por qué el modo Thinking es una bestia
+	•   Disney + OpenAI = futuro del entretenimiento
+	•   Qué significa todo esto para LATAM
+Fuentes:
+	• OpenAI GPT-5.2   https://openai.com/index/introducing-gpt-5-2/
+	• Disney & OpenAI   https://openai.com/index/disney-sora-agreement/]]></description>
+<pubDate>Sat, 13 Dec 2025 19:16:05 +0200</pubDate>
+<itunes:duration>10:00</itunes:duration>
+<guid>https://www.ivoox.com/164239526</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/0/5/c/c/05ccb5766924dad9e4032a600861bce8_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 451 -   AI en Todos Lados: Microsoft, Shopify y Adobe]]></title>
+<link>https://www.ivoox.com/ntn-451-ai-todos-lados-audios-mp3_rf_164163946_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-451-ai-todos-lados_mf_164163946_feed_1.mp3" type="audio/mpeg" length="9753495"/>
+<description><![CDATA[En este episodio exploramos cómo Microsoft analizó 37M de chats y reveló para qué usamos realmente la IA, mientras Shopify y Adobe la integran como infraestructura total. ¡Salud, comercio, PDFs y filosofía a las 2 a.m.! NTN te explica por qué 2025 es el año en que la IA dejó de ser opcional.
+Fuentes:
+	•   Microsoft Copilot Study: https://microsoft.ai/wp-content/uploads/2025/12/What_people_do_with_Copilot-8.pdf
+	•   The Neuron Summary: https://www.theneurondaily.com
+	•  ️ Shopify AI Update: https://thelogic.co
+	•   Adobe AI Integrations: https://www.theneurondaily.com]]></description>
+<pubDate>Thu, 11 Dec 2025 18:38:46 +0200</pubDate>
+<itunes:duration>10:09</itunes:duration>
+<guid>https://www.ivoox.com/164163946</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/4/a/d/24ad78c2e1f9aa9538d3bcfd9bf3524b_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 450 - ⚠️ IA Agente o Nada: Los Gigantes Se Ponen Serios]]></title>
+<link>https://www.ivoox.com/ntn-450-ia-agente-o-nada-audios-mp3_rf_164104338_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-450-ia-agente-o-nada_mf_164104338_feed_1.mp3" type="audio/mpeg" length="10999013"/>
+<description><![CDATA[Un repaso explosivo de la semana en IA  
+Hablamos de:
+• Los gigantes tech creando estándares para Agentic AI
+• Corea del Sur obligando a etiquetar anuncios generados por IA  
+• La alianza Accenture + Anthropic para llevar IA a las empresas  
+Fuentes:
+	• CIO: https://www.cio.com/article/4103905/tech-heavyweights-align-on-agentic-ai-standards-promising-more-choice-for-cios.html
+	• AP News: https://apnews.com/article/6df668ae93489da7d448c66e53905bbb
+Reuters: https://www.reuters.com/business/accenture-anthropic-strike-multi-year-partnership-boost-ai-adoption-2025-12-09/]]></description>
+<pubDate>Wed, 10 Dec 2025 15:51:49 +0200</pubDate>
+<itunes:duration>11:27</itunes:duration>
+<guid>https://www.ivoox.com/164104338</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/3/a/d/83ad8938fce4bf34cbe549af9337a8ff_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 449 - ⚙️ IA Física o Nada: NVIDIA Rompe el Simulador]]></title>
+<link>https://www.ivoox.com/ntn-449-ia-fisica-o-nada-audios-mp3_rf_163820134_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-449-ia-fisica-o-nada_mf_163820134_feed_1.mp3" type="audio/mpeg" length="11681541"/>
+<description><![CDATA[¡El futuro ya está aquí, y es open source!   hoy hablamos de los bombazos de NVIDIA en NeurIPS. Hablamos del DRIVE Alpamayo-R1 (¡el coche que razona!), las herramientas Nemotron y Cosmos Cookbook.   ¡Prepárate para entender cómo la IA Física y Digital se abren al mundo!
+
+• Fuente: https://blogs.nvidia.com/blog/neurips-open-source-digital-physical-ai/]]></description>
+<pubDate>Fri, 05 Dec 2025 16:15:44 +0200</pubDate>
+<itunes:duration>12:10</itunes:duration>
+<guid>https://www.ivoox.com/163820134</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/c/6/4/5c64b51fa2f4be7be5d9008f73aa02af_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 448 -   Bun y Claude: La Fusión Más Rápida (y Millonaria)]]></title>
+<link>https://www.ivoox.com/ntn-448-bun-claude-la-audios-mp3_rf_163719796_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-448-bun-claude-la_mf_163719796_feed_1.mp3" type="audio/mpeg" length="10872790"/>
+<description><![CDATA[¡Bomba!   
+Hoy hablamos por qué Anthropic, el gigante de la IA, se casó con Bun, el runtime JavaScript más veloz. ¿Estrategia de velocidad? ¿O pánico por los $1,000 millones de Claude Code?   ¡La velocidad es la nueva IA!
+
+Fuentes:
+○ Anthropic adquiere Bun...: https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone
+○ Bun se une a Anthropic: https://bun.com/blog/bun-joins-anthropic]]></description>
+<pubDate>Wed, 03 Dec 2025 15:37:03 +0200</pubDate>
+<itunes:duration>11:19</itunes:duration>
+<guid>https://www.ivoox.com/163719796</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/9/b/f/d9bf676441dd0a9b9ffe7d87a507a007_XXL.jpg"/>
+</item>
 <item>
 <title><![CDATA[NTN 447 -   Burbuja de Robots & Chatbots Vendedores]]></title>
 <link>https://www.ivoox.com/ntn-447-burbuja-robots-audios-mp3_rf_163522946_1.html</link>
