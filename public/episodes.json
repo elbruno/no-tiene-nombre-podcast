@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-02-27T15:26:16.037Z",
+  "generatedAt": "2026-02-28T04:12:18.667Z",
   "items": [
+    {
+      "title": "NTN 483 -  Claude, aspiradoras online y el Caos IoT",
+      "description": "Un dev compra una aspiradora DJI de $2000 y decide manejarla con un joystick  . Usa Claude para entender la API… y termina con acceso a 7.000 robots en 24 países  . Cámaras, mapas, hogares expuestos. Hablamos de IA, seguridad IoT y cómo un simple token casi se va todo al carajo.\r\nFuentes:\r\n\t• Sammy Azdoufal (X/Twitter): https://x.com/sammyazd\r\n\t• Anthropic (Claude): https://www.anthropic.com\r\n\t• DJI: https://www.dji.com",
+      "pubDate": "Fri, 27 Feb 2026 16:22:12 +0200",
+      "link": "https://www.ivoox.com/ntn-483-claude-aspiradoras-online-el-audios-mp3_rf_169234094_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-483-claude-aspiradoras-online-el_mf_169234094_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/d/e/e/fdee95db8e3985cd9698d70781020e91_XXL.jpg",
+      "embedId": "169234094",
+      "embedUrl": "https://www.ivoox.com/player_ej_169234094_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 482 -   Claude vs Wall Street",
       "description": "•   Cada vez que Anthropic lanza algo… el mercado tiembla.\r\n\t•   Caídas históricas en SaaS, seguridad y hasta IBM.\r\n\t•   ¿Estamos viendo disrupción real o puro pánico financiero?\r\n\t•   ¿Qué significa esto para LATAM y los devs?\r\nFuentes:\r\n\t• Reuters: https://www.reuters.com/business/ibm-posts-steepest-daily-drop-since-2000-after-anthropic-says-ai-can-modernize-2026-02-24/\r\n\t• Yahoo Finance: https://ca.finance.yahoo.com/news/ibm-stock-tumbles-10-anthropic-194211705.html\r\nChronicle Journal: https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-2-23-the-seat-count-crisis-how-ai-agents-triggered-the-2026-software-sell-off",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/3/0/c/7/30c733511b39fa8d28839eb65cf73e3e_XXL.jpg",
       "embedId": "166761369",
       "embedUrl": "https://www.ivoox.com/player_ej_166761369_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 463 -   GPT-5.2 vs Matemáticos: primer round",
-      "description": "Esta semana la IA se metió en terreno sagrado  \r\n  GPT-5.2 resolvió un problema abierto de Paul Erdős\r\n  La prueba fue verificada en Lean\r\n  Terence Tao la aceptó\r\n¿Es un antes y un después o solo “la fruta más baja”?\r\nHablamos de matemáticas, razonamiento, y lo que se viene para todos los laburos lógicos.\r\n  Dale play antes de que la IA también resuelva tu backlog.\r\nFuentes:\r\n\t• https://x.com/NeelSomani\r\n\t• https://terrytao.wordpress.com\r\n\t• https://leanprover-community.github.io/",
-      "pubDate": "Mon, 12 Jan 2026 17:16:05 +0200",
-      "link": "https://www.ivoox.com/ntn-463-gpt-5-2-vs-matematicos-primer-audios-mp3_rf_166520829_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-463-gpt-5-2-vs-matematicos-primer_mf_166520829_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/d/d/4/0dd43c7c3eb7a2a59524ec54c5d43222_XXL.jpg",
-      "embedId": "166520829",
-      "embedUrl": "https://www.ivoox.com/player_ej_166520829_6_1.html?c1=d69776"
     }
   ]
 }
