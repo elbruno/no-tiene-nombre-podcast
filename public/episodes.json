@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-02T04:31:16.282Z",
+  "generatedAt": "2026-03-03T04:30:40.041Z",
   "items": [
+    {
+      "title": "NTN 484 - ⚖️Abogados Nativos en Claude",
+      "description": "⚖️  ¿Y si tu firma legal no usara IA… sino que fuera IA?\r\nHoy hablamos de la “Claude-Native Law Firm” y cómo un abogado está automatizando contratos, revisiones y hasta XML en Word con Claude.\r\n¿Es el futuro del derecho o puro hype?\r\nTe cuento qué está pasando, por qué el mundo legal está nervioso y qué significa para todos nosotros.\r\nFuentes:\r\n• https://x.com/zackbshapiro/status/2027389987444957625\r\n• https://www.artificiallawyer.com/2026/03/02/lawyer-uses-claude-skills-legal-world-loses-it/\r\n• https://www.spellbook.legal/newsletter/claudes-legal-ai-plugin-sparks-285b-market-selloff",
+      "pubDate": "Mon, 02 Mar 2026 16:06:13 +0200",
+      "link": "https://www.ivoox.com/ntn-484-abogados-nativos-claude-audios-mp3_rf_169344505_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-484-abogados-nativos-claude_mf_169344505_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/5/3/b/c53bd0abd444259443e3b4cfef1b704c_XXL.jpg",
+      "embedId": "169344505",
+      "embedUrl": "https://www.ivoox.com/player_ej_169344505_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 483 -  Claude, aspiradoras online y el Caos IoT",
       "description": "Un dev compra una aspiradora DJI de $2000 y decide manejarla con un joystick  . Usa Claude para entender la API… y termina con acceso a 7.000 robots en 24 países  . Cámaras, mapas, hogares expuestos. Hablamos de IA, seguridad IoT y cómo un simple token casi se va todo al carajo.\r\nFuentes:\r\n\t• Sammy Azdoufal (X/Twitter): https://x.com/sammyazd\r\n\t• Anthropic (Claude): https://www.anthropic.com\r\n\t• DJI: https://www.dji.com",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/b/8/5/9b85f104f4fee7173cc6f97799a04e33_XXL.jpg",
       "embedId": "166875181",
       "embedUrl": "https://www.ivoox.com/player_ej_166875181_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 464 -   Claude Cowork",
-      "description": "¿IA que trabaja de verdad?  \r\nAnthropic lanzó Claude Cowork, el agente que organiza archivos, arma reportes y hace la pega aburrida por vos… sin saber programar.\r\nHablamos de beneficios, riesgos (sí, puede borrar cosas  ) y por qué esto cambia el juego del trabajo diario.\r\nFuentes  \r\n\t• https://claude.com/blog/cowork-research-preview\r\n\t• https://www.theverge.com/ai-artificial-intelligence/860730/anthropic-cowork-feature-ai-agents-claude-code",
-      "pubDate": "Wed, 14 Jan 2026 23:01:04 +0200",
-      "link": "https://www.ivoox.com/ntn-464-claude-cowork-audios-mp3_rf_166761369_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-464-claude-cowork_mf_166761369_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/0/c/7/30c733511b39fa8d28839eb65cf73e3e_XXL.jpg",
-      "embedId": "166761369",
-      "embedUrl": "https://www.ivoox.com/player_ej_166761369_6_1.html?c1=d69776"
     }
   ]
 }
