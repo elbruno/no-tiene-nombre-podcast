@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-04T04:25:22.116Z",
+  "generatedAt": "2026-03-05T04:29:09.702Z",
   "items": [
+    {
+      "title": "NTN 485 -  ️ Cuando la IA llega al Pentágono, OpenAI vs Anthropic",
+      "description": "Hoy en NO TIENE NOMBRE hablamos del drama tecnológico del momento: Anthropic alejándose del Pentágono, OpenAI firmando un acuerdo polémico, protestas, cancelaciones y un caos de relaciones públicas digno de Silicon Valley.\r\nEntre ética, política y modelos de IA… analizamos qué está pasando realmente y por qué esta historia podría definir el futuro de la inteligencia artificial.\r\nFuentes:\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence\r\n\t• https://www.reuters.com/technology\r\n\t• https://x.com/sama",
+      "pubDate": "Wed, 04 Mar 2026 16:17:26 +0200",
+      "link": "https://www.ivoox.com/ntn-485-cuando-ia-llega-audios-mp3_rf_169537421_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-485-cuando-ia-llega_mf_169537421_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/5/7/4/65740d1213f4860fe17775b1d504dced_XXL.jpg",
+      "embedId": "169537421",
+      "embedUrl": "https://www.ivoox.com/player_ej_169537421_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 484 - ⚖️Abogados Nativos en Claude",
       "description": "⚖️  ¿Y si tu firma legal no usara IA… sino que fuera IA?\r\nHoy hablamos de la “Claude-Native Law Firm” y cómo un abogado está automatizando contratos, revisiones y hasta XML en Word con Claude.\r\n¿Es el futuro del derecho o puro hype?\r\nTe cuento qué está pasando, por qué el mundo legal está nervioso y qué significa para todos nosotros.\r\nFuentes:\r\n• https://x.com/zackbshapiro/status/2027389987444957625\r\n• https://www.artificiallawyer.com/2026/03/02/lawyer-uses-claude-skills-legal-world-loses-it/\r\n• https://www.spellbook.legal/newsletter/claudes-legal-ai-plugin-sparks-285b-market-selloff",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/3/b/4/93b4bda6f8bcf93c1834df333d909050_XXL.jpg",
       "embedId": "166927088",
       "embedUrl": "https://www.ivoox.com/player_ej_166927088_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 465 -   Voice AI en local sin GPU (sí, posta)",
-      "description": "️ La IA de voz acaba de cambiar las reglas del juego.\r\nHablamos de Pocket TTS: clonación de voz con solo 5 segundos de audio, corriendo en CPU, sin GPU ni cloud  \r\n  Open-source\r\n  Privacidad total\r\n  Voice AI para todos\r\nSi hacés juegos, asistentes, educación o simplemente sos curioso… este episodio es para vos.\r\nFuentes:\r\n\t•   https://www.theneuron.ai/explainer-articles/your-laptop-can-now-clone-anyones-voice--no-gpu-required",
-      "pubDate": "Fri, 16 Jan 2026 18:30:58 +0200",
-      "link": "https://www.ivoox.com/ntn-465-voice-ai-local-audios-mp3_rf_166875181_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-465-voice-ai-local_mf_166875181_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/b/8/5/9b85f104f4fee7173cc6f97799a04e33_XXL.jpg",
-      "embedId": "166875181",
-      "embedUrl": "https://www.ivoox.com/player_ej_166875181_6_1.html?c1=d69776"
     }
   ]
 }
