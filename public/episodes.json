@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-06T04:26:19.046Z",
+  "generatedAt": "2026-03-07T04:18:04.264Z",
   "items": [
+    {
+      "title": "NTN 486 -   Google sin clicks y GPT-5.4 al mando",
+      "description": "El internet está cambiando… y rápido.\r\nHoy en NO TIENE NOMBRE hablamos de dos terremotos tech:\r\n  Los grandes medios tech perdieron hasta 58% del tráfico desde Google\r\n  GPT-5.4 llega con coding, herramientas y uso de computadora en un solo modelo.\r\n¿Estamos entrando a un internet donde ya no buscamos… sino que preguntamos a la IA?\r\n  Lo analizamos con humor, historia tech y un poco de caos.\r\nFuentes\r\n\t• https://www.niemanlab.org/2026/03/traffic-to-top-tech-publications-has-plummeted-since-2024-new-analysis-shows/\r\n\t• https://en.wikipedia.org/wiki/Zero-click_result\r\n\t• https://www.theguardian.com/technology/2025/jul/24/ai-summaries-causing-devastating-drop-in-online-news-audiences-study-finds\r\n\t• https://www.ft.com/content/5a2a1f91-535c-422a-b5c8-6855b11043df",
+      "pubDate": "Fri, 06 Mar 2026 16:11:35 +0200",
+      "link": "https://www.ivoox.com/ntn-486-google-sin-clicks-y-audios-mp3_rf_169655053_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-486-google-sin-clicks-y_mf_169655053_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/2/7/e/527e8455012278c596c8afba3408fae0_XXL.jpg",
+      "embedId": "169655053",
+      "embedUrl": "https://www.ivoox.com/player_ej_169655053_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 485 -  ️ Cuando la IA llega al Pentágono, OpenAI vs Anthropic",
       "description": "Hoy en NO TIENE NOMBRE hablamos del drama tecnológico del momento: Anthropic alejándose del Pentágono, OpenAI firmando un acuerdo polémico, protestas, cancelaciones y un caos de relaciones públicas digno de Silicon Valley.\r\nEntre ética, política y modelos de IA… analizamos qué está pasando realmente y por qué esta historia podría definir el futuro de la inteligencia artificial.\r\nFuentes:\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence\r\n\t• https://www.reuters.com/technology\r\n\t• https://x.com/sama",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/f/1/9/df19dfc7d3ea2fb427d33f6f977ef5c6_XXL.jpg",
       "embedId": "166982635",
       "embedUrl": "https://www.ivoox.com/player_ej_166982635_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 466 -   Programar con IA en 2026",
-      "description": "La IA ya está metida hasta la cocina en el desarrollo de software  \r\nPero… ¿nos hace más productivos o solo más dependientes?\r\nEn este episodio hablamos de copilotos, vibe coding, tiempos de espera, debugging raro y por qué pensar sigue siendo clave.\r\n  Experiencias reales\r\n⚠️ Riesgos poco hablados\r\n  Historias que duelen porque son verdad",
-      "pubDate": "Sun, 18 Jan 2026 17:45:14 +0200",
-      "link": "https://www.ivoox.com/ntn-466-programar-ia-en-audios-mp3_rf_166927088_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-466-programar-ia-en_mf_166927088_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/3/b/4/93b4bda6f8bcf93c1834df333d909050_XXL.jpg",
-      "embedId": "166927088",
-      "embedUrl": "https://www.ivoox.com/player_ej_166927088_6_1.html?c1=d69776"
     }
   ]
 }
