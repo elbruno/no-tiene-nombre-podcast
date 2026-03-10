@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-09T04:46:08.691Z",
+  "generatedAt": "2026-03-10T04:26:50.613Z",
   "items": [
+    {
+      "title": "NTN 487 -   ¿La IA te hace peor programador?",
+      "description": "Hoy en NO TIENE NOMBRE hablamos de una pregunta incómoda:\r\n¿usar IA para programar nos hace mejores… o más vagos?\r\nUn estudio con desarrolladores mostró que quienes usaron IA aprendieron 17% menos sobre una nueva librería. Pero la historia es más compleja.\r\nEn este episodio exploramos qué está pasando realmente con Copilot, ChatGPT y el aprendizaje de programación.\r\n  Fuentes\r\n\t• https://rdel.substack.com/p/rdel-133-does-using-ai-to-code-come\r\n\t• https://www.anthropic.com/research/ai-assistance-coding-skills",
+      "pubDate": "Mon, 09 Mar 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-487-la-ia-te-hace-audios-mp3_rf_169720554_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-487-la-ia-te-hace_mf_169720554_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/0/1/c/c/01cc53ad716042a8a9d6b46931136817_XXL.jpg",
+      "embedId": "169720554",
+      "embedUrl": "https://www.ivoox.com/player_ej_169720554_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 486 -   Google sin clicks y GPT-5.4 al mando",
       "description": "El internet está cambiando… y rápido.\r\nHoy en NO TIENE NOMBRE hablamos de dos terremotos tech:\r\n  Los grandes medios tech perdieron hasta 58% del tráfico desde Google\r\n  GPT-5.4 llega con coding, herramientas y uso de computadora en un solo modelo.\r\n¿Estamos entrando a un internet donde ya no buscamos… sino que preguntamos a la IA?\r\n  Lo analizamos con humor, historia tech y un poco de caos.\r\nFuentes\r\n\t• https://www.niemanlab.org/2026/03/traffic-to-top-tech-publications-has-plummeted-since-2024-new-analysis-shows/\r\n\t• https://en.wikipedia.org/wiki/Zero-click_result\r\n\t• https://www.theguardian.com/technology/2025/jul/24/ai-summaries-causing-devastating-drop-in-online-news-audiences-study-finds\r\n\t• https://www.ft.com/content/5a2a1f91-535c-422a-b5c8-6855b11043df",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/1/a/f/f/1aff7ebe400469aef9c236449d8a41e0_XXL.jpg",
       "embedId": "167197573",
       "embedUrl": "https://www.ivoox.com/player_ej_167197573_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 467 - ⚖️ ChatGPT con ads y Elon demanda",
-      "description": "En este episodio de NO TIENE NOMBRE hablamos del nuevo ChatGPT Go por USD 8, con más poder… y publicidad incluida  .\r\nY como si fuera poco, Elon Musk quiere hasta USD 134B de OpenAI y Microsoft.\r\n  IA, guita, juicios y drama corporativo.\r\nSpoiler: nadie pierde plata, pero el futuro de la IA se pone interesante.\r\nFuentes  \r\n\t• https://www.theverge.com/openai-chatgpt-go-ads\r\n\t• https://www.reuters.com/technology/elon-musk-openai-lawsuit-microsoft",
-      "pubDate": "Tue, 20 Jan 2026 06:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-467-chatgpt-ads-y-audios-mp3_rf_166982635_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-467-chatgpt-ads-y_mf_166982635_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/d/f/1/9/df19dfc7d3ea2fb427d33f6f977ef5c6_XXL.jpg",
-      "embedId": "166982635",
-      "embedUrl": "https://www.ivoox.com/player_ej_166982635_6_1.html?c1=d69776"
     }
   ]
 }
