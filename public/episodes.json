@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-13T04:28:43.279Z",
+  "generatedAt": "2026-03-14T04:27:33.184Z",
   "items": [
+    {
+      "title": "NTN 489 - ⚔️ Google vs AWS vs Microsoft: la jugada secreta de Wiz",
+      "description": "Google acaba de pagar $32 mil millones por Wiz… y no es solo una empresa de ciberseguridad.\r\nEn este episodio cuento la historia de los fundadores, su paso por Microsoft, y por qué Wiz tiene el mapa secreto del cloud mundial.\r\n  ¿Estrategia brillante o caballo de Troya?\r\nFuentes\r\n\t• https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/\r\n\t• https://en.wikipedia.org/wiki/Wiz,_Inc.\r\n\t• https://www.wiz.io/blog/100m-arr-in-18-months-wiz-becomes-the-fastest-growing-software-company-ever\r\n\t• https://research.contrary.com/company/wiz",
+      "pubDate": "Fri, 13 Mar 2026 14:56:32 +0200",
+      "link": "https://www.ivoox.com/ntn-489-google-vs-aws-vs-audios-mp3_rf_170078639_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-489-google-vs-aws-vs_mf_170078639_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/f/a/4/ffa4ad94ec931acd67eb08207d430744_XXL.jpg",
+      "embedId": "170078639",
+      "embedUrl": "https://www.ivoox.com/player_ej_170078639_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 488 -   Nano Banana 2: El arte de hablarle bien a la IA",
       "description": "Hoy en NO TIENE NOMBRE hablamos de Nano Banana 2, el modelo de Google que está cambiando cómo generamos imágenes con IA.\r\n  No es solo generar imágenes… es aprender a escribir mejores prompts y dirigir la creatividad de la máquina.\r\nEn este episodio vemos:\r\n\t•   Qué es Nano Banana 2\r\n\t•   Cómo piensa una IA al generar imágenes\r\n\t• ✍️ Tips prácticos para escribir prompts que funcionen\r\n  Fuentes\r\n\t• https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana/\r\n\t• https://www.techradar.com/ai-platforms-assistants/gemini/5-prompts-that-show-how-powerful-nano-banana-2-is",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/2/6/5/7/26577601dbb2b5731f1de6a06390eec5_XXL.jpg",
       "embedId": "167333622",
       "embedUrl": "https://www.ivoox.com/player_ej_167333622_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 469 -  ️ Skills y agentes bien hechos — charla con invitada especial",
-      "description": "Hoy en NO TIENE NOMBRE tenemos conversación con invitada experta  ️ \r\nHablamos de agentes de IA, skills, rules, commands y MCP Tools:\r\n  cuándo usar cada cosa\r\n  cómo evitar prompts infinitos\r\n  y cómo llevar esto a VS Code sin que se rompa todo\r\nMenos hype, más criterio.\r\nFuentes:\r\n\t•   https://www.builder.io/blog/agent-skills-rules-commands\r\n\t•   https://agentskills.io/home",
-      "pubDate": "Sat, 24 Jan 2026 23:48:43 +0200",
-      "link": "https://www.ivoox.com/ntn-469-skills-agentes-bien-audios-mp3_rf_167267629_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-469-skills-agentes-bien_mf_167267629_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/0/2/4/80245915b5443b3e9e76232e7ec20277_XXL.jpg",
-      "embedId": "167267629",
-      "embedUrl": "https://www.ivoox.com/player_ej_167267629_6_1.html?c1=d69776"
     }
   ]
 }
