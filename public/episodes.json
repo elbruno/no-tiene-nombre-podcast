@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-16T05:08:38.427Z",
+  "generatedAt": "2026-03-17T04:45:46.316Z",
   "items": [
+    {
+      "title": "NTN 490 - ⚠️ IA programando en Amazon… y los seniors revisando todo",
+      "description": "Amazon empujó fuerte la programación con IA…\r\n ‍  luego despidió miles de ingenieros…\r\n  y después llegaron outages enormes.\r\nEn este episodio analizamos qué pasó realmente y por qué ahora Amazon exige que los seniors revisen el código generado por IA.\r\n¿Confianza en la IA… o control de daños?\r\nFuentes:\r\n\t• https://www.businessinsider.com/amazon-tightens-code-controls-after-outages-including-one-ai-2026-3\r\n\t• https://www.techradar.com/pro/amazon-is-making-even-senior-engineers-get-code-signed-off-following-multiple-recent-outages\r\n\t• https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-calls-engineers-to-address-issues-caused-by-use-of-ai-tools\r\n\t• https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt",
+      "pubDate": "Mon, 16 Mar 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-490-ia-programando-amazon-audios-mp3_rf_170085527_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-490-ia-programando-amazon_mf_170085527_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/9/e/9/79e9c8da37f3344616c2e41985479f6d_XXL.jpg",
+      "embedId": "170085527",
+      "embedUrl": "https://www.ivoox.com/player_ej_170085527_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 489 - ⚔️ Google vs AWS vs Microsoft: la jugada secreta de Wiz",
       "description": "Google acaba de pagar $32 mil millones por Wiz… y no es solo una empresa de ciberseguridad.\r\nEn este episodio cuento la historia de los fundadores, su paso por Microsoft, y por qué Wiz tiene el mapa secreto del cloud mundial.\r\n  ¿Estrategia brillante o caballo de Troya?\r\nFuentes\r\n\t• https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/\r\n\t• https://en.wikipedia.org/wiki/Wiz,_Inc.\r\n\t• https://www.wiz.io/blog/100m-arr-in-18-months-wiz-becomes-the-fastest-growing-software-company-ever\r\n\t• https://research.contrary.com/company/wiz",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/b/4/d/8b4d711a8044fca64f11881f1a18b598_XXL.jpg",
       "embedId": "167403023",
       "embedUrl": "https://www.ivoox.com/player_ej_167403023_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 470 -   Google apuesta contra su propia IA",
-      "description": "Google invierte en Sakana AI, la startup del coautor de Attention Is All You Need… que ahora dice estar hartísimo de los Transformers  \r\nEn este episodio hablamos de nuevas arquitecturas inspiradas en biología, IAs que escriben papers solas y por qué Google está cubriéndose las espaldas rumbo a la AGI  \r\nFuentes:\r\n\t• https://www.theneuron.ai/explainer-articles/why-google-partnered-with-sakana-ai-explained\r\n\t• https://sakana.ai\r\n\t• https://venturebeat.com/technology/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers",
-      "pubDate": "Mon, 26 Jan 2026 18:06:09 +0200",
-      "link": "https://www.ivoox.com/ntn-470-google-apuesta-contra-su-audios-mp3_rf_167333622_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-470-google-apuesta-contra-su_mf_167333622_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/6/5/7/26577601dbb2b5731f1de6a06390eec5_XXL.jpg",
-      "embedId": "167333622",
-      "embedUrl": "https://www.ivoox.com/player_ej_167333622_6_1.html?c1=d69776"
     }
   ]
 }

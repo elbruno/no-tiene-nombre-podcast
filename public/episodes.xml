@@ -24,6 +24,26 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 490 - ⚠️ IA programando en Amazon… y los seniors revisando todo]]></title>
+<link>https://www.ivoox.com/ntn-490-ia-programando-amazon-audios-mp3_rf_170085527_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-490-ia-programando-amazon_mf_170085527_feed_1.mp3" type="audio/mpeg" length="15883285"/>
+<description><![CDATA[  Amazon empujó fuerte la programación con IA…
+ ‍  luego despidió miles de ingenieros…
+  y después llegaron outages enormes.
+En este episodio analizamos qué pasó realmente y por qué ahora Amazon exige que los seniors revisen el código generado por IA.
+¿Confianza en la IA… o control de daños?
+Fuentes:
+	• https://www.businessinsider.com/amazon-tightens-code-controls-after-outages-including-one-ai-2026-3
+	• https://www.techradar.com/pro/amazon-is-making-even-senior-engineers-get-code-signed-off-following-multiple-recent-outages
+	• https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-calls-engineers-to-address-issues-caused-by-use-of-ai-tools
+	• https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt]]></description>
+<pubDate>Mon, 16 Mar 2026 09:00:00 +0200</pubDate>
+<itunes:duration>16:32</itunes:duration>
+<guid>https://www.ivoox.com/170085527</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/7/9/e/9/79e9c8da37f3344616c2e41985479f6d_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 489 - ⚔️ Google vs AWS vs Microsoft: la jugada secreta de Wiz]]></title>
 <link>https://www.ivoox.com/ntn-489-google-vs-aws-vs-audios-mp3_rf_170078639_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-489-google-vs-aws-vs_mf_170078639_feed_1.mp3" type="audio/mpeg" length="15038171"/>
