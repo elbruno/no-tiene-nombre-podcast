@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-18T04:50:32.956Z",
+  "generatedAt": "2026-03-19T04:49:04.717Z",
   "items": [
+    {
+      "title": "NTN 491 - ⚔️ La guerra de la IA tiene marcador… y Claude va ganando",
+      "description": "La guerra de la IA ya tiene marcador… y la sorpresa es quién va ganando.\r\nEn este episodio de NO TIENE NOMBRE analizamos por qué Anthropic y Claude están conquistando empresas, qué significa la guerra de plataformas de IA, y por qué esto se parece mucho a la batalla histórica de cloud y sistemas operativos.\r\n\t• ⚔️ Claude vs ChatGPT en empresas\r\n\t•   El cambio: de chatbot a plataforma\r\n\t•   Qué significa esto para developers\r\nSources\r\n\t• https://www.theneuron.ai/explainer-articles/the-ai-platform-war-has-a-scoreboard-now-anthropic-is-winning-friends/\r\n\t• https://a16z.com/100-gen-ai-apps/",
+      "pubDate": "Wed, 18 Mar 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-491-la-guerra-la-audios-mp3_rf_170147251_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-491-la-guerra-la_mf_170147251_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/0/4/9/304930067fd4f311691e3d822ff9a61d_XXL.jpg",
+      "embedId": "170147251",
+      "embedUrl": "https://www.ivoox.com/player_ej_170147251_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 490 - ⚠️ IA programando en Amazon… y los seniors revisando todo",
       "description": "Amazon empujó fuerte la programación con IA…\r\n ‍  luego despidió miles de ingenieros…\r\n  y después llegaron outages enormes.\r\nEn este episodio analizamos qué pasó realmente y por qué ahora Amazon exige que los seniors revisen el código generado por IA.\r\n¿Confianza en la IA… o control de daños?\r\nFuentes:\r\n\t• https://www.businessinsider.com/amazon-tightens-code-controls-after-outages-including-one-ai-2026-3\r\n\t• https://www.techradar.com/pro/amazon-is-making-even-senior-engineers-get-code-signed-off-following-multiple-recent-outages\r\n\t• https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-calls-engineers-to-address-issues-caused-by-use-of-ai-tools\r\n\t• https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/e/d/4/a/ed4ab20177b27120f736a47bd69607ba_XXL.jpg",
       "embedId": "167621960",
       "embedUrl": "https://www.ivoox.com/player_ej_167621960_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 471 -   Anthropic trabaja, OpenAI cobra",
-      "description": "La IA cambió de rol.\r\nAnthropic convierte a Claude en un workspace real con Slack, Figma y Asana dentro del chat.\r\nOpenAI, en cambio, prueba anuncios premium en ChatGPT… a precio NFL  \r\n  Productividad real\r\n  Publicidad cara\r\n  Mucho poder, pocas excusas\r\nFuentes:\r\n\t• https://www.techradar.com/pro/claude-turns-your-ai-chats-into-a-control-room-for-real-work-run-slack-figma-and-more-without-needing-to-switch-apps\r\n\t• https://www.theverge.com/news/867898/openai-chatgpt-ad-pricing",
-      "pubDate": "Wed, 28 Jan 2026 10:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-471-anthropic-trabaja-openai-cobra-audios-mp3_rf_167403023_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-471-anthropic-trabaja-openai-cobra_mf_167403023_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/b/4/d/8b4d711a8044fca64f11881f1a18b598_XXL.jpg",
-      "embedId": "167403023",
-      "embedUrl": "https://www.ivoox.com/player_ej_167403023_6_1.html?c1=d69776"
     }
   ]
 }
