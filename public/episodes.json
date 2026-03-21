@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-20T04:30:26.456Z",
+  "generatedAt": "2026-03-21T04:22:43.415Z",
   "items": [
+    {
+      "title": "NTN 492 - NVIDIA y el GTC 2026 - Parte 1",
+      "description": "•   NVIDIA reescribe las reglas con AI factories, agentes y robots\r\n\t• ⚙️ Vera Rubin, Dynamo y el futuro de la infraestructura IA\r\n\t•   ¿Qué significa esto para LATAM?\r\nFuentes:\r\n\t• https://www.nvidia.com/en-us/gtc/\r\n\t• https://blogs.nvidia.com/blog/gtc-keynote-ai/\r\n\t• https://developer.nvidia.com/blog",
+      "pubDate": "Fri, 20 Mar 2026 15:15:23 +0200",
+      "link": "https://www.ivoox.com/ntn-492-nvidia-gtc-2026-audios-mp3_rf_170483297_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-492-nvidia-gtc-2026_mf_170483297_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/f/f/f/cfffb32f58c0111a0673f1e495c24546_XXL.jpg",
+      "embedId": "170483297",
+      "embedUrl": "https://www.ivoox.com/player_ej_170483297_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 491 - ⚔️ La guerra de la IA tiene marcador… y Claude va ganando",
       "description": "La guerra de la IA ya tiene marcador… y la sorpresa es quién va ganando.\r\nEn este episodio de NO TIENE NOMBRE analizamos por qué Anthropic y Claude están conquistando empresas, qué significa la guerra de plataformas de IA, y por qué esto se parece mucho a la batalla histórica de cloud y sistemas operativos.\r\n\t• ⚔️ Claude vs ChatGPT en empresas\r\n\t•   El cambio: de chatbot a plataforma\r\n\t•   Qué significa esto para developers\r\nSources\r\n\t• https://www.theneuron.ai/explainer-articles/the-ai-platform-war-has-a-scoreboard-now-anthropic-is-winning-friends/\r\n\t• https://a16z.com/100-gen-ai-apps/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/e/5/c/8e5c33373800c61368c7e7a57a93f8b5_XXL.jpg",
       "embedId": "167676850",
       "embedUrl": "https://www.ivoox.com/player_ej_167676850_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 472 -   IA ética, piratería y el adiós a GPT-4o",
-      "description": "Esta semana en NO TIENE NOMBRE hablamos de IA sin filtro  \r\n\t•   Anthropic se planta frente al Pentágono: no a armas autónomas\r\n\t•   Demanda millonaria por entrenar IA con música pirateada\r\n\t•   OpenAI jubila GPT-4o (sí, ya nadie lo usaba)\r\n\t•   Apple compra IA que “habla sin hablar”\r\nÉtica, negocios y tecnología… todo junto y un poco al carajo.\r\nFuentes:\r\n\t• https://www.reuters.com/business/pentagon-clashes-with-anthropic-over-military-ai-use-2026-01-29/\r\n\t• https://www.reuters.com/legal/litigation/anthropic-faces-new-music-publisher-lawsuit-over-alleged-piracy-2026-01-28/\r\n\t• https://openai.com/index/retiring-gpt-4o-and-older-models/\r\n\t• https://www.reuters.com/business/apple-acquires-audio-ai-startup-qai-2026-01-29/",
-      "pubDate": "Fri, 30 Jan 2026 19:40:49 +0200",
-      "link": "https://www.ivoox.com/ntn-472-ia-etica-pirateria-y-audios-mp3_rf_167621960_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-472-ia-etica-pirateria-y_mf_167621960_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/e/d/4/a/ed4ab20177b27120f736a47bd69607ba_XXL.jpg",
-      "embedId": "167621960",
-      "embedUrl": "https://www.ivoox.com/player_ej_167621960_6_1.html?c1=d69776"
     }
   ]
 }
