@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-21T04:22:43.415Z",
+  "generatedAt": "2026-03-22T04:47:25.968Z",
   "items": [
+    {
+      "title": "NTN 493 - NVIDIA y el GTC 2026 - Parte 2",
+      "description": "•   NVIDIA reescribe las reglas con AI factories, agentes y robots\r\n\t• ⚙️ Vera Rubin, Dynamo y el futuro de la infraestructura IA\r\n\t•   ¿Qué significa esto para LATAM?\r\nFuentes:\r\n\t• https://www.nvidia.com/en-us/gtc/\r\n\t• https://blogs.nvidia.com/blog/gtc-keynote-ai/\r\n\t• https://developer.nvidia.com/blog",
+      "pubDate": "Sat, 21 Mar 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-493-nvidia-gtc-2026-audios-mp3_rf_170483415_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-493-nvidia-gtc-2026_mf_170483415_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/0/c/5/b0c50d53286c184b68e0b5f322ae3ac2_XXL.jpg",
+      "embedId": "170483415",
+      "embedUrl": "https://www.ivoox.com/player_ej_170483415_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 492 - NVIDIA y el GTC 2026 - Parte 1",
       "description": "•   NVIDIA reescribe las reglas con AI factories, agentes y robots\r\n\t• ⚙️ Vera Rubin, Dynamo y el futuro de la infraestructura IA\r\n\t•   ¿Qué significa esto para LATAM?\r\nFuentes:\r\n\t• https://www.nvidia.com/en-us/gtc/\r\n\t• https://blogs.nvidia.com/blog/gtc-keynote-ai/\r\n\t• https://developer.nvidia.com/blog",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/b/2/9/bb297cfbf2706d934223ca63020a7199_XXL.jpg",
       "embedId": "167840831",
       "embedUrl": "https://www.ivoox.com/player_ej_167840831_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 473 -   MoltBot / Clawdbot / … : 72 horas de caos que dieron para 30 minutos",
-      "description": "La historia de MoltBot / Clawdbot es tan intensa que me tomó casi 30 minutos contarla completa… y todo pasó en solo 72 horas  \r\nUn bot open source, viralidad extrema, cambio de nombre, hype descontrolado y serios problemas de seguridad.\r\n  Mucho poder, poco control.\r\nLa IA avanza rápido… nosotros no siempre.\r\nFuentes:\r\n\t• https://www.infobae.com/america/agencias/2026/01/27/que-es-moltbot-antes-clawdbot\r\n\t• https://www.theverge.com/report/869004/moltbot-clawdbot-local-ai-agent\r\n\t• https://www.techradar.com/pro/security/fake-moltbot-ai-assistant-just-spreads-malware\r\n\t• https://www.redeszone.net/noticias/seguridad/clawdbot-configuraciones-seguridad-evitar-hackeos/",
-      "pubDate": "Sun, 01 Feb 2026 17:31:21 +0200",
-      "link": "https://www.ivoox.com/ntn-473-moltbot-clawdbot-audios-mp3_rf_167676850_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-473-moltbot-clawdbot_mf_167676850_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/e/5/c/8e5c33373800c61368c7e7a57a93f8b5_XXL.jpg",
-      "embedId": "167676850",
-      "embedUrl": "https://www.ivoox.com/player_ej_167676850_6_1.html?c1=d69776"
     }
   ]
 }
