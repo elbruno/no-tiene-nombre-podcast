@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-23T04:57:03.716Z",
+  "generatedAt": "2026-03-24T04:47:45.585Z",
   "items": [
+    {
+      "title": "NTN 494 -   Allie K. Miller revela la guerra secreta de la IA",
+      "description": "•   Insights desde dentro de OpenAI, Anthropic y Google según Allie K. Miller\r\n\t•  ️ El auge de los builders que están rompiendo el sistema\r\n\t• ⚡ Velocidad brutal, caos… y oportunidades para el que actúa\r\nFuentes:\r\n\t• https://x.com/alliekmiller/status/2035063816611144085",
+      "pubDate": "Mon, 23 Mar 2026 10:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-494-allie-k-miller-revela-audios-mp3_rf_170558417_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-494-allie-k-miller-revela_mf_170558417_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/0/d/1/b0d1fcc22c95d7bd89a10b550a4c4f47_XXL.jpg",
+      "embedId": "170558417",
+      "embedUrl": "https://www.ivoox.com/player_ej_170558417_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 493 - NVIDIA y el GTC 2026 - Parte 2",
       "description": "•   NVIDIA reescribe las reglas con AI factories, agentes y robots\r\n\t• ⚙️ Vera Rubin, Dynamo y el futuro de la infraestructura IA\r\n\t•   ¿Qué significa esto para LATAM?\r\nFuentes:\r\n\t• https://www.nvidia.com/en-us/gtc/\r\n\t• https://blogs.nvidia.com/blog/gtc-keynote-ai/\r\n\t• https://developer.nvidia.com/blog",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/7/b/7/87b7c9ac6d6ff4d0d536e8c2e830000e_XXL.jpg",
       "embedId": "167982323",
       "embedUrl": "https://www.ivoox.com/player_ej_167982323_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 474 -   ¿Una IA como CEO? Y problemas de seguridad",
-      "description": "Esta semana en NO TIENE NOMBRE arrancamos con alertas de seguridad que te pueden estar robando el código sin que lo sepas  \r\nY después… Sam Altman propone algo muy loco: ¿pasarle OpenAI a una IA?  \r\nHablamos de AGI, Microsoft como “frenemy”, drama con Elon y por qué en IA no todo lo que brilla es oro.\r\nFuentes:\r\n\t• https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html\r\n\t• https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html \r\n\t• https://www.forbes.com/sites/alexkonrad/2026/01/sam-altman-openai-future-agi-ceo/ \r\n\t• https://www.therundown.ai/p/sam-altmans-openai-succession-plan \r\nhttps://www.cnbc.com/2026/01/17/satya-nadella-openai-agi-comments.html",
-      "pubDate": "Wed, 04 Feb 2026 16:31:38 +0200",
-      "link": "https://www.ivoox.com/ntn-474-una-ia-como-ceo-audios-mp3_rf_167840831_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-474-una-ia-como-ceo_mf_167840831_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/b/2/9/bb297cfbf2706d934223ca63020a7199_XXL.jpg",
-      "embedId": "167840831",
-      "embedUrl": "https://www.ivoox.com/player_ej_167840831_6_1.html?c1=d69776"
     }
   ]
 }
