@@ -24,6 +24,23 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 495 -   LiteLLM hackeado: te robaron TODO]]></title>
+<link>https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron-audios-mp3_rf_170699701_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron_mf_170699701_feed_1.mp3" type="audio/mpeg" length="18426148"/>
+<description><![CDATA[•   Hackean LiteLLM y se filtran credenciales sin que te enteres
+	•   Supply chain attack: cómo te infectan solo con instalar
+	•   API keys, cloud y Kubernetes en riesgo
+	• ⚠️ Lo que TODO dev de IA tiene que cambiar hoy
+Fuentes:
+	• https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/
+	• https://github.com/BerriAI/litellm/issues/24512]]></description>
+<pubDate>Tue, 24 Mar 2026 20:12:03 +0200</pubDate>
+<itunes:duration>19:11</itunes:duration>
+<guid>https://www.ivoox.com/170699701</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/1/2/0/e/120e99956428f89d3a2af3471c58629a_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 494 -   Allie K. Miller revela la guerra secreta de la IA]]></title>
 <link>https://www.ivoox.com/ntn-494-allie-k-miller-revela-audios-mp3_rf_170558417_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-494-allie-k-miller-revela_mf_170558417_feed_1.mp3" type="audio/mpeg" length="17275507"/>

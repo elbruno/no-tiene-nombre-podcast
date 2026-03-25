@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-24T04:47:45.585Z",
+  "generatedAt": "2026-03-25T04:48:31.306Z",
   "items": [
+    {
+      "title": "NTN 495 -   LiteLLM hackeado: te robaron TODO",
+      "description": "•   Hackean LiteLLM y se filtran credenciales sin que te enteres\r\n\t•   Supply chain attack: cómo te infectan solo con instalar\r\n\t•   API keys, cloud y Kubernetes en riesgo\r\n\t• ⚠️ Lo que TODO dev de IA tiene que cambiar hoy\r\nFuentes:\r\n\t• https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/\r\n\t• https://github.com/BerriAI/litellm/issues/24512",
+      "pubDate": "Tue, 24 Mar 2026 20:12:03 +0200",
+      "link": "https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron-audios-mp3_rf_170699701_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron_mf_170699701_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/2/0/e/120e99956428f89d3a2af3471c58629a_XXL.jpg",
+      "embedId": "170699701",
+      "embedUrl": "https://www.ivoox.com/player_ej_170699701_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 494 -   Allie K. Miller revela la guerra secreta de la IA",
       "description": "•   Insights desde dentro de OpenAI, Anthropic y Google según Allie K. Miller\r\n\t•  ️ El auge de los builders que están rompiendo el sistema\r\n\t• ⚡ Velocidad brutal, caos… y oportunidades para el que actúa\r\nFuentes:\r\n\t• https://x.com/alliekmiller/status/2035063816611144085",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/6/3/b/a/63ba672486710a4de45a216f1feb65d1_XXL.jpg",
       "embedId": "168052482",
       "embedUrl": "https://www.ivoox.com/player_ej_168052482_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 475 -  Kimi K2.5: la IA manager",
-      "description": "Una IA que no solo piensa… delega.\r\nHoy hablamos de Kimi K2.5, el modelo open-source que crea subagentes, los manda a laburar en paralelo y mejora rendimiento, visión y razonamiento.\r\n¿El futuro de la IA es trabajar en equipo?\r\nSpoiler: sí… pero ojo con los costos  \r\n  Fuentes\r\n\t• https://www.moonshot.cn\r\n\t• https://artificialanalysis.ai\r\n\t• https://huggingface.co",
-      "pubDate": "Sat, 07 Feb 2026 21:45:08 +0200",
-      "link": "https://www.ivoox.com/ntn-475-kimi-k2-5-ia-manager-audios-mp3_rf_167982323_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-475-kimi-k2-5-ia-manager_mf_167982323_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/7/b/7/87b7c9ac6d6ff4d0d536e8c2e830000e_XXL.jpg",
-      "embedId": "167982323",
-      "embedUrl": "https://www.ivoox.com/player_ej_167982323_6_1.html?c1=d69776"
     }
   ]
 }
