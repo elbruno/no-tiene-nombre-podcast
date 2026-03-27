@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-26T04:59:57.994Z",
+  "generatedAt": "2026-03-27T05:01:16.597Z",
   "items": [
+    {
+      "title": "NTN 496 -   Open Source… ¿traición? El caso HashiCorp",
+      "description": "•   ¿Qué pasa cuando rompes a tu comunidad?\r\n\t•   La historia de HashiCorp y el cambio de licencias\r\n\t•   Open source, dinero… y decisiones polémicas\r\n  Fuentes:\r\n\t• HashiCorp license change: https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license\r\n\t• OpenTofu fork: https://opentofu.org\r\n\t• IBM acquisition: https://newsroom.ibm.com/2024-04-24-IBM-to-acquire-HashiCorp",
+      "pubDate": "Thu, 26 Mar 2026 17:22:25 +0200",
+      "link": "https://www.ivoox.com/ntn-496-open-source-traicion-el-audios-mp3_rf_170841959_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-496-open-source-traicion-el_mf_170841959_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/d/f/6/4df6ba026330fc44e5436b28c37411c8_XXL.jpg",
+      "embedId": "170841959",
+      "embedUrl": "https://www.ivoox.com/player_ej_170841959_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 495 -   LiteLLM hackeado: te robaron TODO",
       "description": "•   Hackean LiteLLM y se filtran credenciales sin que te enteres\r\n\t•   Supply chain attack: cómo te infectan solo con instalar\r\n\t•   API keys, cloud y Kubernetes en riesgo\r\n\t• ⚠️ Lo que TODO dev de IA tiene que cambiar hoy\r\nFuentes:\r\n\t• https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/\r\n\t• https://github.com/BerriAI/litellm/issues/24512",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/0/1/e/a/01eadde0acae354488b3659017081c88_XXL.jpg",
       "embedId": "168309859",
       "embedUrl": "https://www.ivoox.com/player_ej_168309859_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 476 -  ️ El plan de Elon, IA en el espacio",
-      "description": "La IA no se frena por prompts… se frena por ⚡energía.\r\nEn este episodio charlamos sobre la entrevista de Elon Musk donde explica por qué el futuro de la IA podría estar en el espacio  ️: falta energía, sobran chips y el hardware viene con factura.\r\nSpoiler: sin kilovatios, no hay modelos gigantes  \r\nFuentes:\r\n\t• Entrevista Cheeky Pint: https://www.youtube.com\r\n\t• Transcripción Dwarkesh Patel: https://dwarkeshpatel.com",
-      "pubDate": "Mon, 09 Feb 2026 17:00:38 +0200",
-      "link": "https://www.ivoox.com/ntn-476-el-plan-elon-audios-mp3_rf_168052482_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-476-el-plan-elon_mf_168052482_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/3/b/a/63ba672486710a4de45a216f1feb65d1_XXL.jpg",
-      "embedId": "168052482",
-      "embedUrl": "https://www.ivoox.com/player_ej_168052482_6_1.html?c1=d69776"
     }
   ]
 }

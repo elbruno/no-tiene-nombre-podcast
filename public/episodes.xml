@@ -24,6 +24,23 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 496 -   Open Source… ¿traición? El caso HashiCorp]]></title>
+<link>https://www.ivoox.com/ntn-496-open-source-traicion-el-audios-mp3_rf_170841959_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-496-open-source-traicion-el_mf_170841959_feed_1.mp3" type="audio/mpeg" length="15939291"/>
+<description><![CDATA[•   ¿Qué pasa cuando rompes a tu comunidad?
+	•   La historia de HashiCorp y el cambio de licencias
+	•   Open source, dinero… y decisiones polémicas
+  Fuentes:
+	• HashiCorp license change: https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license
+	• OpenTofu fork: https://opentofu.org
+	• IBM acquisition: https://newsroom.ibm.com/2024-04-24-IBM-to-acquire-HashiCorp]]></description>
+<pubDate>Thu, 26 Mar 2026 17:22:25 +0200</pubDate>
+<itunes:duration>16:36</itunes:duration>
+<guid>https://www.ivoox.com/170841959</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/4/d/f/6/4df6ba026330fc44e5436b28c37411c8_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 495 -   LiteLLM hackeado: te robaron TODO]]></title>
 <link>https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron-audios-mp3_rf_170699701_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron_mf_170699701_feed_1.mp3" type="audio/mpeg" length="18426148"/>
