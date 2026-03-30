@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-29T05:04:30.749Z",
+  "generatedAt": "2026-03-30T05:16:03.586Z",
   "items": [
+    {
+      "title": "NTN 497 - Anthropic le gana a USA y OpenAI apaga la fiesta",
+      "description": "•   Anthropic le planta cara al gobierno… ¡y gana!\r\n\t• ⚖️ Un fallo histórico que redefine el poder en la IA\r\n\t•   OpenAI cierra Sora y deja dudas en el aire\r\n\t•   Costos, ética y decisiones que cambian el juego\r\nFuentes:\r\n\t• https://www.theverge.com/ai-anthropic-lawsuit\r\n\t• https://techcrunch.com/openai-sora-shutdown\r\n\t• https://www.reuters.com/technology/ai",
+      "pubDate": "Sun, 29 Mar 2026 18:29:25 +0200",
+      "link": "https://www.ivoox.com/ntn-497-anthropic-le-gana-a-usa-audios-mp3_rf_170955652_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-497-anthropic-le-gana-a-usa_mf_170955652_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/6/5/1/965127431e4499abfb714dcf4e17c574_XXL.jpg",
+      "embedId": "170955652",
+      "embedUrl": "https://www.ivoox.com/player_ej_170955652_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 496 -   Open Source… ¿traición? El caso HashiCorp",
       "description": "•   ¿Qué pasa cuando rompes a tu comunidad?\r\n\t•   La historia de HashiCorp y el cambio de licencias\r\n\t•   Open source, dinero… y decisiones polémicas\r\n  Fuentes:\r\n\t• HashiCorp license change: https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license\r\n\t• OpenTofu fork: https://opentofu.org\r\n\t• IBM acquisition: https://newsroom.ibm.com/2024-04-24-IBM-to-acquire-HashiCorp",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/f/1/7/8f1762796491e08b7addae36e644d532_XXL.jpg",
       "embedId": "168419353",
       "embedUrl": "https://www.ivoox.com/player_ej_168419353_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 477 -   Agentes en Acción, De Caos a Superpoder",
-      "description": "¿La IA te está haciendo trabajar más? Hoy te cuento cómo darle la vuelta a la tortilla.\r\n  Cowork, Codex, Claude en Chrome, Tasklet y MCP: agentes que automatizan tareas reales.\r\n⚖️ Además: LLM-as-a-Judge y verificadores para que no se vaya todo al carajo.\r\n  Menos copiar/pegar, más estrategia.\r\nFuentes:\r\n\t• https://www.theneurondaily.com/p/what-are-the-agent-tools-besides-openclaw-you-should-actually-use\r\n\t• https://www.eweek.com/news/5-ai-tools-autonomous-workflows-automation-neuron/\r\n\t• https://builtin.com/articles/ai-agents-workplace-benchmark",
-      "pubDate": "Thu, 12 Feb 2026 16:38:04 +0200",
-      "link": "https://www.ivoox.com/ntn-477-agentes-accion-de-audios-mp3_rf_168309859_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-477-agentes-accion-de_mf_168309859_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/1/e/a/01eadde0acae354488b3659017081c88_XXL.jpg",
-      "embedId": "168309859",
-      "embedUrl": "https://www.ivoox.com/player_ej_168309859_6_1.html?c1=d69776"
     }
   ]
 }
