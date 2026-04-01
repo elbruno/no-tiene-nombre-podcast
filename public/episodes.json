@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-03-31T05:03:08.398Z",
+  "generatedAt": "2026-04-01T05:15:50.387Z",
   "items": [
+    {
+      "title": "NTN 498 -   Claude Mythos: ¿filtración o puro humo?",
+      "description": "•   Anthropic “filtra” su modelo más potente… ¿accidente o marketing?\r\n\t•   Claude Mythos promete romper la escala (y la ciberseguridad  )\r\n\t• ⚠️ ¿Estamos listos para IA que hackea mejor que nosotros?\r\n  Un episodio sin filtro sobre hype, riesgos y el futuro que ya llegó.\r\nFuentes:\r\n\t• https://fortune.com/\r\n\t• https://www.anthropic.com/\r\n\t• https://www.theverge.com/ai-artificial-intelligence",
+      "pubDate": "Tue, 31 Mar 2026 17:43:38 +0200",
+      "link": "https://www.ivoox.com/ntn-498-claude-mythos-filtracion-o-audios-mp3_rf_171089579_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-498-claude-mythos-filtracion-o_mf_171089579_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/0/4/f/6/04f620b22a93e492ea93f2e2135f9ba2_XXL.jpg",
+      "embedId": "171089579",
+      "embedUrl": "https://www.ivoox.com/player_ej_171089579_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 497 - Anthropic le gana a USA y OpenAI apaga la fiesta",
       "description": "•   Anthropic le planta cara al gobierno… ¡y gana!\r\n\t• ⚖️ Un fallo histórico que redefine el poder en la IA\r\n\t•   OpenAI cierra Sora y deja dudas en el aire\r\n\t•   Costos, ética y decisiones que cambian el juego\r\nFuentes:\r\n\t• https://www.theverge.com/ai-anthropic-lawsuit\r\n\t• https://techcrunch.com/openai-sora-shutdown\r\n\t• https://www.reuters.com/technology/ai",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/e/2/3/9e23de7dba79d0b955062b7ba6fb80d2_XXL.jpg",
       "embedId": "168664999",
       "embedUrl": "https://www.ivoox.com/player_ej_168664999_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 478 -   OpenClaw Parte 2, Bots Desatados y Millones Perdidos",
-      "description": "Hoy en NO TIENE NOMBRE hablamos de los 5 peores casos de Clawbot, OpenClaw y MoltBot.\r\nPuertos abiertos, malware disfrazado de “skills”, tokens falsos de $16M y bots hackeándose entre ellos.\r\n  Cuando la autonomía sin seguridad se va al carajo…\r\nTe cuento qué pasó y qué podemos aprender antes de montar tu propio agente AI.\r\nFuentes:\r\n\t•   https://www.bitsight.com/blog/openclaw-ai-security-risks-exposed-instances\r\n\t•   https://astrix.security/learn/blog/openclaw-moltbot-the-rise-chaos-and-security-nightmare-of-the-first-real-ai-agent/\r\n\t•   https://en.wikipedia.org/wiki/Moltbook\r\n\t•   https://www.techradar.com/pro/moltbot-is-now-openclaw-but-watch-out-malicious-skills-are-still-trying-to-trick-victims-into-spreading-malware\r\n\t•   https://www.reddit.com/r/AI_Agents/",
-      "pubDate": "Sun, 15 Feb 2026 14:18:33 +0200",
-      "link": "https://www.ivoox.com/ntn-478-openclaw-parte-2-bots-audios-mp3_rf_168419353_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-478-openclaw-parte-2-bots_mf_168419353_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/f/1/7/8f1762796491e08b7addae36e644d532_XXL.jpg",
-      "embedId": "168419353",
-      "embedUrl": "https://www.ivoox.com/player_ej_168419353_6_1.html?c1=d69776"
     }
   ]
 }
