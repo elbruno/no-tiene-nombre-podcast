@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-02T04:56:50.310Z",
+  "generatedAt": "2026-04-03T04:58:34.909Z",
   "items": [
+    {
+      "title": "NTN 499 -   Claude Code filtrado… ¿y ahora qué?",
+      "description": "•   Se filtra parte de Claude Code y la comunidad explota\r\n\t•   Ingeniería inversa, forks y nuevos experimentos\r\n\t•   ¿Qué aprendimos realmente del leak?\r\n\t• ⚠️ Spoiler: no era magia… pero casi\r\nFuentes:\r\n\t• https://github.com/topics/claude-code\r\n\t• https://www.anthropic.com\r\n\t• https://news.ycombinator.com",
+      "pubDate": "Thu, 02 Apr 2026 22:23:15 +0200",
+      "link": "https://www.ivoox.com/ntn-499-claude-code-filtrado-y-audios-mp3_rf_171260158_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-499-claude-code-filtrado-y_mf_171260158_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/b/6/b/3b6b36006696e65b7e492942e30f85f3_XXL.jpg",
+      "embedId": "171260158",
+      "embedUrl": "https://www.ivoox.com/player_ej_171260158_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 498 -   Claude Mythos: ¿filtración o puro humo?",
       "description": "•   Anthropic “filtra” su modelo más potente… ¿accidente o marketing?\r\n\t•   Claude Mythos promete romper la escala (y la ciberseguridad  )\r\n\t• ⚠️ ¿Estamos listos para IA que hackea mejor que nosotros?\r\n  Un episodio sin filtro sobre hype, riesgos y el futuro que ya llegó.\r\nFuentes:\r\n\t• https://fortune.com/\r\n\t• https://www.anthropic.com/\r\n\t• https://www.theverge.com/ai-artificial-intelligence",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/e/c/0/bec0a8bc2cd85a57636de4f4e460359f_XXL.jpg",
       "embedId": "168768741",
       "embedUrl": "https://www.ivoox.com/player_ej_168768741_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 479 -   Anthropic se Planta: El Drama Sonnet 4.6",
-      "description": "Anthropic lanza Claude Sonnet 4.6 con 1M tokens, context compaction y mejor coding…\r\n  pero se niega a permitir vigilancia masiva o armas autónomas al Pentágono.\r\n  ¿Pierde $200M o gana reputación?\r\n ‍  ¿Impacta a VS Code, Copilot y developers?\r\nFuentes:\r\n\t• Claude Sonnet 4.6 https://www.anthropic.com/news/claude-sonnet-4-6",
-      "pubDate": "Wed, 18 Feb 2026 16:01:48 +0200",
-      "link": "https://www.ivoox.com/ntn-479-anthropic-se-planta-el-audios-mp3_rf_168664999_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-479-anthropic-se-planta-el_mf_168664999_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/e/2/3/9e23de7dba79d0b955062b7ba6fb80d2_XXL.jpg",
-      "embedId": "168664999",
-      "embedUrl": "https://www.ivoox.com/player_ej_168664999_6_1.html?c1=d69776"
     }
   ]
 }
