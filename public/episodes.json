@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-03T04:58:34.909Z",
+  "generatedAt": "2026-04-04T04:44:40.613Z",
   "items": [
+    {
+      "title": "NTN 500 -   Axios Hackeado: el npm install que te arruina",
+      "description": "•   ¿Instalas librerías sin pensar? Cuidado…\r\n\t•   Axios fue comprometido y trajo malware incluido\r\n\t•   Hablamos de supply chain attacks y cómo te afectan HOY\r\n\t•  ️ Tips prácticos para no comerte el marrón\r\nFuentes:\r\n\t• https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package\r\n\t• https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\r\n\t• https://www.ox.security/blog/axios-compromised-with-a-malicious-dependency?ref=top-banner",
+      "pubDate": "Fri, 03 Apr 2026 16:27:43 +0200",
+      "link": "https://www.ivoox.com/ntn-500-axios-hackeado-npm-audios-mp3_rf_171290991_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-500-axios-hackeado-npm_mf_171290991_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/a/b/8/5ab832d5ddb2b14e37e0083a92931192_XXL.jpg",
+      "embedId": "171290991",
+      "embedUrl": "https://www.ivoox.com/player_ej_171290991_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 499 -   Claude Code filtrado… ¿y ahora qué?",
       "description": "•   Se filtra parte de Claude Code y la comunidad explota\r\n\t•   Ingeniería inversa, forks y nuevos experimentos\r\n\t•   ¿Qué aprendimos realmente del leak?\r\n\t• ⚠️ Spoiler: no era magia… pero casi\r\nFuentes:\r\n\t• https://github.com/topics/claude-code\r\n\t• https://www.anthropic.com\r\n\t• https://news.ycombinator.com",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/d/9/3/bd93543fc54899fdec09edef0985052c_XXL.jpg",
       "embedId": "168935145",
       "embedUrl": "https://www.ivoox.com/player_ej_168935145_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 480 -   IA que Canta y Jefes que Espían Prompts",
-      "description": "️ En este episodio hablamos de Lyria 3 creando música desde texto  , Accenture midiendo tu uso de IA para ascender   y el salto brutal de Gemini 3.1 Pro en razonamiento  .\r\n¿Estamos ante creatividad democratizada o KPI corporativo disfrazado?\r\nTe cuento qué significa esto para LATAM… sin humo y sin filtro  \r\nFuentes:\r\n\t• Google Lyria 3 → https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/\r\n\t• Accenture y promociones IA → https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools\r\n\t• Gemini 3.1 Pro → https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/\r\n\t• Model Card Gemini 3.1 → https://deepmind.google/models/model-cards/gemini-3-1-pro/",
-      "pubDate": "Fri, 20 Feb 2026 16:54:14 +0200",
-      "link": "https://www.ivoox.com/ntn-480-ia-canta-y-audios-mp3_rf_168768741_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-480-ia-canta-y_mf_168768741_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/e/c/0/bec0a8bc2cd85a57636de4f4e460359f_XXL.jpg",
-      "embedId": "168768741",
-      "embedUrl": "https://www.ivoox.com/player_ej_168768741_6_1.html?c1=d69776"
     }
   ]
 }
