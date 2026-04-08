@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-04-07T05:02:57.875Z",
+  "generatedAt": "2026-04-08T05:04:54.123Z",
   "items": [
+    {
+      "title": "NTN 502 -   Anthropic se puso estricto… y explotó todo!",
+      "description": "•   ¿Qué está pasando con Anthropic y su modelo Claude?\r\n\t•   Restricciones nuevas, devs furiosos y migraciones en masa\r\n\t• ⚖️ Seguridad vs usabilidad: el clásico dilema tech\r\n\t•   Impacto real para devs y startups (incluyendo LATAM)\r\nFuentes:\r\n\t•   https://www.anthropic.com/news\r\n\t•   https://docs.anthropic.com\r\n\t•   https://twitter.com (reacciones de la comunidad dev)",
+      "pubDate": "Tue, 07 Apr 2026 17:03:16 +0200",
+      "link": "https://www.ivoox.com/ntn-502-anthropic-se-puso-estricto-audios-mp3_rf_171472437_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-502-anthropic-se-puso-estricto_mf_171472437_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/7/3/9/1739b7cc6cf661e6ca58204c8cde6e04_XXL.jpg",
+      "embedId": "171472437",
+      "embedUrl": "https://www.ivoox.com/player_ej_171472437_6_1.html?c1=d69776"
+    },
+    {
+      "title": "NTN 501 -   AI Robotaxis: éxito brutal vs caos total",
+      "description": "•   Waymo escala 10x sus viajes semanales… ¿la IA ya maneja mejor que nosotros?\r\n\t•   Baidu deja 100 robotaxis congelados en Wuhan… con gente atrapada  \r\n\t•   ¿Estamos listos para este futuro o se viene el caos?\r\nFuentes:\r\n\t• https://www.theinformation.com/articles/waymo-growth-robotaxi\r\n\t• https://www.reuters.com/technology/baidu-robotaxis-wuhan-incident",
+      "pubDate": "Tue, 07 Apr 2026 17:01:57 +0200",
+      "link": "https://www.ivoox.com/ntn-501-ai-robotaxis-exito-brutal-audios-mp3_rf_171472187_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-501-ai-robotaxis-exito-brutal_mf_171472187_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/d/b/f/cdbf40d89dcb9b31218303caee9615be_XXL.jpg",
+      "embedId": "171472187",
+      "embedUrl": "https://www.ivoox.com/player_ej_171472187_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 500 -   Axios Hackeado: el npm install que te arruina",
       "description": "•   ¿Instalas librerías sin pensar? Cuidado…\r\n\t•   Axios fue comprometido y trajo malware incluido\r\n\t•   Hablamos de supply chain attacks y cómo te afectan HOY\r\n\t•  ️ Tips prácticos para no comerte el marrón\r\nFuentes:\r\n\t• https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package\r\n\t• https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\r\n\t• https://www.ox.security/blog/axios-compromised-with-a-malicious-dependency?ref=top-banner",
@@ -180,26 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/d/e/e/fdee95db8e3985cd9698d70781020e91_XXL.jpg",
       "embedId": "169234094",
       "embedUrl": "https://www.ivoox.com/player_ej_169234094_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 482 -   Claude vs Wall Street",
-      "description": "•   Cada vez que Anthropic lanza algo… el mercado tiembla.\r\n\t•   Caídas históricas en SaaS, seguridad y hasta IBM.\r\n\t•   ¿Estamos viendo disrupción real o puro pánico financiero?\r\n\t•   ¿Qué significa esto para LATAM y los devs?\r\nFuentes:\r\n\t• Reuters: https://www.reuters.com/business/ibm-posts-steepest-daily-drop-since-2000-after-anthropic-says-ai-can-modernize-2026-02-24/\r\n\t• Yahoo Finance: https://ca.finance.yahoo.com/news/ibm-stock-tumbles-10-anthropic-194211705.html\r\nChronicle Journal: https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-2-23-the-seat-count-crisis-how-ai-agents-triggered-the-2026-software-sell-off",
-      "pubDate": "Wed, 25 Feb 2026 16:58:46 +0200",
-      "link": "https://www.ivoox.com/ntn-482-claude-vs-wall-street-audios-mp3_rf_169133349_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-482-claude-vs-wall-street_mf_169133349_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/d/7/f/2d7f5881c99fa2fa5b3d91140f21cdf0_XXL.jpg",
-      "embedId": "169133349",
-      "embedUrl": "https://www.ivoox.com/player_ej_169133349_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 481 -   Agentes IA, Billones y Gafas Inteligentes",
-      "description": "OpenAI apunta a $850B de valoración mientras prueba anuncios en ChatGPT.\r\n  OpenClaw pasa de proyecto viral a pieza clave en OpenAI.\r\n  Apple prepara 3 wearables con IA.\r\n¿Estamos viendo el futuro… o una burbuja gigante? Lo analizamos sin humo y con mirada LATAM.\r\n  Fuentes:\r\n• https://www.reuters.com\r\n• https://www.theverge.com\r\n• https://www.techcrunch.com\r\n• https://www.techbuzz.ai",
-      "pubDate": "Mon, 23 Feb 2026 17:59:26 +0200",
-      "link": "https://www.ivoox.com/ntn-481-agentes-ia-billones-y-audios-mp3_rf_168935145_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-481-agentes-ia-billones-y_mf_168935145_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/d/9/3/bd93543fc54899fdec09edef0985052c_XXL.jpg",
-      "embedId": "168935145",
-      "embedUrl": "https://www.ivoox.com/player_ej_168935145_6_1.html?c1=d69776"
     }
   ]
 }
