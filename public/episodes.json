@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-11T04:48:26.800Z",
+  "generatedAt": "2026-04-12T05:15:27.259Z",
   "items": [
+    {
+      "title": "NTN 504 -   Meta vuelve: Muse Spark entra al ring",
+      "description": "•   Meta lanza Muse Spark y vuelve fuerte a la carrera de la IA\r\n\t• ⚔️ Multi-agentes discutiendo para razonar mejor… sí, como grupo de WhatsApp\r\n\t•   Foco en salud: ¿la IA que te cuida o te asusta?\r\n\t•   ¿Adiós al open source? Meta cambia el juego\r\nFuentes:\r\n\t• https://www.meta.com\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence/",
+      "pubDate": "Sat, 11 Apr 2026 15:24:42 +0200",
+      "link": "https://www.ivoox.com/ntn-504-meta-vuelve-muse-spark-audios-mp3_rf_171720977_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-504-meta-vuelve-muse-spark_mf_171720977_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/d/d/3/7dd351c3471689e83c0349a361d8653a_XXL.jpg",
+      "embedId": "171720977",
+      "embedUrl": "https://www.ivoox.com/player_ej_171720977_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 503 -  ️ Team Building extremo: tarántulas & caos",
       "description": "•   Un retiro corporativo de Plex que salió MUY mal\r\n\t•  ️ Tarántulas, calor extremo y decisiones dudosas\r\n\t•   Lo que esto nos enseña sobre implementar IA sin cabeza\r\n  Humor, desastre y lecciones reales para no romper equipos\r\nFuentes:\r\n\t• https://nypost.com/2024/03/09/business/plex-corporate-retreat-2017-survivor-style-disaster/\r\n\t• https://www.dailymail.co.uk/news/article-13172539/plex-retreat-survivor-tarantulas-heat-drills.html",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/6/5/7/4/65740d1213f4860fe17775b1d504dced_XXL.jpg",
       "embedId": "169537421",
       "embedUrl": "https://www.ivoox.com/player_ej_169537421_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 484 - ⚖️Abogados Nativos en Claude",
-      "description": "⚖️  ¿Y si tu firma legal no usara IA… sino que fuera IA?\r\nHoy hablamos de la “Claude-Native Law Firm” y cómo un abogado está automatizando contratos, revisiones y hasta XML en Word con Claude.\r\n¿Es el futuro del derecho o puro hype?\r\nTe cuento qué está pasando, por qué el mundo legal está nervioso y qué significa para todos nosotros.\r\nFuentes:\r\n• https://x.com/zackbshapiro/status/2027389987444957625\r\n• https://www.artificiallawyer.com/2026/03/02/lawyer-uses-claude-skills-legal-world-loses-it/\r\n• https://www.spellbook.legal/newsletter/claudes-legal-ai-plugin-sparks-285b-market-selloff",
-      "pubDate": "Mon, 02 Mar 2026 16:06:13 +0200",
-      "link": "https://www.ivoox.com/ntn-484-abogados-nativos-claude-audios-mp3_rf_169344505_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-484-abogados-nativos-claude_mf_169344505_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/5/3/b/c53bd0abd444259443e3b4cfef1b704c_XXL.jpg",
-      "embedId": "169344505",
-      "embedUrl": "https://www.ivoox.com/player_ej_169344505_6_1.html?c1=d69776"
     }
   ]
 }
