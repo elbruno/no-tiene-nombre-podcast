@@ -15,7 +15,7 @@ https://notienenombre.com/]]></description>
 <link>https://www.ivoox.com/podcast-no-tiene-nombre_sq_f1277993_1.html</link>
 </image>
 <atom:link href="https://feeds.ivoox.com/feed_fg_f1277993_filtro_1.xml" rel="self" type="application/rss+xml"/>
-<itunes:explicit>no</itunes:explicit>
+<itunes:explicit>false</itunes:explicit>
 <itunes:image href="https://static-1.ivoox.com/canales/0/c/5/7/0c57a9be021d99484cb9580ef113bfb7_XXL.jpg"/>
 <itunes:category text="Technology" />
 <itunes:type>episodic</itunes:type>
@@ -23,6 +23,22 @@ https://notienenombre.com/]]></description>
 <itunes:name><![CDATA[elbruno]]></itunes:name>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
+<item>
+<title><![CDATA[NTN 505 -   IA, miedo real… y Word poseído]]></title>
+<link>https://www.ivoox.com/ntn-505-ia-miedo-real-y-audios-mp3_rf_171812138_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-505-ia-miedo-real-y_mf_171812138_feed_1.mp3" type="audio/mpeg" length="12270445"/>
+<description><![CDATA[•   Claude se mete en Word… ¿productividad o reemplazo silencioso?
+	•   Ataque a Sam Altman: cuando el miedo a la IA se vuelve real
+	• ⚖️ ¿Estamos exagerando… o viendo venir el problema?
+Fuentes:
+	• https://www.anthropic.com
+https://openai.com/blog]]></description>
+<pubDate>Mon, 13 Apr 2026 22:12:43 +0200</pubDate>
+<itunes:duration>12:46</itunes:duration>
+<guid>https://www.ivoox.com/171812138</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/8/5/4/d85489ed0b30492755b36f1d8ba9f23c_XXL.jpg"/>
+</item>
 <item>
 <title><![CDATA[NTN 504 -   Meta vuelve: Muse Spark entra al ring]]></title>
 <link>https://www.ivoox.com/ntn-504-meta-vuelve-muse-spark-audios-mp3_rf_171720977_1.html</link>

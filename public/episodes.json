@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-13T05:32:46.321Z",
+  "generatedAt": "2026-04-14T05:14:51.225Z",
   "items": [
+    {
+      "title": "NTN 505 -   IA, miedo real… y Word poseído",
+      "description": "•   Claude se mete en Word… ¿productividad o reemplazo silencioso?\r\n\t•   Ataque a Sam Altman: cuando el miedo a la IA se vuelve real\r\n\t• ⚖️ ¿Estamos exagerando… o viendo venir el problema?\r\nFuentes:\r\n\t• https://www.anthropic.com\r\nhttps://openai.com/blog",
+      "pubDate": "Mon, 13 Apr 2026 22:12:43 +0200",
+      "link": "https://www.ivoox.com/ntn-505-ia-miedo-real-y-audios-mp3_rf_171812138_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-505-ia-miedo-real-y_mf_171812138_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/8/5/4/d85489ed0b30492755b36f1d8ba9f23c_XXL.jpg",
+      "embedId": "171812138",
+      "embedUrl": "https://www.ivoox.com/player_ej_171812138_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 504 -   Meta vuelve: Muse Spark entra al ring",
       "description": "•   Meta lanza Muse Spark y vuelve fuerte a la carrera de la IA\r\n\t• ⚔️ Multi-agentes discutiendo para razonar mejor… sí, como grupo de WhatsApp\r\n\t•   Foco en salud: ¿la IA que te cuida o te asusta?\r\n\t•   ¿Adiós al open source? Meta cambia el juego\r\nFuentes:\r\n\t• https://www.meta.com\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/2/7/e/527e8455012278c596c8afba3408fae0_XXL.jpg",
       "embedId": "169655053",
       "embedUrl": "https://www.ivoox.com/player_ej_169655053_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 485 -  ️ Cuando la IA llega al Pentágono, OpenAI vs Anthropic",
-      "description": "Hoy en NO TIENE NOMBRE hablamos del drama tecnológico del momento: Anthropic alejándose del Pentágono, OpenAI firmando un acuerdo polémico, protestas, cancelaciones y un caos de relaciones públicas digno de Silicon Valley.\r\nEntre ética, política y modelos de IA… analizamos qué está pasando realmente y por qué esta historia podría definir el futuro de la inteligencia artificial.\r\nFuentes:\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence\r\n\t• https://www.reuters.com/technology\r\n\t• https://x.com/sama",
-      "pubDate": "Wed, 04 Mar 2026 16:17:26 +0200",
-      "link": "https://www.ivoox.com/ntn-485-cuando-ia-llega-audios-mp3_rf_169537421_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-485-cuando-ia-llega_mf_169537421_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/5/7/4/65740d1213f4860fe17775b1d504dced_XXL.jpg",
-      "embedId": "169537421",
-      "embedUrl": "https://www.ivoox.com/player_ej_169537421_6_1.html?c1=d69776"
     }
   ]
 }
