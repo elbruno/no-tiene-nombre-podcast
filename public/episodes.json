@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-15T05:15:36.248Z",
+  "generatedAt": "2026-04-16T05:22:51.023Z",
   "items": [
+    {
+      "title": "NTN 506 -   Skills por todos lados",
+      "description": "•   Google, Claude y Copilot usan “Skills”… pero no significan lo mismo\r\n\t• ⚙️ Automatización con Routines y workflows reales\r\n\t•   De prompts a sistemas: el cambio que se viene\r\nFuentes:\r\n\t•   https://blog.google/products/chrome/gemini-in-chrome-ai-skills/\r\n\t•   https://www.anthropic.com/news/claude-code-updates\r\n\t•   https://github.blog/ai-and-ml/github-copilot/",
+      "pubDate": "Wed, 15 Apr 2026 22:30:05 +0200",
+      "link": "https://www.ivoox.com/ntn-506-skills-todos-lados-audios-mp3_rf_172002381_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-506-skills-todos-lados_mf_172002381_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/2/b/6/0/2b60dae5874ca4079f460bfed1e2925e_XXL.jpg",
+      "embedId": "172002381",
+      "embedUrl": "https://www.ivoox.com/player_ej_172002381_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 505 -   IA, miedo real… y Word poseído",
       "description": "•   Claude se mete en Word… ¿productividad o reemplazo silencioso?\r\n\t•   Ataque a Sam Altman: cuando el miedo a la IA se vuelve real\r\n\t• ⚖️ ¿Estamos exagerando… o viendo venir el problema?\r\nFuentes:\r\n\t• https://www.anthropic.com\r\nhttps://openai.com/blog",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/0/1/c/c/01cc53ad716042a8a9d6b46931136817_XXL.jpg",
       "embedId": "169720554",
       "embedUrl": "https://www.ivoox.com/player_ej_169720554_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 486 -   Google sin clicks y GPT-5.4 al mando",
-      "description": "El internet está cambiando… y rápido.\r\nHoy en NO TIENE NOMBRE hablamos de dos terremotos tech:\r\n  Los grandes medios tech perdieron hasta 58% del tráfico desde Google\r\n  GPT-5.4 llega con coding, herramientas y uso de computadora en un solo modelo.\r\n¿Estamos entrando a un internet donde ya no buscamos… sino que preguntamos a la IA?\r\n  Lo analizamos con humor, historia tech y un poco de caos.\r\nFuentes\r\n\t• https://www.niemanlab.org/2026/03/traffic-to-top-tech-publications-has-plummeted-since-2024-new-analysis-shows/\r\n\t• https://en.wikipedia.org/wiki/Zero-click_result\r\n\t• https://www.theguardian.com/technology/2025/jul/24/ai-summaries-causing-devastating-drop-in-online-news-audiences-study-finds\r\n\t• https://www.ft.com/content/5a2a1f91-535c-422a-b5c8-6855b11043df",
-      "pubDate": "Fri, 06 Mar 2026 16:11:35 +0200",
-      "link": "https://www.ivoox.com/ntn-486-google-sin-clicks-y-audios-mp3_rf_169655053_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-486-google-sin-clicks-y_mf_169655053_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/2/7/e/527e8455012278c596c8afba3408fae0_XXL.jpg",
-      "embedId": "169655053",
-      "embedUrl": "https://www.ivoox.com/player_ej_169655053_6_1.html?c1=d69776"
     }
   ]
 }
