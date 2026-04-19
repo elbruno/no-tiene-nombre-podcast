@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-18T05:00:24.703Z",
+  "generatedAt": "2026-04-19T05:20:09.889Z",
   "items": [
+    {
+      "title": "NTN 507 -   Claude Opus 4.7",
+      "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos con Claude Opus 4.7: más autonomía, mejor código, menos inventarse cosas y más pinta de compañero de curro que de chatbot de feria.\r\n\t•   Hablamos de benchmarks, seguridad, visión multimodal y por qué esta nueva generación de IA ya no solo conversa… también trabaja.\r\nFuentes\r\n  Anthropic – Introducing Claude Opus 4.7: https://www.anthropic.com/news/claude-opus-4-7",
+      "pubDate": "Sun, 19 Apr 2026 01:28:59 +0200",
+      "link": "https://www.ivoox.com/ntn-507-claude-opus-4-7-audios-mp3_rf_172143466_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-507-claude-opus-4-7_mf_172143466_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/e/9/b/7/e9b709ec2b6482e0e744528f1de9ea77_XXL.jpg",
+      "embedId": "172143466",
+      "embedUrl": "https://www.ivoox.com/player_ej_172143466_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 506 -   Skills por todos lados",
       "description": "•   Google, Claude y Copilot usan “Skills”… pero no significan lo mismo\r\n\t• ⚙️ Automatización con Routines y workflows reales\r\n\t•   De prompts a sistemas: el cambio que se viene\r\nFuentes:\r\n\t•   https://blog.google/products/chrome/gemini-in-chrome-ai-skills/\r\n\t•   https://www.anthropic.com/news/claude-code-updates\r\n\t•   https://github.blog/ai-and-ml/github-copilot/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/e/6/c/ce6c8d27d7e133434929531137927537_XXL.jpg",
       "embedId": "169721635",
       "embedUrl": "https://www.ivoox.com/player_ej_169721635_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 487 -   ¿La IA te hace peor programador?",
-      "description": "Hoy en NO TIENE NOMBRE hablamos de una pregunta incómoda:\r\n¿usar IA para programar nos hace mejores… o más vagos?\r\nUn estudio con desarrolladores mostró que quienes usaron IA aprendieron 17% menos sobre una nueva librería. Pero la historia es más compleja.\r\nEn este episodio exploramos qué está pasando realmente con Copilot, ChatGPT y el aprendizaje de programación.\r\n  Fuentes\r\n\t• https://rdel.substack.com/p/rdel-133-does-using-ai-to-code-come\r\n\t• https://www.anthropic.com/research/ai-assistance-coding-skills",
-      "pubDate": "Mon, 09 Mar 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-487-la-ia-te-hace-audios-mp3_rf_169720554_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-487-la-ia-te-hace_mf_169720554_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/1/c/c/01cc53ad716042a8a9d6b46931136817_XXL.jpg",
-      "embedId": "169720554",
-      "embedUrl": "https://www.ivoox.com/player_ej_169720554_6_1.html?c1=d69776"
     }
   ]
 }
