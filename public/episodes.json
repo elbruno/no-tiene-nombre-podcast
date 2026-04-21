@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-20T05:31:50.617Z",
+  "generatedAt": "2026-04-21T05:19:30.089Z",
   "items": [
+    {
+      "title": "NTN 508 -   Artemis II y el drama de OpenAI",
+      "description": "•   En este episodio nos vamos de Artemis II a las oficinas de OpenAI para hablar de una misma idea: cuando la tecnología deja de ser juguete y pasa a ser infraestructura seria.\r\n\t•   Hay naves, IA, ejecutivos que se van, foco en enterprise y una lección clara: menos humo, más sistemas que aguanten la realidad.\r\nFuentes\r\n\t•   AI Magazine: https://aimagazine.com/news/what-is-the-technology-powering-the-artemis-ii-moon-mission\r\n\t•   TechCrunch: https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/\r\n\t•   NASA Artemis II: https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/\r\n\t•   NASA Q&A Artemis II: https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/\r\n\t•   WIRED: https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/",
+      "pubDate": "Mon, 20 Apr 2026 23:21:04 +0200",
+      "link": "https://www.ivoox.com/ntn-508-artemis-ii-el-audios-mp3_rf_172238754_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-508-artemis-ii-el_mf_172238754_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/d/9/2/dd927360c9f8f14390c361aaa82a850b_XXL.jpg",
+      "embedId": "172238754",
+      "embedUrl": "https://www.ivoox.com/player_ej_172238754_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 507 -   Claude Opus 4.7",
       "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos con Claude Opus 4.7: más autonomía, mejor código, menos inventarse cosas y más pinta de compañero de curro que de chatbot de feria.\r\n\t•   Hablamos de benchmarks, seguridad, visión multimodal y por qué esta nueva generación de IA ya no solo conversa… también trabaja.\r\nFuentes\r\n  Anthropic – Introducing Claude Opus 4.7: https://www.anthropic.com/news/claude-opus-4-7",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/f/a/4/ffa4ad94ec931acd67eb08207d430744_XXL.jpg",
       "embedId": "170078639",
       "embedUrl": "https://www.ivoox.com/player_ej_170078639_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 488 -   Nano Banana 2: El arte de hablarle bien a la IA",
-      "description": "Hoy en NO TIENE NOMBRE hablamos de Nano Banana 2, el modelo de Google que está cambiando cómo generamos imágenes con IA.\r\n  No es solo generar imágenes… es aprender a escribir mejores prompts y dirigir la creatividad de la máquina.\r\nEn este episodio vemos:\r\n\t•   Qué es Nano Banana 2\r\n\t•   Cómo piensa una IA al generar imágenes\r\n\t• ✍️ Tips prácticos para escribir prompts que funcionen\r\n  Fuentes\r\n\t• https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana/\r\n\t• https://www.techradar.com/ai-platforms-assistants/gemini/5-prompts-that-show-how-powerful-nano-banana-2-is",
-      "pubDate": "Wed, 11 Mar 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-488-nano-banana-2-el-audios-mp3_rf_169721635_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-488-nano-banana-2-el_mf_169721635_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/e/6/c/ce6c8d27d7e133434929531137927537_XXL.jpg",
-      "embedId": "169721635",
-      "embedUrl": "https://www.ivoox.com/player_ej_169721635_6_1.html?c1=d69776"
     }
   ]
 }
