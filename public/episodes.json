@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-22T05:16:53.997Z",
+  "generatedAt": "2026-04-23T05:22:07.142Z",
   "items": [
+    {
+      "title": "NTN 509 -   Karp, Palantir y el manifiesto que asustó a medio internet",
+      "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos en el lío que armó Alexander Karp, CEO de Palantir, con su famoso manifiesto resumido en 22 puntos.\r\n\t•   Hablamos de quién es Karp, qué hace Palantir y por qué este texto mezcla IA, poder, defensa y una visión del mundo que dejó a muchos con cara de “¿pero qué acabo de leer?”.\r\n\t•   Un episodio para entender el debate sin humo… y sin que se vaya todo al carajo.\r\n\r\n\r\nSources\r\n\t•   Business Insider — Palantir's summary of CEO Alexander Karp's manifesto is generating buzz\r\nhttps://www.businessinsider.com/palantir-manifesto-alex-karp-technological-republic-summary-2026-4\r\n\t•   The Verge — We translated the Palantir manifesto for actual human beings\r\nhttps://www.theverge.com/policy/915237/palantir-manifesto\r\n\t•   TechCrunch — Palantir posts mini-manifesto denouncing inclusivity and “regressive and harmful cultures”\r\nhttps://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/\r\n\t•   Al Jazeera — Technofascism? Why Palantir’s pro-West ‘manifesto’ has critics alarmed\r\nhttps://www.aljazeera.com/news/2026/4/21/technofacism-why-palantirs-pro-west-manifesto-has-critics-alarmed\r\n  Penguin Random House — The Technological Republic\r\nhttps://www.penguinrandomhouse.com/books/760945/the-technological-republic-by-alexander-c-karp-and-nicholas-w-zamiska/",
+      "pubDate": "Wed, 22 Apr 2026 21:20:33 +0200",
+      "link": "https://www.ivoox.com/ntn-509-karp-palantir-el-audios-mp3_rf_172425095_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-509-karp-palantir-el_mf_172425095_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/f/5/4/7f543fb0f1b102c7d40c887804aa9b5d_XXL.jpg",
+      "embedId": "172425095",
+      "embedUrl": "https://www.ivoox.com/player_ej_172425095_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 508 -   Artemis II y el drama de OpenAI",
       "description": "•   En este episodio nos vamos de Artemis II a las oficinas de OpenAI para hablar de una misma idea: cuando la tecnología deja de ser juguete y pasa a ser infraestructura seria.\r\n\t•   Hay naves, IA, ejecutivos que se van, foco en enterprise y una lección clara: menos humo, más sistemas que aguanten la realidad.\r\nFuentes\r\n\t•   AI Magazine: https://aimagazine.com/news/what-is-the-technology-powering-the-artemis-ii-moon-mission\r\n\t•   TechCrunch: https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/\r\n\t•   NASA Artemis II: https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/\r\n\t•   NASA Q&A Artemis II: https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/\r\n\t•   WIRED: https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/9/e/9/79e9c8da37f3344616c2e41985479f6d_XXL.jpg",
       "embedId": "170085527",
       "embedUrl": "https://www.ivoox.com/player_ej_170085527_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 489 - ⚔️ Google vs AWS vs Microsoft: la jugada secreta de Wiz",
-      "description": "Google acaba de pagar $32 mil millones por Wiz… y no es solo una empresa de ciberseguridad.\r\nEn este episodio cuento la historia de los fundadores, su paso por Microsoft, y por qué Wiz tiene el mapa secreto del cloud mundial.\r\n  ¿Estrategia brillante o caballo de Troya?\r\nFuentes\r\n\t• https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/\r\n\t• https://en.wikipedia.org/wiki/Wiz,_Inc.\r\n\t• https://www.wiz.io/blog/100m-arr-in-18-months-wiz-becomes-the-fastest-growing-software-company-ever\r\n\t• https://research.contrary.com/company/wiz",
-      "pubDate": "Fri, 13 Mar 2026 14:56:32 +0200",
-      "link": "https://www.ivoox.com/ntn-489-google-vs-aws-vs-audios-mp3_rf_170078639_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-489-google-vs-aws-vs_mf_170078639_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/f/a/4/ffa4ad94ec931acd67eb08207d430744_XXL.jpg",
-      "embedId": "170078639",
-      "embedUrl": "https://www.ivoox.com/player_ej_170078639_6_1.html?c1=d69776"
     }
   ]
 }
