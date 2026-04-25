@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-24T05:26:55.277Z",
+  "generatedAt": "2026-04-25T05:05:03.786Z",
   "items": [
+    {
+      "title": "NTN 510 -   IA Agentica - Semana Loca",
+      "description": "Semana intensa en IA: GPT-5.5 sube la vara, Claude ahora recuerda y se conecta con apps del día a día, y Microsoft convierte Copilot en agente dentro de Office.\r\n¿Productividad real o caos con botones bonitos?\r\nFuentes:\r\n\t• OpenAI: https://openai.com/index/introducing-gpt-5-5/\r\n\t• Anthropic: https://claude.com/blog/claude-managed-agents-memory\r\nMicrosoft: https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+      "pubDate": "Fri, 24 Apr 2026 23:00:44 +0200",
+      "link": "https://www.ivoox.com/ntn-510-ia-agentica-semana-audios-mp3_rf_172532785_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-510-ia-agentica-semana_mf_172532785_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/0/9/f/609fb79bf2bd47926f8e5277442842b9_XXL.jpg",
+      "embedId": "172532785",
+      "embedUrl": "https://www.ivoox.com/player_ej_172532785_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 509 -   Karp, Palantir y el manifiesto que asustó a medio internet",
       "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos en el lío que armó Alexander Karp, CEO de Palantir, con su famoso manifiesto resumido en 22 puntos.\r\n\t•   Hablamos de quién es Karp, qué hace Palantir y por qué este texto mezcla IA, poder, defensa y una visión del mundo que dejó a muchos con cara de “¿pero qué acabo de leer?”.\r\n\t•   Un episodio para entender el debate sin humo… y sin que se vaya todo al carajo.\r\n\r\n\r\nSources\r\n\t•   Business Insider — Palantir's summary of CEO Alexander Karp's manifesto is generating buzz\r\nhttps://www.businessinsider.com/palantir-manifesto-alex-karp-technological-republic-summary-2026-4\r\n\t•   The Verge — We translated the Palantir manifesto for actual human beings\r\nhttps://www.theverge.com/policy/915237/palantir-manifesto\r\n\t•   TechCrunch — Palantir posts mini-manifesto denouncing inclusivity and “regressive and harmful cultures”\r\nhttps://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/\r\n\t•   Al Jazeera — Technofascism? Why Palantir’s pro-West ‘manifesto’ has critics alarmed\r\nhttps://www.aljazeera.com/news/2026/4/21/technofacism-why-palantirs-pro-west-manifesto-has-critics-alarmed\r\n  Penguin Random House — The Technological Republic\r\nhttps://www.penguinrandomhouse.com/books/760945/the-technological-republic-by-alexander-c-karp-and-nicholas-w-zamiska/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/3/0/4/9/304930067fd4f311691e3d822ff9a61d_XXL.jpg",
       "embedId": "170147251",
       "embedUrl": "https://www.ivoox.com/player_ej_170147251_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 490 - ⚠️ IA programando en Amazon… y los seniors revisando todo",
-      "description": "Amazon empujó fuerte la programación con IA…\r\n ‍  luego despidió miles de ingenieros…\r\n  y después llegaron outages enormes.\r\nEn este episodio analizamos qué pasó realmente y por qué ahora Amazon exige que los seniors revisen el código generado por IA.\r\n¿Confianza en la IA… o control de daños?\r\nFuentes:\r\n\t• https://www.businessinsider.com/amazon-tightens-code-controls-after-outages-including-one-ai-2026-3\r\n\t• https://www.techradar.com/pro/amazon-is-making-even-senior-engineers-get-code-signed-off-following-multiple-recent-outages\r\n\t• https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-calls-engineers-to-address-issues-caused-by-use-of-ai-tools\r\n\t• https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt",
-      "pubDate": "Mon, 16 Mar 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-490-ia-programando-amazon-audios-mp3_rf_170085527_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-490-ia-programando-amazon_mf_170085527_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/9/e/9/79e9c8da37f3344616c2e41985479f6d_XXL.jpg",
-      "embedId": "170085527",
-      "embedUrl": "https://www.ivoox.com/player_ej_170085527_6_1.html?c1=d69776"
     }
   ]
 }
