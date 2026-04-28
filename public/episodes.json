@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-04-27T05:44:52.210Z",
+  "generatedAt": "2026-04-28T05:49:37.533Z",
   "items": [
+    {
+      "title": "NTN 511 -   Guerra Fría de LLMs",
+      "description": "•   DeepSeek V4 entra fuerte: modelos baratos, open-weight y casi frontier.\r\n\t•   EE.UU. acusa a China de robo de IP y destilación de modelos.\r\n\t•   ¿Estamos ante el “Sputnik moment” de los LLMs?\r\nFuentes:\r\n\t• https://api-docs.deepseek.com/news/news260424\r\n\t• https://api-docs.deepseek.com/quick_start/pricing\r\n\t• https://www.reuters.com/world/china/chinas-deepseek-slashes-prices-new-ai-model-2026-04-27/",
+      "pubDate": "Mon, 27 Apr 2026 16:44:54 +0200",
+      "link": "https://www.ivoox.com/ntn-511-guerra-fria-llms-audios-mp3_rf_172631365_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-511-guerra-fria-llms_mf_172631365_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/f/4/9/4f493bd487255749e117d908bca2ae73_XXL.jpg",
+      "embedId": "172631365",
+      "embedUrl": "https://www.ivoox.com/player_ej_172631365_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 510 -   IA Agentica - Semana Loca",
       "description": "Semana intensa en IA: GPT-5.5 sube la vara, Claude ahora recuerda y se conecta con apps del día a día, y Microsoft convierte Copilot en agente dentro de Office.\r\n¿Productividad real o caos con botones bonitos?\r\nFuentes:\r\n\t• OpenAI: https://openai.com/index/introducing-gpt-5-5/\r\n\t• Anthropic: https://claude.com/blog/claude-managed-agents-memory\r\nMicrosoft: https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/f/f/f/cfffb32f58c0111a0673f1e495c24546_XXL.jpg",
       "embedId": "170483297",
       "embedUrl": "https://www.ivoox.com/player_ej_170483297_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 491 - ⚔️ La guerra de la IA tiene marcador… y Claude va ganando",
-      "description": "La guerra de la IA ya tiene marcador… y la sorpresa es quién va ganando.\r\nEn este episodio de NO TIENE NOMBRE analizamos por qué Anthropic y Claude están conquistando empresas, qué significa la guerra de plataformas de IA, y por qué esto se parece mucho a la batalla histórica de cloud y sistemas operativos.\r\n\t• ⚔️ Claude vs ChatGPT en empresas\r\n\t•   El cambio: de chatbot a plataforma\r\n\t•   Qué significa esto para developers\r\nSources\r\n\t• https://www.theneuron.ai/explainer-articles/the-ai-platform-war-has-a-scoreboard-now-anthropic-is-winning-friends/\r\n\t• https://a16z.com/100-gen-ai-apps/",
-      "pubDate": "Wed, 18 Mar 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-491-la-guerra-la-audios-mp3_rf_170147251_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-491-la-guerra-la_mf_170147251_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/0/4/9/304930067fd4f311691e3d822ff9a61d_XXL.jpg",
-      "embedId": "170147251",
-      "embedUrl": "https://www.ivoox.com/player_ej_170147251_6_1.html?c1=d69776"
     }
   ]
 }
