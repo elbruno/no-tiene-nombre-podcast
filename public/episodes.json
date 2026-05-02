@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-01T05:59:04.290Z",
+  "generatedAt": "2026-05-02T05:28:21.704Z",
   "items": [
+    {
+      "title": "NTN 513 -  Más despacio, campeón",
+      "description": "En este episodio de NO TIENE NOMBRE hablamos de una verdad incómoda: la IA puede escribir código a toda velocidad… pero eso no significa que debamos dejarla correr sola  \r\n\t•   Agentes de código, productividad y caos\r\n\t•   Por qué frenar también es una estrategia\r\n\t•   Cómo evitar deuda técnica con esteroides\r\n\t•   Y qué significa esto para LATAM\r\nFuentes\r\n\t• Mario Zechner: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down\r\n\t• TechCrunch: https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/\r\n\t• The Guardian: https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
+      "pubDate": "Fri, 01 May 2026 17:42:10 +0200",
+      "link": "https://www.ivoox.com/ntn-513-mas-despacio-campeon-audios-mp3_rf_172938641_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-513-mas-despacio-campeon_mf_172938641_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/1/5/1/615130eaea75f4101d197a28d7747d45_XXL.jpg",
+      "embedId": "172938641",
+      "embedUrl": "https://www.ivoox.com/player_ej_172938641_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 512 -   OpenAI rompe con Microsoft… y sale con AWS",
       "description": "Drama tech nivel Hollywood: Microsoft y OpenAI reescriben su relación… y ya no es exclusiva  \r\n\t• ☁️ OpenAI ahora juega también con Amazon Web Services\r\n\t•   Nuevo modelo de pagos y fin del “impuesto” por API\r\n\t•   Rumores de teléfono con IA rumbo a 2028\r\n  ¿El objetivo? Controlar TODA la experiencia AI\r\nFuentes:\r\n\t• https://openai.com/index/next-phase-of-microsoft-partnership/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/0/d/1/b0d1fcc22c95d7bd89a10b550a4c4f47_XXL.jpg",
       "embedId": "170558417",
       "embedUrl": "https://www.ivoox.com/player_ej_170558417_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 493 - NVIDIA y el GTC 2026 - Parte 2",
-      "description": "•   NVIDIA reescribe las reglas con AI factories, agentes y robots\r\n\t• ⚙️ Vera Rubin, Dynamo y el futuro de la infraestructura IA\r\n\t•   ¿Qué significa esto para LATAM?\r\nFuentes:\r\n\t• https://www.nvidia.com/en-us/gtc/\r\n\t• https://blogs.nvidia.com/blog/gtc-keynote-ai/\r\n\t• https://developer.nvidia.com/blog",
-      "pubDate": "Sat, 21 Mar 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-493-nvidia-gtc-2026-audios-mp3_rf_170483415_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-493-nvidia-gtc-2026_mf_170483415_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/0/c/5/b0c50d53286c184b68e0b5f322ae3ac2_XXL.jpg",
-      "embedId": "170483415",
-      "embedUrl": "https://www.ivoox.com/player_ej_170483415_6_1.html?c1=d69776"
     }
   ]
 }
