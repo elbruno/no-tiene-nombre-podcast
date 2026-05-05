@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-04T05:54:13.976Z",
+  "generatedAt": "2026-05-05T05:33:34.422Z",
   "items": [
+    {
+      "title": "NTN 514 -   IA ¿ROI o vende humo?",
+      "description": "¿La IA en ingeniería genera ROI real o solo facturas lindas?\r\nHablamos de J-Curve, métricas DORA, costos ocultos, productividad y cómo evitar que tu copiloto se coma el presupuesto.\r\nFuentes:\r\n\t• RDEL: https://rdel.substack.com/p/rdel-141-how-can-engineering-leaders\r\n\t• Google Cloud DORA: https://cloud.google.com/resources/content/dora-roi-of-ai-assisted-software-development\r\n\t• DX: https://getdx.com/blog/ai-roi-calculator/",
+      "pubDate": "Mon, 04 May 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-514-ia-roi-o-vende-audios-mp3_rf_173019521_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-514-ia-roi-o-vende_mf_173019521_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/2/8/a/428aaa82b4f2535f05e325ba88a66f07_XXL.jpg",
+      "embedId": "173019521",
+      "embedUrl": "https://www.ivoox.com/player_ej_173019521_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 513 -  Más despacio, campeón",
       "description": "En este episodio de NO TIENE NOMBRE hablamos de una verdad incómoda: la IA puede escribir código a toda velocidad… pero eso no significa que debamos dejarla correr sola  \r\n\t•   Agentes de código, productividad y caos\r\n\t•   Por qué frenar también es una estrategia\r\n\t•   Cómo evitar deuda técnica con esteroides\r\n\t•   Y qué significa esto para LATAM\r\nFuentes\r\n\t• Mario Zechner: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down\r\n\t• TechCrunch: https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/\r\n\t• The Guardian: https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/1/2/0/e/120e99956428f89d3a2af3471c58629a_XXL.jpg",
       "embedId": "170699701",
       "embedUrl": "https://www.ivoox.com/player_ej_170699701_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 494 -   Allie K. Miller revela la guerra secreta de la IA",
-      "description": "•   Insights desde dentro de OpenAI, Anthropic y Google según Allie K. Miller\r\n\t•  ️ El auge de los builders que están rompiendo el sistema\r\n\t• ⚡ Velocidad brutal, caos… y oportunidades para el que actúa\r\nFuentes:\r\n\t• https://x.com/alliekmiller/status/2035063816611144085",
-      "pubDate": "Mon, 23 Mar 2026 10:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-494-allie-k-miller-revela-audios-mp3_rf_170558417_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-494-allie-k-miller-revela_mf_170558417_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/0/d/1/b0d1fcc22c95d7bd89a10b550a4c4f47_XXL.jpg",
-      "embedId": "170558417",
-      "embedUrl": "https://www.ivoox.com/player_ej_170558417_6_1.html?c1=d69776"
     }
   ]
 }
