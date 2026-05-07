@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-06T05:48:31.338Z",
+  "generatedAt": "2026-05-07T05:51:43.902Z",
   "items": [
+    {
+      "title": "NTN 515 -   SubQ: IA Más Barata, Más Rápida y Más Peligrosa",
+      "description": "️ En este episodio de NO TIENE NOMBRE hablamos de SubQ y la arquitectura SSA que promete cambiar la IA para siempre  \r\n  12 MILLONES de tokens\r\n  52x más rápido que FlashAttention\r\n  Hasta 1000x menos compute\r\n¿Revolución real o humo premium de AI Twitter? Analizamos la tecnología, las dudas y por qué esto podría cambiar la economía de la IA en LATAM  \r\n  Fuentes:\r\n\t• https://subq.ai/how-ssa-makes-long-context-practical\r\n\t• https://thenewstack.io/subquadratic-12-million-context-window/\r\n\t• https://arxiv.org\r\n\t• https://reddit.com/r/ArtificialInteligence",
+      "pubDate": "Wed, 06 May 2026 19:04:59 +0200",
+      "link": "https://www.ivoox.com/ntn-515-subq-ia-mas-barata-audios-mp3_rf_173262578_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-515-subq-ia-mas-barata_mf_173262578_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/a/9/e/5a9e937ce8b43ded5ee81dc195f829f4_XXL.jpg",
+      "embedId": "173262578",
+      "embedUrl": "https://www.ivoox.com/player_ej_173262578_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 514 -   IA ¿ROI o vende humo?",
       "description": "¿La IA en ingeniería genera ROI real o solo facturas lindas?\r\nHablamos de J-Curve, métricas DORA, costos ocultos, productividad y cómo evitar que tu copiloto se coma el presupuesto.\r\nFuentes:\r\n\t• RDEL: https://rdel.substack.com/p/rdel-141-how-can-engineering-leaders\r\n\t• Google Cloud DORA: https://cloud.google.com/resources/content/dora-roi-of-ai-assisted-software-development\r\n\t• DX: https://getdx.com/blog/ai-roi-calculator/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/4/d/f/6/4df6ba026330fc44e5436b28c37411c8_XXL.jpg",
       "embedId": "170841959",
       "embedUrl": "https://www.ivoox.com/player_ej_170841959_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 495 -   LiteLLM hackeado: te robaron TODO",
-      "description": "•   Hackean LiteLLM y se filtran credenciales sin que te enteres\r\n\t•   Supply chain attack: cómo te infectan solo con instalar\r\n\t•   API keys, cloud y Kubernetes en riesgo\r\n\t• ⚠️ Lo que TODO dev de IA tiene que cambiar hoy\r\nFuentes:\r\n\t• https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/\r\n\t• https://github.com/BerriAI/litellm/issues/24512",
-      "pubDate": "Tue, 24 Mar 2026 20:12:03 +0200",
-      "link": "https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron-audios-mp3_rf_170699701_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-495-litellm-hackeado-te-robaron_mf_170699701_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/2/0/e/120e99956428f89d3a2af3471c58629a_XXL.jpg",
-      "embedId": "170699701",
-      "embedUrl": "https://www.ivoox.com/player_ej_170699701_6_1.html?c1=d69776"
     }
   ]
 }
