@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-08T05:22:00.897Z",
+  "generatedAt": "2026-05-09T05:39:06.369Z",
   "items": [
+    {
+      "title": "NTN 516 -   Terminales, agentes y caos",
+      "description": "️ En este episodio de NO TIENE NOMBRE hablamos del inesperado regreso de los CLIs en la era de la IA  \r\nDesde OpenClaw hasta herramientas como sonoscli, wacli y birdclaw, analizamos por qué los agentes de IA aman la terminal más que las apps modernas  \r\n  Automatización, agentes locales, SQLite, workflows y el futuro del software explicado con humor latinoamericano.\r\n  Fuentes:\r\n• https://github.com/steipete/openclaw\r\n• https://github.com/steipete/sonoscli\r\n• https://github.com/steipete/wacli\r\n• https://github.com/steipete/birdclaw\r\n• https://singjupost.com/how-i-created-openclaw-the-breakthrough-ai-agent-peter-steinberger-transcript/",
+      "pubDate": "Fri, 08 May 2026 23:31:40 +0200",
+      "link": "https://www.ivoox.com/ntn-516-terminales-agentes-caos-audios-mp3_rf_173384982_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-516-terminales-agentes-caos_mf_173384982_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/d/a/d/9dad8e49ea01c6db2cf74cab79e337f4_XXL.jpg",
+      "embedId": "173384982",
+      "embedUrl": "https://www.ivoox.com/player_ej_173384982_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 515 -   SubQ: IA Más Barata, Más Rápida y Más Peligrosa",
       "description": "️ En este episodio de NO TIENE NOMBRE hablamos de SubQ y la arquitectura SSA que promete cambiar la IA para siempre  \r\n  12 MILLONES de tokens\r\n  52x más rápido que FlashAttention\r\n  Hasta 1000x menos compute\r\n¿Revolución real o humo premium de AI Twitter? Analizamos la tecnología, las dudas y por qué esto podría cambiar la economía de la IA en LATAM  \r\n  Fuentes:\r\n\t• https://subq.ai/how-ssa-makes-long-context-practical\r\n\t• https://thenewstack.io/subquadratic-12-million-context-window/\r\n\t• https://arxiv.org\r\n\t• https://reddit.com/r/ArtificialInteligence",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/6/5/1/965127431e4499abfb714dcf4e17c574_XXL.jpg",
       "embedId": "170955652",
       "embedUrl": "https://www.ivoox.com/player_ej_170955652_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 496 -   Open Source… ¿traición? El caso HashiCorp",
-      "description": "•   ¿Qué pasa cuando rompes a tu comunidad?\r\n\t•   La historia de HashiCorp y el cambio de licencias\r\n\t•   Open source, dinero… y decisiones polémicas\r\n  Fuentes:\r\n\t• HashiCorp license change: https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license\r\n\t• OpenTofu fork: https://opentofu.org\r\n\t• IBM acquisition: https://newsroom.ibm.com/2024-04-24-IBM-to-acquire-HashiCorp",
-      "pubDate": "Thu, 26 Mar 2026 17:22:25 +0200",
-      "link": "https://www.ivoox.com/ntn-496-open-source-traicion-el-audios-mp3_rf_170841959_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-496-open-source-traicion-el_mf_170841959_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/d/f/6/4df6ba026330fc44e5436b28c37411c8_XXL.jpg",
-      "embedId": "170841959",
-      "embedUrl": "https://www.ivoox.com/player_ej_170841959_6_1.html?c1=d69776"
     }
   ]
 }

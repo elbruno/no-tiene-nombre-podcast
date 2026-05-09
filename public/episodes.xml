@@ -24,6 +24,25 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 516 -   Terminales, agentes y caos]]></title>
+<link>https://www.ivoox.com/ntn-516-terminales-agentes-caos-audios-mp3_rf_173384982_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-516-terminales-agentes-caos_mf_173384982_feed_1.mp3" type="audio/mpeg" length="15385495"/>
+<description><![CDATA[ ️ En este episodio de NO TIENE NOMBRE hablamos del inesperado regreso de los CLIs en la era de la IA  
+Desde OpenClaw hasta herramientas como sonoscli, wacli y birdclaw, analizamos por qué los agentes de IA aman la terminal más que las apps modernas  
+  Automatización, agentes locales, SQLite, workflows y el futuro del software explicado con humor latinoamericano.
+  Fuentes:
+• https://github.com/steipete/openclaw
+• https://github.com/steipete/sonoscli
+• https://github.com/steipete/wacli
+• https://github.com/steipete/birdclaw
+• https://singjupost.com/how-i-created-openclaw-the-breakthrough-ai-agent-peter-steinberger-transcript/]]></description>
+<pubDate>Fri, 08 May 2026 23:31:40 +0200</pubDate>
+<itunes:duration>16:01</itunes:duration>
+<guid>https://www.ivoox.com/173384982</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/d/a/d/9dad8e49ea01c6db2cf74cab79e337f4_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 515 -   SubQ: IA Más Barata, Más Rápida y Más Peligrosa]]></title>
 <link>https://www.ivoox.com/ntn-515-subq-ia-mas-barata-audios-mp3_rf_173262578_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-515-subq-ia-mas-barata_mf_173262578_feed_1.mp3" type="audio/mpeg" length="20690695"/>
