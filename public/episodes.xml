@@ -24,6 +24,23 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 517 -   Firefox vs los Bugs Fantasma]]></title>
+<link>https://www.ivoox.com/ntn-517-firefox-vs-bugs-audios-mp3_rf_173444763_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-517-firefox-vs-bugs_mf_173444763_feed_1.mp3" type="audio/mpeg" length="17612800"/>
+<description><![CDATA[  Mozilla usó IA para encontrar cientos de vulnerabilidades en Firefox… algunas escondidas hace MÁS de 20 años  
+En este episodio hablamos de Claude Mythos, seguridad ofensiva, agentes autónomos y por qué los developers ahora tienen una excavadora para buscar bugs.
+  ¿La IA salvará Internet… o lo romperá más rápido?
+  Fuentes:
+	• https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+	• https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/
+	• https://www.businessinsider.com/mozilla-anthropic-mythos-hundreds-flaws-fuzzers-2026-5]]></description>
+<pubDate>Mon, 11 May 2026 09:00:00 +0200</pubDate>
+<itunes:duration>18:20</itunes:duration>
+<guid>https://www.ivoox.com/173444763</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/8/0/f/f/80ff36eb53be71b362f9765009f29f43_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 516 -   Terminales, agentes y caos]]></title>
 <link>https://www.ivoox.com/ntn-516-terminales-agentes-caos-audios-mp3_rf_173384982_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-516-terminales-agentes-caos_mf_173384982_feed_1.mp3" type="audio/mpeg" length="15385495"/>

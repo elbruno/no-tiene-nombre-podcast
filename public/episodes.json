@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-11T06:27:04.846Z",
+  "generatedAt": "2026-05-12T05:57:12.025Z",
   "items": [
+    {
+      "title": "NTN 517 -   Firefox vs los Bugs Fantasma",
+      "description": "Mozilla usó IA para encontrar cientos de vulnerabilidades en Firefox… algunas escondidas hace MÁS de 20 años  \r\nEn este episodio hablamos de Claude Mythos, seguridad ofensiva, agentes autónomos y por qué los developers ahora tienen una excavadora para buscar bugs.\r\n  ¿La IA salvará Internet… o lo romperá más rápido?\r\n  Fuentes:\r\n\t• https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/\r\n\t• https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/\r\n\t• https://www.businessinsider.com/mozilla-anthropic-mythos-hundreds-flaws-fuzzers-2026-5",
+      "pubDate": "Mon, 11 May 2026 09:00:00 +0200",
+      "link": "https://www.ivoox.com/ntn-517-firefox-vs-bugs-audios-mp3_rf_173444763_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-517-firefox-vs-bugs_mf_173444763_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/0/f/f/80ff36eb53be71b362f9765009f29f43_XXL.jpg",
+      "embedId": "173444763",
+      "embedUrl": "https://www.ivoox.com/player_ej_173444763_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 516 -   Terminales, agentes y caos",
       "description": "️ En este episodio de NO TIENE NOMBRE hablamos del inesperado regreso de los CLIs en la era de la IA  \r\nDesde OpenClaw hasta herramientas como sonoscli, wacli y birdclaw, analizamos por qué los agentes de IA aman la terminal más que las apps modernas  \r\n  Automatización, agentes locales, SQLite, workflows y el futuro del software explicado con humor latinoamericano.\r\n  Fuentes:\r\n• https://github.com/steipete/openclaw\r\n• https://github.com/steipete/sonoscli\r\n• https://github.com/steipete/wacli\r\n• https://github.com/steipete/birdclaw\r\n• https://singjupost.com/how-i-created-openclaw-the-breakthrough-ai-agent-peter-steinberger-transcript/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/0/4/f/6/04f620b22a93e492ea93f2e2135f9ba2_XXL.jpg",
       "embedId": "171089579",
       "embedUrl": "https://www.ivoox.com/player_ej_171089579_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 497 - Anthropic le gana a USA y OpenAI apaga la fiesta",
-      "description": "•   Anthropic le planta cara al gobierno… ¡y gana!\r\n\t• ⚖️ Un fallo histórico que redefine el poder en la IA\r\n\t•   OpenAI cierra Sora y deja dudas en el aire\r\n\t•   Costos, ética y decisiones que cambian el juego\r\nFuentes:\r\n\t• https://www.theverge.com/ai-anthropic-lawsuit\r\n\t• https://techcrunch.com/openai-sora-shutdown\r\n\t• https://www.reuters.com/technology/ai",
-      "pubDate": "Sun, 29 Mar 2026 18:29:25 +0200",
-      "link": "https://www.ivoox.com/ntn-497-anthropic-le-gana-a-usa-audios-mp3_rf_170955652_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-497-anthropic-le-gana-a-usa_mf_170955652_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/6/5/1/965127431e4499abfb714dcf4e17c574_XXL.jpg",
-      "embedId": "170955652",
-      "embedUrl": "https://www.ivoox.com/player_ej_170955652_6_1.html?c1=d69776"
     }
   ]
 }
