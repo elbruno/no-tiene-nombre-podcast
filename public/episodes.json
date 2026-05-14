@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-13T06:16:26.024Z",
+  "generatedAt": "2026-05-14T06:14:09.821Z",
   "items": [
+    {
+      "title": "NTN 518 -   La IA Nos Hizo Más Rápidos… y Rompimos Todo",
+      "description": "Nuevo episodio de NO TIENE NOMBRE  ️\r\nLa IA acelera TODO… pero también acelera el caos  \r\nHablamos de cómo equipos reales y avanzados están usando IA en su ciclo de desarrollo:\r\n  Copilot\r\n  Agentes\r\n⚡ Automatización\r\n  Más velocidad… y más problemas\r\nPorque hoy el código es barato… pero las decisiones siguen siendo carísimas.\r\n  Fuentes:\r\n• https://x.com/davidfowl/status/2054084334848790652\r\n• https://www.linkedin.com/posts/davidfowl_ai-made-us-faster-that-was-the-problem-activity-7459854441899479040-c0UB",
+      "pubDate": "Thu, 14 May 2026 01:47:05 +0200",
+      "link": "https://www.ivoox.com/ntn-518-la-ia-nos-hizo-audios-mp3_rf_173700759_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-518-la-ia-nos-hizo_mf_173700759_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/2/3/0/32300ca35f51852dbaff284b7d326594_XXL.jpg",
+      "embedId": "173700759",
+      "embedUrl": "https://www.ivoox.com/player_ej_173700759_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 517 -   Firefox vs los Bugs Fantasma",
       "description": "Mozilla usó IA para encontrar cientos de vulnerabilidades en Firefox… algunas escondidas hace MÁS de 20 años  \r\nEn este episodio hablamos de Claude Mythos, seguridad ofensiva, agentes autónomos y por qué los developers ahora tienen una excavadora para buscar bugs.\r\n  ¿La IA salvará Internet… o lo romperá más rápido?\r\n  Fuentes:\r\n\t• https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/\r\n\t• https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/\r\n\t• https://www.businessinsider.com/mozilla-anthropic-mythos-hundreds-flaws-fuzzers-2026-5",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/3/b/6/b/3b6b36006696e65b7e492942e30f85f3_XXL.jpg",
       "embedId": "171260158",
       "embedUrl": "https://www.ivoox.com/player_ej_171260158_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 498 -   Claude Mythos: ¿filtración o puro humo?",
-      "description": "•   Anthropic “filtra” su modelo más potente… ¿accidente o marketing?\r\n\t•   Claude Mythos promete romper la escala (y la ciberseguridad  )\r\n\t• ⚠️ ¿Estamos listos para IA que hackea mejor que nosotros?\r\n  Un episodio sin filtro sobre hype, riesgos y el futuro que ya llegó.\r\nFuentes:\r\n\t• https://fortune.com/\r\n\t• https://www.anthropic.com/\r\n\t• https://www.theverge.com/ai-artificial-intelligence",
-      "pubDate": "Tue, 31 Mar 2026 17:43:38 +0200",
-      "link": "https://www.ivoox.com/ntn-498-claude-mythos-filtracion-o-audios-mp3_rf_171089579_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-498-claude-mythos-filtracion-o_mf_171089579_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/4/f/6/04f620b22a93e492ea93f2e2135f9ba2_XXL.jpg",
-      "embedId": "171089579",
-      "embedUrl": "https://www.ivoox.com/player_ej_171089579_6_1.html?c1=d69776"
     }
   ]
 }
