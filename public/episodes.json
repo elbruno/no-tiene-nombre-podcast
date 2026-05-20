@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-19T06:38:45.646Z",
+  "generatedAt": "2026-05-20T06:38:53.237Z",
   "items": [
+    {
+      "title": "NTN 520 -   Escalar IA Duele",
+      "description": "Servir un LLM no es como escalar una web app normal.\r\nHablamos de tokens, GPUs, KV cache, latencia, costos y por qué “agregar más pods” ya no salva a nadie.\r\nFuentes:\r\n\t• https://www.dheeth.blog/llm-serving-is-not-normal-web-serving/\r\n\t• https://arxiv.org/abs/2309.06180\r\n\t• https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/",
+      "pubDate": "Tue, 19 May 2026 16:06:19 +0200",
+      "link": "https://www.ivoox.com/ntn-520-escalar-ia-duele-audios-mp3_rf_173981947_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-520-escalar-ia-duele_mf_173981947_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/c/0/8/5c08c79ca2333bd87d236abf6e7b5c03_XXL.jpg",
+      "embedId": "173981947",
+      "embedUrl": "https://www.ivoox.com/player_ej_173981947_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 519 -   OpenAI contra todos, Codex al Bolsillo",
       "description": "Codex llega al móvil y los agentes empiezan a escaparse del escritorio.\r\n  Mientras tanto, OpenAI y Apple parecen pasar de “socios felices” a “esto lo ve mi abogado”.\r\n  Hablamos de coding agents, Siri, hardware IA y qué significa esto para devs.\r\nFuentes:\r\n\t• OpenAI: https://openai.com/index/work-with-codex-from-anywhere/\r\n\t• Reuters: https://www.reuters.com/business/openai-explores-legal-options-against-apple-bloomberg-news-reports-2026-05-14/\r\n\t• Apple WWDC26: https://developer.apple.com/wwdc26/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/d/b/f/cdbf40d89dcb9b31218303caee9615be_XXL.jpg",
       "embedId": "171472187",
       "embedUrl": "https://www.ivoox.com/player_ej_171472187_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 500 -   Axios Hackeado: el npm install que te arruina",
-      "description": "•   ¿Instalas librerías sin pensar? Cuidado…\r\n\t•   Axios fue comprometido y trajo malware incluido\r\n\t•   Hablamos de supply chain attacks y cómo te afectan HOY\r\n\t•  ️ Tips prácticos para no comerte el marrón\r\nFuentes:\r\n\t• https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package\r\n\t• https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\r\n\t• https://www.ox.security/blog/axios-compromised-with-a-malicious-dependency?ref=top-banner",
-      "pubDate": "Fri, 03 Apr 2026 16:27:43 +0200",
-      "link": "https://www.ivoox.com/ntn-500-axios-hackeado-npm-audios-mp3_rf_171290991_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-500-axios-hackeado-npm_mf_171290991_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/a/b/8/5ab832d5ddb2b14e37e0083a92931192_XXL.jpg",
-      "embedId": "171290991",
-      "embedUrl": "https://www.ivoox.com/player_ej_171290991_6_1.html?c1=d69776"
     }
   ]
 }

@@ -24,6 +24,22 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 520 -   Escalar IA Duele]]></title>
+<link>https://www.ivoox.com/ntn-520-escalar-ia-duele-audios-mp3_rf_173981947_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-520-escalar-ia-duele_mf_173981947_feed_1.mp3" type="audio/mpeg" length="22308571"/>
+<description><![CDATA[  Servir un LLM no es como escalar una web app normal.
+Hablamos de tokens, GPUs, KV cache, latencia, costos y por qué “agregar más pods” ya no salva a nadie.
+Fuentes:
+	• https://www.dheeth.blog/llm-serving-is-not-normal-web-serving/
+	• https://arxiv.org/abs/2309.06180
+	• https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/]]></description>
+<pubDate>Tue, 19 May 2026 16:06:19 +0200</pubDate>
+<itunes:duration>23:14</itunes:duration>
+<guid>https://www.ivoox.com/173981947</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/c/0/8/5c08c79ca2333bd87d236abf6e7b5c03_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 519 -   OpenAI contra todos, Codex al Bolsillo]]></title>
 <link>https://www.ivoox.com/ntn-519-openai-contra-todos-codex-audios-mp3_rf_173803847_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-519-openai-contra-todos-codex_mf_173803847_feed_1.mp3" type="audio/mpeg" length="16373551"/>
