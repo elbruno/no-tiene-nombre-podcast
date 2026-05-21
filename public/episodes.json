@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-20T06:38:53.237Z",
+  "generatedAt": "2026-05-21T06:41:33.264Z",
   "items": [
+    {
+      "title": "NTN 521 -   Google I/O 2026",
+      "description": "Google I/O 2026 vino cargado: Gemini 3.5, Gemini Omni, agentes 24/7, Search con mini apps, Workspace más inteligente y Android XR. Mucha magia, sí… pero también costos, permisos y governance. Porque la IA puede ayudarte, o armarte un incendio con animaciones lindas.  \r\nFuentes:\r\n\t• https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/\r\n\t• https://blog.google/innovation-and-ai/sundar-pichai-io-2026/\r\n\t• https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/\r\n\t• https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "pubDate": "Wed, 20 May 2026 15:49:02 +0200",
+      "link": "https://www.ivoox.com/ntn-521-google-i-o-2026-audios-mp3_rf_174087025_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-521-google-i-o-2026_mf_174087025_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/1/7/1/c171f00e44438912ecb50803a7a055ec_XXL.jpg",
+      "embedId": "174087025",
+      "embedUrl": "https://www.ivoox.com/player_ej_174087025_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 520 -   Escalar IA Duele",
       "description": "Servir un LLM no es como escalar una web app normal.\r\nHablamos de tokens, GPUs, KV cache, latencia, costos y por qué “agregar más pods” ya no salva a nadie.\r\nFuentes:\r\n\t• https://www.dheeth.blog/llm-serving-is-not-normal-web-serving/\r\n\t• https://arxiv.org/abs/2309.06180\r\n\t• https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/1/7/3/9/1739b7cc6cf661e6ca58204c8cde6e04_XXL.jpg",
       "embedId": "171472437",
       "embedUrl": "https://www.ivoox.com/player_ej_171472437_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 501 -   AI Robotaxis: éxito brutal vs caos total",
-      "description": "•   Waymo escala 10x sus viajes semanales… ¿la IA ya maneja mejor que nosotros?\r\n\t•   Baidu deja 100 robotaxis congelados en Wuhan… con gente atrapada  \r\n\t•   ¿Estamos listos para este futuro o se viene el caos?\r\nFuentes:\r\n\t• https://www.theinformation.com/articles/waymo-growth-robotaxi\r\n\t• https://www.reuters.com/technology/baidu-robotaxis-wuhan-incident",
-      "pubDate": "Tue, 07 Apr 2026 17:01:57 +0200",
-      "link": "https://www.ivoox.com/ntn-501-ai-robotaxis-exito-brutal-audios-mp3_rf_171472187_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-501-ai-robotaxis-exito-brutal_mf_171472187_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/d/b/f/cdbf40d89dcb9b31218303caee9615be_XXL.jpg",
-      "embedId": "171472187",
-      "embedUrl": "https://www.ivoox.com/player_ej_171472187_6_1.html?c1=d69776"
     }
   ]
 }
