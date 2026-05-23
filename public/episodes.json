@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-22T06:38:31.435Z",
+  "generatedAt": "2026-05-23T05:57:58.558Z",
   "items": [
+    {
+      "title": "NTN 523 -   Top 5 en IA: GPUs, Leyes y $$$",
+      "description": "Esta semana en NO TIENE NOMBRE: OpenAI toca matemáticas duras, NVIDIA imprime dinero con GPUs, Anthropic mete agentes en empresas reales, EE. UU. duda con regulación y la IA empieza a moverse hacia robots y quantum.\r\nFuentes:\r\n\t• https://openai.com/index/model-disproves-discrete-geometry-conjecture/\r\n\t• https://nvidianews.nvidia.com/\r\n\t• https://www.anthropic.com/news/anthropic-kpmg",
+      "pubDate": "Fri, 22 May 2026 16:40:31 +0200",
+      "link": "https://www.ivoox.com/ntn-523-top-5-ia-audios-mp3_rf_174195665_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-523-top-5-ia_mf_174195665_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/a/4/7/9/a47924cb440257cae54357e01569e747_XXL.jpg",
+      "embedId": "174195665",
+      "embedUrl": "https://www.ivoox.com/player_ej_174195665_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 521 -   Google I/O 2026",
       "description": "Google I/O 2026 vino cargado: Gemini 3.5, Gemini Omni, agentes 24/7, Search con mini apps, Workspace más inteligente y Android XR. Mucha magia, sí… pero también costos, permisos y governance. Porque la IA puede ayudarte, o armarte un incendio con animaciones lindas.  \r\nFuentes:\r\n\t• https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/\r\n\t• https://blog.google/innovation-and-ai/sundar-pichai-io-2026/\r\n\t• https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/\r\n\t• https://blog.google/products-and-platforms/products/search/search-io-2026/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/e/a/1/9ea1674bb75a51dd55b71ea773898023_XXL.jpg",
       "embedId": "171597311",
       "embedUrl": "https://www.ivoox.com/player_ej_171597311_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 502 -   Anthropic se puso estricto… y explotó todo!",
-      "description": "•   ¿Qué está pasando con Anthropic y su modelo Claude?\r\n\t•   Restricciones nuevas, devs furiosos y migraciones en masa\r\n\t• ⚖️ Seguridad vs usabilidad: el clásico dilema tech\r\n\t•   Impacto real para devs y startups (incluyendo LATAM)\r\nFuentes:\r\n\t•   https://www.anthropic.com/news\r\n\t•   https://docs.anthropic.com\r\n\t•   https://twitter.com (reacciones de la comunidad dev)",
-      "pubDate": "Tue, 07 Apr 2026 17:03:16 +0200",
-      "link": "https://www.ivoox.com/ntn-502-anthropic-se-puso-estricto-audios-mp3_rf_171472437_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-502-anthropic-se-puso-estricto_mf_171472437_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/7/3/9/1739b7cc6cf661e6ca58204c8cde6e04_XXL.jpg",
-      "embedId": "171472437",
-      "embedUrl": "https://www.ivoox.com/player_ej_171472437_6_1.html?c1=d69776"
     }
   ]
 }
