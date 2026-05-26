@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-25T07:01:02.669Z",
+  "generatedAt": "2026-05-26T06:37:08.297Z",
   "items": [
+    {
+      "title": "NTN 524 -   Cursor, Meta y Spotify IA",
+      "description": "Cursor vale locura, Manus entra en novela geopolítica y Spotify/Universal abren la puerta a remixes con IA. Código, música y poder tech: se nos fue todo al carajo, pero con invoices premium.\r\nFuentes:\r\n\t• https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/\r\n\t• https://www.reuters.com/technology/chinas-manus-founders-seek-1-billion-undo-meta-takeover-bloomberg-news-reports-2026-05-21/\r\n\t• https://newsroom.spotify.com/2026-05-21/universal-music-group-spotify-licensing-agreements-fan-made-covers-remixes/",
+      "pubDate": "Mon, 25 May 2026 18:18:28 +0200",
+      "link": "https://www.ivoox.com/ntn-524-cursor-meta-spotify-audios-mp3_rf_174306690_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-524-cursor-meta-spotify_mf_174306690_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/5/c/f/c5cf1a64c8513fee6f977d6bd519ecf0_XXL.jpg",
+      "embedId": "174306690",
+      "embedUrl": "https://www.ivoox.com/player_ej_174306690_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 523 -   Top 5 en IA: GPUs, Leyes y $$$",
       "description": "Esta semana en NO TIENE NOMBRE: OpenAI toca matemáticas duras, NVIDIA imprime dinero con GPUs, Anthropic mete agentes en empresas reales, EE. UU. duda con regulación y la IA empieza a moverse hacia robots y quantum.\r\nFuentes:\r\n\t• https://openai.com/index/model-disproves-discrete-geometry-conjecture/\r\n\t• https://nvidianews.nvidia.com/\r\n\t• https://www.anthropic.com/news/anthropic-kpmg",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/d/d/3/7dd351c3471689e83c0349a361d8653a_XXL.jpg",
       "embedId": "171720977",
       "embedUrl": "https://www.ivoox.com/player_ej_171720977_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 503 -  ️ Team Building extremo: tarántulas & caos",
-      "description": "•   Un retiro corporativo de Plex que salió MUY mal\r\n\t•  ️ Tarántulas, calor extremo y decisiones dudosas\r\n\t•   Lo que esto nos enseña sobre implementar IA sin cabeza\r\n  Humor, desastre y lecciones reales para no romper equipos\r\nFuentes:\r\n\t• https://nypost.com/2024/03/09/business/plex-corporate-retreat-2017-survivor-style-disaster/\r\n\t• https://www.dailymail.co.uk/news/article-13172539/plex-retreat-survivor-tarantulas-heat-drills.html",
-      "pubDate": "Thu, 09 Apr 2026 10:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-503-team-building-extremo-tarantulas-audios-mp3_rf_171597311_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-503-team-building-extremo-tarantulas_mf_171597311_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/e/a/1/9ea1674bb75a51dd55b71ea773898023_XXL.jpg",
-      "embedId": "171597311",
-      "embedUrl": "https://www.ivoox.com/player_ej_171597311_6_1.html?c1=d69776"
     }
   ]
 }
