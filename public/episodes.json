@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-27T06:53:09.436Z",
+  "generatedAt": "2026-05-28T06:42:15.000Z",
   "items": [
+    {
+      "title": "NTN 525 -   2 PhaaS 2 Furious",
+      "description": "El phishing ya no es un email feo: ahora viene con IA, soporte, plantillas y “customer success” criminal.\r\n  Hablamos de PhaaS, wallets digitales y por qué el MFA con códigos ya no alcanza.\r\nFuentes:\r\n\t• Google: https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/\r\n\t• FBI: https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions",
+      "pubDate": "Wed, 27 May 2026 15:42:50 +0200",
+      "link": "https://www.ivoox.com/ntn-525-2-phaas-2-furious-audios-mp3_rf_174491325_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-525-2-phaas-2-furious_mf_174491325_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/b/d/3/cbd3b46d8848dc997e14bfbe4c68e2c8_XXL.jpg",
+      "embedId": "174491325",
+      "embedUrl": "https://www.ivoox.com/player_ej_174491325_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 524 -   Cursor, Meta y Spotify IA",
       "description": "Cursor vale locura, Manus entra en novela geopolítica y Spotify/Universal abren la puerta a remixes con IA. Código, música y poder tech: se nos fue todo al carajo, pero con invoices premium.\r\nFuentes:\r\n\t• https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/\r\n\t• https://www.reuters.com/technology/chinas-manus-founders-seek-1-billion-undo-meta-takeover-bloomberg-news-reports-2026-05-21/\r\n\t• https://newsroom.spotify.com/2026-05-21/universal-music-group-spotify-licensing-agreements-fan-made-covers-remixes/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/8/5/4/d85489ed0b30492755b36f1d8ba9f23c_XXL.jpg",
       "embedId": "171812138",
       "embedUrl": "https://www.ivoox.com/player_ej_171812138_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 504 -   Meta vuelve: Muse Spark entra al ring",
-      "description": "•   Meta lanza Muse Spark y vuelve fuerte a la carrera de la IA\r\n\t• ⚔️ Multi-agentes discutiendo para razonar mejor… sí, como grupo de WhatsApp\r\n\t•   Foco en salud: ¿la IA que te cuida o te asusta?\r\n\t•   ¿Adiós al open source? Meta cambia el juego\r\nFuentes:\r\n\t• https://www.meta.com\r\n\t• https://www.theverge.com/ai-artificial-intelligence\r\n\t• https://techcrunch.com/category/artificial-intelligence/",
-      "pubDate": "Sat, 11 Apr 2026 15:24:42 +0200",
-      "link": "https://www.ivoox.com/ntn-504-meta-vuelve-muse-spark-audios-mp3_rf_171720977_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-504-meta-vuelve-muse-spark_mf_171720977_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/d/d/3/7dd351c3471689e83c0349a361d8653a_XXL.jpg",
-      "embedId": "171720977",
-      "embedUrl": "https://www.ivoox.com/player_ej_171720977_6_1.html?c1=d69776"
     }
   ]
 }
