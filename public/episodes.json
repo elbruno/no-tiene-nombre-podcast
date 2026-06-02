@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-01T08:23:36.003Z",
+  "generatedAt": "2026-06-02T07:15:58.442Z",
   "items": [
+    {
+      "title": "NTN 527-   La Trampa Económica de la IA",
+      "description": "¿Puede la IA romper la economía?\r\nDos economistas publicaron un paper con una idea incómoda: si todas las empresas automatizan para ahorrar costos, pueden destruir la demanda que las mantiene vivas.\r\nHoy hablamos de empleos, incentivos, LATAM y el Excel más peligroso del capitalismo.\r\nFuentes:\r\n\t• https://x.com/jackcoder0/status/2060751108184916012\r\n\t• https://arxiv.org/pdf/2603.20617",
+      "pubDate": "Mon, 01 Jun 2026 23:02:00 +0200",
+      "link": "https://www.ivoox.com/ntn-527-la-trampa-economica-la-audios-mp3_rf_174737040_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-527-la-trampa-economica-la_mf_174737040_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/6/4/d/564db0569d093089d6a3b4264c479b40_XXL.jpg",
+      "embedId": "174737040",
+      "embedUrl": "https://www.ivoox.com/player_ej_174737040_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 526 -   Opus 4.8 y Anthropic casi toca el trillón",
       "description": "Claude Opus 4.8 llega con más músculo para código, agentes y trabajo serio.\r\n  Anthropic alcanza una valuación absurda: $965B.\r\n  Lo más interesante: menos chamuyo, más honestidad.\r\nFuentes:\r\n• https://www.anthropic.com/news/claude-opus-4-8\r\n• https://www.anthropic.com/news/series-h",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/e/9/b/7/e9b709ec2b6482e0e744528f1de9ea77_XXL.jpg",
       "embedId": "172143466",
       "embedUrl": "https://www.ivoox.com/player_ej_172143466_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 506 -   Skills por todos lados",
-      "description": "•   Google, Claude y Copilot usan “Skills”… pero no significan lo mismo\r\n\t• ⚙️ Automatización con Routines y workflows reales\r\n\t•   De prompts a sistemas: el cambio que se viene\r\nFuentes:\r\n\t•   https://blog.google/products/chrome/gemini-in-chrome-ai-skills/\r\n\t•   https://www.anthropic.com/news/claude-code-updates\r\n\t•   https://github.blog/ai-and-ml/github-copilot/",
-      "pubDate": "Wed, 15 Apr 2026 22:30:05 +0200",
-      "link": "https://www.ivoox.com/ntn-506-skills-todos-lados-audios-mp3_rf_172002381_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-506-skills-todos-lados_mf_172002381_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/b/6/0/2b60dae5874ca4079f460bfed1e2925e_XXL.jpg",
-      "embedId": "172002381",
-      "embedUrl": "https://www.ivoox.com/player_ej_172002381_6_1.html?c1=d69776"
     }
   ]
 }
