@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-03T07:30:48.311Z",
+  "generatedAt": "2026-06-04T07:13:53.597Z",
   "items": [
+    {
+      "title": "NTN 528 -   Build 2026",
+      "description": "Microsoft Build 2026 vino cargado: agentes, Copilot, Foundry, Windows AI, modelos MAI y hasta quantum.\r\n  Hablamos de oportunidades reales, riesgos, seguridad y qué significa esto para developers y empresas en LATAM.\r\nFuentes:\r\n\t• https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/\r\n\t• https://news.microsoft.com/build-2026-live-blog\r\n\t• https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "pubDate": "Wed, 03 Jun 2026 16:03:54 +0200",
+      "link": "https://www.ivoox.com/ntn-528-build-2026-audios-mp3_rf_174930750_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-528-build-2026_mf_174930750_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/0/2/0/f02026f6c15a273b54b45c7030bcd84d_XXL.jpg",
+      "embedId": "174930750",
+      "embedUrl": "https://www.ivoox.com/player_ej_174930750_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 527-   La Trampa Económica de la IA",
       "description": "¿Puede la IA romper la economía?\r\nDos economistas publicaron un paper con una idea incómoda: si todas las empresas automatizan para ahorrar costos, pueden destruir la demanda que las mantiene vivas.\r\nHoy hablamos de empleos, incentivos, LATAM y el Excel más peligroso del capitalismo.\r\nFuentes:\r\n\t• https://x.com/jackcoder0/status/2060751108184916012\r\n\t• https://arxiv.org/pdf/2603.20617",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/d/9/2/dd927360c9f8f14390c361aaa82a850b_XXL.jpg",
       "embedId": "172238754",
       "embedUrl": "https://www.ivoox.com/player_ej_172238754_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 507 -   Claude Opus 4.7",
-      "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos con Claude Opus 4.7: más autonomía, mejor código, menos inventarse cosas y más pinta de compañero de curro que de chatbot de feria.\r\n\t•   Hablamos de benchmarks, seguridad, visión multimodal y por qué esta nueva generación de IA ya no solo conversa… también trabaja.\r\nFuentes\r\n  Anthropic – Introducing Claude Opus 4.7: https://www.anthropic.com/news/claude-opus-4-7",
-      "pubDate": "Sun, 19 Apr 2026 01:28:59 +0200",
-      "link": "https://www.ivoox.com/ntn-507-claude-opus-4-7-audios-mp3_rf_172143466_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-507-claude-opus-4-7_mf_172143466_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/e/9/b/7/e9b709ec2b6482e0e744528f1de9ea77_XXL.jpg",
-      "embedId": "172143466",
-      "embedUrl": "https://www.ivoox.com/player_ej_172143466_6_1.html?c1=d69776"
     }
   ]
 }
