@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-05T06:56:53.711Z",
+  "generatedAt": "2026-06-06T06:20:55.809Z",
   "items": [
+    {
+      "title": "NTN 529 -   La IA se programa sola",
+      "description": "•   Claude ya escribe 80% del código de Anthropic.\r\n\t• ⚡ ¿Estamos viendo las primeras chispas de IA que se mejora sola?\r\n\t•   Chips, modelos abiertos y Canadá metiéndose fuerte en IA.\r\nFuentes:\r\n\t• https://www.anthropic.com/institute/recursive-self-improvement\r\n\t• https://openai.com/index/frontier-safety-blueprint/",
+      "pubDate": "Fri, 05 Jun 2026 17:14:20 +0200",
+      "link": "https://www.ivoox.com/ntn-529-la-ia-se-programa-audios-mp3_rf_175041806_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-529-la-ia-se-programa_mf_175041806_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/a/8/7/a/a87ab9df1afc90e0817e2f8a61b31923_XXL.jpg",
+      "embedId": "175041806",
+      "embedUrl": "https://www.ivoox.com/player_ej_175041806_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 528 -   Build 2026",
       "description": "Microsoft Build 2026 vino cargado: agentes, Copilot, Foundry, Windows AI, modelos MAI y hasta quantum.\r\n  Hablamos de oportunidades reales, riesgos, seguridad y qué significa esto para developers y empresas en LATAM.\r\nFuentes:\r\n\t• https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/\r\n\t• https://news.microsoft.com/build-2026-live-blog\r\n\t• https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/f/5/4/7f543fb0f1b102c7d40c887804aa9b5d_XXL.jpg",
       "embedId": "172425095",
       "embedUrl": "https://www.ivoox.com/player_ej_172425095_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 508 -   Artemis II y el drama de OpenAI",
-      "description": "•   En este episodio nos vamos de Artemis II a las oficinas de OpenAI para hablar de una misma idea: cuando la tecnología deja de ser juguete y pasa a ser infraestructura seria.\r\n\t•   Hay naves, IA, ejecutivos que se van, foco en enterprise y una lección clara: menos humo, más sistemas que aguanten la realidad.\r\nFuentes\r\n\t•   AI Magazine: https://aimagazine.com/news/what-is-the-technology-powering-the-artemis-ii-moon-mission\r\n\t•   TechCrunch: https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/\r\n\t•   NASA Artemis II: https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/\r\n\t•   NASA Q&A Artemis II: https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/\r\n\t•   WIRED: https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/",
-      "pubDate": "Mon, 20 Apr 2026 23:21:04 +0200",
-      "link": "https://www.ivoox.com/ntn-508-artemis-ii-el-audios-mp3_rf_172238754_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-508-artemis-ii-el_mf_172238754_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/d/d/9/2/dd927360c9f8f14390c361aaa82a850b_XXL.jpg",
-      "embedId": "172238754",
-      "embedUrl": "https://www.ivoox.com/player_ej_172238754_6_1.html?c1=d69776"
     }
   ]
 }
