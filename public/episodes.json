@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-08T07:22:43.856Z",
+  "generatedAt": "2026-06-09T06:39:04.108Z",
   "items": [
+    {
+      "title": "NTN 530 -   IA 10x, Burnout 20x",
+      "description": "¿La IA nos está haciendo más productivos… o solo más quemados? Hablamos de devs, agentes, burnout y esa trampa hermosa de “hacer más en menos tiempo”.\r\nFuentes:\r\n\t• Evil Martians: https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine\r\n\t• HBR: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it\r\n\t• DORA: https://dora.dev/dora-report-2025/",
+      "pubDate": "Mon, 08 Jun 2026 22:17:44 +0200",
+      "link": "https://www.ivoox.com/ntn-530-ia-10x-burnout-20x-audios-mp3_rf_175171747_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-530-ia-10x-burnout-20x_mf_175171747_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/0/b/4/70b45f64388fdded6abae9571f38f1db_XXL.jpg",
+      "embedId": "175171747",
+      "embedUrl": "https://www.ivoox.com/player_ej_175171747_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 529 -   La IA se programa sola",
       "description": "•   Claude ya escribe 80% del código de Anthropic.\r\n\t• ⚡ ¿Estamos viendo las primeras chispas de IA que se mejora sola?\r\n\t•   Chips, modelos abiertos y Canadá metiéndose fuerte en IA.\r\nFuentes:\r\n\t• https://www.anthropic.com/institute/recursive-self-improvement\r\n\t• https://openai.com/index/frontier-safety-blueprint/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/6/0/9/f/609fb79bf2bd47926f8e5277442842b9_XXL.jpg",
       "embedId": "172532785",
       "embedUrl": "https://www.ivoox.com/player_ej_172532785_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 509 -   Karp, Palantir y el manifiesto que asustó a medio internet",
-      "description": "•  ️ En este episodio de NO TIENE NOMBRE nos metemos en el lío que armó Alexander Karp, CEO de Palantir, con su famoso manifiesto resumido en 22 puntos.\r\n\t•   Hablamos de quién es Karp, qué hace Palantir y por qué este texto mezcla IA, poder, defensa y una visión del mundo que dejó a muchos con cara de “¿pero qué acabo de leer?”.\r\n\t•   Un episodio para entender el debate sin humo… y sin que se vaya todo al carajo.\r\n\r\n\r\nSources\r\n\t•   Business Insider — Palantir's summary of CEO Alexander Karp's manifesto is generating buzz\r\nhttps://www.businessinsider.com/palantir-manifesto-alex-karp-technological-republic-summary-2026-4\r\n\t•   The Verge — We translated the Palantir manifesto for actual human beings\r\nhttps://www.theverge.com/policy/915237/palantir-manifesto\r\n\t•   TechCrunch — Palantir posts mini-manifesto denouncing inclusivity and “regressive and harmful cultures”\r\nhttps://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/\r\n\t•   Al Jazeera — Technofascism? Why Palantir’s pro-West ‘manifesto’ has critics alarmed\r\nhttps://www.aljazeera.com/news/2026/4/21/technofacism-why-palantirs-pro-west-manifesto-has-critics-alarmed\r\n  Penguin Random House — The Technological Republic\r\nhttps://www.penguinrandomhouse.com/books/760945/the-technological-republic-by-alexander-c-karp-and-nicholas-w-zamiska/",
-      "pubDate": "Wed, 22 Apr 2026 21:20:33 +0200",
-      "link": "https://www.ivoox.com/ntn-509-karp-palantir-el-audios-mp3_rf_172425095_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-509-karp-palantir-el_mf_172425095_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/f/5/4/7f543fb0f1b102c7d40c887804aa9b5d_XXL.jpg",
-      "embedId": "172425095",
-      "embedUrl": "https://www.ivoox.com/player_ej_172425095_6_1.html?c1=d69776"
     }
   ]
 }
