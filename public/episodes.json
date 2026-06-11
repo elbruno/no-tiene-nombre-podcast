@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-10T06:57:17.684Z",
+  "generatedAt": "2026-06-11T07:21:01.020Z",
   "items": [
+    {
+      "title": "NTN 531 -   Fable 5: IA con Bozal y WWDC 2026",
+      "description": "️ Apple llegó a WWDC26 con Siri AI, Liquid Glass y aplausos por esquinas. Anthropic respondió con Claude Fable 5 y Mythos 5: modelos potentes, caros y con barandas. IA, hype y dolor de billetera.\r\n• Fuentes: https://www.anthropic.com/news/claude-fable-5-mythos-5\r\n• https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "pubDate": "Wed, 10 Jun 2026 17:07:44 +0200",
+      "link": "https://www.ivoox.com/ntn-531-fable-5-ia-con-audios-mp3_rf_175351728_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-531-fable-5-ia-con_mf_175351728_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/3/9/9/d3992addfaa582b276ab40562b9d6c9c_XXL.jpg",
+      "embedId": "175351728",
+      "embedUrl": "https://www.ivoox.com/player_ej_175351728_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 530 -   IA 10x, Burnout 20x",
       "description": "¿La IA nos está haciendo más productivos… o solo más quemados? Hablamos de devs, agentes, burnout y esa trampa hermosa de “hacer más en menos tiempo”.\r\nFuentes:\r\n\t• Evil Martians: https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine\r\n\t• HBR: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it\r\n\t• DORA: https://dora.dev/dora-report-2025/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/4/f/4/9/4f493bd487255749e117d908bca2ae73_XXL.jpg",
       "embedId": "172631365",
       "embedUrl": "https://www.ivoox.com/player_ej_172631365_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 510 -   IA Agentica - Semana Loca",
-      "description": "Semana intensa en IA: GPT-5.5 sube la vara, Claude ahora recuerda y se conecta con apps del día a día, y Microsoft convierte Copilot en agente dentro de Office.\r\n¿Productividad real o caos con botones bonitos?\r\nFuentes:\r\n\t• OpenAI: https://openai.com/index/introducing-gpt-5-5/\r\n\t• Anthropic: https://claude.com/blog/claude-managed-agents-memory\r\nMicrosoft: https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-      "pubDate": "Fri, 24 Apr 2026 23:00:44 +0200",
-      "link": "https://www.ivoox.com/ntn-510-ia-agentica-semana-audios-mp3_rf_172532785_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-510-ia-agentica-semana_mf_172532785_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/0/9/f/609fb79bf2bd47926f8e5277442842b9_XXL.jpg",
-      "embedId": "172532785",
-      "embedUrl": "https://www.ivoox.com/player_ej_172532785_6_1.html?c1=d69776"
     }
   ]
 }
