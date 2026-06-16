@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-15T08:47:25.031Z",
+  "generatedAt": "2026-06-16T08:37:41.942Z",
   "items": [
+    {
+      "title": "NTN 533 -  Fable 5 Apagado por Tío Sam",
+      "description": "Canadá regula redes y chatbots para menores.\r\n  DoorDash convierte recetas y fotos en carritos.\r\n  Y EE.UU. apaga Claude Fable/Mythos por seguridad nacional.\r\nLa IA ya no es demo: ahora es ley, delivery y geopolítica. Se fue todo al carajo… pero con API.\r\nFuentes:\r\n\t• https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html\r\n\t• https://about.doordash.com/en-us/news/ask-doordash\r\n\t• https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
+      "pubDate": "Mon, 15 Jun 2026 16:31:21 +0200",
+      "link": "https://www.ivoox.com/ntn-533-fable-5-apagado-tio-audios-mp3_rf_175577446_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-533-fable-5-apagado-tio_mf_175577446_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/a/e/9/1/ae91c79b398fd0ab2e16a06c20001c4c_XXL.jpg",
+      "embedId": "175577446",
+      "embedUrl": "https://www.ivoox.com/player_ej_175577446_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 532 -   IA: ¿Quién Maneja Esto?",
       "description": "SpaceX rompe la bolsa, los agentes quieren trabajar solos y la política sigue en modo tortuga.\r\nHablamos de IA, infraestructura, Claude Fable, Codex, Perplexity y Dario Amodei.\r\nFuentes:\r\n• https://reuters.com\r\n• https://openai.com\r\n• https://wired.com\r\n• https://perplexity.ai\r\n• https://darioamodei.com",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/6/1/5/1/615130eaea75f4101d197a28d7747d45_XXL.jpg",
       "embedId": "172938641",
       "embedUrl": "https://www.ivoox.com/player_ej_172938641_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 512 -   OpenAI rompe con Microsoft… y sale con AWS",
-      "description": "Drama tech nivel Hollywood: Microsoft y OpenAI reescriben su relación… y ya no es exclusiva  \r\n\t• ☁️ OpenAI ahora juega también con Amazon Web Services\r\n\t•   Nuevo modelo de pagos y fin del “impuesto” por API\r\n\t•   Rumores de teléfono con IA rumbo a 2028\r\n  ¿El objetivo? Controlar TODA la experiencia AI\r\nFuentes:\r\n\t• https://openai.com/index/next-phase-of-microsoft-partnership/",
-      "pubDate": "Wed, 29 Apr 2026 08:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-512-openai-rompe-microsoft-audios-mp3_rf_172745566_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-512-openai-rompe-microsoft_mf_172745566_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/4/3/0/44302372f516a63dd8f9400a6e7eacb6_XXL.jpg",
-      "embedId": "172745566",
-      "embedUrl": "https://www.ivoox.com/player_ej_172745566_6_1.html?c1=d69776"
     }
   ]
 }
