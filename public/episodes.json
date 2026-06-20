@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-19T08:24:29.280Z",
+  "generatedAt": "2026-06-20T06:54:03.203Z",
   "items": [
+    {
+      "title": "NTN 534 -   SpaceX compra Cursor",
+      "description": "SpaceX compra Cursor por US$60B y la IA para programar deja de ser “una app cool” para convertirse en infraestructura estratégica. Hablamos de GPUs, hyperscalers, agentes de código y por qué LATAM debería mirar esto con esperanza… y con la billetera agarrada.\r\nFuentes:\r\n\t• Epoch AI: https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow\r\n\t• SEC: https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm\r\n\t• Cursor: https://cursor.com/blog/series-d",
+      "pubDate": "Fri, 19 Jun 2026 13:35:59 +0200",
+      "link": "https://www.ivoox.com/ntn-534-spacex-compra-cursor-audios-mp3_rf_175902551_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-534-spacex-compra-cursor_mf_175902551_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/a/c/e/face160d98cb4b861fce1c6795962ef3_XXL.jpg",
+      "embedId": "175902551",
+      "embedUrl": "https://www.ivoox.com/player_ej_175902551_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 533 -  Fable 5 Apagado por Tío Sam",
       "description": "Canadá regula redes y chatbots para menores.\r\n  DoorDash convierte recetas y fotos en carritos.\r\n  Y EE.UU. apaga Claude Fable/Mythos por seguridad nacional.\r\nLa IA ya no es demo: ahora es ley, delivery y geopolítica. Se fue todo al carajo… pero con API.\r\nFuentes:\r\n\t• https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html\r\n\t• https://about.doordash.com/en-us/news/ask-doordash\r\n\t• https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/4/2/8/a/428aaa82b4f2535f05e325ba88a66f07_XXL.jpg",
       "embedId": "173019521",
       "embedUrl": "https://www.ivoox.com/player_ej_173019521_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 513 -  Más despacio, campeón",
-      "description": "En este episodio de NO TIENE NOMBRE hablamos de una verdad incómoda: la IA puede escribir código a toda velocidad… pero eso no significa que debamos dejarla correr sola  \r\n\t•   Agentes de código, productividad y caos\r\n\t•   Por qué frenar también es una estrategia\r\n\t•   Cómo evitar deuda técnica con esteroides\r\n\t•   Y qué significa esto para LATAM\r\nFuentes\r\n\t• Mario Zechner: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down\r\n\t• TechCrunch: https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/\r\n\t• The Guardian: https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
-      "pubDate": "Fri, 01 May 2026 17:42:10 +0200",
-      "link": "https://www.ivoox.com/ntn-513-mas-despacio-campeon-audios-mp3_rf_172938641_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-513-mas-despacio-campeon_mf_172938641_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/1/5/1/615130eaea75f4101d197a28d7747d45_XXL.jpg",
-      "embedId": "172938641",
-      "embedUrl": "https://www.ivoox.com/player_ej_172938641_6_1.html?c1=d69776"
     }
   ]
 }
