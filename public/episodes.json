@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-25T06:39:18.407Z",
+  "generatedAt": "2026-06-26T06:42:04.452Z",
   "items": [
+    {
+      "title": "NTN 535 -  ️ Meta arde y OpenAI cocina chips",
+      "description": "️ OpenAI cocina Jalapeño, su primer chip propio, mientras Meta imprime dinero y quema la moral de sus programadores. Despidos, vigilancia, IA obligatoria y una lección para LATAM antes de que se vaya todo al carajo.\r\n  Fuentes:\r\n• https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\r\n• https://www.reuters.com/legal/litigation/meta-pause-internal-mouse-tracking-tech-while-examining-data-security-issues-2026-06-22/\r\n• https://www.wired.com/story/andrew-bosworth-meta-employees-unrest/",
+      "pubDate": "Thu, 25 Jun 2026 16:00:56 +0200",
+      "link": "https://www.ivoox.com/ntn-535-meta-arde-openai-audios-mp3_rf_176273937_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-535-meta-arde-openai_mf_176273937_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/9/f/0/c9f0a881664aa08daadd1da6b5b7ce3e_XXL.jpg",
+      "embedId": "176273937",
+      "embedUrl": "https://www.ivoox.com/player_ej_176273937_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 534 -   SpaceX compra Cursor",
       "description": "SpaceX compra Cursor por US$60B y la IA para programar deja de ser “una app cool” para convertirse en infraestructura estratégica. Hablamos de GPUs, hyperscalers, agentes de código y por qué LATAM debería mirar esto con esperanza… y con la billetera agarrada.\r\nFuentes:\r\n\t• Epoch AI: https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow\r\n\t• SEC: https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm\r\n\t• Cursor: https://cursor.com/blog/series-d",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/a/9/e/5a9e937ce8b43ded5ee81dc195f829f4_XXL.jpg",
       "embedId": "173262578",
       "embedUrl": "https://www.ivoox.com/player_ej_173262578_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 514 -   IA ¿ROI o vende humo?",
-      "description": "¿La IA en ingeniería genera ROI real o solo facturas lindas?\r\nHablamos de J-Curve, métricas DORA, costos ocultos, productividad y cómo evitar que tu copiloto se coma el presupuesto.\r\nFuentes:\r\n\t• RDEL: https://rdel.substack.com/p/rdel-141-how-can-engineering-leaders\r\n\t• Google Cloud DORA: https://cloud.google.com/resources/content/dora-roi-of-ai-assisted-software-development\r\n\t• DX: https://getdx.com/blog/ai-roi-calculator/",
-      "pubDate": "Mon, 04 May 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-514-ia-roi-o-vende-audios-mp3_rf_173019521_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-514-ia-roi-o-vende_mf_173019521_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/2/8/a/428aaa82b4f2535f05e325ba88a66f07_XXL.jpg",
-      "embedId": "173019521",
-      "embedUrl": "https://www.ivoox.com/player_ej_173019521_6_1.html?c1=d69776"
     }
   ]
 }
