@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-27T06:20:05.168Z",
+  "generatedAt": "2026-06-28T06:53:20.232Z",
   "items": [
+    {
+      "title": "NTN 536 -   GPT-5.6 y el cerebro developer",
+      "description": "¿La IA nos hace más productivos o más dependientes? Hoy: GPT-5.6 y el salto del developer de coder a conductor.\r\n•   Productividad y deuda cognitiva\r\n• ⚠️ Más velocidad, ¿menos criterio?\r\nFuentes:\r\n• https://research.google/pubs/developer-productivity-in-the-age-of-generative-ai-a-psychological-perspective/\r\n• https://openai.com/index/previewing-gpt-5-6-sol/\r\n• https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "pubDate": "Sat, 27 Jun 2026 19:35:37 +0200",
+      "link": "https://www.ivoox.com/ntn-536-gpt-5-6-cerebro-audios-mp3_rf_176366496_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-536-gpt-5-6-cerebro_mf_176366496_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/e/3/f/2/e3f2e512ba7e28a46b1b9bd32f48b7ea_XXL.jpg",
+      "embedId": "176366496",
+      "embedUrl": "https://www.ivoox.com/player_ej_176366496_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 535 -  ️ Meta arde y OpenAI cocina chips",
       "description": "️ OpenAI cocina Jalapeño, su primer chip propio, mientras Meta imprime dinero y quema la moral de sus programadores. Despidos, vigilancia, IA obligatoria y una lección para LATAM antes de que se vaya todo al carajo.\r\n  Fuentes:\r\n• https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\r\n• https://www.reuters.com/legal/litigation/meta-pause-internal-mouse-tracking-tech-while-examining-data-security-issues-2026-06-22/\r\n• https://www.wired.com/story/andrew-bosworth-meta-employees-unrest/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/d/a/d/9dad8e49ea01c6db2cf74cab79e337f4_XXL.jpg",
       "embedId": "173384982",
       "embedUrl": "https://www.ivoox.com/player_ej_173384982_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 515 -   SubQ: IA Más Barata, Más Rápida y Más Peligrosa",
-      "description": "️ En este episodio de NO TIENE NOMBRE hablamos de SubQ y la arquitectura SSA que promete cambiar la IA para siempre  \r\n  12 MILLONES de tokens\r\n  52x más rápido que FlashAttention\r\n  Hasta 1000x menos compute\r\n¿Revolución real o humo premium de AI Twitter? Analizamos la tecnología, las dudas y por qué esto podría cambiar la economía de la IA en LATAM  \r\n  Fuentes:\r\n\t• https://subq.ai/how-ssa-makes-long-context-practical\r\n\t• https://thenewstack.io/subquadratic-12-million-context-window/\r\n\t• https://arxiv.org\r\n\t• https://reddit.com/r/ArtificialInteligence",
-      "pubDate": "Wed, 06 May 2026 19:04:59 +0200",
-      "link": "https://www.ivoox.com/ntn-515-subq-ia-mas-barata-audios-mp3_rf_173262578_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-515-subq-ia-mas-barata_mf_173262578_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/a/9/e/5a9e937ce8b43ded5ee81dc195f829f4_XXL.jpg",
-      "embedId": "173262578",
-      "embedUrl": "https://www.ivoox.com/player_ej_173262578_6_1.html?c1=d69776"
     }
   ]
 }
