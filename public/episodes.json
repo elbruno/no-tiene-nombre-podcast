@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-06-29T07:20:49.908Z",
+  "generatedAt": "2026-06-30T06:44:35.237Z",
   "items": [
+    {
+      "title": "NTN 537 -   Agent Harness: el jefe oculto",
+      "description": "¿Por qué dos agentes con el mismo LLM pueden rendir tan distinto? Descubrimos qué es un Agent Harness: contexto, herramientas, memoria, permisos, trazas y costos. El modelo piensa; el harness evita que todo se vaya al carajo.\r\n• Anthropic: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\r\n• OpenAI: https://developers.openai.com/api/docs/guides/agents\r\n• Microsoft: https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "pubDate": "Mon, 29 Jun 2026 22:08:32 +0200",
+      "link": "https://www.ivoox.com/ntn-537-agent-harness-jefe-audios-mp3_rf_176453152_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-537-agent-harness-jefe_mf_176453152_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/7/3/1/57313099da046448088c936a901fb329_XXL.jpg",
+      "embedId": "176453152",
+      "embedUrl": "https://www.ivoox.com/player_ej_176453152_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 536 -   GPT-5.6 y el cerebro developer",
       "description": "¿La IA nos hace más productivos o más dependientes? Hoy: GPT-5.6 y el salto del developer de coder a conductor.\r\n•   Productividad y deuda cognitiva\r\n• ⚠️ Más velocidad, ¿menos criterio?\r\nFuentes:\r\n• https://research.google/pubs/developer-productivity-in-the-age-of-generative-ai-a-psychological-perspective/\r\n• https://openai.com/index/previewing-gpt-5-6-sol/\r\n• https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/0/f/f/80ff36eb53be71b362f9765009f29f43_XXL.jpg",
       "embedId": "173444763",
       "embedUrl": "https://www.ivoox.com/player_ej_173444763_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 516 -   Terminales, agentes y caos",
-      "description": "️ En este episodio de NO TIENE NOMBRE hablamos del inesperado regreso de los CLIs en la era de la IA  \r\nDesde OpenClaw hasta herramientas como sonoscli, wacli y birdclaw, analizamos por qué los agentes de IA aman la terminal más que las apps modernas  \r\n  Automatización, agentes locales, SQLite, workflows y el futuro del software explicado con humor latinoamericano.\r\n  Fuentes:\r\n• https://github.com/steipete/openclaw\r\n• https://github.com/steipete/sonoscli\r\n• https://github.com/steipete/wacli\r\n• https://github.com/steipete/birdclaw\r\n• https://singjupost.com/how-i-created-openclaw-the-breakthrough-ai-agent-peter-steinberger-transcript/",
-      "pubDate": "Fri, 08 May 2026 23:31:40 +0200",
-      "link": "https://www.ivoox.com/ntn-516-terminales-agentes-caos-audios-mp3_rf_173384982_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-516-terminales-agentes-caos_mf_173384982_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/d/a/d/9dad8e49ea01c6db2cf74cab79e337f4_XXL.jpg",
-      "embedId": "173384982",
-      "embedUrl": "https://www.ivoox.com/player_ej_173384982_6_1.html?c1=d69776"
     }
   ]
 }

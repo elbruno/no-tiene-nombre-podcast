@@ -24,6 +24,20 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 537 -   Agent Harness: el jefe oculto]]></title>
+<link>https://www.ivoox.com/ntn-537-agent-harness-jefe-audios-mp3_rf_176453152_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-537-agent-harness-jefe_mf_176453152_feed_1.mp3" type="audio/mpeg" length="21350609"/>
+<description><![CDATA[  ¿Por qué dos agentes con el mismo LLM pueden rendir tan distinto? Descubrimos qué es un Agent Harness: contexto, herramientas, memoria, permisos, trazas y costos. El modelo piensa; el harness evita que todo se vaya al carajo.
+• Anthropic: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+• OpenAI: https://developers.openai.com/api/docs/guides/agents
+• Microsoft: https://learn.microsoft.com/en-us/agent-framework/overview/]]></description>
+<pubDate>Mon, 29 Jun 2026 22:08:32 +0200</pubDate>
+<itunes:duration>22:14</itunes:duration>
+<guid>https://www.ivoox.com/176453152</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/5/7/3/1/57313099da046448088c936a901fb329_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 536 -   GPT-5.6 y el cerebro developer]]></title>
 <link>https://www.ivoox.com/ntn-536-gpt-5-6-cerebro-audios-mp3_rf_176366496_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-536-gpt-5-6-cerebro_mf_176366496_feed_1.mp3" type="audio/mpeg" length="20321593"/>
