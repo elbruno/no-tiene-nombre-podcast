@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-01T07:03:10.166Z",
+  "generatedAt": "2026-07-02T06:29:16.024Z",
   "items": [
+    {
+      "title": "NTN 538 -   Como funciona la memoria en un Agente, Sonnet 5 y Fable are Back!",
+      "description": "¿Un agente recuerda… o solo relee el chat?\r\nHoy explicamos Agent Memory sin humo: memoria conversacional, semántica, episódica, RAG, riesgos y qué conviene guardar.\r\n⚡ Además: Claude Sonnet 5 y el regreso de Fable y Mythos.\r\nFuentes:\r\n• https://www.oreilly.com/radar/agent-memory/\r\n• https://x.com/claudeai/status/2072017450611142835\r\n• https://x.com/AnthropicAI/status/2072106151890809341\r\n• https://x.com/AnthropicAI/status/2072163884430229756",
+      "pubDate": "Wed, 01 Jul 2026 20:26:18 +0200",
+      "link": "https://www.ivoox.com/ntn-538-como-funciona-memoria-audios-mp3_rf_176637205_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-538-como-funciona-memoria_mf_176637205_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/4/5/3/94534b25103332fc7f3c6f6af30f329b_XXL.jpg",
+      "embedId": "176637205",
+      "embedUrl": "https://www.ivoox.com/player_ej_176637205_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 537 -   Agent Harness: el jefe oculto",
       "description": "¿Por qué dos agentes con el mismo LLM pueden rendir tan distinto? Descubrimos qué es un Agent Harness: contexto, herramientas, memoria, permisos, trazas y costos. El modelo piensa; el harness evita que todo se vaya al carajo.\r\n• Anthropic: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\r\n• OpenAI: https://developers.openai.com/api/docs/guides/agents\r\n• Microsoft: https://learn.microsoft.com/en-us/agent-framework/overview/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/3/2/3/0/32300ca35f51852dbaff284b7d326594_XXL.jpg",
       "embedId": "173700759",
       "embedUrl": "https://www.ivoox.com/player_ej_173700759_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 517 -   Firefox vs los Bugs Fantasma",
-      "description": "Mozilla usó IA para encontrar cientos de vulnerabilidades en Firefox… algunas escondidas hace MÁS de 20 años  \r\nEn este episodio hablamos de Claude Mythos, seguridad ofensiva, agentes autónomos y por qué los developers ahora tienen una excavadora para buscar bugs.\r\n  ¿La IA salvará Internet… o lo romperá más rápido?\r\n  Fuentes:\r\n\t• https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/\r\n\t• https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/\r\n\t• https://www.businessinsider.com/mozilla-anthropic-mythos-hundreds-flaws-fuzzers-2026-5",
-      "pubDate": "Mon, 11 May 2026 09:00:00 +0200",
-      "link": "https://www.ivoox.com/ntn-517-firefox-vs-bugs-audios-mp3_rf_173444763_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-517-firefox-vs-bugs_mf_173444763_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/0/f/f/80ff36eb53be71b362f9765009f29f43_XXL.jpg",
-      "embedId": "173444763",
-      "embedUrl": "https://www.ivoox.com/player_ej_173444763_6_1.html?c1=d69776"
     }
   ]
 }

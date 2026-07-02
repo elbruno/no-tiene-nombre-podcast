@@ -24,6 +24,24 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 538 -   Como funciona la memoria en un Agente, Sonnet 5 y Fable are Back!]]></title>
+<link>https://www.ivoox.com/ntn-538-como-funciona-memoria-audios-mp3_rf_176637205_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-538-como-funciona-memoria_mf_176637205_feed_1.mp3" type="audio/mpeg" length="18632202"/>
+<description><![CDATA[  ¿Un agente recuerda… o solo relee el chat?
+Hoy explicamos Agent Memory sin humo: memoria conversacional, semántica, episódica, RAG, riesgos y qué conviene guardar.
+⚡ Además: Claude Sonnet 5 y el regreso de Fable y Mythos.
+Fuentes:
+• https://www.oreilly.com/radar/agent-memory/
+• https://x.com/claudeai/status/2072017450611142835
+• https://x.com/AnthropicAI/status/2072106151890809341
+• https://x.com/AnthropicAI/status/2072163884430229756]]></description>
+<pubDate>Wed, 01 Jul 2026 20:26:18 +0200</pubDate>
+<itunes:duration>19:24</itunes:duration>
+<guid>https://www.ivoox.com/176637205</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/4/5/3/94534b25103332fc7f3c6f6af30f329b_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 537 -   Agent Harness: el jefe oculto]]></title>
 <link>https://www.ivoox.com/ntn-537-agent-harness-jefe-audios-mp3_rf_176453152_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-537-agent-harness-jefe_mf_176453152_feed_1.mp3" type="audio/mpeg" length="21350609"/>
