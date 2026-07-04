@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-03T06:20:23.856Z",
+  "generatedAt": "2026-07-04T06:08:53.134Z",
   "items": [
+    {
+      "title": "NTN 539 -   Amazon, dos pizzas, cero burocracia",
+      "description": "Amazon quiere volver a sus equipos de “dos pizzas”: grupos pequeños, autónomos y capaces de prototipar antes de que la burocracia se coma la idea. Descubrimos cómo nació esta cultura, por qué la IA la vuelve relevante otra vez y qué puede aprender LATAM.\r\n• Fuente: https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html",
+      "pubDate": "Fri, 03 Jul 2026 17:37:54 +0200",
+      "link": "https://www.ivoox.com/ntn-539-amazon-dos-pizzas-cero-audios-mp3_rf_176731372_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-539-amazon-dos-pizzas-cero_mf_176731372_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/a/c/8/5ac8903ea9e1d00a6be3d27a9cc4b320_XXL.jpg",
+      "embedId": "176731372",
+      "embedUrl": "https://www.ivoox.com/player_ej_176731372_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 538 -   Como funciona la memoria en un Agente, Sonnet 5 y Fable are Back!",
       "description": "¿Un agente recuerda… o solo relee el chat?\r\nHoy explicamos Agent Memory sin humo: memoria conversacional, semántica, episódica, RAG, riesgos y qué conviene guardar.\r\n⚡ Además: Claude Sonnet 5 y el regreso de Fable y Mythos.\r\nFuentes:\r\n• https://www.oreilly.com/radar/agent-memory/\r\n• https://x.com/claudeai/status/2072017450611142835\r\n• https://x.com/AnthropicAI/status/2072106151890809341\r\n• https://x.com/AnthropicAI/status/2072163884430229756",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/e/2/f/fe2fbe850be5c8cf1ae761ec90ab13b7_XXL.jpg",
       "embedId": "173803847",
       "embedUrl": "https://www.ivoox.com/player_ej_173803847_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 518 -   La IA Nos Hizo Más Rápidos… y Rompimos Todo",
-      "description": "Nuevo episodio de NO TIENE NOMBRE  ️\r\nLa IA acelera TODO… pero también acelera el caos  \r\nHablamos de cómo equipos reales y avanzados están usando IA en su ciclo de desarrollo:\r\n  Copilot\r\n  Agentes\r\n⚡ Automatización\r\n  Más velocidad… y más problemas\r\nPorque hoy el código es barato… pero las decisiones siguen siendo carísimas.\r\n  Fuentes:\r\n• https://x.com/davidfowl/status/2054084334848790652\r\n• https://www.linkedin.com/posts/davidfowl_ai-made-us-faster-that-was-the-problem-activity-7459854441899479040-c0UB",
-      "pubDate": "Thu, 14 May 2026 01:47:05 +0200",
-      "link": "https://www.ivoox.com/ntn-518-la-ia-nos-hizo-audios-mp3_rf_173700759_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-518-la-ia-nos-hizo_mf_173700759_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/2/3/0/32300ca35f51852dbaff284b7d326594_XXL.jpg",
-      "embedId": "173700759",
-      "embedUrl": "https://www.ivoox.com/player_ej_173700759_6_1.html?c1=d69776"
     }
   ]
 }
