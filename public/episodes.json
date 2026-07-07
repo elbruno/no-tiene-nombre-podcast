@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-06T07:00:13.089Z",
+  "generatedAt": "2026-07-07T06:35:37.758Z",
   "items": [
+    {
+      "title": "NTN 540 -   Agentes sin freno, El loop manda",
+      "description": "¿Un agente autónomo o un hámster quemando tokens? Exploramos el Agent Loop, el método de Karpathy y por qué GPT-5.6 necesita métricas, límites y una buena regla de salida. Menos magia, más ingeniería.\r\n  Fuentes:\r\n• https://x.com/0xCodila/status/2072329149520232639\r\n• https://github.com/karpathy/autoresearch\r\n• https://openai.com/index/previewing-gpt-5-6-sol/",
+      "pubDate": "Mon, 06 Jul 2026 15:19:08 +0200",
+      "link": "https://www.ivoox.com/ntn-540-agentes-sin-freno-el-audios-mp3_rf_176832468_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-540-agentes-sin-freno-el_mf_176832468_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/a/a/1/5aa1a6249f3c8f3672bbc8e59271e9bd_XXL.jpg",
+      "embedId": "176832468",
+      "embedUrl": "https://www.ivoox.com/player_ej_176832468_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 539 -   Amazon, dos pizzas, cero burocracia",
       "description": "Amazon quiere volver a sus equipos de “dos pizzas”: grupos pequeños, autónomos y capaces de prototipar antes de que la burocracia se coma la idea. Descubrimos cómo nació esta cultura, por qué la IA la vuelve relevante otra vez y qué puede aprender LATAM.\r\n• Fuente: https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/c/0/8/5c08c79ca2333bd87d236abf6e7b5c03_XXL.jpg",
       "embedId": "173981947",
       "embedUrl": "https://www.ivoox.com/player_ej_173981947_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 519 -   OpenAI contra todos, Codex al Bolsillo",
-      "description": "Codex llega al móvil y los agentes empiezan a escaparse del escritorio.\r\n  Mientras tanto, OpenAI y Apple parecen pasar de “socios felices” a “esto lo ve mi abogado”.\r\n  Hablamos de coding agents, Siri, hardware IA y qué significa esto para devs.\r\nFuentes:\r\n\t• OpenAI: https://openai.com/index/work-with-codex-from-anywhere/\r\n\t• Reuters: https://www.reuters.com/business/openai-explores-legal-options-against-apple-bloomberg-news-reports-2026-05-14/\r\n\t• Apple WWDC26: https://developer.apple.com/wwdc26/",
-      "pubDate": "Fri, 15 May 2026 22:03:22 +0200",
-      "link": "https://www.ivoox.com/ntn-519-openai-contra-todos-codex-audios-mp3_rf_173803847_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-519-openai-contra-todos-codex_mf_173803847_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/e/2/f/fe2fbe850be5c8cf1ae761ec90ab13b7_XXL.jpg",
-      "embedId": "173803847",
-      "embedUrl": "https://www.ivoox.com/player_ej_173803847_6_1.html?c1=d69776"
     }
   ]
 }
