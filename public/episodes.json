@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-10T06:32:13.668Z",
+  "generatedAt": "2026-07-11T05:31:04.368Z",
   "items": [
+    {
+      "title": "NTN 542 -   GPT-5.6 Modelos más listos, facturas más peligrosas",
+      "description": "☀️ OpenAI lanza GPT-5.6 Sol, Terra y Luna, mientras Meta responde con Muse Spark 1.1: agentes que programan, navegan y controlan tu computadora.\r\n  La batalla ya no es por el modelo más listo, sino por quién trabaja mejor por dólar.\r\n  Fuentes:\r\n• https://openai.com/index/gpt-5-6/\r\n• https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\r\n• https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
+      "pubDate": "Fri, 10 Jul 2026 15:36:15 +0200",
+      "link": "https://www.ivoox.com/ntn-542-gpt-5-6-modelos-mas-listos-audios-mp3_rf_177112503_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-542-gpt-5-6-modelos-mas-listos_mf_177112503_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/3/0/6/1306c0c51ae285a5452c20273ada321b_XXL.jpg",
+      "embedId": "177112503",
+      "embedUrl": "https://www.ivoox.com/player_ej_177112503_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 541 - META Watermelon and Muse Image",
       "description": "Meta llega con Muse Image y Watermelon: imágenes, agentes, benchmarks y privacidad mezclados en la misma licuadora.\r\n  ¿Revolución creativa o fábrica de spam bonito? Spoiler: ambas.\r\nFuentes:\r\n\t• https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/\r\n\t• https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/\r\n\t• https://arena.ai/leaderboard/text-to-image",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/a/4/7/9/a47924cb440257cae54357e01569e747_XXL.jpg",
       "embedId": "174195665",
       "embedUrl": "https://www.ivoox.com/player_ej_174195665_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 521 -   Google I/O 2026",
-      "description": "Google I/O 2026 vino cargado: Gemini 3.5, Gemini Omni, agentes 24/7, Search con mini apps, Workspace más inteligente y Android XR. Mucha magia, sí… pero también costos, permisos y governance. Porque la IA puede ayudarte, o armarte un incendio con animaciones lindas.  \r\nFuentes:\r\n\t• https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/\r\n\t• https://blog.google/innovation-and-ai/sundar-pichai-io-2026/\r\n\t• https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/\r\n\t• https://blog.google/products-and-platforms/products/search/search-io-2026/",
-      "pubDate": "Wed, 20 May 2026 15:49:02 +0200",
-      "link": "https://www.ivoox.com/ntn-521-google-i-o-2026-audios-mp3_rf_174087025_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-521-google-i-o-2026_mf_174087025_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/1/7/1/c171f00e44438912ecb50803a7a055ec_XXL.jpg",
-      "embedId": "174087025",
-      "embedUrl": "https://www.ivoox.com/player_ej_174087025_6_1.html?c1=d69776"
     }
   ]
 }
