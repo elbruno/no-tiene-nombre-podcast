@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-13T05:57:42.351Z",
+  "generatedAt": "2026-07-14T05:20:24.570Z",
   "items": [
+    {
+      "title": "NTN 543 -   Apple vs. OpenAI: guerra de secretos",
+      "description": "Cuatro noticias, un mismo problema: quién controla la IA.\r\n•   Apple acusa a OpenAI de robo de secretos\r\n•   SK Hynix anticipa escasez de memoria hasta 2030\r\n•   DeepMind explica cuándo delegar a agentes\r\n•  ️ OpenAI reorganiza seguridad\r\nFuentes:\r\n• https://arxiv.org/abs/2602.11865\r\n• https://www.wired.com/story/openai-head-of-safety-leaving/\r\n• https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
+      "pubDate": "Mon, 13 Jul 2026 18:50:27 +0200",
+      "link": "https://www.ivoox.com/ntn-543-apple-vs-openai-guerra-audios-mp3_rf_177229650_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-543-apple-vs-openai-guerra_mf_177229650_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/0/9/d/7/09d74e3de72b153a3d661e4d499ee97f_XXL.jpg",
+      "embedId": "177229650",
+      "embedUrl": "https://www.ivoox.com/player_ej_177229650_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 542 -   GPT-5.6 Modelos más listos, facturas más peligrosas",
       "description": "☀️ OpenAI lanza GPT-5.6 Sol, Terra y Luna, mientras Meta responde con Muse Spark 1.1: agentes que programan, navegan y controlan tu computadora.\r\n  La batalla ya no es por el modelo más listo, sino por quién trabaja mejor por dólar.\r\n  Fuentes:\r\n• https://openai.com/index/gpt-5-6/\r\n• https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\r\n• https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/5/c/f/c5cf1a64c8513fee6f977d6bd519ecf0_XXL.jpg",
       "embedId": "174306690",
       "embedUrl": "https://www.ivoox.com/player_ej_174306690_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 523 -   Top 5 en IA: GPUs, Leyes y $$$",
-      "description": "Esta semana en NO TIENE NOMBRE: OpenAI toca matemáticas duras, NVIDIA imprime dinero con GPUs, Anthropic mete agentes en empresas reales, EE. UU. duda con regulación y la IA empieza a moverse hacia robots y quantum.\r\nFuentes:\r\n\t• https://openai.com/index/model-disproves-discrete-geometry-conjecture/\r\n\t• https://nvidianews.nvidia.com/\r\n\t• https://www.anthropic.com/news/anthropic-kpmg",
-      "pubDate": "Fri, 22 May 2026 16:40:31 +0200",
-      "link": "https://www.ivoox.com/ntn-523-top-5-ia-audios-mp3_rf_174195665_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-523-top-5-ia_mf_174195665_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/a/4/7/9/a47924cb440257cae54357e01569e747_XXL.jpg",
-      "embedId": "174195665",
-      "embedUrl": "https://www.ivoox.com/player_ej_174195665_6_1.html?c1=d69776"
     }
   ]
 }
