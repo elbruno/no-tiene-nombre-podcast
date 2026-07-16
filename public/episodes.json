@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-15T05:21:22.378Z",
+  "generatedAt": "2026-07-16T05:30:23.330Z",
   "items": [
+    {
+      "title": "NTN 544 -   La IA quiere cuerpo y enchufe",
+      "description": "ChatGPT quiere salir de la pantalla y convertirse en un compañero que se mueve por tu casa. Mientras tanto, DeepMind pide un árbitro para la IA y Nueva York frena los megacentros de datos. ¿Quién controla, regula y paga la electricidad?\r\n  Fuentes:\r\n• https://www.reuters.com/technology/openais-first-hardware-device-will-be-speaker-bloomberg-news-reports-2026-07-14/\r\n• https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind\r\n• https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "pubDate": "Thu, 16 Jul 2026 01:55:52 +0200",
+      "link": "https://www.ivoox.com/ntn-544-la-ia-quiere-cuerpo-audios-mp3_rf_177394228_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-544-la-ia-quiere-cuerpo_mf_177394228_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/9/f/b/19fb9f55134efdc2e336aef01c08b61e_XXL.jpg",
+      "embedId": "177394228",
+      "embedUrl": "https://www.ivoox.com/player_ej_177394228_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 543 -   Apple vs. OpenAI: guerra de secretos",
       "description": "Cuatro noticias, un mismo problema: quién controla la IA.\r\n•   Apple acusa a OpenAI de robo de secretos\r\n•   SK Hynix anticipa escasez de memoria hasta 2030\r\n•   DeepMind explica cuándo delegar a agentes\r\n•  ️ OpenAI reorganiza seguridad\r\nFuentes:\r\n• https://arxiv.org/abs/2602.11865\r\n• https://www.wired.com/story/openai-head-of-safety-leaving/\r\n• https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/b/d/3/cbd3b46d8848dc997e14bfbe4c68e2c8_XXL.jpg",
       "embedId": "174491325",
       "embedUrl": "https://www.ivoox.com/player_ej_174491325_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 524 -   Cursor, Meta y Spotify IA",
-      "description": "Cursor vale locura, Manus entra en novela geopolítica y Spotify/Universal abren la puerta a remixes con IA. Código, música y poder tech: se nos fue todo al carajo, pero con invoices premium.\r\nFuentes:\r\n\t• https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/\r\n\t• https://www.reuters.com/technology/chinas-manus-founders-seek-1-billion-undo-meta-takeover-bloomberg-news-reports-2026-05-21/\r\n\t• https://newsroom.spotify.com/2026-05-21/universal-music-group-spotify-licensing-agreements-fan-made-covers-remixes/",
-      "pubDate": "Mon, 25 May 2026 18:18:28 +0200",
-      "link": "https://www.ivoox.com/ntn-524-cursor-meta-spotify-audios-mp3_rf_174306690_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-524-cursor-meta-spotify_mf_174306690_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/5/c/f/c5cf1a64c8513fee6f977d6bd519ecf0_XXL.jpg",
-      "embedId": "174306690",
-      "embedUrl": "https://www.ivoox.com/player_ej_174306690_6_1.html?c1=d69776"
     }
   ]
 }
