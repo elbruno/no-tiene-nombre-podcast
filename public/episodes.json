@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-17T05:31:55.452Z",
+  "generatedAt": "2026-07-18T05:15:04.893Z",
   "items": [
+    {
+      "title": "NTN 545 - ⌨️ OpenAI te vende un Tecladito y China te Regala un Monstruo",
+      "description": "️ ¡Semana de locos! OpenAI lanza su primer hardware… ¡y es un tecladito con perilla para el cerebro!  \r\n  Kimi K3: 2,8 billones de parámetros, pesos abiertos el 27/7   Inkling: Mira Murati pone a EE.UU. en el tablero open   \r\nY la historia de cómo Bell Labs regaló el transistor… y ganó Sony\r\nFuentes: \r\n• simonwillison.net/2026/Jul/16/kimi-k3 \r\n• thinkingmachines.ai/news/introducing-inkling \r\n• engadget.com/2215952",
+      "pubDate": "Fri, 17 Jul 2026 17:29:29 +0200",
+      "link": "https://www.ivoox.com/ntn-545-openai-te-vende-un-audios-mp3_rf_177478659_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-545-openai-te-vende-un_mf_177478659_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/5/0/c/450c7b85e02fc445105c2603e1ca1fb9_XXL.jpg",
+      "embedId": "177478659",
+      "embedUrl": "https://www.ivoox.com/player_ej_177478659_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 544 -   La IA quiere cuerpo y enchufe",
       "description": "ChatGPT quiere salir de la pantalla y convertirse en un compañero que se mueve por tu casa. Mientras tanto, DeepMind pide un árbitro para la IA y Nueva York frena los megacentros de datos. ¿Quién controla, regula y paga la electricidad?\r\n  Fuentes:\r\n• https://www.reuters.com/technology/openais-first-hardware-device-will-be-speaker-bloomberg-news-reports-2026-07-14/\r\n• https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind\r\n• https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/0/3/8/3/038333387cd78843cd3420ef435ccf39_XXL.jpg",
       "embedId": "174606283",
       "embedUrl": "https://www.ivoox.com/player_ej_174606283_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 525 -   2 PhaaS 2 Furious",
-      "description": "El phishing ya no es un email feo: ahora viene con IA, soporte, plantillas y “customer success” criminal.\r\n  Hablamos de PhaaS, wallets digitales y por qué el MFA con códigos ya no alcanza.\r\nFuentes:\r\n\t• Google: https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/\r\n\t• FBI: https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions",
-      "pubDate": "Wed, 27 May 2026 15:42:50 +0200",
-      "link": "https://www.ivoox.com/ntn-525-2-phaas-2-furious-audios-mp3_rf_174491325_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-525-2-phaas-2-furious_mf_174491325_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/b/d/3/cbd3b46d8848dc997e14bfbe4c68e2c8_XXL.jpg",
-      "embedId": "174491325",
-      "embedUrl": "https://www.ivoox.com/player_ej_174491325_6_1.html?c1=d69776"
     }
   ]
 }
