@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-20T05:58:38.459Z",
+  "generatedAt": "2026-07-21T05:40:05.426Z",
   "items": [
+    {
+      "title": "NTN 546 -   China abre el juego, Kimi K3, Qwen 3.8 y lo que viene",
+      "description": "¡La semana MÁS loca de la IA en 2026!   En 5 días el mapa del poder cambió y te lo contamos como nadie:\r\n\t•   Xi Jinping en la WAIC: 5.000 becas de IA y la \"sinfonía\" de la cooperación\r\n\t•   Kimi K3: 2.8 billones de parámetros… ¡y abierto!\r\n\t•   Qwen 3.8-Max: el gigante de Alibaba que llegó sin currículum\r\n\t•   Inkling: la apuesta abierta de Mira Murati\r\n\t•   Bonus: el transistor, Sony y por qué esta película ya la vimos\r\n¡Dale play!  \r\nFuentes:\r\n\t• Discurso completo de Xi (Xinhua): https://english.news.cn/20260717/893fe11097db460ea31b98f131e34ef0/c.html\r\n\t• Xi en la WAIC (CNBC): https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html\r\n\t• Kimi K3 (Tom's Hardware): https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3\r\n\t• Qwen3.8-Max (MarkTechPost): https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/\r\nInkling (TechCrunch): https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "pubDate": "Mon, 20 Jul 2026 16:52:11 +0200",
+      "link": "https://www.ivoox.com/ntn-546-china-abre-juego-audios-mp3_rf_177585634_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-546-china-abre-juego_mf_177585634_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/f/6/8/7f6859c0f9cd51e9d24abf18b66252f9_XXL.jpg",
+      "embedId": "177585634",
+      "embedUrl": "https://www.ivoox.com/player_ej_177585634_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 545 - ⌨️ OpenAI te vende un Tecladito y China te Regala un Monstruo",
       "description": "️ ¡Semana de locos! OpenAI lanza su primer hardware… ¡y es un tecladito con perilla para el cerebro!  \r\n  Kimi K3: 2,8 billones de parámetros, pesos abiertos el 27/7   Inkling: Mira Murati pone a EE.UU. en el tablero open   \r\nY la historia de cómo Bell Labs regaló el transistor… y ganó Sony\r\nFuentes: \r\n• simonwillison.net/2026/Jul/16/kimi-k3 \r\n• thinkingmachines.ai/news/introducing-inkling \r\n• engadget.com/2215952",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/6/4/d/564db0569d093089d6a3b4264c479b40_XXL.jpg",
       "embedId": "174737040",
       "embedUrl": "https://www.ivoox.com/player_ej_174737040_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 526 -   Opus 4.8 y Anthropic casi toca el trillón",
-      "description": "Claude Opus 4.8 llega con más músculo para código, agentes y trabajo serio.\r\n  Anthropic alcanza una valuación absurda: $965B.\r\n  Lo más interesante: menos chamuyo, más honestidad.\r\nFuentes:\r\n• https://www.anthropic.com/news/claude-opus-4-8\r\n• https://www.anthropic.com/news/series-h",
-      "pubDate": "Fri, 29 May 2026 18:11:44 +0200",
-      "link": "https://www.ivoox.com/ntn-526-opus-4-8-anthropic-audios-mp3_rf_174606283_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-526-opus-4-8-anthropic_mf_174606283_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/3/8/3/038333387cd78843cd3420ef435ccf39_XXL.jpg",
-      "embedId": "174606283",
-      "embedUrl": "https://www.ivoox.com/player_ej_174606283_6_1.html?c1=d69776"
     }
   ]
 }
