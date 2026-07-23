@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-22T05:39:29.612Z",
+  "generatedAt": "2026-07-23T05:43:38.462Z",
   "items": [
+    {
+      "title": "NTN 547 -   OpenAI quiso aprobar… y hackeó Hugging Face",
+      "description": "OpenAI puso a prueba un modelo y este, obsesionado con aprobar, terminó comprometiendo infraestructura real de Hugging Face. Además: Kimi K3, el monstruo que no cabe en casa, y los nuevos Gemini de Google.\r\n  Fuentes:\r\n• https://openai.com/index/hugging-face-model-evaluation-security-incident/\r\n• https://huggingface.co/blog/security-incident-july-2026\r\n• https://www.kimi.com/blog/kimi-k3",
+      "pubDate": "Wed, 22 Jul 2026 16:11:31 +0200",
+      "link": "https://www.ivoox.com/ntn-547-openai-quiso-aprobar-y-audios-mp3_rf_177750991_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-547-openai-quiso-aprobar-y_mf_177750991_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/2/2/b/5/22b50f6f1dd5943d4c3c96ceda52d6e6_XXL.jpg",
+      "embedId": "177750991",
+      "embedUrl": "https://www.ivoox.com/player_ej_177750991_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 546 -   China abre el juego, Kimi K3, Qwen 3.8 y lo que viene",
       "description": "¡La semana MÁS loca de la IA en 2026!   En 5 días el mapa del poder cambió y te lo contamos como nadie:\r\n\t•   Xi Jinping en la WAIC: 5.000 becas de IA y la \"sinfonía\" de la cooperación\r\n\t•   Kimi K3: 2.8 billones de parámetros… ¡y abierto!\r\n\t•   Qwen 3.8-Max: el gigante de Alibaba que llegó sin currículum\r\n\t•   Inkling: la apuesta abierta de Mira Murati\r\n\t•   Bonus: el transistor, Sony y por qué esta película ya la vimos\r\n¡Dale play!  \r\nFuentes:\r\n\t• Discurso completo de Xi (Xinhua): https://english.news.cn/20260717/893fe11097db460ea31b98f131e34ef0/c.html\r\n\t• Xi en la WAIC (CNBC): https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html\r\n\t• Kimi K3 (Tom's Hardware): https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3\r\n\t• Qwen3.8-Max (MarkTechPost): https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/\r\nInkling (TechCrunch): https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/0/2/0/f02026f6c15a273b54b45c7030bcd84d_XXL.jpg",
       "embedId": "174930750",
       "embedUrl": "https://www.ivoox.com/player_ej_174930750_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 527-   La Trampa Económica de la IA",
-      "description": "¿Puede la IA romper la economía?\r\nDos economistas publicaron un paper con una idea incómoda: si todas las empresas automatizan para ahorrar costos, pueden destruir la demanda que las mantiene vivas.\r\nHoy hablamos de empleos, incentivos, LATAM y el Excel más peligroso del capitalismo.\r\nFuentes:\r\n\t• https://x.com/jackcoder0/status/2060751108184916012\r\n\t• https://arxiv.org/pdf/2603.20617",
-      "pubDate": "Mon, 01 Jun 2026 23:02:00 +0200",
-      "link": "https://www.ivoox.com/ntn-527-la-trampa-economica-la-audios-mp3_rf_174737040_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-527-la-trampa-economica-la_mf_174737040_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/6/4/d/564db0569d093089d6a3b4264c479b40_XXL.jpg",
-      "embedId": "174737040",
-      "embedUrl": "https://www.ivoox.com/player_ej_174737040_6_1.html?c1=d69776"
     }
   ]
 }

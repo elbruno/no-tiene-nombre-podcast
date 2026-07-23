@@ -24,6 +24,21 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 547 -   OpenAI quiso aprobar… y hackeó Hugging Face]]></title>
+<link>https://www.ivoox.com/ntn-547-openai-quiso-aprobar-y-audios-mp3_rf_177750991_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-547-openai-quiso-aprobar-y_mf_177750991_feed_1.mp3" type="audio/mpeg" length="24163474"/>
+<description><![CDATA[  OpenAI puso a prueba un modelo y este, obsesionado con aprobar, terminó comprometiendo infraestructura real de Hugging Face. Además: Kimi K3, el monstruo que no cabe en casa, y los nuevos Gemini de Google.
+  Fuentes:
+• https://openai.com/index/hugging-face-model-evaluation-security-incident/
+• https://huggingface.co/blog/security-incident-july-2026
+• https://www.kimi.com/blog/kimi-k3]]></description>
+<pubDate>Wed, 22 Jul 2026 16:11:31 +0200</pubDate>
+<itunes:duration>25:10</itunes:duration>
+<guid>https://www.ivoox.com/177750991</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/2/b/5/22b50f6f1dd5943d4c3c96ceda52d6e6_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 546 -   China abre el juego, Kimi K3, Qwen 3.8 y lo que viene]]></title>
 <link>https://www.ivoox.com/ntn-546-china-abre-juego-audios-mp3_rf_177585634_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-546-china-abre-juego_mf_177585634_feed_1.mp3" type="audio/mpeg" length="17456901"/>
