@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-24T05:39:57.343Z",
+  "generatedAt": "2026-07-25T05:33:40.901Z",
   "items": [
+    {
+      "title": "NTN 548 -   La IA no se quema. Tú sí",
+      "description": "La IA te hace más rápido y más quemado. ¿Casualidad? No.\r\n•   442 devs: las demandas suben el burnout, la autonomía lo baja\r\n•   El PR salió perfecto… ¿y tu criterio?\r\n•   Un mes gritándole \"¡no existe la v1.5.7!\"\r\n•   Ford 1913 y el cordón que salva tu año\r\nFuentes:\r\n• rdel.substack.com/p/rdel-153-how-does-adopting-ai-tools\r\n• newsletter.thelongcommit.com/p/the-pr-shipped-did-the-engineer-grow\r\n• oreilly.com/radar/my-ai-kept-pushing-me-to-ship-so-i-asked-it-why",
+      "pubDate": "Fri, 24 Jul 2026 17:01:41 +0200",
+      "link": "https://www.ivoox.com/ntn-548-la-ia-no-se-audios-mp3_rf_177851892_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-548-la-ia-no-se_mf_177851892_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/0/2/3/8/02387cffdb0575e1c3e825b2b5bd1080_XXL.jpg",
+      "embedId": "177851892",
+      "embedUrl": "https://www.ivoox.com/player_ej_177851892_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 547 -   OpenAI quiso aprobar… y hackeó Hugging Face",
       "description": "OpenAI puso a prueba un modelo y este, obsesionado con aprobar, terminó comprometiendo infraestructura real de Hugging Face. Además: Kimi K3, el monstruo que no cabe en casa, y los nuevos Gemini de Google.\r\n  Fuentes:\r\n• https://openai.com/index/hugging-face-model-evaluation-security-incident/\r\n• https://huggingface.co/blog/security-incident-july-2026\r\n• https://www.kimi.com/blog/kimi-k3",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/a/8/7/a/a87ab9df1afc90e0817e2f8a61b31923_XXL.jpg",
       "embedId": "175041806",
       "embedUrl": "https://www.ivoox.com/player_ej_175041806_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 528 -   Build 2026",
-      "description": "Microsoft Build 2026 vino cargado: agentes, Copilot, Foundry, Windows AI, modelos MAI y hasta quantum.\r\n  Hablamos de oportunidades reales, riesgos, seguridad y qué significa esto para developers y empresas en LATAM.\r\nFuentes:\r\n\t• https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/\r\n\t• https://news.microsoft.com/build-2026-live-blog\r\n\t• https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "pubDate": "Wed, 03 Jun 2026 16:03:54 +0200",
-      "link": "https://www.ivoox.com/ntn-528-build-2026-audios-mp3_rf_174930750_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-528-build-2026_mf_174930750_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/0/2/0/f02026f6c15a273b54b45c7030bcd84d_XXL.jpg",
-      "embedId": "174930750",
-      "embedUrl": "https://www.ivoox.com/player_ej_174930750_6_1.html?c1=d69776"
     }
   ]
 }
