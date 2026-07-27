@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-26T05:50:24.681Z",
+  "generatedAt": "2026-07-27T06:17:07.992Z",
   "items": [
+    {
+      "title": "NTN 549 -   La guerra de los pesos abiertos",
+      "description": "Jensen estrenó X y abrió la guerra por los pesos abiertos. Microsoft, Google y OpenAI se sumaron; Anthropic quedó en una posición incómoda… y China acelera con Kimi y Qwen.\r\n  Fuentes:\r\n• https://x.com/JensenHuang/status/2080643682408321103\r\n• https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "pubDate": "Mon, 27 Jul 2026 03:10:46 +0200",
+      "link": "https://www.ivoox.com/ntn-549-la-guerra-los-audios-mp3_rf_177926211_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-549-la-guerra-los_mf_177926211_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/6/7/d/967d6e14eb479d363294333f630a7781_XXL.jpg",
+      "embedId": "177926211",
+      "embedUrl": "https://www.ivoox.com/player_ej_177926211_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 548 -   La IA no se quema. Tú sí",
       "description": "La IA te hace más rápido y más quemado. ¿Casualidad? No.\r\n•   442 devs: las demandas suben el burnout, la autonomía lo baja\r\n•   El PR salió perfecto… ¿y tu criterio?\r\n•   Un mes gritándole \"¡no existe la v1.5.7!\"\r\n•   Ford 1913 y el cordón que salva tu año\r\nFuentes:\r\n• rdel.substack.com/p/rdel-153-how-does-adopting-ai-tools\r\n• newsletter.thelongcommit.com/p/the-pr-shipped-did-the-engineer-grow\r\n• oreilly.com/radar/my-ai-kept-pushing-me-to-ship-so-i-asked-it-why",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/0/b/4/70b45f64388fdded6abae9571f38f1db_XXL.jpg",
       "embedId": "175171747",
       "embedUrl": "https://www.ivoox.com/player_ej_175171747_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 529 -   La IA se programa sola",
-      "description": "•   Claude ya escribe 80% del código de Anthropic.\r\n\t• ⚡ ¿Estamos viendo las primeras chispas de IA que se mejora sola?\r\n\t•   Chips, modelos abiertos y Canadá metiéndose fuerte en IA.\r\nFuentes:\r\n\t• https://www.anthropic.com/institute/recursive-self-improvement\r\n\t• https://openai.com/index/frontier-safety-blueprint/",
-      "pubDate": "Fri, 05 Jun 2026 17:14:20 +0200",
-      "link": "https://www.ivoox.com/ntn-529-la-ia-se-programa-audios-mp3_rf_175041806_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-529-la-ia-se-programa_mf_175041806_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/a/8/7/a/a87ab9df1afc90e0817e2f8a61b31923_XXL.jpg",
-      "embedId": "175041806",
-      "embedUrl": "https://www.ivoox.com/player_ej_175041806_6_1.html?c1=d69776"
     }
   ]
 }
