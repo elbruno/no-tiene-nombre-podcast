@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-29T05:41:33.841Z",
+  "generatedAt": "2026-07-30T05:30:06.269Z",
   "items": [
+    {
+      "title": "NTN 550 -   Open Source bajo ataque",
+      "description": "En 1975 unos biólogos frenaron su ciencia en Asilomar por miedo. ¡En 2026 la IA repite la historia!  \r\n\tEn este episodio:   Un modelo de OpenAI se saltó su sandbox ✋ Amodei y +1.000 firmas piden \"marcarle el paso a la frontera\" ⚔️ Guerra de pesos abiertos: quién firma y quién no   El open source ahogado en código generado\r\n\tFuentes: \r\n\t• openai.com/index/safety-alignment-long-horizon-models \r\n\t• enblog.eischmann.cz/2026/07/23/how-ai-is-changing-open-source \r\n• anthropic.com/news/position-open-weights-models",
+      "pubDate": "Wed, 29 Jul 2026 16:14:26 +0200",
+      "link": "https://www.ivoox.com/ntn-550-open-source-bajo-ataque-audios-mp3_rf_178125745_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-550-open-source-bajo-ataque_mf_178125745_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/7/7/d/b77de79057673d3596606e9d6a96782a_XXL.jpg",
+      "embedId": "178125745",
+      "embedUrl": "https://www.ivoox.com/player_ej_178125745_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 549 -   La guerra de los pesos abiertos",
       "description": "Jensen estrenó X y abrió la guerra por los pesos abiertos. Microsoft, Google y OpenAI se sumaron; Anthropic quedó en una posición incómoda… y China acelera con Kimi y Qwen.\r\n  Fuentes:\r\n• https://x.com/JensenHuang/status/2080643682408321103\r\n• https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/3/9/9/d3992addfaa582b276ab40562b9d6c9c_XXL.jpg",
       "embedId": "175351728",
       "embedUrl": "https://www.ivoox.com/player_ej_175351728_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 530 -   IA 10x, Burnout 20x",
-      "description": "¿La IA nos está haciendo más productivos… o solo más quemados? Hablamos de devs, agentes, burnout y esa trampa hermosa de “hacer más en menos tiempo”.\r\nFuentes:\r\n\t• Evil Martians: https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine\r\n\t• HBR: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it\r\n\t• DORA: https://dora.dev/dora-report-2025/",
-      "pubDate": "Mon, 08 Jun 2026 22:17:44 +0200",
-      "link": "https://www.ivoox.com/ntn-530-ia-10x-burnout-20x-audios-mp3_rf_175171747_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-530-ia-10x-burnout-20x_mf_175171747_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/0/b/4/70b45f64388fdded6abae9571f38f1db_XXL.jpg",
-      "embedId": "175171747",
-      "embedUrl": "https://www.ivoox.com/player_ej_175171747_6_1.html?c1=d69776"
     }
   ]
 }
