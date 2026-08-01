@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-31T05:55:23.889Z",
+  "generatedAt": "2026-08-01T05:45:33.869Z",
   "items": [
+    {
+      "title": "NTN 551 -   Agentes atrapados en el loop",
+      "description": "Todo el mundo habla de loops, agentes y autonomía… pero ¿qué significa realmente?\r\n  En este episodio desmontamos el ciclo que hace funcionar a un agente: observar, actuar, verificar y repetir.\r\n⚠️ También vemos costos, errores infinitos y cómo evitar un while(true) con presupuesto corporativo.\r\n• O’Reilly: https://www.oreilly.com/radar/what-the-hell-is-a-loop-anyway/\r\n• OpenAI: https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "pubDate": "Fri, 31 Jul 2026 21:13:33 +0200",
+      "link": "https://www.ivoox.com/ntn-551-agentes-atrapados-el-audios-mp3_rf_178231307_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-551-agentes-atrapados-el_mf_178231307_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/1/2/f/f12f1f57ba8be52676f8d32c158059d8_XXL.jpg",
+      "embedId": "178231307",
+      "embedUrl": "https://www.ivoox.com/player_ej_178231307_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 550 -   Open Source bajo ataque",
       "description": "En 1975 unos biólogos frenaron su ciencia en Asilomar por miedo. ¡En 2026 la IA repite la historia!  \r\n\tEn este episodio:   Un modelo de OpenAI se saltó su sandbox ✋ Amodei y +1.000 firmas piden \"marcarle el paso a la frontera\" ⚔️ Guerra de pesos abiertos: quién firma y quién no   El open source ahogado en código generado\r\n\tFuentes: \r\n\t• openai.com/index/safety-alignment-long-horizon-models \r\n\t• enblog.eischmann.cz/2026/07/23/how-ai-is-changing-open-source \r\n• anthropic.com/news/position-open-weights-models",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/e/2/9/a/e29ac2379fd98271e074a04642a176bf_XXL.jpg",
       "embedId": "175457019",
       "embedUrl": "https://www.ivoox.com/player_ej_175457019_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 531 -   Fable 5: IA con Bozal y WWDC 2026",
-      "description": "️ Apple llegó a WWDC26 con Siri AI, Liquid Glass y aplausos por esquinas. Anthropic respondió con Claude Fable 5 y Mythos 5: modelos potentes, caros y con barandas. IA, hype y dolor de billetera.\r\n• Fuentes: https://www.anthropic.com/news/claude-fable-5-mythos-5\r\n• https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
-      "pubDate": "Wed, 10 Jun 2026 17:07:44 +0200",
-      "link": "https://www.ivoox.com/ntn-531-fable-5-ia-con-audios-mp3_rf_175351728_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-531-fable-5-ia-con_mf_175351728_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/d/3/9/9/d3992addfaa582b276ab40562b9d6c9c_XXL.jpg",
-      "embedId": "175351728",
-      "embedUrl": "https://www.ivoox.com/player_ej_175351728_6_1.html?c1=d69776"
     }
   ]
 }

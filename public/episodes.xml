@@ -24,6 +24,21 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 551 -   Agentes atrapados en el loop]]></title>
+<link>https://www.ivoox.com/ntn-551-agentes-atrapados-el-audios-mp3_rf_178231307_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-551-agentes-atrapados-el_mf_178231307_feed_1.mp3" type="audio/mpeg" length="15800947"/>
+<description><![CDATA[  Todo el mundo habla de loops, agentes y autonomía… pero ¿qué significa realmente?
+  En este episodio desmontamos el ciclo que hace funcionar a un agente: observar, actuar, verificar y repetir.
+⚠️ También vemos costos, errores infinitos y cómo evitar un while(true) con presupuesto corporativo.
+• O’Reilly: https://www.oreilly.com/radar/what-the-hell-is-a-loop-anyway/
+• OpenAI: https://openai.com/index/unrolling-the-codex-agent-loop/]]></description>
+<pubDate>Fri, 31 Jul 2026 21:13:33 +0200</pubDate>
+<itunes:duration>16:27</itunes:duration>
+<guid>https://www.ivoox.com/178231307</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/1/2/f/f12f1f57ba8be52676f8d32c158059d8_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 550 -   Open Source bajo ataque]]></title>
 <link>https://www.ivoox.com/ntn-550-open-source-bajo-ataque-audios-mp3_rf_178125745_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-550-open-source-bajo-ataque_mf_178125745_feed_1.mp3" type="audio/mpeg" length="20352940"/>
