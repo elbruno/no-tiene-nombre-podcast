@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-05T05:36:01.948Z",
+  "generatedAt": "2026-08-06T05:38:07.423Z",
   "items": [
+    {
+      "title": "NTN 553 -   Código rápido, caos caro",
+      "description": "Anthropic habría reservado USD 10.000 millones en compute. Pero la gran historia es otra: los agentes ya crean código más rápido de lo que equipos, pruebas y seguridad pueden procesarlo. ¿Productividad real o deuda técnica con esteroides?\r\n• Battery: https://www.battery.com/blog/how-agentic-coding-is-reshaping-the-software-development-lifecycle/\r\n• Reuters: https://www.reuters.com/business/ai-cloud-startup-volta-valued-24-billion-announces-10-billion-ai-partnership-2026-08-04/",
+      "pubDate": "Wed, 05 Aug 2026 17:03:37 +0200",
+      "link": "https://www.ivoox.com/ntn-553-codigo-rapido-caos-caro-audios-mp3_rf_178492665_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-553-codigo-rapido-caos-caro_mf_178492665_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/2/f/0/c/2f0c59797f9b2078253f47baca7ab34d_XXL.jpg",
+      "embedId": "178492665",
+      "embedUrl": "https://www.ivoox.com/player_ej_178492665_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 552 - ➗ Matemáticas, modelos y millones",
       "description": "La IA ya no solo responde: investiga, verifica código y ayuda a crear su próxima generación. Astra promete avances matemáticos, EE. UU. revisará modelos antes de su lanzamiento, Google apuesta miles de millones y Qwen compite bajando precios. ¿Progreso científico o reunión de emergencia en camino?  \r\n  Fuentes\r\n\t• OpenAI: https://openai.com/index/ten-advances-in-mathematics/\r\n\t• Casa Blanca: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/\r\n\t• IAPP: https://iapp.org/news/a/unpacking-the-white-house-executive-order-on-frontier-ai-cybersecurity\r\n\t• Reuters — Qwen3.8-Max: https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/\r\n\t• Reuters — Inversión de Google: https://www.reutersconnect.com/item/uncaptioned-googles-ai-spending-pushes-free-cash-flow-into-the-red/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQ1ZNQzQ0MjUyNi1WSURFTw",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/a/c/e/face160d98cb4b861fce1c6795962ef3_XXL.jpg",
       "embedId": "175902551",
       "embedUrl": "https://www.ivoox.com/player_ej_175902551_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 533 -  Fable 5 Apagado por Tío Sam",
-      "description": "Canadá regula redes y chatbots para menores.\r\n  DoorDash convierte recetas y fotos en carritos.\r\n  Y EE.UU. apaga Claude Fable/Mythos por seguridad nacional.\r\nLa IA ya no es demo: ahora es ley, delivery y geopolítica. Se fue todo al carajo… pero con API.\r\nFuentes:\r\n\t• https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html\r\n\t• https://about.doordash.com/en-us/news/ask-doordash\r\n\t• https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
-      "pubDate": "Mon, 15 Jun 2026 16:31:21 +0200",
-      "link": "https://www.ivoox.com/ntn-533-fable-5-apagado-tio-audios-mp3_rf_175577446_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-533-fable-5-apagado-tio_mf_175577446_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/a/e/9/1/ae91c79b398fd0ab2e16a06c20001c4c_XXL.jpg",
-      "embedId": "175577446",
-      "embedUrl": "https://www.ivoox.com/player_ej_175577446_6_1.html?c1=d69776"
     }
   ]
 }
