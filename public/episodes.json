@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-07T04:46:20.877Z",
+  "generatedAt": "2026-08-08T04:03:03.244Z",
   "items": [
+    {
+      "title": "NTN 554 -  Los genios se van de Google",
+      "description": "¿Qué está pasando dentro de Google?\r\n\r\nJeff Dean se va después de 27 años, Demis Hassabis cambia de rol y varios pesos pesados de la IA buscan nuevos horizontes.\r\n\r\n ️ Hoy hablamos de talento, cultura, burocracia y la batalla por liderar la IA.\r\n\r\n  Fuentes:\r\n• https://x.com/JeffDean/status/2085036253263921218\r\n• https://taekim.substack.com/p/google-is-a-secular-short\r\n• https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "pubDate": "Fri, 07 Aug 2026 17:30:15 +0200",
+      "link": "https://www.ivoox.com/ntn-554-los-genios-se-van-de-audios-mp3_rf_178587776_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-554-los-genios-se-van-de_mf_178587776_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/e/5/d/d/e5dd063a1863a88dd65bc1e53a9b1bde_XXL.jpg",
+      "embedId": "178587776",
+      "embedUrl": "https://www.ivoox.com/player_ej_178587776_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 553 -   Código rápido, caos caro",
       "description": "Anthropic habría reservado USD 10.000 millones en compute. Pero la gran historia es otra: los agentes ya crean código más rápido de lo que equipos, pruebas y seguridad pueden procesarlo. ¿Productividad real o deuda técnica con esteroides?\r\n• Battery: https://www.battery.com/blog/how-agentic-coding-is-reshaping-the-software-development-lifecycle/\r\n• Reuters: https://www.reuters.com/business/ai-cloud-startup-volta-valued-24-billion-announces-10-billion-ai-partnership-2026-08-04/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/9/f/0/c9f0a881664aa08daadd1da6b5b7ce3e_XXL.jpg",
       "embedId": "176273937",
       "embedUrl": "https://www.ivoox.com/player_ej_176273937_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 534 -   SpaceX compra Cursor",
-      "description": "SpaceX compra Cursor por US$60B y la IA para programar deja de ser “una app cool” para convertirse en infraestructura estratégica. Hablamos de GPUs, hyperscalers, agentes de código y por qué LATAM debería mirar esto con esperanza… y con la billetera agarrada.\r\nFuentes:\r\n\t• Epoch AI: https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow\r\n\t• SEC: https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm\r\n\t• Cursor: https://cursor.com/blog/series-d",
-      "pubDate": "Fri, 19 Jun 2026 13:35:59 +0200",
-      "link": "https://www.ivoox.com/ntn-534-spacex-compra-cursor-audios-mp3_rf_175902551_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-534-spacex-compra-cursor_mf_175902551_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/a/c/e/face160d98cb4b861fce1c6795962ef3_XXL.jpg",
-      "embedId": "175902551",
-      "embedUrl": "https://www.ivoox.com/player_ej_175902551_6_1.html?c1=d69776"
     }
   ]
 }
