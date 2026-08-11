@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-10T04:21:25.572Z",
+  "generatedAt": "2026-08-11T04:10:44.296Z",
   "items": [
+    {
+      "title": "NTN 555 -   Chips, hackers y megavatios",
+      "description": "⚡ Episodio express: la Guerra de las Corrientes versión 2026.\r\n  Google libera TPU Raiden y le tira un puente al foso de CUDA\r\n  Claude Code en modo auto: bloquea el 89% de acciones peligrosas (vos, el 13,6%)\r\n ️ Kimsuky arma su ChatGPT casero con Ollama y RAG\r\n  CXMT: +500% en Shanghái, destrona a un banco\r\n  Amazon: permiso para 33M de toneladas de CO₂\r\n\r\nFuentes: \r\ngithub.com/google/tpu-raiden \r\nanthropic.com/engineering/claude-code-auto-mode",
+      "pubDate": "Mon, 10 Aug 2026 16:08:12 +0200",
+      "link": "https://www.ivoox.com/ntn-555-chips-hackers-megavatios-audios-mp3_rf_178688724_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-555-chips-hackers-megavatios_mf_178688724_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/3/8/b/d38b711c761687651b60d7b76dfd2c3b_XXL.jpg",
+      "embedId": "178688724",
+      "embedUrl": "https://www.ivoox.com/player_ej_178688724_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 554 -  Los genios se van de Google",
       "description": "¿Qué está pasando dentro de Google?\r\n\r\nJeff Dean se va después de 27 años, Demis Hassabis cambia de rol y varios pesos pesados de la IA buscan nuevos horizontes.\r\n\r\n ️ Hoy hablamos de talento, cultura, burocracia y la batalla por liderar la IA.\r\n\r\n  Fuentes:\r\n• https://x.com/JeffDean/status/2085036253263921218\r\n• https://taekim.substack.com/p/google-is-a-secular-short\r\n• https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/e/3/f/2/e3f2e512ba7e28a46b1b9bd32f48b7ea_XXL.jpg",
       "embedId": "176366496",
       "embedUrl": "https://www.ivoox.com/player_ej_176366496_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 535 -  ️ Meta arde y OpenAI cocina chips",
-      "description": "️ OpenAI cocina Jalapeño, su primer chip propio, mientras Meta imprime dinero y quema la moral de sus programadores. Despidos, vigilancia, IA obligatoria y una lección para LATAM antes de que se vaya todo al carajo.\r\n  Fuentes:\r\n• https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\r\n• https://www.reuters.com/legal/litigation/meta-pause-internal-mouse-tracking-tech-while-examining-data-security-issues-2026-06-22/\r\n• https://www.wired.com/story/andrew-bosworth-meta-employees-unrest/",
-      "pubDate": "Thu, 25 Jun 2026 16:00:56 +0200",
-      "link": "https://www.ivoox.com/ntn-535-meta-arde-openai-audios-mp3_rf_176273937_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-535-meta-arde-openai_mf_176273937_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/c/9/f/0/c9f0a881664aa08daadd1da6b5b7ce3e_XXL.jpg",
-      "embedId": "176273937",
-      "embedUrl": "https://www.ivoox.com/player_ej_176273937_6_1.html?c1=d69776"
     }
   ]
 }
