@@ -5,7 +5,7 @@
 <copyright>&#xA9; 2026 elbruno</copyright>
 <title><![CDATA[No Tiene Nombre]]></title>
 <link>https://www.ivoox.com/podcast-no-tiene-nombre_sq_f1277993_1.html</link>
-<language>es</language>
+<language>es-ES</language>
 <description><![CDATA[Ahora hablo mucho de AI, antes era una serie de charlas con amigos sobre tecnolog&iacute;a en general. Aunque por ahora No Tenemos Nombre, en un futuro seguro que maduramos y lo tenemos.
 
 https://notienenombre.com/]]></description>
@@ -23,6 +23,21 @@ https://notienenombre.com/]]></description>
 <itunes:name><![CDATA[elbruno]]></itunes:name>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
+<item>
+<title><![CDATA[NTN 556 -  ️ La IA agarró el mouse]]></title>
+<link>https://www.ivoox.com/ntn-556-la-ia-agarro-el-audios-mp3_rf_178843810_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-556-la-ia-agarro-el_mf_178843810_feed_1.mp3" type="audio/mpeg" length="21140375"/>
+<description><![CDATA[Claude empieza a dejar huellas invisibles y la IA ya no solo responde… ahora usa la computadora.  ️  Hablamos de Computer Use, Fara 1.5-9B, agentes locales y qué pasa cuando la IA puede hacer click por vos.
+  Fuentes:
+• https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content
+• https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/
+• https://github.com/microsoft/fara]]></description>
+<pubDate>Wed, 12 Aug 2026 16:28:32 +0200</pubDate>
+<itunes:duration>22:01</itunes:duration>
+<guid>https://www.ivoox.com/178843810</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/1/b/6/f1b692d4c1b755f41ac0c7a895ba4f8d_XXL.jpg"/>
+</item>
 <item>
 <title><![CDATA[NTN 555 -   Chips, hackers y megavatios]]></title>
 <link>https://www.ivoox.com/ntn-555-chips-hackers-megavatios-audios-mp3_rf_178688724_1.html</link>

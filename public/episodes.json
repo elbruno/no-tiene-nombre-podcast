@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-12T04:40:29.226Z",
+  "generatedAt": "2026-08-13T04:44:01.568Z",
   "items": [
+    {
+      "title": "NTN 556 -  ️ La IA agarró el mouse",
+      "description": "Claude empieza a dejar huellas invisibles y la IA ya no solo responde… ahora usa la computadora.  ️  Hablamos de Computer Use, Fara 1.5-9B, agentes locales y qué pasa cuando la IA puede hacer click por vos.\r\n  Fuentes:\r\n• https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content\r\n• https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/\r\n• https://github.com/microsoft/fara",
+      "pubDate": "Wed, 12 Aug 2026 16:28:32 +0200",
+      "link": "https://www.ivoox.com/ntn-556-la-ia-agarro-el-audios-mp3_rf_178843810_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-556-la-ia-agarro-el_mf_178843810_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/1/b/6/f1b692d4c1b755f41ac0c7a895ba4f8d_XXL.jpg",
+      "embedId": "178843810",
+      "embedUrl": "https://www.ivoox.com/player_ej_178843810_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 555 -   Chips, hackers y megavatios",
       "description": "⚡ Episodio express: la Guerra de las Corrientes versión 2026.\r\n  Google libera TPU Raiden y le tira un puente al foso de CUDA\r\n  Claude Code en modo auto: bloquea el 89% de acciones peligrosas (vos, el 13,6%)\r\n ️ Kimsuky arma su ChatGPT casero con Ollama y RAG\r\n  CXMT: +500% en Shanghái, destrona a un banco\r\n  Amazon: permiso para 33M de toneladas de CO₂\r\n\r\nFuentes: \r\ngithub.com/google/tpu-raiden \r\nanthropic.com/engineering/claude-code-auto-mode",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/7/3/1/57313099da046448088c936a901fb329_XXL.jpg",
       "embedId": "176453152",
       "embedUrl": "https://www.ivoox.com/player_ej_176453152_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 536 -   GPT-5.6 y el cerebro developer",
-      "description": "¿La IA nos hace más productivos o más dependientes? Hoy: GPT-5.6 y el salto del developer de coder a conductor.\r\n•   Productividad y deuda cognitiva\r\n• ⚠️ Más velocidad, ¿menos criterio?\r\nFuentes:\r\n• https://research.google/pubs/developer-productivity-in-the-age-of-generative-ai-a-psychological-perspective/\r\n• https://openai.com/index/previewing-gpt-5-6-sol/\r\n• https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-      "pubDate": "Sat, 27 Jun 2026 19:35:37 +0200",
-      "link": "https://www.ivoox.com/ntn-536-gpt-5-6-cerebro-audios-mp3_rf_176366496_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-536-gpt-5-6-cerebro_mf_176366496_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/e/3/f/2/e3f2e512ba7e28a46b1b9bd32f48b7ea_XXL.jpg",
-      "embedId": "176366496",
-      "embedUrl": "https://www.ivoox.com/player_ej_176366496_6_1.html?c1=d69776"
     }
   ]
 }
