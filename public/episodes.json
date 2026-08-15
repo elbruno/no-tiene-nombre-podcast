@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-14T04:41:12.002Z",
+  "generatedAt": "2026-08-15T03:29:52.518Z",
   "items": [
+    {
+      "title": "NTN 557 -   La IA ya no quiere ser la más lista",
+      "description": "Google baja precios, OpenAI pisa el acelerador y DeepSeek pone perilla al cerebro.   ¿La nueva guerra de la IA ya no es por ser la más inteligente, sino la más eficiente?\r\n\t•   Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\r\n\t•   OpenAI: https://openai.com/index/previewing-ultrafast/\r\n\t•   DeepSeek: https://api-docs.deepseek.com/news/news260813",
+      "pubDate": "Sat, 15 Aug 2026 02:27:27 +0200",
+      "link": "https://www.ivoox.com/ntn-557-la-ia-ya-no-audios-mp3_rf_178946948_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-557-la-ia-ya-no_mf_178946948_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/6/b/2/9/6b297c806c84346dba0861ff9d2d2859_XXL.jpg",
+      "embedId": "178946948",
+      "embedUrl": "https://www.ivoox.com/player_ej_178946948_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 556 -  ️ La IA agarró el mouse",
       "description": "Claude empieza a dejar huellas invisibles y la IA ya no solo responde… ahora usa la computadora.  ️  Hablamos de Computer Use, Fara 1.5-9B, agentes locales y qué pasa cuando la IA puede hacer click por vos.\r\n  Fuentes:\r\n• https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content\r\n• https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/\r\n• https://github.com/microsoft/fara",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/4/5/3/94534b25103332fc7f3c6f6af30f329b_XXL.jpg",
       "embedId": "176637205",
       "embedUrl": "https://www.ivoox.com/player_ej_176637205_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 537 -   Agent Harness: el jefe oculto",
-      "description": "¿Por qué dos agentes con el mismo LLM pueden rendir tan distinto? Descubrimos qué es un Agent Harness: contexto, herramientas, memoria, permisos, trazas y costos. El modelo piensa; el harness evita que todo se vaya al carajo.\r\n• Anthropic: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\r\n• OpenAI: https://developers.openai.com/api/docs/guides/agents\r\n• Microsoft: https://learn.microsoft.com/en-us/agent-framework/overview/",
-      "pubDate": "Mon, 29 Jun 2026 22:08:32 +0200",
-      "link": "https://www.ivoox.com/ntn-537-agent-harness-jefe-audios-mp3_rf_176453152_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-537-agent-harness-jefe_mf_176453152_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/7/3/1/57313099da046448088c936a901fb329_XXL.jpg",
-      "embedId": "176453152",
-      "embedUrl": "https://www.ivoox.com/player_ej_176453152_6_1.html?c1=d69776"
     }
   ]
 }
