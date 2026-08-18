@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-17T03:39:48.140Z",
+  "generatedAt": "2026-08-18T03:35:30.226Z",
   "items": [
+    {
+      "title": "NTN 558 -   Qwen arrasa: 3.000 millones de descargas",
+      "description": "️ ¡Episodio triple!   Qwen de Alibaba rompe récords: +3.000M de descargas y un modelo que corre en tu laptop     Dario Amodei baja a X a discutir regulación y confianza   OpenAI pierde ejecutivos camino a la IPO. Con la historia de la IBM PC (45 años) de fondo  \r\n\r\nFuentes: \r\n• bloomberg.com \r\n• x.com/DarioAmodei \r\n• techcrunch.com \r\n• cnbc.com \r\n• axios.com \r\n• thenewstack.io",
+      "pubDate": "Mon, 17 Aug 2026 23:48:03 +0200",
+      "link": "https://www.ivoox.com/ntn-558-qwen-arrasa-3-000-millones-audios-mp3_rf_179051161_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-558-qwen-arrasa-3-000-millones_mf_179051161_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/3/d/e/f3de923a899b17ec7f343b52369539e0_XXL.jpg",
+      "embedId": "179051161",
+      "embedUrl": "https://www.ivoox.com/player_ej_179051161_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 557 -   La IA ya no quiere ser la más lista",
       "description": "Google baja precios, OpenAI pisa el acelerador y DeepSeek pone perilla al cerebro.   ¿La nueva guerra de la IA ya no es por ser la más inteligente, sino la más eficiente?\r\n\t•   Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\r\n\t•   OpenAI: https://openai.com/index/previewing-ultrafast/\r\n\t•   DeepSeek: https://api-docs.deepseek.com/news/news260813",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/a/c/8/5ac8903ea9e1d00a6be3d27a9cc4b320_XXL.jpg",
       "embedId": "176731372",
       "embedUrl": "https://www.ivoox.com/player_ej_176731372_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 538 -   Como funciona la memoria en un Agente, Sonnet 5 y Fable are Back!",
-      "description": "¿Un agente recuerda… o solo relee el chat?\r\nHoy explicamos Agent Memory sin humo: memoria conversacional, semántica, episódica, RAG, riesgos y qué conviene guardar.\r\n⚡ Además: Claude Sonnet 5 y el regreso de Fable y Mythos.\r\nFuentes:\r\n• https://www.oreilly.com/radar/agent-memory/\r\n• https://x.com/claudeai/status/2072017450611142835\r\n• https://x.com/AnthropicAI/status/2072106151890809341\r\n• https://x.com/AnthropicAI/status/2072163884430229756",
-      "pubDate": "Wed, 01 Jul 2026 20:26:18 +0200",
-      "link": "https://www.ivoox.com/ntn-538-como-funciona-memoria-audios-mp3_rf_176637205_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-538-como-funciona-memoria_mf_176637205_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/4/5/3/94534b25103332fc7f3c6f6af30f329b_XXL.jpg",
-      "embedId": "176637205",
-      "embedUrl": "https://www.ivoox.com/player_ej_176637205_6_1.html?c1=d69776"
     }
   ]
 }
