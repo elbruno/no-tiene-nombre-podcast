@@ -89,7 +89,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
     role="article"
     aria-label={`Episodio: ${episode.title}`}
     tabIndex={0}
-    className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+    className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 py-0 gap-0 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
   style={{ transform: prefersReduced ? undefined : `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
   > 
       {/* Neural glow effect */}
@@ -104,7 +104,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
 
       {/* Episode image (if present) */}
       {episode.imageUrl && (
-        <div className="w-full aspect-square relative">
+        <div className="w-full aspect-square relative overflow-hidden">
           <img
             src={episode.imageUrl}
             alt={episode.title}
@@ -112,7 +112,7 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
             decoding="async"
             fetchPriority="low"
             draggable={false}
-            className="w-full h-full object-cover rounded-lg shadow-md"
+            className="w-full h-full object-cover"
           />
         </div>
       )}
