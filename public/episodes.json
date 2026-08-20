@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-19T03:37:28.398Z",
+  "generatedAt": "2026-08-20T03:37:22.717Z",
   "items": [
+    {
+      "title": "NTN 559 - ⚡ Agile vs IA: 25 años y una crisis",
+      "description": "️ ¡El Manifiesto Ágil cumplió 25 años y la IA vino a preguntarle si sigue vivo! ⚡\r\n ️ De la crisis de 1968 a Snowbird 2001   DORA 2025: ~90% de devs usa IA... y 30% no confía en su código   PMI + Agile Alliance: los rebeldes se mudaron con el enemigo ✅ ¿Los 4 valores sobreviven? Spoiler: sí, pero el teatro no\r\nFuentes:\r\n\t• agilemanifesto.org/history.html\r\n\t• cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report\r\n\t• pmi.org/about/press-media/2025",
+      "pubDate": "Wed, 19 Aug 2026 16:01:57 +0200",
+      "link": "https://www.ivoox.com/ntn-559-agile-vs-ia-25-audios-mp3_rf_179202423_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-559-agile-vs-ia-25_mf_179202423_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/4/b/8/c4b81db9c93a25ff424dfecd3b7204e5_XXL.jpg",
+      "embedId": "179202423",
+      "embedUrl": "https://www.ivoox.com/player_ej_179202423_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 558 -   Qwen arrasa: 3.000 millones de descargas",
       "description": "️ ¡Episodio triple!   Qwen de Alibaba rompe récords: +3.000M de descargas y un modelo que corre en tu laptop     Dario Amodei baja a X a discutir regulación y confianza   OpenAI pierde ejecutivos camino a la IPO. Con la historia de la IBM PC (45 años) de fondo  \r\n\r\nFuentes: \r\n• bloomberg.com \r\n• x.com/DarioAmodei \r\n• techcrunch.com \r\n• cnbc.com \r\n• axios.com \r\n• thenewstack.io",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/a/a/1/5aa1a6249f3c8f3672bbc8e59271e9bd_XXL.jpg",
       "embedId": "176832468",
       "embedUrl": "https://www.ivoox.com/player_ej_176832468_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 539 -   Amazon, dos pizzas, cero burocracia",
-      "description": "Amazon quiere volver a sus equipos de “dos pizzas”: grupos pequeños, autónomos y capaces de prototipar antes de que la burocracia se coma la idea. Descubrimos cómo nació esta cultura, por qué la IA la vuelve relevante otra vez y qué puede aprender LATAM.\r\n• Fuente: https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html",
-      "pubDate": "Fri, 03 Jul 2026 17:37:54 +0200",
-      "link": "https://www.ivoox.com/ntn-539-amazon-dos-pizzas-cero-audios-mp3_rf_176731372_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-539-amazon-dos-pizzas-cero_mf_176731372_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/a/c/8/5ac8903ea9e1d00a6be3d27a9cc4b320_XXL.jpg",
-      "embedId": "176731372",
-      "embedUrl": "https://www.ivoox.com/player_ej_176731372_6_1.html?c1=d69776"
     }
   ]
 }
