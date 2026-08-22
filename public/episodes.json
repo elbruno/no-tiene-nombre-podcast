@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-21T03:41:05.043Z",
+  "generatedAt": "2026-08-22T03:32:44.065Z",
   "items": [
+    {
+      "title": "NTN 560 -   GitHub se cayó: 8 horas que sacudieron al software",
+      "description": "¡GitHub se cayó casi 8 horas y te contamos por qué desde adentro!\r\n\t  La IA duplicó los commits en 4 meses: de 1.4B a 2.9B  ️ Sistemas distribuidos 101: retry storms y fallas en cascada   El post-mortem del CTO: qué falló y qué viene ☁️ La migración a Azure: del 12% al 58% en 3 meses\r\n\tFuentes:\r\n\t\t○ https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/\r\n\t\t○ https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+      "pubDate": "Fri, 21 Aug 2026 16:21:14 +0200",
+      "link": "https://www.ivoox.com/ntn-560-github-se-cayo-8-audios-mp3_rf_179299737_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-560-github-se-cayo-8_mf_179299737_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/e/3/8/7e389e7f40d536ca7735ef99afc43cdf_XXL.jpg",
+      "embedId": "179299737",
+      "embedUrl": "https://www.ivoox.com/player_ej_179299737_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 559 - ⚡ Agile vs IA: 25 años y una crisis",
       "description": "️ ¡El Manifiesto Ágil cumplió 25 años y la IA vino a preguntarle si sigue vivo! ⚡\r\n ️ De la crisis de 1968 a Snowbird 2001   DORA 2025: ~90% de devs usa IA... y 30% no confía en su código   PMI + Agile Alliance: los rebeldes se mudaron con el enemigo ✅ ¿Los 4 valores sobreviven? Spoiler: sí, pero el teatro no\r\nFuentes:\r\n\t• agilemanifesto.org/history.html\r\n\t• cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report\r\n\t• pmi.org/about/press-media/2025",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/0/3/0/e/030ef9a158d6ca6dba8df23327257316_XXL.jpg",
       "embedId": "177026396",
       "embedUrl": "https://www.ivoox.com/player_ej_177026396_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 540 -   Agentes sin freno, El loop manda",
-      "description": "¿Un agente autónomo o un hámster quemando tokens? Exploramos el Agent Loop, el método de Karpathy y por qué GPT-5.6 necesita métricas, límites y una buena regla de salida. Menos magia, más ingeniería.\r\n  Fuentes:\r\n• https://x.com/0xCodila/status/2072329149520232639\r\n• https://github.com/karpathy/autoresearch\r\n• https://openai.com/index/previewing-gpt-5-6-sol/",
-      "pubDate": "Mon, 06 Jul 2026 15:19:08 +0200",
-      "link": "https://www.ivoox.com/ntn-540-agentes-sin-freno-el-audios-mp3_rf_176832468_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-540-agentes-sin-freno-el_mf_176832468_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/a/a/1/5aa1a6249f3c8f3672bbc8e59271e9bd_XXL.jpg",
-      "embedId": "176832468",
-      "embedUrl": "https://www.ivoox.com/player_ej_176832468_6_1.html?c1=d69776"
     }
   ]
 }
