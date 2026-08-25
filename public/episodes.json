@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-24T03:43:42.404Z",
+  "generatedAt": "2026-08-25T03:39:22.594Z",
   "items": [
+    {
+      "title": "NTN 561 -   El apagón de Sony: nada de lo que compraste es tuyo",
+      "description": "¡Miles de PlayStations apagadas y Sony responde con un mail diciendo que tus juegos NO son tuyos!  \r\n  #PSBlackout: la protesta contra el fin del disco físico \r\n  Nvidia sube 15-17% sus servidores de IA \r\n  Hugging Face explora venta por US$13.000M \r\n  El día que Amazon borró \"1984\" de los Kindles\r\n\r\nFuentes:\r\n • bloomberg.com \r\n• pushsquare.com \r\n• huggingface.co/docs/hub \r\n• techcrunch.com",
+      "pubDate": "Mon, 24 Aug 2026 21:05:38 +0200",
+      "link": "https://www.ivoox.com/ntn-561-el-apagon-sony-audios-mp3_rf_179420454_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-561-el-apagon-sony_mf_179420454_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/7/d/4/87d4f55b9360467b774328ee503f5e98_XXL.jpg",
+      "embedId": "179420454",
+      "embedUrl": "https://www.ivoox.com/player_ej_179420454_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 560 -   GitHub se cayó: 8 horas que sacudieron al software",
       "description": "¡GitHub se cayó casi 8 horas y te contamos por qué desde adentro!\r\n\t  La IA duplicó los commits en 4 meses: de 1.4B a 2.9B  ️ Sistemas distribuidos 101: retry storms y fallas en cascada   El post-mortem del CTO: qué falló y qué viene ☁️ La migración a Azure: del 12% al 58% en 3 meses\r\n\tFuentes:\r\n\t\t○ https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/\r\n\t\t○ https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/1/3/0/6/1306c0c51ae285a5452c20273ada321b_XXL.jpg",
       "embedId": "177112503",
       "embedUrl": "https://www.ivoox.com/player_ej_177112503_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 541 - META Watermelon and Muse Image",
-      "description": "Meta llega con Muse Image y Watermelon: imágenes, agentes, benchmarks y privacidad mezclados en la misma licuadora.\r\n  ¿Revolución creativa o fábrica de spam bonito? Spoiler: ambas.\r\nFuentes:\r\n\t• https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/\r\n\t• https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/\r\n\t• https://arena.ai/leaderboard/text-to-image",
-      "pubDate": "Wed, 08 Jul 2026 21:43:27 +0200",
-      "link": "https://www.ivoox.com/ntn-541-meta-watermelon-and-muse-image-audios-mp3_rf_177026396_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-541-meta-watermelon-and-muse-image_mf_177026396_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/3/0/e/030ef9a158d6ca6dba8df23327257316_XXL.jpg",
-      "embedId": "177026396",
-      "embedUrl": "https://www.ivoox.com/player_ej_177026396_6_1.html?c1=d69776"
     }
   ]
 }
