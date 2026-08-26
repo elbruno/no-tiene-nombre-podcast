@@ -1,6 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
-import { useReducedMotion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Play, Brain, Share2 } from "lucide-react";
@@ -14,37 +13,27 @@ interface EpisodeCardProps {
 }
 
 export function EpisodeCard({ episode, index }: EpisodeCardProps) {
-  const [visible, setVisible] = useState(false);
-  const cardRef = useRef<HTMLDivElement>(null);
-  const [tilt, setTilt] = useState({ rx: 0, ry: 0 });
-  const prefersReduced = useReducedMotion();
+  const [showImage, setShowImage] = useState(false);
+  const imageRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const timeout = setTimeout(() => setVisible(true), 100 + index * 80);
-    return () => clearTimeout(timeout);
-  }, [index]);
-  // pointer-based tilt (reduced and subtle)
-  useEffect(() => {
-    if (prefersReduced) return;
-    const el = cardRef.current;
-    if (!el) return;
-    const handleMove = (e: MouseEvent) => {
-      const rect = el.getBoundingClientRect();
-      const px = (e.clientX - rect.left) / rect.width; // 0..1
-      const py = (e.clientY - rect.top) / rect.height; // 0..1
-      const ry = (px - 0.5) * 6; // rotateY
-      const rx = -(py - 0.5) * 6; // rotateX
-      setTilt({ rx, ry });
-    };
-    const reset = () => setTilt({ rx: 0, ry: 0 });
-    el.addEventListener('mousemove', handleMove);
-    el.addEventListener('mouseleave', reset);
-    el.addEventListener('blur', reset);
-    return () => {
-      el.removeEventListener('mousemove', handleMove);
-      el.removeEventListener('mouseleave', reset);
-      el.removeEventListener('blur', reset);
-    };
-  }, [prefersReduced]);
+    const node = imageRef.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShowImage(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '0px 0px 600px' }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
   const formatDate = (dateString: string) => {
     try {
       const date = new Date(dateString);
@@ -85,12 +74,10 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
 
   return (
   <Card
-    ref={cardRef as any}
     role="article"
     aria-label={`Episodio: ${episode.title}`}
     tabIndex={0}
-    className={`group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden perspective-1000 transition-all duration-700 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 py-0 gap-0 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-  style={{ transform: prefersReduced ? undefined : `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
+    className="group hover-lift glass-effect [border-color:var(--border)] hover:[border-color:var(--primary)] relative overflow-hidden transition-all duration-300 ease-out max-w-xs mx-auto md:max-w-sm shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 py-0 gap-0"
   > 
       {/* Neural glow effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -104,16 +91,18 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
 
       {/* Episode image (if present) */}
       {episode.imageUrl && (
-        <div className="w-full aspect-square relative overflow-hidden">
-          <img
-            src={episode.imageUrl}
-            alt={episode.title}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="low"
-            draggable={false}
-            className="w-full h-full object-cover"
-          />
+        <div ref={imageRef} className="w-full aspect-square relative overflow-hidden bg-muted">
+          {showImage && (
+            <img
+              src={episode.imageUrl}
+              alt={episode.title}
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
+              draggable={false}
+              className="w-full h-full object-cover"
+            />
+          )}
         </div>
       )}
       {/* Main content */}
@@ -186,10 +175,9 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
               size="sm"
               className="text-accent hover:text-primary transition-colors duration-300 p-0 h-auto opacity-60 group-hover:opacity-100"
               onClick={() => window.open(episode.link, '_blank')}
-      aria-label={`Abrir episodio en iVoox: ${episode.title}`}
             >
               {/* ExternalLink icon removed */}
-              Escuchar episodio
+              Escuchar episodio en iVoox
             </Button>
           </div>
         )}

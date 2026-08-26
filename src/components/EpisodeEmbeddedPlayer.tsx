@@ -58,7 +58,6 @@ export function EpisodeEmbeddedPlayer({ audioUrl, embedUrl, title }: EpisodeEmbe
         size="sm"
         onClick={togglePlayer}
         aria-expanded={isExpanded}
-        aria-label={isExpanded ? 'Cerrar reproductor' : 'Abrir reproductor'}
         className="bg-primary/10 hover:bg-primary/20 text-primary border-primary/30 hover:border-primary/50 transition-all duration-300"
       >
         {isExpanded ? <Pause size={16} className="mr-2" /> : <Play size={16} className="mr-2" />}

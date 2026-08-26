@@ -10,7 +10,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { BarChart3, MapPin, Users, TrendingUp, Eye } from 'lucide-react';
 import { useVisitorStats } from '@/hooks/useVisitorStats';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 export function VisitorStatsDialog() {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,8 @@ export function VisitorStatsDialog() {
         <Button
           variant="outline"
           size="sm"
-          className="glass-effect hover:bg-accent/10 border-accent/40 hover:border-accent text-accent hover:text-accent"
+          aria-label="Ver estadísticas de visitantes"
+          className="min-h-11 min-w-11 glass-effect hover:bg-accent/10 border-accent/40 hover:border-accent text-accent hover:text-accent"
         >
           <BarChart3 size={16} className="mr-2" />
           <span className="hidden sm:inline">Stats</span>
@@ -52,7 +53,7 @@ export function VisitorStatsDialog() {
           <div className="space-y-6 py-4">
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
@@ -65,9 +66,9 @@ export function VisitorStatsDialog() {
                   {stats.totalVisits}
                 </div>
                 <div className="text-sm text-muted-foreground">Total Visits</div>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
@@ -80,9 +81,9 @@ export function VisitorStatsDialog() {
                   {stats.uniqueVisitors}
                 </div>
                 <div className="text-sm text-muted-foreground">Unique Visitors</div>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
@@ -95,9 +96,9 @@ export function VisitorStatsDialog() {
                   {stats.currentSessionVisits}
                 </div>
                 <div className="text-sm text-muted-foreground">This Session</div>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
@@ -110,12 +111,12 @@ export function VisitorStatsDialog() {
                   {stats.userLocation || 'Unknown'}
                 </div>
                 <div className="text-sm text-muted-foreground">Your Location</div>
-              </motion.div>
+              </m.div>
             </div>
 
             {/* Top Locations */}
             {topLocations.length > 0 && (
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
@@ -143,7 +144,7 @@ export function VisitorStatsDialog() {
                     </div>
                   ))}
                 </div>
-              </motion.div>
+              </m.div>
             )}
 
             {/* Footer Note */}
