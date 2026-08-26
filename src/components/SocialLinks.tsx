@@ -53,7 +53,8 @@ export function SocialLinks({ variant = 'footer', className = '' }: SocialLinksP
               key={social.name}
               variant="ghost"
               size="sm"
-              className={`p-2 h-8 w-8 glass-effect hover:bg-primary/20 ${social.color} transition-all duration-300 hover:scale-110`}
+              aria-label={`Sígueme en ${social.name}`}
+              className={`p-2 h-11 w-11 glass-effect hover:bg-primary/20 ${social.color} transition-all duration-300 hover:scale-110`}
               onClick={() => window.open(social.url, '_blank')}
             >
               <social.icon size={16} />

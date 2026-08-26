@@ -57,14 +57,26 @@
                 }
             }
         </script>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3CNJSV59J"></script>
+        <!-- Google Analytics loads after the page becomes idle so it does not delay rendering. -->
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+            window.addEventListener('load', () => {
+                const loadAnalytics = () => {
+                    const script = document.createElement('script');
+                    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-F3CNJSV59J';
+                    script.async = true;
+                    document.head.append(script);
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-F3CNJSV59J');
+                };
 
-            gtag('config', 'G-F3CNJSV59J');
+                if ('requestIdleCallback' in window) {
+                    window.requestIdleCallback(loadAnalytics, { timeout: 5000 });
+                } else {
+                    window.setTimeout(loadAnalytics, 3000);
+                }
+            });
         </script>
 </head>
 

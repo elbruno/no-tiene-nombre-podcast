@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 function useSectionFadeIn() {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -27,11 +27,8 @@ import { SocialLinks } from "@/components/SocialLinks";
 import { fetchPodcastRSS } from "@/lib/podcast-api";
 import { PodcastData } from "@/lib/types";
 import { useLanguage } from "@/lib/LanguageContext";
-import { TestimonialsSection } from "@/components/TestimonialsSection";
-import { HostBioCard } from "@/components/HostBioCard";
-import { CTABanner } from "@/components/CTABanner";
 import { JsonLd } from "@/components/JsonLd";
-import { motion, useReducedMotion } from "framer-motion";
+import { LazyMotion, domAnimation, m, useReducedMotion } from "framer-motion";
 import { LatestEpisodePromo } from "@/components/LatestEpisodePromo";
 import { EpisodesToolbar } from "@/components/EpisodesToolbar";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
@@ -39,6 +36,9 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SpanishEpisodeWarning } from "@/components/SpanishEpisodeWarning";
 import { Switch } from "@/components/ui/switch";
 import { VisitorStatsDialog } from "@/components/VisitorStatsDialog";
+
+const TestimonialsSection = lazy(() => import("@/components/TestimonialsSection").then(({ TestimonialsSection }) => ({ default: TestimonialsSection })));
+const CTABanner = lazy(() => import("@/components/CTABanner").then(({ CTABanner }) => ({ default: CTABanner })));
 
 
 function App() {
@@ -121,11 +121,12 @@ function App() {
   };
 
   useEffect(() => {
-    loadPodcastData();
+    void loadPodcastData(true);
   }, []);
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
+    <LazyMotion features={domAnimation}>
+      <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
       {/* Promote latest episode immediately */}
       {loading && <LatestEpisodePromo loading variant="banner" />}
       {!loading && !error && podcastData?.episodes?.[0] && (
@@ -165,7 +166,7 @@ function App() {
       
       {/* Hero Section */}
       <header className="relative min-h-screen flex items-center justify-center">
-        <motion.div
+        <m.div
           className="absolute inset-0 gradient-bg opacity-50"
           initial={prefersReduced ? undefined : { opacity: 0 }}
           animate={prefersReduced ? undefined : { opacity: 0.5 }}
@@ -199,7 +200,7 @@ function App() {
             <SocialLinks variant="header" />
           </div>
           
-          <motion.div 
+          <m.div
             className="max-w-5xl mx-auto text-center space-y-8"
             initial={prefersReduced ? undefined : { opacity: 0, y: 12 }}
             whileInView={prefersReduced ? undefined : { opacity: 1, y: 0 }}
@@ -230,7 +231,7 @@ function App() {
             </div>
             
             {/* CTA Buttons */}
-            <motion.div 
+            <m.div
               className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8"
               initial={prefersReduced ? undefined : { opacity: 0, y: 8 }}
               whileInView={prefersReduced ? undefined : { opacity: 1, y: 0 }}
@@ -261,19 +262,15 @@ function App() {
               >
                 {pageTexts.hero.cta_testimonials}
               </Button>
-            </motion.div>
-          </motion.div>
+            </m.div>
+          </m.div>
         </div>
       </header>
 
       <main className="container mx-auto px-4 py-20 relative z-10 space-y-24">
-        {/* Platform Links */}
         <PlatformLinks />
 
-        {/* Episodes Section - render immediately on load */}
-        {
-          (
-            <section id="episodes" className="scroll-mt-20">
+        <section id="episodes" className="scroll-mt-20">
               <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-foreground font-display mb-4">
                   {pageTexts.episodes.section_title}
@@ -314,40 +311,38 @@ function App() {
                       .slice(0, pageSize);
                     if (viewMode === 'list') {
                       return (
-                        <motion.div
+                        <m.div
                           className="flex flex-col gap-4"
                           variants={container}
                           initial="hidden"
                           animate="show"
                         >
                           {eps.map((episode, index) => (
-                            <motion.div key={episode.id} variants={item}>
+                            <m.div key={episode.id} variants={item}>
                               <EpisodeListItem episode={episode} index={index} />
-                            </motion.div>
+                            </m.div>
                           ))}
-                        </motion.div>
+                        </m.div>
                       );
                     }
                     return (
-                      <motion.div
+                      <m.div
                         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
                         variants={container}
                         initial="hidden"
                         animate="show"
                       >
                         {eps.map((episode, index) => (
-                          <motion.div key={episode.id} variants={item}>
+                          <m.div key={episode.id} variants={item}>
                             <EpisodeCard episode={episode} index={index} />
-                          </motion.div>
+                          </m.div>
                         ))}
-                      </motion.div>
+                      </m.div>
                     );
                   })()}
                 </>
               )}
-            </section>
-          )
-        }
+        </section>
 
         {/* About Section */}
         {(() => {
@@ -361,9 +356,9 @@ function App() {
                       <Brain size={48} className="text-primary" />
                     </div>
                   </div>
-                  <h3 className="text-3xl font-bold text-foreground font-display">
+                  <h2 className="text-3xl font-bold text-foreground font-display">
                     {pageTexts.about.section_title}
-                  </h3>
+                  </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                     {pageTexts.about.description}
                   </p>
@@ -429,9 +424,10 @@ function App() {
           );
         })()}
 
-  {/* Testimonials Section */}
-  <TestimonialsSection />
-  <CTABanner />
+  <Suspense fallback={null}>
+    <TestimonialsSection />
+    <CTABanner />
+  </Suspense>
   </main>
 
       {/* Footer */}
@@ -463,7 +459,8 @@ function App() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </LazyMotion>
   );
 }
 

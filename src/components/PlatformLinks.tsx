@@ -24,9 +24,9 @@ export function PlatformLinks({ className }: PlatformLinksProps) {
   return (
     <div className={className}>
       <div className="text-center mb-8">
-        <h3 className="text-2xl font-bold text-foreground mb-3 font-display">
+        <h2 className="text-2xl font-bold text-foreground mb-3 font-display">
           Escúchanos en todas las plataformas
-        </h3>
+        </h2>
       </div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
