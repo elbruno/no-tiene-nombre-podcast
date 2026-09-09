@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-08-26T03:43:32.377Z",
+  "generatedAt": "2026-09-09T13:43:50.450Z",
   "items": [
+    {
+      "title": "NTN 566 -   OpenAI GPT-5.6-Astra",
+      "description": "OpenAI lanzó GPT-6 Astra y por primera vez le puso candado a su propio modelo.\r\n\r\n  Primer modelo \"Crítico\" en ciberseguridad\r\n ️ Te maneja la compu: 72,6% en OSWorld, mitad de tiempo\r\n  La historia del gusano de Morris (1988)\r\n⚠️ Mejor alineado... y más difícil de auditar\r\n\r\nFuentes:\r\n- openai.com/index/gpt-6-astra/\r\n- openai.com/index/safety-overview-gpt-6-astra/",
+      "pubDate": "Fri, 04 Sep 2026 02:49:19 +0200",
+      "link": "https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra-audios-mp3_rf_180001679_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra_mf_180001679_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/a/4/6/5a462acb6b35ed9c575d2da12fa93f62_XXL.jpg",
+      "embedId": "180001679",
+      "embedUrl": "https://www.ivoox.com/player_ej_180001679_6_1.html?c1=d69776"
+    },
+    {
+      "title": "NTN 565 -   La Gran Fuga: por qué los CTOs renuncian a la nada",
+      "description": "CTOs y VPs de Engineering renunciando sin nada firmado: ¿qué está pasando?\r\n  \"Founder slop\": el PR de 60.000 líneas que tu fundador shipeó un domingo\r\n  Preference stacks: por qué tu 2% de equity puede valer cero\r\n ️ Y un romano del 458 a.C. que ya lo había resuelto\r\nEpisodio corto, de valija, con voseo y sin humo.\r\nFuente: newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break",
+      "pubDate": "Thu, 03 Sep 2026 14:58:12 +0200",
+      "link": "https://www.ivoox.com/ntn-565-la-gran-fuga-por-audios-mp3_rf_179978201_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-565-la-gran-fuga-por_mf_179978201_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/c/9/8/7c98fb8de84e5a2313ea62383bb81a1e_XXL.jpg",
+      "embedId": "179978201",
+      "embedUrl": "https://www.ivoox.com/player_ej_179978201_6_1.html?c1=d69776"
+    },
+    {
+      "title": "NTN 564 - ⚡ Guerra de titanes, IA gratis y robots científicos",
+      "description": "⚡ ¡Episodio express con las noticias más jugosas de la semana!\r\n  OpenAI le corta el acceso a Cursor tras la compra de SpaceX\r\n  SKILL.state: agentes con 94% menos tokens ¡y más precisión!\r\n  Corea del Sur regala IA ilimitada a 52 millones de personas\r\n  Gemini Co-Scientist ya trabaja en laboratorios reales\r\n  Fuentes:\r\n\t• https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html\r\n\t• https://arxiv.org/abs/2608.26263\r\n\t• https://www.koreaherald.com/article/10855962\r\n\t• https://arxiv.org/abs/2608.26701",
+      "pubDate": "Mon, 31 Aug 2026 03:09:27 +0200",
+      "link": "https://www.ivoox.com/ntn-564-guerra-titanes-ia-audios-mp3_rf_179731796_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-564-guerra-titanes-ia_mf_179731796_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/d/b/f/8dbf9b60204052a27c4cc681fe19bbfc_XXL.jpg",
+      "embedId": "179731796",
+      "embedUrl": "https://www.ivoox.com/player_ej_179731796_6_1.html?c1=d69776"
+    },
+    {
+      "title": "NTN 563 -   SRE vs FDE: la guerra de las siglas millonarias",
+      "description": "️ ¡Viernes de siglas en NTN! Destripamos los dos roles del momento:\r\n\t  SRE: el invento de Google en 2003 para que nada se caiga \r\n\t ️ FDE: el rol de Palantir que explotó +800% y hoy paga fortunas  \r\n\t  ️ Y la historia de IBM en 1964 que ya lo había inventado todo \r\n\t  Con mate, autocrítica de Microsoft y sueldos de vértigo\r\n\tFuentes: \r\n\t• https://sre.google \r\n• https://thenewstack.io/forward-deployed-engineers-ai/",
+      "pubDate": "Fri, 28 Aug 2026 15:26:43 +0200",
+      "link": "https://www.ivoox.com/ntn-563-sre-vs-fde-la-audios-mp3_rf_179653225_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-563-sre-vs-fde-la_mf_179653225_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/f/7/8/9f783a8db024ba751ca7263216981788_XXL.jpg",
+      "embedId": "179653225",
+      "embedUrl": "https://www.ivoox.com/player_ej_179653225_6_1.html?c1=d69776"
+    },
+    {
+      "title": "NTN 562 -   IA, chips y miles de millones",
+      "description": "¡Episodio express con cuatro fuegos prendidos! \r\n  El playbook de Anthropic: SDLC nativo en IA   Alibaba: US$10.200M y videos de 30s con Wan 3.0 \r\n  Taiwán imputa a 9 por contrabando de GPUs a China \r\n ️ SpaceXAI + Nvidia: ¡datacenter en órbita para 2027! \r\n\r\nFuentes: \r\n• claude.com/blog/the-ai-native-sdlc-playbook • pbs.org/newshour • nvidianews.nvidia.com • finance.yahoo.com",
+      "pubDate": "Wed, 26 Aug 2026 18:15:57 +0200",
+      "link": "https://www.ivoox.com/ntn-562-ia-chips-miles-audios-mp3_rf_179567975_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-562-ia-chips-miles_mf_179567975_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/d/8/1/8d8176a92bae8fa18faf1c4d9545f7fc_XXL.jpg",
+      "embedId": "179567975",
+      "embedUrl": "https://www.ivoox.com/player_ej_179567975_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 561 -   El apagón de Sony: nada de lo que compraste es tuyo",
       "description": "¡Miles de PlayStations apagadas y Sony responde con un mail diciendo que tus juegos NO son tuyos!  \r\n  #PSBlackout: la protesta contra el fin del disco físico \r\n  Nvidia sube 15-17% sus servidores de IA \r\n  Hugging Face explora venta por US$13.000M \r\n  El día que Amazon borró \"1984\" de los Kindles\r\n\r\nFuentes:\r\n • bloomberg.com \r\n• pushsquare.com \r\n• huggingface.co/docs/hub \r\n• techcrunch.com",
@@ -150,56 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/2/2/b/5/22b50f6f1dd5943d4c3c96ceda52d6e6_XXL.jpg",
       "embedId": "177750991",
       "embedUrl": "https://www.ivoox.com/player_ej_177750991_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 546 -   China abre el juego, Kimi K3, Qwen 3.8 y lo que viene",
-      "description": "¡La semana MÁS loca de la IA en 2026!   En 5 días el mapa del poder cambió y te lo contamos como nadie:\r\n\t•   Xi Jinping en la WAIC: 5.000 becas de IA y la \"sinfonía\" de la cooperación\r\n\t•   Kimi K3: 2.8 billones de parámetros… ¡y abierto!\r\n\t•   Qwen 3.8-Max: el gigante de Alibaba que llegó sin currículum\r\n\t•   Inkling: la apuesta abierta de Mira Murati\r\n\t•   Bonus: el transistor, Sony y por qué esta película ya la vimos\r\n¡Dale play!  \r\nFuentes:\r\n\t• Discurso completo de Xi (Xinhua): https://english.news.cn/20260717/893fe11097db460ea31b98f131e34ef0/c.html\r\n\t• Xi en la WAIC (CNBC): https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html\r\n\t• Kimi K3 (Tom's Hardware): https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3\r\n\t• Qwen3.8-Max (MarkTechPost): https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/\r\nInkling (TechCrunch): https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "pubDate": "Mon, 20 Jul 2026 16:52:11 +0200",
-      "link": "https://www.ivoox.com/ntn-546-china-abre-juego-audios-mp3_rf_177585634_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-546-china-abre-juego_mf_177585634_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/f/6/8/7f6859c0f9cd51e9d24abf18b66252f9_XXL.jpg",
-      "embedId": "177585634",
-      "embedUrl": "https://www.ivoox.com/player_ej_177585634_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 545 - ⌨️ OpenAI te vende un Tecladito y China te Regala un Monstruo",
-      "description": "️ ¡Semana de locos! OpenAI lanza su primer hardware… ¡y es un tecladito con perilla para el cerebro!  \r\n  Kimi K3: 2,8 billones de parámetros, pesos abiertos el 27/7   Inkling: Mira Murati pone a EE.UU. en el tablero open   \r\nY la historia de cómo Bell Labs regaló el transistor… y ganó Sony\r\nFuentes: \r\n• simonwillison.net/2026/Jul/16/kimi-k3 \r\n• thinkingmachines.ai/news/introducing-inkling \r\n• engadget.com/2215952",
-      "pubDate": "Fri, 17 Jul 2026 17:29:29 +0200",
-      "link": "https://www.ivoox.com/ntn-545-openai-te-vende-un-audios-mp3_rf_177478659_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-545-openai-te-vende-un_mf_177478659_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/5/0/c/450c7b85e02fc445105c2603e1ca1fb9_XXL.jpg",
-      "embedId": "177478659",
-      "embedUrl": "https://www.ivoox.com/player_ej_177478659_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 544 -   La IA quiere cuerpo y enchufe",
-      "description": "ChatGPT quiere salir de la pantalla y convertirse en un compañero que se mueve por tu casa. Mientras tanto, DeepMind pide un árbitro para la IA y Nueva York frena los megacentros de datos. ¿Quién controla, regula y paga la electricidad?\r\n  Fuentes:\r\n• https://www.reuters.com/technology/openais-first-hardware-device-will-be-speaker-bloomberg-news-reports-2026-07-14/\r\n• https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind\r\n• https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
-      "pubDate": "Thu, 16 Jul 2026 01:55:52 +0200",
-      "link": "https://www.ivoox.com/ntn-544-la-ia-quiere-cuerpo-audios-mp3_rf_177394228_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-544-la-ia-quiere-cuerpo_mf_177394228_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/9/f/b/19fb9f55134efdc2e336aef01c08b61e_XXL.jpg",
-      "embedId": "177394228",
-      "embedUrl": "https://www.ivoox.com/player_ej_177394228_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 543 -   Apple vs. OpenAI: guerra de secretos",
-      "description": "Cuatro noticias, un mismo problema: quién controla la IA.\r\n•   Apple acusa a OpenAI de robo de secretos\r\n•   SK Hynix anticipa escasez de memoria hasta 2030\r\n•   DeepMind explica cuándo delegar a agentes\r\n•  ️ OpenAI reorganiza seguridad\r\nFuentes:\r\n• https://arxiv.org/abs/2602.11865\r\n• https://www.wired.com/story/openai-head-of-safety-leaving/\r\n• https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
-      "pubDate": "Mon, 13 Jul 2026 18:50:27 +0200",
-      "link": "https://www.ivoox.com/ntn-543-apple-vs-openai-guerra-audios-mp3_rf_177229650_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-543-apple-vs-openai-guerra_mf_177229650_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/0/9/d/7/09d74e3de72b153a3d661e4d499ee97f_XXL.jpg",
-      "embedId": "177229650",
-      "embedUrl": "https://www.ivoox.com/player_ej_177229650_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 542 -   GPT-5.6 Modelos más listos, facturas más peligrosas",
-      "description": "☀️ OpenAI lanza GPT-5.6 Sol, Terra y Luna, mientras Meta responde con Muse Spark 1.1: agentes que programan, navegan y controlan tu computadora.\r\n  La batalla ya no es por el modelo más listo, sino por quién trabaja mejor por dólar.\r\n  Fuentes:\r\n• https://openai.com/index/gpt-5-6/\r\n• https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\r\n• https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
-      "pubDate": "Fri, 10 Jul 2026 15:36:15 +0200",
-      "link": "https://www.ivoox.com/ntn-542-gpt-5-6-modelos-mas-listos-audios-mp3_rf_177112503_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-542-gpt-5-6-modelos-mas-listos_mf_177112503_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/3/0/6/1306c0c51ae285a5452c20273ada321b_XXL.jpg",
-      "embedId": "177112503",
-      "embedUrl": "https://www.ivoox.com/player_ej_177112503_6_1.html?c1=d69776"
     }
   ]
 }
