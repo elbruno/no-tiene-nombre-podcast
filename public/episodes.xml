@@ -24,6 +24,43 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 568 -   ¿Quién Llegó Primero a Navier-Stokes?]]></title>
+<link>https://www.ivoox.com/ntn-568-quien-llego-primero-a-audios-mp3_rf_180372221_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-568-quien-llego-primero-a_mf_180372221_feed_1.mp3" type="audio/mpeg" length="17986873"/>
+<description><![CDATA[ ️ ¡OpenAI dice que su IA hizo explotar Navier-Stokes! Pero hubo rumor, llamadas tensas y una pregunta incómoda: ¿tus datos entrenan al que te gana?  
+• 10.000 agentes en 88 h  
+• Buckmaster, Alpöge y la pelea por el crédito ⚖️
+• Cardano vs Tartaglia  
+Fuentes:
+• https://openai.com/index/navier-stokes-solution/
+• https://cims.nyu.edu/~tristanb/statement.pdf
+• https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/]]></description>
+<pubDate>Thu, 10 Sep 2026 16:50:57 +0200</pubDate>
+<itunes:duration>18:44</itunes:duration>
+<guid>https://www.ivoox.com/180372221</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/4/e/2/b/4e2b1497510cd62ba025e58b753e8cfc_XXL.jpg"/>
+</item>
+<item>
+<title><![CDATA[NTN 567 -   Open Weight ≠ Open Source]]></title>
+<link>https://www.ivoox.com/ntn-567-open-weight-open-audios-mp3_rf_180109398_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789051830" type="audio/mpeg" length="20100075"/>
+<description><![CDATA[  Todos decimos "open source" y casi nadie lo dice bien. Episodio express de lunes:
+	  Del 4,5% al 63% de tokens en OpenRouter
+	⚖️ Los pesos y el copyright: ¿hay algo que licenciar?
+	  Destilación: por qué se pelea por ToS y no por derechos de autor
+	  K3 pesa 1,4 TB: abierto ya no es local
+	 ️ El argumento de riesgo, sin descartarlo como marketing
+	Fuentes:
+	• redmonk.com/sogrady/2026/09/03/open-weight-models/
+	• redmonk.com/sogrady/2026/06/02/g7-open-weights/]]></description>
+<pubDate>Mon, 07 Sep 2026 03:09:00 +0200</pubDate>
+<itunes:duration>20:56</itunes:duration>
+<guid>https://www.ivoox.com/180109398</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-2.ivoox.com/audios/9/d/9/f/9d9fc3b5f1f02b1bca3bfe000fd13c64_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 566 -   OpenAI GPT-5.6-Astra]]></title>
 <link>https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra-audios-mp3_rf_180001679_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra_mf_180001679_feed_1.mp3" type="audio/mpeg" length="25733329"/>
