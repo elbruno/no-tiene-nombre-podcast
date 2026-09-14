@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-13T07:44:19.044Z",
+  "generatedAt": "2026-09-14T08:14:08.411Z",
   "items": [
+    {
+      "title": "NTN 569 -  ️ Bug de sonido en NTN",
+      "description": "️ En este episodio de NO TIENE NOMBRE toca hablar de un bug bien real: el audio salió flojito, la música se comió la voz y hubo que frenar, revisar y reeditar. Aprovecho para contar qué pasó, cómo lo detecté gracias a la comunidad y cómo voy a evitar que vuelva a pasar. Porque en tecnología, hasta los errores traen aprendizaje.\r\nFuentes / contexto\r\n\t• Comentarios de la comunidad en los episodios NTN 567 y NTN 568\r\n\t• Proceso de reedición y revisión interna de audio del podcast",
+      "pubDate": "Sun, 13 Sep 2026 14:44:38 +0200",
+      "link": "https://www.ivoox.com/ntn-569-bug-sonido-en-audios-mp3_rf_180486932_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-569-bug-sonido-en_mf_180486932_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/a/a/b/1aab52936b2c8c02b7c8af32dca9915d_XXL.jpg",
+      "embedId": "180486932",
+      "embedUrl": "https://www.ivoox.com/player_ej_180486932_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 568 -   ¿Quién Llegó Primero a Navier-Stokes?",
       "description": "️ ¡OpenAI dice que su IA hizo explotar Navier-Stokes! Pero hubo rumor, llamadas tensas y una pregunta incómoda: ¿tus datos entrenan al que te gana?  \r\n• 10.000 agentes en 88 h  \r\n• Buckmaster, Alpöge y la pelea por el crédito ⚖️\r\n• Cardano vs Tartaglia  \r\nFuentes:\r\n• https://openai.com/index/navier-stokes-solution/\r\n• https://cims.nyu.edu/~tristanb/statement.pdf\r\n• https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/7/7/d/b77de79057673d3596606e9d6a96782a_XXL.jpg",
       "embedId": "178125745",
       "embedUrl": "https://www.ivoox.com/player_ej_178125745_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 549 -   La guerra de los pesos abiertos",
-      "description": "Jensen estrenó X y abrió la guerra por los pesos abiertos. Microsoft, Google y OpenAI se sumaron; Anthropic quedó en una posición incómoda… y China acelera con Kimi y Qwen.\r\n  Fuentes:\r\n• https://x.com/JensenHuang/status/2080643682408321103\r\n• https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
-      "pubDate": "Mon, 27 Jul 2026 03:10:46 +0200",
-      "link": "https://www.ivoox.com/ntn-549-la-guerra-los-audios-mp3_rf_177926211_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-549-la-guerra-los_mf_177926211_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/6/7/d/967d6e14eb479d363294333f630a7781_XXL.jpg",
-      "embedId": "177926211",
-      "embedUrl": "https://www.ivoox.com/player_ej_177926211_6_1.html?c1=d69776"
     }
   ]
 }
