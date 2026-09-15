@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-14T08:14:08.411Z",
+  "generatedAt": "2026-09-15T08:06:47.593Z",
   "items": [
+    {
+      "title": "NTN 569 -   Desenchufá esa cosa (si podés)",
+      "description": "Un investigador renuncia y dice que a la IA \"no la podés desenchufar\". Internet enloquece. Acá leemos el ticket completo.\r\n\r\n-   Qué dijo Coxon (y qué NO dijo)\r\n-   1988: el gusano que ya hizo esta pregunta\r\n- ⚙️ Replicación real vs. titular\r\n-  ️ Qué hacés el lunes\r\n\r\nFuentes:\r\n- cbsnews.com/news/anthropic-researcher-jacob-coxon-ai-warning/\r\n- arxiv.org/pdf/2605.06760\r\n- anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "pubDate": "Mon, 14 Sep 2026 14:30:58 +0200",
+      "link": "https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si-audios-mp3_rf_180535475_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si_mf_180535475_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/c/3/1/dc315a443760429e2993a872acb69ec5_XXL.jpg",
+      "embedId": "180535475",
+      "embedUrl": "https://www.ivoox.com/player_ej_180535475_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 569 -  ️ Bug de sonido en NTN",
       "description": "️ En este episodio de NO TIENE NOMBRE toca hablar de un bug bien real: el audio salió flojito, la música se comió la voz y hubo que frenar, revisar y reeditar. Aprovecho para contar qué pasó, cómo lo detecté gracias a la comunidad y cómo voy a evitar que vuelva a pasar. Porque en tecnología, hasta los errores traen aprendizaje.\r\nFuentes / contexto\r\n\t• Comentarios de la comunidad en los episodios NTN 567 y NTN 568\r\n\t• Proceso de reedición y revisión interna de audio del podcast",
@@ -26,7 +36,7 @@
       "description": "Todos decimos \"open source\" y casi nadie lo dice bien. Episodio express de lunes:\r\n\t  Del 4,5% al 63% de tokens en OpenRouter\r\n\t⚖️ Los pesos y el copyright: ¿hay algo que licenciar?\r\n\t  Destilación: por qué se pelea por ToS y no por derechos de autor\r\n\t  K3 pesa 1,4 TB: abierto ya no es local\r\n\t ️ El argumento de riesgo, sin descartarlo como marketing\r\n\tFuentes:\r\n\t• redmonk.com/sogrady/2026/09/03/open-weight-models/\r\n\t• redmonk.com/sogrady/2026/06/02/g7-open-weights/",
       "pubDate": "Mon, 07 Sep 2026 03:09:00 +0200",
       "link": "https://www.ivoox.com/ntn-567-open-weight-open-audios-mp3_rf_180109398_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789051830",
+      "audioUrl": "https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789389955",
       "imageUrl": "https://static-2.ivoox.com/audios/9/d/9/f/9d9fc3b5f1f02b1bca3bfe000fd13c64_XXL.jpg",
       "embedId": "180109398",
       "embedUrl": "https://www.ivoox.com/player_ej_180109398_6_1.html?c1=d69776"
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/1/2/f/f12f1f57ba8be52676f8d32c158059d8_XXL.jpg",
       "embedId": "178231307",
       "embedUrl": "https://www.ivoox.com/player_ej_178231307_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 550 -   Open Source bajo ataque",
-      "description": "En 1975 unos biólogos frenaron su ciencia en Asilomar por miedo. ¡En 2026 la IA repite la historia!  \r\n\tEn este episodio:   Un modelo de OpenAI se saltó su sandbox ✋ Amodei y +1.000 firmas piden \"marcarle el paso a la frontera\" ⚔️ Guerra de pesos abiertos: quién firma y quién no   El open source ahogado en código generado\r\n\tFuentes: \r\n\t• openai.com/index/safety-alignment-long-horizon-models \r\n\t• enblog.eischmann.cz/2026/07/23/how-ai-is-changing-open-source \r\n• anthropic.com/news/position-open-weights-models",
-      "pubDate": "Wed, 29 Jul 2026 16:14:26 +0200",
-      "link": "https://www.ivoox.com/ntn-550-open-source-bajo-ataque-audios-mp3_rf_178125745_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-550-open-source-bajo-ataque_mf_178125745_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/7/7/d/b77de79057673d3596606e9d6a96782a_XXL.jpg",
-      "embedId": "178125745",
-      "embedUrl": "https://www.ivoox.com/player_ej_178125745_6_1.html?c1=d69776"
     }
   ]
 }

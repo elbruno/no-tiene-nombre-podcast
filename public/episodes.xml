@@ -24,6 +24,27 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 569 -   Desenchufá esa cosa (si podés)]]></title>
+<link>https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si-audios-mp3_rf_180535475_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si_mf_180535475_feed_1.mp3" type="audio/mpeg" length="14670367"/>
+<description><![CDATA[  Un investigador renuncia y dice que a la IA "no la podés desenchufar". Internet enloquece. Acá leemos el ticket completo.
+
+-   Qué dijo Coxon (y qué NO dijo)
+-   1988: el gusano que ya hizo esta pregunta
+- ⚙️ Replicación real vs. titular
+-  ️ Qué hacés el lunes
+
+Fuentes:
+- cbsnews.com/news/anthropic-researcher-jacob-coxon-ai-warning/
+- arxiv.org/pdf/2605.06760
+- anthropic.com/research/alignment-assessment-cybersecurity-incidents]]></description>
+<pubDate>Mon, 14 Sep 2026 14:30:58 +0200</pubDate>
+<itunes:duration>15:16</itunes:duration>
+<guid>https://www.ivoox.com/180535475</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/d/c/3/1/dc315a443760429e2993a872acb69ec5_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 569 -  ️ Bug de sonido en NTN]]></title>
 <link>https://www.ivoox.com/ntn-569-bug-sonido-en-audios-mp3_rf_180486932_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-569-bug-sonido-en_mf_180486932_feed_1.mp3" type="audio/mpeg" length="7335183"/>
@@ -58,7 +79,7 @@ Fuentes:
 <item>
 <title><![CDATA[NTN 567 -   Open Weight ≠ Open Source]]></title>
 <link>https://www.ivoox.com/ntn-567-open-weight-open-audios-mp3_rf_180109398_1.html</link>
-<enclosure url="https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789051830" type="audio/mpeg" length="20100075"/>
+<enclosure url="https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789389955" type="audio/mpeg" length="20100075"/>
 <description><![CDATA[  Todos decimos "open source" y casi nadie lo dice bien. Episodio express de lunes:
 	  Del 4,5% al 63% de tokens en OpenRouter
 	⚖️ Los pesos y el copyright: ¿hay algo que licenciar?
@@ -69,7 +90,7 @@ Fuentes:
 	• redmonk.com/sogrady/2026/09/03/open-weight-models/
 	• redmonk.com/sogrady/2026/06/02/g7-open-weights/]]></description>
 <pubDate>Mon, 07 Sep 2026 03:09:00 +0200</pubDate>
-<itunes:duration>20:56</itunes:duration>
+<itunes:duration>21:00</itunes:duration>
 <guid>https://www.ivoox.com/180109398</guid>
 <itunes:episodeType>full</itunes:episodeType>
 <itunes:image href="https://static-2.ivoox.com/audios/9/d/9/f/9d9fc3b5f1f02b1bca3bfe000fd13c64_XXL.jpg"/>
