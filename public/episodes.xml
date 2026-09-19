@@ -24,6 +24,24 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 570 -   Copilot se reescribió a sí mismo en Rust]]></title>
+<link>https://www.ivoox.com/ntn-570-copilot-se-reescribio-a-audios-mp3_rf_180831722_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-570-copilot-se-reescribio-a_mf_180831722_feed_1.mp3" type="audio/mpeg" length="23032894"/>
+<description><![CDATA[  ¡Viernes de Rust! Copilot reescribió su propio runtime: +800K líneas de Rust escritas por agentes  
+	• ⚡ Hasta 21x más rápido y ~91% menos memoria
+	•   ~US$120K en tokens
+	•   Dos agentes peleándose por un archivo
+	•   El ascensor roto que inspiró Rust
+  Fuentes:
+	• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/
+	• https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/]]></description>
+<pubDate>Fri, 18 Sep 2026 19:38:09 +0200</pubDate>
+<itunes:duration>23:59</itunes:duration>
+<guid>https://www.ivoox.com/180831722</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/6/d/7/f6d787afb6f1a4930c84463fbad0de2c_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 569 -   Desenchufá esa cosa (si podés)]]></title>
 <link>https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si-audios-mp3_rf_180535475_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si_mf_180535475_feed_1.mp3" type="audio/mpeg" length="14670367"/>
@@ -79,7 +97,7 @@ Fuentes:
 <item>
 <title><![CDATA[NTN 567 -   Open Weight ≠ Open Source]]></title>
 <link>https://www.ivoox.com/ntn-567-open-weight-open-audios-mp3_rf_180109398_1.html</link>
-<enclosure url="https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789389955" type="audio/mpeg" length="20100075"/>
+<enclosure url="https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789389955" type="audio/mpeg" length="20176187"/>
 <description><![CDATA[  Todos decimos "open source" y casi nadie lo dice bien. Episodio express de lunes:
 	  Del 4,5% al 63% de tokens en OpenRouter
 	⚖️ Los pesos y el copyright: ¿hay algo que licenciar?

@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-18T07:42:05.602Z",
+  "generatedAt": "2026-09-19T07:37:44.882Z",
   "items": [
+    {
+      "title": "NTN 570 -   Copilot se reescribió a sí mismo en Rust",
+      "description": "¡Viernes de Rust! Copilot reescribió su propio runtime: +800K líneas de Rust escritas por agentes  \r\n\t• ⚡ Hasta 21x más rápido y ~91% menos memoria\r\n\t•   ~US$120K en tokens\r\n\t•   Dos agentes peleándose por un archivo\r\n\t•   El ascensor roto que inspiró Rust\r\n  Fuentes:\r\n\t• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n\t• https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/",
+      "pubDate": "Fri, 18 Sep 2026 19:38:09 +0200",
+      "link": "https://www.ivoox.com/ntn-570-copilot-se-reescribio-a-audios-mp3_rf_180831722_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-570-copilot-se-reescribio-a_mf_180831722_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/6/d/7/f6d787afb6f1a4930c84463fbad0de2c_XXL.jpg",
+      "embedId": "180831722",
+      "embedUrl": "https://www.ivoox.com/player_ej_180831722_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 569 -   Desenchufá esa cosa (si podés)",
       "description": "Un investigador renuncia y dice que a la IA \"no la podés desenchufar\". Internet enloquece. Acá leemos el ticket completo.\r\n\r\n-   Qué dijo Coxon (y qué NO dijo)\r\n-   1988: el gusano que ya hizo esta pregunta\r\n- ⚙️ Replicación real vs. titular\r\n-  ️ Qué hacés el lunes\r\n\r\nFuentes:\r\n- cbsnews.com/news/anthropic-researcher-jacob-coxon-ai-warning/\r\n- arxiv.org/pdf/2605.06760\r\n- anthropic.com/research/alignment-assessment-cybersecurity-incidents",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/c/9/7/0/c970f4f90473b095cf668ef744369c7e_XXL.jpg",
       "embedId": "178427575",
       "embedUrl": "https://www.ivoox.com/player_ej_178427575_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 551 -   Agentes atrapados en el loop",
-      "description": "Todo el mundo habla de loops, agentes y autonomía… pero ¿qué significa realmente?\r\n  En este episodio desmontamos el ciclo que hace funcionar a un agente: observar, actuar, verificar y repetir.\r\n⚠️ También vemos costos, errores infinitos y cómo evitar un while(true) con presupuesto corporativo.\r\n• O’Reilly: https://www.oreilly.com/radar/what-the-hell-is-a-loop-anyway/\r\n• OpenAI: https://openai.com/index/unrolling-the-codex-agent-loop/",
-      "pubDate": "Fri, 31 Jul 2026 21:13:33 +0200",
-      "link": "https://www.ivoox.com/ntn-551-agentes-atrapados-el-audios-mp3_rf_178231307_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-551-agentes-atrapados-el_mf_178231307_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/1/2/f/f12f1f57ba8be52676f8d32c158059d8_XXL.jpg",
-      "embedId": "178231307",
-      "embedUrl": "https://www.ivoox.com/player_ej_178231307_6_1.html?c1=d69776"
     }
   ]
 }
