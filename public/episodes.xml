@@ -24,6 +24,24 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 571 -   Si la IA escribe todo, ¿qué nos queda?]]></title>
+<link>https://www.ivoox.com/ntn-571-si-ia-escribe-audios-mp3_rf_180889332_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-571-si-ia-escribe_mf_180889332_feed_1.mp3" type="audio/mpeg" length="17782909"/>
+<description><![CDATA[  Copilot se migró a Rust con agentes… ¿y ahora qué nos queda a los devs?
+- 832.000 líneas de Rust, 128 PRs, ~US$120.000
+- 63% del trabajo humano: revisar, discutir y empujar
+- PostHog: de 20% a 70% de PRs abiertos por agentes
+- John Boyd y el loop OODA, 70 años después
+  Fuentes:
+- newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left
+- github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot]]></description>
+<pubDate>Sun, 20 Sep 2026 18:47:45 +0200</pubDate>
+<itunes:duration>18:31</itunes:duration>
+<guid>https://www.ivoox.com/180889332</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/4/c/7/c/4c7c6a2484dbc479c803175c55721ac4_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 570 -   Copilot se reescribió a sí mismo en Rust]]></title>
 <link>https://www.ivoox.com/ntn-570-copilot-se-reescribio-a-audios-mp3_rf_180831722_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-570-copilot-se-reescribio-a_mf_180831722_feed_1.mp3" type="audio/mpeg" length="23032894"/>
