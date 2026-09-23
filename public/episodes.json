@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-22T08:02:20.076Z",
+  "generatedAt": "2026-09-23T08:04:46.082Z",
   "items": [
+    {
+      "title": "NTN 572 -   Primero el cheque, después el garaje",
+      "description": "️ ¿Todas las grandes tech nacieron en un garaje? Spoiler: el garaje llegó DESPUÉS del capital  \r\n  HP 1938: el garaje que se volvió monumento\r\n  Woz confiesa: \"el garaje es un mito\"\r\n  Google alquiló el garaje CON la plata del inversor\r\n  Mercado Libre: del aula de Stanford a los $7,6M\r\n  El paper: la edad promedio del fundador top es 45  \r\nFuentes:\r\n\t• https://about.google/company-info/our-story/\r\n\t• https://www.aeaweb.org/articles?id=10.1257/aeri.20180582",
+      "pubDate": "Tue, 22 Sep 2026 13:10:28 +0200",
+      "link": "https://www.ivoox.com/ntn-572-primero-cheque-despues-audios-mp3_rf_180976468_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-572-primero-cheque-despues_mf_180976468_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/2/7/d/927d099d61cafdf24c4dffe64ec91efe_XXL.jpg",
+      "embedId": "180976468",
+      "embedUrl": "https://www.ivoox.com/player_ej_180976468_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 571 -   Si la IA escribe todo, ¿qué nos queda?",
       "description": "Copilot se migró a Rust con agentes… ¿y ahora qué nos queda a los devs?\r\n- 832.000 líneas de Rust, 128 PRs, ~US$120.000\r\n- 63% del trabajo humano: revisar, discutir y empujar\r\n- PostHog: de 20% a 70% de PRs abiertos por agentes\r\n- John Boyd y el loop OODA, 70 años después\r\n  Fuentes:\r\n- newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left\r\n- github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/e/5/d/d/e5dd063a1863a88dd65bc1e53a9b1bde_XXL.jpg",
       "embedId": "178587776",
       "embedUrl": "https://www.ivoox.com/player_ej_178587776_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 553 -   Código rápido, caos caro",
-      "description": "Anthropic habría reservado USD 10.000 millones en compute. Pero la gran historia es otra: los agentes ya crean código más rápido de lo que equipos, pruebas y seguridad pueden procesarlo. ¿Productividad real o deuda técnica con esteroides?\r\n• Battery: https://www.battery.com/blog/how-agentic-coding-is-reshaping-the-software-development-lifecycle/\r\n• Reuters: https://www.reuters.com/business/ai-cloud-startup-volta-valued-24-billion-announces-10-billion-ai-partnership-2026-08-04/",
-      "pubDate": "Wed, 05 Aug 2026 17:03:37 +0200",
-      "link": "https://www.ivoox.com/ntn-553-codigo-rapido-caos-caro-audios-mp3_rf_178492665_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-553-codigo-rapido-caos-caro_mf_178492665_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/2/f/0/c/2f0c59797f9b2078253f47baca7ab34d_XXL.jpg",
-      "embedId": "178492665",
-      "embedUrl": "https://www.ivoox.com/player_ej_178492665_6_1.html?c1=d69776"
     }
   ]
 }
