@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-24T07:55:02.196Z",
+  "generatedAt": "2026-09-25T08:17:44.022Z",
   "items": [
+    {
+      "title": "NRN 573 -   El Apocalipsis de AI Tiene Sponsor",
+      "description": "¿El miedo a la IA viene con guion? Volví a casa y chequeamos la semana del apocalipsis:\r\n-   La renuncia viral de Coxon\r\n-  ️ Leyes para prohibir la superinteligencia\r\n-   Sigan el dinero: Moskovitz, Tallinn y METR\r\n-   Contrabandistas y bautistas\r\n  Fuentes:\r\n- https://openai.com/index/ai-policy-window/\r\n- https://metr.org/about\r\n- https://www.govtrack.us/congress/bills/119/hr9925/text/ih",
+      "pubDate": "Thu, 24 Sep 2026 19:11:28 +0200",
+      "link": "https://www.ivoox.com/nrn-573-el-apocalipsis-ai-audios-mp3_rf_181150541_1.html",
+      "audioUrl": "https://www.ivoox.com/nrn-573-el-apocalipsis-ai_mf_181150541_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/c/e/e/1cee91bf8804a74c81307520b6644024_XXL.jpg",
+      "embedId": "181150541",
+      "embedUrl": "https://www.ivoox.com/player_ej_181150541_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 572 -   Primero el cheque, después el garaje",
       "description": "️ ¿Todas las grandes tech nacieron en un garaje? Spoiler: el garaje llegó DESPUÉS del capital  \r\n  HP 1938: el garaje que se volvió monumento\r\n  Woz confiesa: \"el garaje es un mito\"\r\n  Google alquiló el garaje CON la plata del inversor\r\n  Mercado Libre: del aula de Stanford a los $7,6M\r\n  El paper: la edad promedio del fundador top es 45  \r\nFuentes:\r\n\t• https://about.google/company-info/our-story/\r\n\t• https://www.aeaweb.org/articles?id=10.1257/aeri.20180582",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/3/8/b/d38b711c761687651b60d7b76dfd2c3b_XXL.jpg",
       "embedId": "178688724",
       "embedUrl": "https://www.ivoox.com/player_ej_178688724_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 554 -  Los genios se van de Google",
-      "description": "¿Qué está pasando dentro de Google?\r\n\r\nJeff Dean se va después de 27 años, Demis Hassabis cambia de rol y varios pesos pesados de la IA buscan nuevos horizontes.\r\n\r\n ️ Hoy hablamos de talento, cultura, burocracia y la batalla por liderar la IA.\r\n\r\n  Fuentes:\r\n• https://x.com/JeffDean/status/2085036253263921218\r\n• https://taekim.substack.com/p/google-is-a-secular-short\r\n• https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "pubDate": "Fri, 07 Aug 2026 17:30:15 +0200",
-      "link": "https://www.ivoox.com/ntn-554-los-genios-se-van-de-audios-mp3_rf_178587776_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-554-los-genios-se-van-de_mf_178587776_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/e/5/d/d/e5dd063a1863a88dd65bc1e53a9b1bde_XXL.jpg",
-      "embedId": "178587776",
-      "embedUrl": "https://www.ivoox.com/player_ej_178587776_6_1.html?c1=d69776"
     }
   ]
 }
