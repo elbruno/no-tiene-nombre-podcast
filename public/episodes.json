@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-25T08:17:44.022Z",
+  "generatedAt": "2026-09-26T08:05:07.836Z",
   "items": [
+    {
+      "title": "NTN 574 -   Jev: la IA que no habla, decide",
+      "description": "¿Una IA que no escribe ni una palabra? Llegó Jev: decide en milisegundos y te dice cuán segura está.\r\n\t•   Quién lo creó y por qué no es un LLM\r\n\t•   Choice, Score y Noul, explicados\r\n\t• ⚠️ ¿De verdad no alucina?\r\n\t•   Alternativas open weight: Laya y Kev\r\n  Fuentes:\r\n\t• https://www.thestack.technology/runtime-jev-is-an-llm-without-the-ll/\r\n\t• https://typesafe.ai/blog/introducing-system-one-models-and-jev\r\n\t• https://github.com/NandhaKishorM/laya",
+      "pubDate": "Fri, 25 Sep 2026 18:00:58 +0200",
+      "link": "https://www.ivoox.com/ntn-574-jev-ia-que-audios-mp3_rf_181194954_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-574-jev-ia-que_mf_181194954_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/3/3/b/7/33b76f6f1625fe83cd542351bd707cdc_XXL.jpg",
+      "embedId": "181194954",
+      "embedUrl": "https://www.ivoox.com/player_ej_181194954_6_1.html?c1=d69776"
+    },
     {
       "title": "NRN 573 -   El Apocalipsis de AI Tiene Sponsor",
       "description": "¿El miedo a la IA viene con guion? Volví a casa y chequeamos la semana del apocalipsis:\r\n-   La renuncia viral de Coxon\r\n-  ️ Leyes para prohibir la superinteligencia\r\n-   Sigan el dinero: Moskovitz, Tallinn y METR\r\n-   Contrabandistas y bautistas\r\n  Fuentes:\r\n- https://openai.com/index/ai-policy-window/\r\n- https://metr.org/about\r\n- https://www.govtrack.us/congress/bills/119/hr9925/text/ih",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/1/b/6/f1b692d4c1b755f41ac0c7a895ba4f8d_XXL.jpg",
       "embedId": "178843810",
       "embedUrl": "https://www.ivoox.com/player_ej_178843810_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 555 -   Chips, hackers y megavatios",
-      "description": "⚡ Episodio express: la Guerra de las Corrientes versión 2026.\r\n  Google libera TPU Raiden y le tira un puente al foso de CUDA\r\n  Claude Code en modo auto: bloquea el 89% de acciones peligrosas (vos, el 13,6%)\r\n ️ Kimsuky arma su ChatGPT casero con Ollama y RAG\r\n  CXMT: +500% en Shanghái, destrona a un banco\r\n  Amazon: permiso para 33M de toneladas de CO₂\r\n\r\nFuentes: \r\ngithub.com/google/tpu-raiden \r\nanthropic.com/engineering/claude-code-auto-mode",
-      "pubDate": "Mon, 10 Aug 2026 16:08:12 +0200",
-      "link": "https://www.ivoox.com/ntn-555-chips-hackers-megavatios-audios-mp3_rf_178688724_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-555-chips-hackers-megavatios_mf_178688724_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/d/3/8/b/d38b711c761687651b60d7b76dfd2c3b_XXL.jpg",
-      "embedId": "178688724",
-      "embedUrl": "https://www.ivoox.com/player_ej_178688724_6_1.html?c1=d69776"
     }
   ]
 }
