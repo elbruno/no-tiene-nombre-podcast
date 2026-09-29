@@ -7,8 +7,8 @@ Always reference these instructions first and fallback to search or bash command
 ## Working Effectively
 
 ### Prerequisites and Setup
-- Install Node.js 18.17.0 (exact version in `.nvmrc`): `nvm use` or manually install from nodejs.org
-- Verify versions: `node --version` (should be >= 18.17.0) and `npm --version` (should be >= 9.0.0)
+- Install Node.js 24.21.0 (exact version in `.nvmrc`): `nvm use` or manually install from nodejs.org
+- Verify versions: `node --version` (should be >= 24.0.0) and `npm --version` (should be >= 11.0.0)
 
 ### Bootstrap and Build Commands
 ```bash
@@ -162,8 +162,8 @@ npm run preview              # Manually verify functionality
 ## Environment and Dependencies
 
 ### Node.js Requirements
-- **Version**: 18.17.0 (specified in `.nvmrc` and `package.json` engines)
-- **Package Manager**: npm >= 9.0.0
+- **Version**: 24.21.0 (specified in `.nvmrc` and `package.json` engines)
+- **Package Manager**: npm >= 11.0.0
 - **Important**: Use exact Node version to avoid build inconsistencies
 
 ### Key Dependencies
