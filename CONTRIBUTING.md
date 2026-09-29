@@ -6,7 +6,7 @@ Please read and follow our Code of Conduct: CODE_OF_CONDUCT.md.
 
 ## Quick start
 
-- Node.js >= 18.17 and npm >= 9 (see engines in package.json)
+- Node.js >= 24 and npm >= 11 (see engines in package.json)
 - Fork and clone the repo
 - Install deps and run the dev server
 

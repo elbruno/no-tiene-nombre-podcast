@@ -84,4 +84,18 @@ export default defineConfig(({ mode }) => ({
       '@': resolve(projectRoot, 'src')
     }
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return undefined;
+          if (/[\\/]node_modules[\\/](react|react-dom|scheduler)[\\/]/.test(id)) return 'vendor-react';
+          if (/[\\/]node_modules[\\/](framer-motion|motion-dom|motion-utils)[\\/]/.test(id)) return 'vendor-motion';
+          if (/[\\/]node_modules[\\/]@radix-ui[\\/]/.test(id)) return 'vendor-radix';
+          if (/[\\/]node_modules[\\/](lucide-react|@icons-pack)[\\/]/.test(id)) return 'vendor-icons';
+          return 'vendor';
+        },
+      },
+    },
+  },
 }));
