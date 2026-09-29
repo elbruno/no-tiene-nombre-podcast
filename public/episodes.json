@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-28T09:04:41.514Z",
+  "generatedAt": "2026-09-29T09:13:26.690Z",
   "items": [
+    {
+      "title": "NTN 574 -   Muse: el Tamagotchi que te cuida a vos",
+      "description": "¡Episodio express con bicho adentro!\r\n\t• ⚡ Opus 5.5 vs GPT-6 Sol y Luna: guerra de precios\r\n\t•   Muse Charm: el agente de Meta en un llavero\r\n\t•   Muse llega a los anteojos y estrena avatar\r\n\t•   Amazon le cierra la puerta\r\n\t•   El agente que leyó de más\r\n  Fuentes:\r\n\t• anthropic.com/claude-opus-5-5\r\n\t• about.fb.com/news/2026/09/the-biggest-news-from-connect-2026\r\n\t• geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping",
+      "pubDate": "Mon, 28 Sep 2026 17:34:02 +0200",
+      "link": "https://www.ivoox.com/ntn-574-muse-tamagotchi-que-audios-mp3_rf_181301098_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-574-muse-tamagotchi-que_mf_181301098_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/8/d/2/88d28c42fe270d3b563a4d7b1c623cec_XXL.jpg",
+      "embedId": "181301098",
+      "embedUrl": "https://www.ivoox.com/player_ej_181301098_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 574 -   Jev: la IA que no habla, decide",
       "description": "¿Una IA que no escribe ni una palabra? Llegó Jev: decide en milisegundos y te dice cuán segura está.\r\n\t•   Quién lo creó y por qué no es un LLM\r\n\t•   Choice, Score y Noul, explicados\r\n\t• ⚠️ ¿De verdad no alucina?\r\n\t•   Alternativas open weight: Laya y Kev\r\n  Fuentes:\r\n\t• https://www.thestack.technology/runtime-jev-is-an-llm-without-the-ll/\r\n\t• https://typesafe.ai/blog/introducing-system-one-models-and-jev\r\n\t• https://github.com/NandhaKishorM/laya",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/6/b/2/9/6b297c806c84346dba0861ff9d2d2859_XXL.jpg",
       "embedId": "178946948",
       "embedUrl": "https://www.ivoox.com/player_ej_178946948_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 556 -  ️ La IA agarró el mouse",
-      "description": "Claude empieza a dejar huellas invisibles y la IA ya no solo responde… ahora usa la computadora.  ️  Hablamos de Computer Use, Fara 1.5-9B, agentes locales y qué pasa cuando la IA puede hacer click por vos.\r\n  Fuentes:\r\n• https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content\r\n• https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/\r\n• https://github.com/microsoft/fara",
-      "pubDate": "Wed, 12 Aug 2026 16:28:32 +0200",
-      "link": "https://www.ivoox.com/ntn-556-la-ia-agarro-el-audios-mp3_rf_178843810_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-556-la-ia-agarro-el_mf_178843810_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/1/b/6/f1b692d4c1b755f41ac0c7a895ba4f8d_XXL.jpg",
-      "embedId": "178843810",
-      "embedUrl": "https://www.ivoox.com/player_ej_178843810_6_1.html?c1=d69776"
     }
   ]
 }
