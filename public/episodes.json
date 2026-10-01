@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-30T09:06:59.341Z",
+  "generatedAt": "2026-10-01T09:34:15.563Z",
   "items": [
+    {
+      "title": "NTN 575 -   OpenAI DevDays 2026",
+      "description": "️ ¡OpenAI tiró más de 20 anuncios en el DevDay 2026 y los unimos punto por punto!\r\n  Dots: agentes siempre encendidos con su propia compu\r\n☀️ GPT-6.1 Sol: casi Astra, a un quinto del precio\r\n  Sign in with ChatGPT y el nuevo Marketplace\r\n  El Astra que quedó en el freezer\r\n  Fuentes:\r\n\t• https://openai.com/index/devday-2026-recap/\r\n\t• https://openai.com/index/introducing-dots/\r\n\t• https://openai.com/index/introducing-gpt-6-1-sol/",
+      "pubDate": "Wed, 30 Sep 2026 16:38:34 +0200",
+      "link": "https://www.ivoox.com/ntn-575-openai-devdays-2026-audios-mp3_rf_181467751_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-575-openai-devdays-2026_mf_181467751_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/7/0/2/9/702989b19803a4f70035d6e51db979fc_XXL.jpg",
+      "embedId": "181467751",
+      "embedUrl": "https://www.ivoox.com/player_ej_181467751_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 574 -   Muse: el Tamagotchi que te cuida a vos",
       "description": "¡Episodio express con bicho adentro!\r\n\t• ⚡ Opus 5.5 vs GPT-6 Sol y Luna: guerra de precios\r\n\t•   Muse Charm: el agente de Meta en un llavero\r\n\t•   Muse llega a los anteojos y estrena avatar\r\n\t•   Amazon le cierra la puerta\r\n\t•   El agente que leyó de más\r\n  Fuentes:\r\n\t• anthropic.com/claude-opus-5-5\r\n\t• about.fb.com/news/2026/09/the-biggest-news-from-connect-2026\r\n\t• geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/3/d/e/f3de923a899b17ec7f343b52369539e0_XXL.jpg",
       "embedId": "179051161",
       "embedUrl": "https://www.ivoox.com/player_ej_179051161_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 557 -   La IA ya no quiere ser la más lista",
-      "description": "Google baja precios, OpenAI pisa el acelerador y DeepSeek pone perilla al cerebro.   ¿La nueva guerra de la IA ya no es por ser la más inteligente, sino la más eficiente?\r\n\t•   Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\r\n\t•   OpenAI: https://openai.com/index/previewing-ultrafast/\r\n\t•   DeepSeek: https://api-docs.deepseek.com/news/news260813",
-      "pubDate": "Sat, 15 Aug 2026 02:27:27 +0200",
-      "link": "https://www.ivoox.com/ntn-557-la-ia-ya-no-audios-mp3_rf_178946948_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-557-la-ia-ya-no_mf_178946948_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/6/b/2/9/6b297c806c84346dba0861ff9d2d2859_XXL.jpg",
-      "embedId": "178946948",
-      "embedUrl": "https://www.ivoox.com/player_ej_178946948_6_1.html?c1=d69776"
     }
   ]
 }
