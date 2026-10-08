@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-07T09:29:17.390Z",
+  "generatedAt": "2026-10-08T09:40:47.850Z",
   "items": [
+    {
+      "title": "NTN 578 -   Agentes sin Permiso",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ ¡Exprés! 4 noticias de IA en 10 minutos:\r\n  OpenAI le pide perdón a Australia\r\n  El 1% gasta $903 al mes\r\n  EmbeddingGemma 2\r\n  Personal Agent Protocol\r\n ️ ¡Votanos! https://go.ivoox.com/wv/premios26?c=5475\r\n ‍♂️Collabora! https://fundraisers.nyrr.org/bruno-capuano\r\nFuentes:\r\n- https://openai.com/index/how-we-will-do-better-for-australia/\r\n- https://www.a16z.news/p/top-100-consumer-ai-apps-seventh\r\n- https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\r\n- https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "pubDate": "Wed, 07 Oct 2026 16:36:07 +0200",
+      "link": "https://www.ivoox.com/ntn-578-agentes-sin-permiso-audios-mp3_rf_181836954_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-578-agentes-sin-permiso_mf_181836954_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/8/d/b/b8dbdca1bb67ff82b4b9e41b42f9dbb9_XXL.jpg",
+      "embedId": "181836954",
+      "embedUrl": "https://www.ivoox.com/player_ej_181836954_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 577 -   Un Rabino, un Papa y un Chatbot",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ ¡Episodio exprés! Cajas, RAM y alma en 10 minutos:\r\n  FLUX 3 Image: dibujás cajas y la IA compone la imagen\r\n  Micron: récord de 54 mil millones y memoria escasa hasta 2028\r\n  Anthropic, un rabino, el Papa y Altman: ¿Claude es consciente?\r\nFuentes:\r\n• https://docs.bfl.ai/flux_3/flux3_image_overview\r\n• https://investors.micron.com\r\n• https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/7/d/4/87d4f55b9360467b774328ee503f5e98_XXL.jpg",
       "embedId": "179420454",
       "embedUrl": "https://www.ivoox.com/player_ej_179420454_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 560 -   GitHub se cayó: 8 horas que sacudieron al software",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>\t  ¡GitHub se cayó casi 8 horas y te contamos por qué desde adentro!\r\n\t  La IA duplicó los commits en 4 meses: de 1.4B a 2.9B  ️ Sistemas distribuidos 101: retry storms y fallas en cascada   El post-mortem del CTO: qué falló y qué viene ☁️ La migración a Azure: del 12% al 58% en 3 meses\r\n\tFuentes:\r\n\t\t○ https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/\r\n\t\t○ https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "pubDate": "Fri, 21 Aug 2026 16:21:14 +0200",
-      "link": "https://www.ivoox.com/ntn-560-github-se-cayo-8-audios-mp3_rf_179299737_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-560-github-se-cayo-8_mf_179299737_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/e/3/8/7e389e7f40d536ca7735ef99afc43cdf_XXL.jpg",
-      "embedId": "179299737",
-      "embedUrl": "https://www.ivoox.com/player_ej_179299737_6_1.html?c1=d69776"
     }
   ]
 }
