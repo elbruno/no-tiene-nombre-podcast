@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-08T09:40:47.850Z",
+  "generatedAt": "2026-10-09T09:46:32.474Z",
   "items": [
+    {
+      "title": "NTN 579 -   La IA se muda a tu PC",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Episodio express! Ayer Windows se volvió híbrido y te lo cuento rapidito:\r\n•   Modelos de IA corriendo en tu PC\r\n•   HydraFusion rutea entre local y nube\r\n•   Surface Laptop Ultra y nuevos Copilots\r\n ️ ¡Votá a NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  ¡Sumate a mi maratón de NY! https://fundraisers.nyrr.org/bruno-capuano\r\nFuentes:\r\n• https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/\r\n• https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+      "pubDate": "Thu, 08 Oct 2026 16:30:31 +0200",
+      "link": "https://www.ivoox.com/ntn-579-la-ia-se-muda-audios-mp3_rf_181891622_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-579-la-ia-se-muda_mf_181891622_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/2/d/7/f2d7596bd7e376850a6b226ed92a553a_XXL.jpg",
+      "embedId": "181891622",
+      "embedUrl": "https://www.ivoox.com/player_ej_181891622_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 578 -   Agentes sin Permiso",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ ¡Exprés! 4 noticias de IA en 10 minutos:\r\n  OpenAI le pide perdón a Australia\r\n  El 1% gasta $903 al mes\r\n  EmbeddingGemma 2\r\n  Personal Agent Protocol\r\n ️ ¡Votanos! https://go.ivoox.com/wv/premios26?c=5475\r\n ‍♂️Collabora! https://fundraisers.nyrr.org/bruno-capuano\r\nFuentes:\r\n- https://openai.com/index/how-we-will-do-better-for-australia/\r\n- https://www.a16z.news/p/top-100-consumer-ai-apps-seventh\r\n- https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\r\n- https://sierra.ai/blog/introducing-personal-agent-protocol",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/d/8/1/8d8176a92bae8fa18faf1c4d9545f7fc_XXL.jpg",
       "embedId": "179567975",
       "embedUrl": "https://www.ivoox.com/player_ej_179567975_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 561 -   El apagón de Sony: nada de lo que compraste es tuyo",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>¡Miles de PlayStations apagadas y Sony responde con un mail diciendo que tus juegos NO son tuyos!  \r\n  #PSBlackout: la protesta contra el fin del disco físico \r\n  Nvidia sube 15-17% sus servidores de IA \r\n  Hugging Face explora venta por US$13.000M \r\n  El día que Amazon borró \"1984\" de los Kindles\r\n\r\nFuentes:\r\n • bloomberg.com \r\n• pushsquare.com \r\n• huggingface.co/docs/hub \r\n• techcrunch.com",
-      "pubDate": "Mon, 24 Aug 2026 21:05:38 +0200",
-      "link": "https://www.ivoox.com/ntn-561-el-apagon-sony-audios-mp3_rf_179420454_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-561-el-apagon-sony_mf_179420454_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/7/d/4/87d4f55b9360467b774328ee503f5e98_XXL.jpg",
-      "embedId": "179420454",
-      "embedUrl": "https://www.ivoox.com/player_ej_179420454_6_1.html?c1=d69776"
     }
   ]
 }
