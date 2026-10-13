@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-12T09:56:51.431Z",
+  "generatedAt": "2026-10-13T09:50:55.623Z",
   "items": [
+    {
+      "title": "NTN 581 -   No le preguntes al pavo",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Express de Acción de Gracias!\r\n⚙️ Atomic Machines compila micromáquinas desde código\r\n  Jev: US$870M por un modelo que solo decide\r\n  Nadella: tratá a la IA como riesgo interno\r\n  Fuentes:\r\n• atomicmachines.com/blog/atomic-machines-origin-story\r\n• typesafe.ai/blog/series-ai\r\n• snscratchpad.com/posts/models-as-insider-risks\r\n ️ ¡Votanos como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n  Maratón NY por los chicos: https://fundraisers.nyrr.org/bruno-capuano",
+      "pubDate": "Mon, 12 Oct 2026 17:20:53 +0200",
+      "link": "https://www.ivoox.com/ntn-581-no-le-preguntes-al-audios-mp3_rf_182052212_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-581-no-le-preguntes-al_mf_182052212_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/5/d/2/2/5d228d6ca4437faa3a2fb8a6bed5962e_XXL.jpg",
+      "embedId": "182052212",
+      "embedUrl": "https://www.ivoox.com/player_ej_182052212_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 580 -   ¿Funciona? La pregunta que hizo rico a Singapur",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>¡Episodio especial! En 1965 una isla sin recursos se quedó sola. \r\nHoy es de las más ricas del mundo  \r\n\r\n•   El día que su líder lloró en TV\r\n•   Equipo, instituciones y una pregunta: ¿funciona?\r\n• ⚖️ El precio del modelo\r\n•   La lección para la era de la IA\r\n\r\n ️ Votá: https://go.ivoox.com/wv/premios26?c=5475\r\n  Apoya mi marathon: https://fundraisers.nyrr.org/bruno-capuano\r\n\r\nFuentes:\r\n• https://www.nas.gov.sg/archivesonline/data/pdfdoc/20070829984.htm\r\n• https://www.cpib.gov.sg/who-we-are/our-heritage/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/d/b/f/8dbf9b60204052a27c4cc681fe19bbfc_XXL.jpg",
       "embedId": "179731796",
       "embedUrl": "https://www.ivoox.com/player_ej_179731796_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 563 -   SRE vs FDE: la guerra de las siglas millonarias",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>\t ️ ¡Viernes de siglas en NTN! Destripamos los dos roles del momento:\r\n\t  SRE: el invento de Google en 2003 para que nada se caiga \r\n\t ️ FDE: el rol de Palantir que explotó +800% y hoy paga fortunas  \r\n\t  ️ Y la historia de IBM en 1964 que ya lo había inventado todo \r\n\t  Con mate, autocrítica de Microsoft y sueldos de vértigo\r\n\tFuentes: \r\n\t• https://sre.google \r\n• https://thenewstack.io/forward-deployed-engineers-ai/",
-      "pubDate": "Fri, 28 Aug 2026 15:26:43 +0200",
-      "link": "https://www.ivoox.com/ntn-563-sre-vs-fde-la-audios-mp3_rf_179653225_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-563-sre-vs-fde-la_mf_179653225_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/f/7/8/9f783a8db024ba751ca7263216981788_XXL.jpg",
-      "embedId": "179653225",
-      "embedUrl": "https://www.ivoox.com/player_ej_179653225_6_1.html?c1=d69776"
     }
   ]
 }
