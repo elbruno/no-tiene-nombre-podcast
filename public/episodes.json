@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-14T08:07:56.862Z",
+  "generatedAt": "2026-10-15T07:48:57.410Z",
   "items": [
+    {
+      "title": "NTN 582 -   Espías, Git al límite y Argon",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ Express de noticias de IA en NTN:\r\n  Un micrófono espía envuelto en papel higiénico en una sala de OpenAI\r\n  Anthropic deja Git: 30.000 merges por día y nace Scion\r\n⚗️ Llega Gemini 4 Argon\r\n\r\n  Fuentes:\r\n• https://x.com/OpenAINewsroom/status/2110095403198849132\r\n• https://anthropic.com/engineering/redesigning-source-control\r\n• https://x.com/Google/status/2105388143902175529\r\n\r\n  ¡Votá NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  Maratón NY: https://fundraisers.nyrr.org/bruno-capuano",
+      "pubDate": "Wed, 14 Oct 2026 17:14:38 +0200",
+      "link": "https://www.ivoox.com/ntn-582-espias-git-al-limite-audios-mp3_rf_182205296_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-582-espias-git-al-limite_mf_182205296_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/a/e/9/e/ae9e1101bc68f588157b92d7f580fe14_XXL.jpg",
+      "embedId": "182205296",
+      "embedUrl": "https://www.ivoox.com/player_ej_182205296_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 581 -   No le preguntes al pavo",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Express de Acción de Gracias!\r\n⚙️ Atomic Machines compila micromáquinas desde código\r\n  Jev: US$870M por un modelo que solo decide\r\n  Nadella: tratá a la IA como riesgo interno\r\n  Fuentes:\r\n• atomicmachines.com/blog/atomic-machines-origin-story\r\n• typesafe.ai/blog/series-ai\r\n• snscratchpad.com/posts/models-as-insider-risks\r\n ️ ¡Votanos como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n  Maratón NY por los chicos: https://fundraisers.nyrr.org/bruno-capuano",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/c/9/8/7c98fb8de84e5a2313ea62383bb81a1e_XXL.jpg",
       "embedId": "179978201",
       "embedUrl": "https://www.ivoox.com/player_ej_179978201_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 564 - ⚡ Guerra de titanes, IA gratis y robots científicos",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>⚡ ¡Episodio express con las noticias más jugosas de la semana!\r\n  OpenAI le corta el acceso a Cursor tras la compra de SpaceX\r\n  SKILL.state: agentes con 94% menos tokens ¡y más precisión!\r\n  Corea del Sur regala IA ilimitada a 52 millones de personas\r\n  Gemini Co-Scientist ya trabaja en laboratorios reales\r\n  Fuentes:\r\n\t• https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html\r\n\t• https://arxiv.org/abs/2608.26263\r\n\t• https://www.koreaherald.com/article/10855962\r\n\t• https://arxiv.org/abs/2608.26701",
-      "pubDate": "Mon, 31 Aug 2026 03:09:27 +0200",
-      "link": "https://www.ivoox.com/ntn-564-guerra-titanes-ia-audios-mp3_rf_179731796_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-564-guerra-titanes-ia_mf_179731796_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/d/b/f/8dbf9b60204052a27c4cc681fe19bbfc_XXL.jpg",
-      "embedId": "179731796",
-      "embedUrl": "https://www.ivoox.com/player_ej_179731796_6_1.html?c1=d69776"
     }
   ]
 }
