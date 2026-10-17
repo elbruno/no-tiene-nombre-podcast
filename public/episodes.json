@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-16T07:37:17.191Z",
+  "generatedAt": "2026-10-17T07:16:44.512Z",
   "items": [
+    {
+      "title": "NTN 583 -  ️ Clonar Photoshop mirando (y hacer trampa) - Parte 1",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Votá NTN como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n  La IA convierte un producto terminado en la especificación de su clon.\r\n ️ Compaq, 1982: un millón de dólares y una pared para clonar el BIOS de IBM\r\n  ArtCraft: 13 apps tipo Adobe, Office y AutoCAD en Rust\r\n  Agentes descompilan un shooter: 83% byte a byte… y hacen trampa\r\n  Sin oráculo, no hay clon\r\n\r\n  Fuentes:\r\n- momo5502.com/posts/2026-10-09-game-decompilation\r\n- github.com/storytold/photocraft\r\n- getartcraft.com/apps",
+      "pubDate": "Fri, 16 Oct 2026 17:47:43 +0200",
+      "link": "https://www.ivoox.com/ntn-583-clonar-photoshop-mirando-y-audios-mp3_rf_182311727_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-583-clonar-photoshop-mirando-y_mf_182311727_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/b/b/4/2/bb42c18e5444f23fe55845fc04692443_XXL.jpg",
+      "embedId": "182311727",
+      "embedUrl": "https://www.ivoox.com/player_ej_182311727_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 582 -   Espías, Git al límite y Argon",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ Express de noticias de IA en NTN:\r\n  Un micrófono espía envuelto en papel higiénico en una sala de OpenAI\r\n  Anthropic deja Git: 30.000 merges por día y nace Scion\r\n⚗️ Llega Gemini 4 Argon\r\n\r\n  Fuentes:\r\n• https://x.com/OpenAINewsroom/status/2110095403198849132\r\n• https://anthropic.com/engineering/redesigning-source-control\r\n• https://x.com/Google/status/2105388143902175529\r\n\r\n  ¡Votá NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  Maratón NY: https://fundraisers.nyrr.org/bruno-capuano",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/a/4/6/5a462acb6b35ed9c575d2da12fa93f62_XXL.jpg",
       "embedId": "180001679",
       "embedUrl": "https://www.ivoox.com/player_ej_180001679_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 565 -   La Gran Fuga: por qué los CTOs renuncian a la nada",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  CTOs y VPs de Engineering renunciando sin nada firmado: ¿qué está pasando?\r\n  \"Founder slop\": el PR de 60.000 líneas que tu fundador shipeó un domingo\r\n  Preference stacks: por qué tu 2% de equity puede valer cero\r\n ️ Y un romano del 458 a.C. que ya lo había resuelto\r\nEpisodio corto, de valija, con voseo y sin humo.\r\nFuente: newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break",
-      "pubDate": "Thu, 03 Sep 2026 14:58:12 +0200",
-      "link": "https://www.ivoox.com/ntn-565-la-gran-fuga-por-audios-mp3_rf_179978201_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-565-la-gran-fuga-por_mf_179978201_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/c/9/8/7c98fb8de84e5a2313ea62383bb81a1e_XXL.jpg",
-      "embedId": "179978201",
-      "embedUrl": "https://www.ivoox.com/player_ej_179978201_6_1.html?c1=d69776"
     }
   ]
 }
