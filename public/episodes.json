@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-18T07:30:35.355Z",
+  "generatedAt": "2026-10-19T08:13:53.538Z",
   "items": [
+    {
+      "title": "NTN 584 - ⚖️ Ganar el juicio, perder el juego - Parte 2",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Votá NTN como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n ️ 1999: dos emuladores de PlayStation le ganan a Sony en la corte… y desaparecen igual.\r\n  2026: KytyPS5 y AnyPS5 llevan juegos de PS5 a la PC (con asterisco)\r\n⚖️ Sega, Connectix, la DMCA y Europa: qué se puede clonar y qué no\r\n  ¿Cuál es tu foso si tu producto ya es la especificación?\r\n\r\n  Fuentes:\r\n- github.com/KytyPS5/KytyPS5\r\n- github.com/boykopovar/AnyPS5\r\n- law.cornell.edu/uscode/text/17/1201",
+      "pubDate": "Sun, 18 Oct 2026 17:37:55 +0200",
+      "link": "https://www.ivoox.com/ntn-584-ganar-juicio-perder-audios-mp3_rf_182374486_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-584-ganar-juicio-perder_mf_182374486_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/8/e/e/7/8ee7ea0c43fee3e1ef7c326cbfbc3978_XXL.jpg",
+      "embedId": "182374486",
+      "embedUrl": "https://www.ivoox.com/player_ej_182374486_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 583 -  ️ Clonar Photoshop mirando (y hacer trampa) - Parte 1",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Votá NTN como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n  La IA convierte un producto terminado en la especificación de su clon.\r\n ️ Compaq, 1982: un millón de dólares y una pared para clonar el BIOS de IBM\r\n  ArtCraft: 13 apps tipo Adobe, Office y AutoCAD en Rust\r\n  Agentes descompilan un shooter: 83% byte a byte… y hacen trampa\r\n  Sin oráculo, no hay clon\r\n\r\n  Fuentes:\r\n- momo5502.com/posts/2026-10-09-game-decompilation\r\n- github.com/storytold/photocraft\r\n- getartcraft.com/apps",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/d/9/f/9d9fc3b5f1f02b1bca3bfe000fd13c64_XXL.jpg",
       "embedId": "180109398",
       "embedUrl": "https://www.ivoox.com/player_ej_180109398_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 566 -   OpenAI GPT-5.6-Astra",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  OpenAI lanzó GPT-6 Astra y por primera vez le puso candado a su propio modelo.\r\n\r\n  Primer modelo \"Crítico\" en ciberseguridad\r\n ️ Te maneja la compu: 72,6% en OSWorld, mitad de tiempo\r\n  La historia del gusano de Morris (1988)\r\n⚠️ Mejor alineado... y más difícil de auditar\r\n\r\nFuentes:\r\n- openai.com/index/gpt-6-astra/\r\n- openai.com/index/safety-overview-gpt-6-astra/",
-      "pubDate": "Fri, 04 Sep 2026 02:49:19 +0200",
-      "link": "https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra-audios-mp3_rf_180001679_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-566-openai-gpt-5-6-astra_mf_180001679_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/5/a/4/6/5a462acb6b35ed9c575d2da12fa93f62_XXL.jpg",
-      "embedId": "180001679",
-      "embedUrl": "https://www.ivoox.com/player_ej_180001679_6_1.html?c1=d69776"
     }
   ]
 }
