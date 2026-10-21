@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-20T08:00:15.328Z",
+  "generatedAt": "2026-10-21T08:05:02.862Z",
   "items": [
+    {
+      "title": "NTN 585 -   El Login de Cartón",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>☕  Un CEO descubrió Claude, vibe-codeó el panel de su cadena de cafés… ¡y dejó los datos en el login!  \r\n•   Lo encontraron por Instagram\r\n•   Kerckhoffs (1883): un login no es un candado\r\n• ✅ IA con criterio\r\n ️ ¡Votanos como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://mybroadband.co.za/news/security/672647-ceo-of-top-south-african-coffee-franchise-responds-after-vibe-coded-web-application-exposed-sensitive-data.html\r\n• https://www.petitcolas.net/kerckhoffs/",
+      "pubDate": "Tue, 20 Oct 2026 23:12:24 +0200",
+      "link": "https://www.ivoox.com/ntn-585-el-login-carton-audios-mp3_rf_182517465_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-585-el-login-carton_mf_182517465_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/8/7/c/c87c8ca6959e2b8cd7628cd406a75639_XXL.jpg",
+      "embedId": "182517465",
+      "embedUrl": "https://www.ivoox.com/player_ej_182517465_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 584 - ⚖️ Ganar el juicio, perder el juego - Parte 2",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Votá NTN como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n ️ 1999: dos emuladores de PlayStation le ganan a Sony en la corte… y desaparecen igual.\r\n  2026: KytyPS5 y AnyPS5 llevan juegos de PS5 a la PC (con asterisco)\r\n⚖️ Sega, Connectix, la DMCA y Europa: qué se puede clonar y qué no\r\n  ¿Cuál es tu foso si tu producto ya es la especificación?\r\n\r\n  Fuentes:\r\n- github.com/KytyPS5/KytyPS5\r\n- github.com/boykopovar/AnyPS5\r\n- law.cornell.edu/uscode/text/17/1201",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/4/e/2/b/4e2b1497510cd62ba025e58b753e8cfc_XXL.jpg",
       "embedId": "180372221",
       "embedUrl": "https://www.ivoox.com/player_ej_180372221_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 567 -   Open Weight ≠ Open Source",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>\t  Todos decimos \"open source\" y casi nadie lo dice bien. Episodio express de lunes:\r\n\t  Del 4,5% al 63% de tokens en OpenRouter\r\n\t⚖️ Los pesos y el copyright: ¿hay algo que licenciar?\r\n\t  Destilación: por qué se pelea por ToS y no por derechos de autor\r\n\t  K3 pesa 1,4 TB: abierto ya no es local\r\n\t ️ El argumento de riesgo, sin descartarlo como marketing\r\n\tFuentes:\r\n\t• redmonk.com/sogrady/2026/09/03/open-weight-models/\r\n\t• redmonk.com/sogrady/2026/06/02/g7-open-weights/",
-      "pubDate": "Mon, 07 Sep 2026 03:09:00 +0200",
-      "link": "https://www.ivoox.com/ntn-567-open-weight-open-audios-mp3_rf_180109398_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-567-open-weight-open_mf_180109398_feed_1.mp3?d=1789389955",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/d/9/f/9d9fc3b5f1f02b1bca3bfe000fd13c64_XXL.jpg",
-      "embedId": "180109398",
-      "embedUrl": "https://www.ivoox.com/player_ej_180109398_6_1.html?c1=d69776"
     }
   ]
 }
