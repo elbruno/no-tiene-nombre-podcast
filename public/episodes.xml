@@ -24,6 +24,25 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 586 -   PHP2Shell: el parche llegó tarde]]></title>
+<link>https://www.ivoox.com/ntn-586-php2shell-parche-llego-audios-mp3_rf_182635619_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-586-php2shell-parche-llego_mf_182635619_feed_1.mp3" type="audio/mpeg" length="18232963"/>
+<description><![CDATA[<a href="https://go.ivoox.com/wv/premios26?c=5475" target="_blank">¡Vótame en los Premios iVoox 2026!</a> <br>  PHP2Shell: dos bugs críticos en PHP, explotados 4 días antes del parche  
+•   La IA los encontró… y también acelera a los atacantes
+•   El honeypot de AWS que los vio venir
+•  ️ Qué hacer hoy
+ ️ ¡Votá NTN en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475
+  Fuentes:
+• https://www.wiz.io/blog/php2shell-php-rce
+• https://www.php.net/archive/2026.php#2026-10-21-5
+• https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/]]></description>
+<pubDate>Thu, 22 Oct 2026 16:50:01 +0200</pubDate>
+<itunes:duration>18:59</itunes:duration>
+<guid>https://www.ivoox.com/182635619</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/2/3/f/2/23f24dd922cdd11d80ddb1c794e0eddc_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 585 -   El Login de Cartón]]></title>
 <link>https://www.ivoox.com/ntn-585-el-login-carton-audios-mp3_rf_182517465_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-585-el-login-carton_mf_182517465_feed_1.mp3" type="audio/mpeg" length="12605979"/>
