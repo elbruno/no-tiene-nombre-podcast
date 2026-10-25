@@ -19,8 +19,25 @@ jobs:
         with:
           submodules: true
           lfs: false
+
+      - name: Set up Node.js for Dependabot pull requests
+        if: github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+
+      - name: Install dependencies for Dependabot pull requests
+        if: github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
+        run: npm ci
+
+      - name: Build Dependabot pull requests
+        if: github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
+        run: npm run build
+
       - name: Build And Deploy
         id: builddeploy
+        if: github.actor != 'dependabot[bot]'
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_SKY_0B305F010 }}
@@ -34,7 +51,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     name: Close Pull Request Job
     steps:
