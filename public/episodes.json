@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-25T07:53:51.444Z",
+  "generatedAt": "2026-10-26T08:14:19.093Z",
   "items": [
+    {
+      "title": "NTN 587 -   TED Talks: del aplauso al meme",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  TED nació en 1984 perdiendo plata, conquistó YouTube y terminó siendo un meme  \r\n•   De Monterey a mil millones de vistas\r\n•   La pose de poder que no replicó\r\n•   TEDx, cristales en Valencia y la carta de 2012\r\n•   Las vistas no son evidencia\r\n  ¡Votá a NTN en los Premios iVoox!: https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.ted.com/about/our-organization/history-of-ted\r\n• https://tedx.tumblr.com/post/37405280671/a-letter-to-the-tedx-community-on-tedx-and-bad",
+      "pubDate": "Sun, 25 Oct 2026 17:39:59 +0200",
+      "link": "https://www.ivoox.com/ntn-587-ted-talks-del-aplauso-audios-mp3_rf_182748986_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-587-ted-talks-del-aplauso_mf_182748986_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/9/5/a/d/95ad0cdba37e50fce910bfabf5801009_XXL.jpg",
+      "embedId": "182748986",
+      "embedUrl": "https://www.ivoox.com/player_ej_182748986_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 586 -   PHP2Shell: el parche llegó tarde",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  PHP2Shell: dos bugs críticos en PHP, explotados 4 días antes del parche  \r\n•   La IA los encontró… y también acelera a los atacantes\r\n•   El honeypot de AWS que los vio venir\r\n•  ️ Qué hacer hoy\r\n ️ ¡Votá NTN en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.wiz.io/blog/php2shell-php-rce\r\n• https://www.php.net/archive/2026.php#2026-10-21-5\r\n• https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/d/c/3/1/dc315a443760429e2993a872acb69ec5_XXL.jpg",
       "embedId": "180535475",
       "embedUrl": "https://www.ivoox.com/player_ej_180535475_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 569 -  ️ Bug de sonido en NTN",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br> ️ En este episodio de NO TIENE NOMBRE toca hablar de un bug bien real: el audio salió flojito, la música se comió la voz y hubo que frenar, revisar y reeditar. Aprovecho para contar qué pasó, cómo lo detecté gracias a la comunidad y cómo voy a evitar que vuelva a pasar. Porque en tecnología, hasta los errores traen aprendizaje.\r\nFuentes / contexto\r\n\t• Comentarios de la comunidad en los episodios NTN 567 y NTN 568\r\n\t• Proceso de reedición y revisión interna de audio del podcast",
-      "pubDate": "Sun, 13 Sep 2026 14:44:38 +0200",
-      "link": "https://www.ivoox.com/ntn-569-bug-sonido-en-audios-mp3_rf_180486932_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-569-bug-sonido-en_mf_180486932_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/1/a/a/b/1aab52936b2c8c02b7c8af32dca9915d_XXL.jpg",
-      "embedId": "180486932",
-      "embedUrl": "https://www.ivoox.com/player_ej_180486932_6_1.html?c1=d69776"
     }
   ]
 }
