@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-27T08:28:26.537Z",
+  "generatedAt": "2026-10-28T09:05:39.527Z",
   "items": [
+    {
+      "title": "NTN 588 -   Agent Loops vs Subagentes",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¿Tu agente de IA tiene un subagente por equipo? Spoiler: copiaste tu organigrama  \r\n\r\n• Qué es un agent loop y un subagente\r\n• Ley de Conway: el paper que Harvard rechazó\r\n• Cuándo fusionar subagentes en un solo loop\r\n\r\n ️ ¡Votanos en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\r\n• http://www.melconway.com/Home/Committees_Paper.html",
+      "pubDate": "Tue, 27 Oct 2026 18:45:27 +0200",
+      "link": "https://www.ivoox.com/ntn-588-agent-loops-vs-subagentes-audios-mp3_rf_182870511_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-588-agent-loops-vs-subagentes_mf_182870511_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/c/a/9/5/ca950f09ab2f542a349f5f5a62b9cf5b_XXL.jpg",
+      "embedId": "182870511",
+      "embedUrl": "https://www.ivoox.com/player_ej_182870511_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 587 -   TED Talks: del aplauso al meme",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  TED nació en 1984 perdiendo plata, conquistó YouTube y terminó siendo un meme  \r\n•   De Monterey a mil millones de vistas\r\n•   La pose de poder que no replicó\r\n•   TEDx, cristales en Valencia y la carta de 2012\r\n•   Las vistas no son evidencia\r\n  ¡Votá a NTN en los Premios iVoox!: https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.ted.com/about/our-organization/history-of-ted\r\n• https://tedx.tumblr.com/post/37405280671/a-letter-to-the-tedx-community-on-tedx-and-bad",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/f/6/d/7/f6d787afb6f1a4930c84463fbad0de2c_XXL.jpg",
       "embedId": "180831722",
       "embedUrl": "https://www.ivoox.com/player_ej_180831722_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 569 -   Desenchufá esa cosa (si podés)",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  Un investigador renuncia y dice que a la IA \"no la podés desenchufar\". Internet enloquece. Acá leemos el ticket completo.\r\n\r\n-   Qué dijo Coxon (y qué NO dijo)\r\n-   1988: el gusano que ya hizo esta pregunta\r\n- ⚙️ Replicación real vs. titular\r\n-  ️ Qué hacés el lunes\r\n\r\nFuentes:\r\n- cbsnews.com/news/anthropic-researcher-jacob-coxon-ai-warning/\r\n- arxiv.org/pdf/2605.06760\r\n- anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-      "pubDate": "Mon, 14 Sep 2026 14:30:58 +0200",
-      "link": "https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si-audios-mp3_rf_180535475_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-569-desenchufa-esa-cosa-si_mf_180535475_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/d/c/3/1/dc315a443760429e2993a872acb69ec5_XXL.jpg",
-      "embedId": "180535475",
-      "embedUrl": "https://www.ivoox.com/player_ej_180535475_6_1.html?c1=d69776"
     }
   ]
 }
