@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-29T09:03:23.409Z",
+  "generatedAt": "2026-10-30T09:14:01.789Z",
   "items": [
+    {
+      "title": "NTN 589 -   GitHub Universe 2026",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡GitHub Universe 2026! Copilot sube de nivel  \r\n•   Fusion: varios modelos, una tarea\r\n•  ️ Projects y sesiones que te siguen\r\n•   Code review Max y Git para agentes\r\n ️ ¡Votanos como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/\r\n• https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "pubDate": "Thu, 29 Oct 2026 16:05:38 +0200",
+      "link": "https://www.ivoox.com/ntn-589-github-universe-2026-audios-mp3_rf_182990549_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-589-github-universe-2026_mf_182990549_feed_1.mp3",
+      "imageUrl": "https://static-2.ivoox.com/audios/1/a/6/7/1a672b8bc697eca7beb11893a3443e7e_XXL.jpg",
+      "embedId": "182990549",
+      "embedUrl": "https://www.ivoox.com/player_ej_182990549_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 588 -   Agent Loops vs Subagentes",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¿Tu agente de IA tiene un subagente por equipo? Spoiler: copiaste tu organigrama  \r\n\r\n• Qué es un agent loop y un subagente\r\n• Ley de Conway: el paper que Harvard rechazó\r\n• Cuándo fusionar subagentes en un solo loop\r\n\r\n ️ ¡Votanos en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\r\n• http://www.melconway.com/Home/Committees_Paper.html",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/4/c/7/c/4c7c6a2484dbc479c803175c55721ac4_XXL.jpg",
       "embedId": "180889332",
       "embedUrl": "https://www.ivoox.com/player_ej_180889332_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 570 -   Copilot se reescribió a sí mismo en Rust",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Viernes de Rust! Copilot reescribió su propio runtime: +800K líneas de Rust escritas por agentes  \r\n\t• ⚡ Hasta 21x más rápido y ~91% menos memoria\r\n\t•   ~US$120K en tokens\r\n\t•   Dos agentes peleándose por un archivo\r\n\t•   El ascensor roto que inspiró Rust\r\n  Fuentes:\r\n\t• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n\t• https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/",
-      "pubDate": "Fri, 18 Sep 2026 19:38:09 +0200",
-      "link": "https://www.ivoox.com/ntn-570-copilot-se-reescribio-a-audios-mp3_rf_180831722_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-570-copilot-se-reescribio-a_mf_180831722_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/6/d/7/f6d787afb6f1a4930c84463fbad0de2c_XXL.jpg",
-      "embedId": "180831722",
-      "embedUrl": "https://www.ivoox.com/player_ej_180831722_6_1.html?c1=d69776"
     }
   ]
 }
