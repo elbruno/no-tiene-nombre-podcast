@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-31T09:02:27.732Z",
+  "generatedAt": "2026-11-01T09:52:57.032Z",
   "items": [
+    {
+      "title": "NTN 590 -   Especial Halloween 2026 e Inteligencia Artificial !",
+      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡Votanos en los Premios iVoox hasta el 2/11! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n  Especial Halloween de NO TIENE NOMBRE, modo express:\r\n•   Agentes de IA que borran producción en 9 segundos\r\n•   Knight Capital: código zombie, 45 min, +460 M USD\r\n•   GitLab 2017: rm -rf al primario y backups fantasma\r\n•   Pizza con pegamento y 18.000 vasos de agua\r\n\r\n  Fuentes:\r\n• https://www.sec.gov/news/press-release/2013-222\r\n• https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/",
+      "pubDate": "Sat, 31 Oct 2026 17:14:08 +0200",
+      "link": "https://www.ivoox.com/ntn-590-especial-halloween-2026-e-audios-mp3_rf_183076292_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-590-especial-halloween-2026-e_mf_183076292_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/b/1/d/db1dfed10a33a7ff5322e181baa72956_XXL.jpg",
+      "embedId": "183076292",
+      "embedUrl": "https://www.ivoox.com/player_ej_183076292_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 589 -   GitHub Universe 2026",
       "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  ¡GitHub Universe 2026! Copilot sube de nivel  \r\n•   Fusion: varios modelos, una tarea\r\n•  ️ Projects y sesiones que te siguen\r\n•   Code review Max y Git para agentes\r\n ️ ¡Votanos como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/\r\n• https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/2/7/d/927d099d61cafdf24c4dffe64ec91efe_XXL.jpg",
       "embedId": "180976468",
       "embedUrl": "https://www.ivoox.com/player_ej_180976468_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 571 -   Si la IA escribe todo, ¿qué nos queda?",
-      "description": "<a href=\"https://go.ivoox.com/wv/premios26?c=5475\" target=\"_blank\">¡Vótame en los Premios iVoox 2026!</a> <br>  Copilot se migró a Rust con agentes… ¿y ahora qué nos queda a los devs?\r\n- 832.000 líneas de Rust, 128 PRs, ~US$120.000\r\n- 63% del trabajo humano: revisar, discutir y empujar\r\n- PostHog: de 20% a 70% de PRs abiertos por agentes\r\n- John Boyd y el loop OODA, 70 años después\r\n  Fuentes:\r\n- newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left\r\n- github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-      "pubDate": "Sun, 20 Sep 2026 18:47:45 +0200",
-      "link": "https://www.ivoox.com/ntn-571-si-ia-escribe-audios-mp3_rf_180889332_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-571-si-ia-escribe_mf_180889332_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/4/c/7/c/4c7c6a2484dbc479c803175c55721ac4_XXL.jpg",
-      "embedId": "180889332",
-      "embedUrl": "https://www.ivoox.com/player_ej_180889332_6_1.html?c1=d69776"
     }
   ]
 }
