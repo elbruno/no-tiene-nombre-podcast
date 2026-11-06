@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-05T10:01:00.333Z",
+  "generatedAt": "2026-11-06T10:04:01.264Z",
   "items": [
+    {
+      "title": "NTN 593 -   Reescribir ya no es pecado (Parte 1)",
+      "description": "Parte 1: en 2000 Spolsky dijo NUNCA reescribas. En 2026 Toub portó Copilot a Rust con agentes  \r\n•   Netscape y el origen de Rust\r\n• ⚔️ Big bang vs. pieza por pieza\r\n \r\n• https://www.developing.dev/p/e073-stephen-toub\r\n• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n• https://bun.com/blog/bun-in-rust\r\n• https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/",
+      "pubDate": "Thu, 05 Nov 2026 17:30:53 +0200",
+      "link": "https://www.ivoox.com/ntn-593-reescribir-ya-no-es-audios-mp3_rf_183372480_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-593-reescribir-ya-no-es_mf_183372480_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/b/3/c/4b3c477e3e1f8905d60486ecb1348e5a_XXL.jpg",
+      "embedId": "183372480",
+      "embedUrl": "https://www.ivoox.com/player_ej_183372480_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 592 -   IA operando IA, sin anestesia",
       "description": "️ ¡Nuevo NTN! \r\n  El CEO de Proton llamó \"perdedores\" a los que piden pentest y canceló las re-entrevistas de IA \r\n  GPT-6 Astra editó el 0,016% de los pesos de Qwen: matemática de 7,9% a 48,1% \r\n  DeepSeek Harness arma plugins con un prompt \r\n\r\n  Fuentes: \r\n• https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ \r\n• https://rikiyat.github.io/blog/weight-space-programming/ \r\n• https://x.com/DeepSeekHarness/status/2117256196227019194 \r\n\r\n  Votanos: https://go.ivoox.com/wv/premios26?c=5475",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/8/d/2/88d28c42fe270d3b563a4d7b1c623cec_XXL.jpg",
       "embedId": "181301098",
       "embedUrl": "https://www.ivoox.com/player_ej_181301098_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 574 -   Jev: la IA que no habla, decide",
-      "description": "¿Una IA que no escribe ni una palabra? Llegó Jev: decide en milisegundos y te dice cuán segura está.\r\n\t•   Quién lo creó y por qué no es un LLM\r\n\t•   Choice, Score y Noul, explicados\r\n\t• ⚠️ ¿De verdad no alucina?\r\n\t•   Alternativas open weight: Laya y Kev\r\n  Fuentes:\r\n\t• https://www.thestack.technology/runtime-jev-is-an-llm-without-the-ll/\r\n\t• https://typesafe.ai/blog/introducing-system-one-models-and-jev\r\n\t• https://github.com/NandhaKishorM/laya",
-      "pubDate": "Fri, 25 Sep 2026 18:00:58 +0200",
-      "link": "https://www.ivoox.com/ntn-574-jev-ia-que-audios-mp3_rf_181194954_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-574-jev-ia-que_mf_181194954_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/3/b/7/33b76f6f1625fe83cd542351bd707cdc_XXL.jpg",
-      "embedId": "181194954",
-      "embedUrl": "https://www.ivoox.com/player_ej_181194954_6_1.html?c1=d69776"
     }
   ]
 }
