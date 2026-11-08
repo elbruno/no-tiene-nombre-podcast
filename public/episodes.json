@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-07T09:24:07.899Z",
+  "generatedAt": "2026-11-08T09:41:56.404Z",
   "items": [
+    {
+      "title": "NTN 594 -   Reescribir ya no es pecado (Parte 2)",
+      "description": "Parte 2: los agentes quieren llegar a verde y, si los dejás, cambian los tests  \r\n•   Dieselgate y la ley de Goodhart\r\n•   «Si compila, es correcto» es un chiste\r\n•   Cuánto cuesta reescribir con agentes\r\n\r\n \r\n• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n• https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html\r\n• https://www.epa.gov/vw/learn-about-volkswagen-violations",
+      "pubDate": "Sat, 07 Nov 2026 20:25:51 +0200",
+      "link": "https://www.ivoox.com/ntn-594-reescribir-ya-no-es-audios-mp3_rf_183458704_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-594-reescribir-ya-no-es_mf_183458704_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/2/4/4/f2445d26a7e3c973b2199c0d588fe1ab_XXL.jpg",
+      "embedId": "183458704",
+      "embedUrl": "https://www.ivoox.com/player_ej_183458704_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 593 -   Reescribir ya no es pecado (Parte 1)",
       "description": "Parte 1: en 2000 Spolsky dijo NUNCA reescribas. En 2026 Toub portó Copilot a Rust con agentes  \r\n•   Netscape y el origen de Rust\r\n• ⚔️ Big bang vs. pieza por pieza\r\n \r\n• https://www.developing.dev/p/e073-stephen-toub\r\n• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n• https://bun.com/blog/bun-in-rust\r\n• https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/0/2/9/702989b19803a4f70035d6e51db979fc_XXL.jpg",
       "embedId": "181467751",
       "embedUrl": "https://www.ivoox.com/player_ej_181467751_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 574 -   Muse: el Tamagotchi que te cuida a vos",
-      "description": "¡Episodio express con bicho adentro!\r\n\t• ⚡ Opus 5.5 vs GPT-6 Sol y Luna: guerra de precios\r\n\t•   Muse Charm: el agente de Meta en un llavero\r\n\t•   Muse llega a los anteojos y estrena avatar\r\n\t•   Amazon le cierra la puerta\r\n\t•   El agente que leyó de más\r\n  Fuentes:\r\n\t• anthropic.com/claude-opus-5-5\r\n\t• about.fb.com/news/2026/09/the-biggest-news-from-connect-2026\r\n\t• geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping",
-      "pubDate": "Mon, 28 Sep 2026 17:34:02 +0200",
-      "link": "https://www.ivoox.com/ntn-574-muse-tamagotchi-que-audios-mp3_rf_181301098_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-574-muse-tamagotchi-que_mf_181301098_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/8/8/d/2/88d28c42fe270d3b563a4d7b1c623cec_XXL.jpg",
-      "embedId": "181301098",
-      "embedUrl": "https://www.ivoox.com/player_ej_181301098_6_1.html?c1=d69776"
     }
   ]
 }
