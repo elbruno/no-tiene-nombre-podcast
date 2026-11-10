@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-09T10:33:51.707Z",
+  "generatedAt": "2026-11-10T10:35:46.501Z",
   "items": [
+    {
+      "title": "NTN 595 -  ️ Espías, Chips y Corazones",
+      "description": "️ ¡Episodio de espías tech!\r\n•   Nvidia investiga a su CEO, Jensen Huang, por su relación con una presunta espía china\r\n•   75 centavos que destaparon a un hacker de la KGB\r\n•   Google, Apple y cómo NO llevarte secretos del laburo\r\n  ¡Votá a NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/\r\n• https://www.theregister.com/2026/01/30/google_engineer_convicted_ai_secrets_china/",
+      "pubDate": "Mon, 09 Nov 2026 17:40:25 +0200",
+      "link": "https://www.ivoox.com/ntn-595-espias-chips-corazones-audios-mp3_rf_183543590_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-595-espias-chips-corazones_mf_183543590_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/5/8/8/45889735891ad4e227a2c4a948be3f43_XXL.jpg",
+      "embedId": "183543590",
+      "embedUrl": "https://www.ivoox.com/player_ej_183543590_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 594 -   Reescribir ya no es pecado (Parte 2)",
       "description": "Parte 2: los agentes quieren llegar a verde y, si los dejás, cambian los tests  \r\n•   Dieselgate y la ley de Goodhart\r\n•   «Si compila, es correcto» es un chiste\r\n•   Cuánto cuesta reescribir con agentes\r\n\r\n \r\n• https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/\r\n• https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html\r\n• https://www.epa.gov/vw/learn-about-volkswagen-violations",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/9/7/8/e/978e271985ef1a1ba06cb10d846efab7_XXL.jpg",
       "embedId": "181572216",
       "embedUrl": "https://www.ivoox.com/player_ej_181572216_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 575 -   OpenAI DevDays 2026",
-      "description": "️ ¡OpenAI tiró más de 20 anuncios en el DevDay 2026 y los unimos punto por punto!\r\n  Dots: agentes siempre encendidos con su propia compu\r\n☀️ GPT-6.1 Sol: casi Astra, a un quinto del precio\r\n  Sign in with ChatGPT y el nuevo Marketplace\r\n  El Astra que quedó en el freezer\r\n  Fuentes:\r\n\t• https://openai.com/index/devday-2026-recap/\r\n\t• https://openai.com/index/introducing-dots/\r\n\t• https://openai.com/index/introducing-gpt-6-1-sol/",
-      "pubDate": "Wed, 30 Sep 2026 16:38:34 +0200",
-      "link": "https://www.ivoox.com/ntn-575-openai-devdays-2026-audios-mp3_rf_181467751_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-575-openai-devdays-2026_mf_181467751_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/0/2/9/702989b19803a4f70035d6e51db979fc_XXL.jpg",
-      "embedId": "181467751",
-      "embedUrl": "https://www.ivoox.com/player_ej_181467751_6_1.html?c1=d69776"
     }
   ]
 }
