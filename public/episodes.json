@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-11T09:59:02.339Z",
+  "generatedAt": "2026-11-12T10:32:24.610Z",
   "items": [
+    {
+      "title": "NTN 596 -  ️ Espías, Chips y Planillas",
+      "description": "️ ¡Episodio express de NO TIENE NOMBRE!\r\n  Claude se arma la oficina: Sheets, Whiteboards, Data y Meetings\r\n ️ Nvidia, Megaspeed y Alice Huang: ¿chips prohibidos rumbo a China?\r\n  Bonus 1987: congresistas a martillazos contra Toshiba\r\n  ¡Votanos en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/\r\n• https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+      "pubDate": "Wed, 11 Nov 2026 15:53:54 +0200",
+      "link": "https://www.ivoox.com/ntn-596-espias-chips-planillas-audios-mp3_rf_183681792_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-596-espias-chips-planillas_mf_183681792_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/d/f/f/8/dff8d14babb7d690f555ac6e339d376e_XXL.jpg",
+      "embedId": "183681792",
+      "embedUrl": "https://www.ivoox.com/player_ej_183681792_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 595 -  ️ Espías, Chips y Corazones",
       "description": "️ ¡Episodio de espías tech!\r\n•   Nvidia investiga a su CEO, Jensen Huang, por su relación con una presunta espía china\r\n•   75 centavos que destaparon a un hacker de la KGB\r\n•   Google, Apple y cómo NO llevarte secretos del laburo\r\n  ¡Votá a NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/\r\n• https://www.theregister.com/2026/01/30/google_engineer_convicted_ai_secrets_china/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/3/b/c/2/3bc2f7e22b194a6b28d5d6c8d536b397_XXL.jpg",
       "embedId": "181682242",
       "embedUrl": "https://www.ivoox.com/player_ej_181682242_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 576 -   Súper Inteligencia, súper paranoia",
-      "description": "️ ¡Express con 4 noticias!\r\n-   Trump rebautiza la IA como “SI” y Eslovenia se llena de dominios .si\r\n-   OpenAI se separa de 3 investigadores de safety\r\n-   Griffin, el avatar que pasa por humano\r\n-   Proteínas con marca de agua\r\nFuentes:\r\n- https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html\r\n- https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/\r\n- https://www.tavus.io/griffin\r\n- https://deepmind.google/blog/introducing-synthid-bio/",
-      "pubDate": "Fri, 02 Oct 2026 17:24:13 +0200",
-      "link": "https://www.ivoox.com/ntn-576-super-inteligencia-super-paranoia-audios-mp3_rf_181572216_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-576-super-inteligencia-super-paranoia_mf_181572216_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/9/7/8/e/978e271985ef1a1ba06cb10d846efab7_XXL.jpg",
-      "embedId": "181572216",
-      "embedUrl": "https://www.ivoox.com/player_ej_181572216_6_1.html?c1=d69776"
     }
   ]
 }
