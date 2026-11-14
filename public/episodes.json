@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-13T10:16:34.253Z",
+  "generatedAt": "2026-11-14T09:37:27.639Z",
   "items": [
+    {
+      "title": "NTN 597 -   Año 1 d.J.: Nvidia sin Jensen",
+      "description": "️ ¡Episodio express! \r\nEs 2026 d.C., pero la industria ya vive el Año 1 d.J. (después de Jensen)   \r\n•   Jensen Huang deja Nvidia y Colette Kress queda como CEO interina… sin plan B \r\n•   ¿Llegó la hora de renegociar? \r\n• ⚛️ Google lanza Gemini 4 Hydrogen   \r\n  Fuentes: \r\n• https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/ \r\n• https://www.testingcatalog.com/google-launches-gemini-4-hydrogen-for-pro-and-ultra-users/",
+      "pubDate": "Fri, 13 Nov 2026 16:08:28 +0200",
+      "link": "https://www.ivoox.com/ntn-597-ano-1-d-j-nvidia-audios-mp3_rf_183782975_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-597-ano-1-d-j-nvidia_mf_183782975_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/canales/0/c/5/7/0c57a9be021d99484cb9580ef113bfb7_XXL.jpg",
+      "embedId": "183782975",
+      "embedUrl": "https://www.ivoox.com/player_ej_183782975_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 596 -  ️ Espías, Chips y Planillas",
       "description": "️ ¡Episodio express de NO TIENE NOMBRE!\r\n  Claude se arma la oficina: Sheets, Whiteboards, Data y Meetings\r\n ️ Nvidia, Megaspeed y Alice Huang: ¿chips prohibidos rumbo a China?\r\n  Bonus 1987: congresistas a martillazos contra Toshiba\r\n  ¡Votanos en los Premios iVoox! https://go.ivoox.com/wv/premios26?c=5475\r\n  Fuentes:\r\n• https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/\r\n• https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/8/d/b/b8dbdca1bb67ff82b4b9e41b42f9dbb9_XXL.jpg",
       "embedId": "181836954",
       "embedUrl": "https://www.ivoox.com/player_ej_181836954_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 577 -   Un Rabino, un Papa y un Chatbot",
-      "description": "️ ¡Episodio exprés! Cajas, RAM y alma en 10 minutos:\r\n  FLUX 3 Image: dibujás cajas y la IA compone la imagen\r\n  Micron: récord de 54 mil millones y memoria escasa hasta 2028\r\n  Anthropic, un rabino, el Papa y Altman: ¿Claude es consciente?\r\nFuentes:\r\n• https://docs.bfl.ai/flux_3/flux3_image_overview\r\n• https://investors.micron.com\r\n• https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "pubDate": "Mon, 05 Oct 2026 16:14:25 +0200",
-      "link": "https://www.ivoox.com/ntn-577-un-rabino-papa-audios-mp3_rf_181682242_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-577-un-rabino-papa_mf_181682242_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/3/b/c/2/3bc2f7e22b194a6b28d5d6c8d536b397_XXL.jpg",
-      "embedId": "181682242",
-      "embedUrl": "https://www.ivoox.com/player_ej_181682242_6_1.html?c1=d69776"
     }
   ]
 }
