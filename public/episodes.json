@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-17T11:18:38.629Z",
+  "generatedAt": "2026-11-18T10:52:16.215Z",
   "items": [
+    {
+      "title": "NTN 599 -   Ignite 2026: 50 millones de agentes",
+      "description": "¡Desarmamos Microsoft Ignite 2026!\r\n•   Copilot, el nuevo sistema operativo del trabajo\r\n•   MAI-Code-2 y pesos licenciados (con letra chica)\r\n•   50 millones de agentes con DNI y el chip Maia 300\r\n• ☎️ El break de 1990 que dejó a EE.UU. sin llamadas\r\nFuentes:\r\n• https://news.microsoft.com/events/ignite/2026/live-news/\r\n• https://news.microsoft.com/events/ignite/2026/book-of-news/\r\n• https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+      "pubDate": "Wed, 18 Nov 2026 04:14:23 +0200",
+      "link": "https://www.ivoox.com/ntn-599-ignite-2026-50-millones-audios-mp3_rf_183995929_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-599-ignite-2026-50-millones_mf_183995929_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/0/f/f/d/0ffd6fbe4dd7d458533ab9e58c871c5b_XXL.jpg",
+      "embedId": "183995929",
+      "embedUrl": "https://www.ivoox.com/player_ej_183995929_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 598 -   Agentes: el pasante con root",
       "description": "¡Hoy agentes, cero chismes!\r\n•   Agentes = microservicios 2019\r\n•   Opus vs Argon buscando código\r\n•   Tests truchos\r\n•  ️ La respuesta: ingeniería\r\nFuentes:\r\n• https://www.oreilly.com/radar/why-ai-agents-are-repeating-2019s-microservices-mistake/\r\n• https://davenporter.com/writings/opus-vs-argon-how-models-search-code\r\n• https://www.vincentschmalbach.com/how-to-stop-a-coding-agent-from-weakening-or-faking-tests-to-make-them-pass/\r\n• https://ghuntley.com/answer/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/7/7/2/f/772f5f7dd609d856df160482410b00f0_XXL.jpg",
       "embedId": "182006180",
       "embedUrl": "https://www.ivoox.com/player_ej_182006180_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 579 -   La IA se muda a tu PC",
-      "description": "¡Episodio express! Ayer Windows se volvió híbrido y te lo cuento rapidito:\r\n•   Modelos de IA corriendo en tu PC\r\n•   HydraFusion rutea entre local y nube\r\n•   Surface Laptop Ultra y nuevos Copilots\r\n ️ ¡Votá a NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  ¡Sumate a mi maratón de NY! https://fundraisers.nyrr.org/bruno-capuano\r\nFuentes:\r\n• https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/\r\n• https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
-      "pubDate": "Thu, 08 Oct 2026 16:30:31 +0200",
-      "link": "https://www.ivoox.com/ntn-579-la-ia-se-muda-audios-mp3_rf_181891622_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-579-la-ia-se-muda_mf_181891622_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/f/2/d/7/f2d7596bd7e376850a6b226ed92a553a_XXL.jpg",
-      "embedId": "181891622",
-      "embedUrl": "https://www.ivoox.com/player_ej_181891622_6_1.html?c1=d69776"
     }
   ]
 }
