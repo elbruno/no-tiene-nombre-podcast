@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-20T10:42:13.298Z",
+  "generatedAt": "2026-11-21T10:25:24.805Z",
   "items": [
+    {
+      "title": "NTN 600 -   Anthropic toca la campana y tu agente cambia de pantalla",
+      "description": "Agentes sin trasbordo y Anthropic en Wall Street  \r\n•   Anthropic debuta en el Nasdaq (ANT) y cierra +17% su primer día\r\n•   GitHub y el Agent Host Protocol: tu sesión sigue del celu a VS Code y a la nube\r\n•  ️ 1886: el sur de EE.UU. cambia la trocha en 36 horas\r\n  Fuentes:\r\n• https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/\r\n• https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
+      "pubDate": "Fri, 20 Nov 2026 16:33:28 +0200",
+      "link": "https://www.ivoox.com/ntn-600-anthropic-toca-campana-audios-mp3_rf_184138103_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-600-anthropic-toca-campana_mf_184138103_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/e/3/2/8/e3288df8429d9783f9909c9e0e8796ae_XXL.jpg",
+      "embedId": "184138103",
+      "embedUrl": "https://www.ivoox.com/player_ej_184138103_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 599 -   Ignite 2026: 50 millones de agentes",
       "description": "¡Desarmamos Microsoft Ignite 2026!\r\n•   Copilot, el nuevo sistema operativo del trabajo\r\n•   MAI-Code-2 y pesos licenciados (con letra chica)\r\n•   50 millones de agentes con DNI y el chip Maia 300\r\n• ☎️ El break de 1990 que dejó a EE.UU. sin llamadas\r\nFuentes:\r\n• https://news.microsoft.com/events/ignite/2026/live-news/\r\n• https://news.microsoft.com/events/ignite/2026/book-of-news/\r\n• https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-2.ivoox.com/audios/5/d/2/2/5d228d6ca4437faa3a2fb8a6bed5962e_XXL.jpg",
       "embedId": "182052212",
       "embedUrl": "https://www.ivoox.com/player_ej_182052212_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 580 -   ¿Funciona? La pregunta que hizo rico a Singapur",
-      "description": "¡Episodio especial! En 1965 una isla sin recursos se quedó sola. \r\nHoy es de las más ricas del mundo  \r\n\r\n•   El día que su líder lloró en TV\r\n•   Equipo, instituciones y una pregunta: ¿funciona?\r\n• ⚖️ El precio del modelo\r\n•   La lección para la era de la IA\r\n\r\n ️ Votá: https://go.ivoox.com/wv/premios26?c=5475\r\n  Apoya mi marathon: https://fundraisers.nyrr.org/bruno-capuano\r\n\r\nFuentes:\r\n• https://www.nas.gov.sg/archivesonline/data/pdfdoc/20070829984.htm\r\n• https://www.cpib.gov.sg/who-we-are/our-heritage/",
-      "pubDate": "Sun, 11 Oct 2026 18:14:11 +0200",
-      "link": "https://www.ivoox.com/ntn-580-funciona-la-pregunta-que-audios-mp3_rf_182006180_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-580-funciona-la-pregunta-que_mf_182006180_feed_1.mp3",
-      "imageUrl": "https://static-2.ivoox.com/audios/7/7/2/f/772f5f7dd609d856df160482410b00f0_XXL.jpg",
-      "embedId": "182006180",
-      "embedUrl": "https://www.ivoox.com/player_ej_182006180_6_1.html?c1=d69776"
     }
   ]
 }
