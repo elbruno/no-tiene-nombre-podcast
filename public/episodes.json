@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-25T11:52:13.019Z",
+  "generatedAt": "2026-11-26T11:40:51.715Z",
   "items": [
+    {
+      "title": "NTN 602 -   Ctrl+Z a Jensen y Code Red en Microsoft",
+      "description": "️ ¡Semana de reinicios en NTN!\r\n•   Jensen Huang vuelve como CEO de NVIDIA: qué pasó, su estilo de gestión y el impacto en política y mercados\r\n•   Microsoft declara \"Code Red\" tras 24 h sin Outlook\r\n•   Takeaway: tu bus factor no puede ser 1\r\n  Fuentes:\r\n• https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm\r\n• https://www.ibtimes.co.uk/microsoft-code-red-november-outage-coordination-failures-1834547",
+      "pubDate": "Wed, 25 Nov 2026 20:28:37 +0200",
+      "link": "https://www.ivoox.com/ntn-602-ctrl-z-a-jensen-y-audios-mp3_rf_184404701_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-602-ctrl-z-a-jensen-y_mf_184404701_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/4/e/b/1/4eb190b93d426b3fb19bb1972e2a8fc4_XXL.jpg",
+      "embedId": "184404701",
+      "embedUrl": "https://www.ivoox.com/player_ej_184404701_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 601 -   ARTEX: el hacker que no duerme",
       "description": "Claude ayudó a demostrar Riemann y, la misma semana,   ARTEX, un agente de IA open source, se paseó por bancos y nubes.\r\n•   Cómo piensa ARTEX por dentro\r\n•   Barracuda: 10 cuentas en 44 h\r\n•  ️ Qué hacer hoy\r\n  Fuentes:\r\n• https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/\r\n• https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/b/b/4/2/bb42c18e5444f23fe55845fc04692443_XXL.jpg",
       "embedId": "182311727",
       "embedUrl": "https://www.ivoox.com/player_ej_182311727_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 582 -   Espías, Git al límite y Argon",
-      "description": "️ Express de noticias de IA en NTN:\r\n  Un micrófono espía envuelto en papel higiénico en una sala de OpenAI\r\n  Anthropic deja Git: 30.000 merges por día y nace Scion\r\n⚗️ Llega Gemini 4 Argon\r\n\r\n  Fuentes:\r\n• https://x.com/OpenAINewsroom/status/2110095403198849132\r\n• https://anthropic.com/engineering/redesigning-source-control\r\n• https://x.com/Google/status/2105388143902175529\r\n\r\n  ¡Votá NTN! https://go.ivoox.com/wv/premios26?c=5475\r\n  Maratón NY: https://fundraisers.nyrr.org/bruno-capuano",
-      "pubDate": "Wed, 14 Oct 2026 17:14:38 +0200",
-      "link": "https://www.ivoox.com/ntn-582-espias-git-al-limite-audios-mp3_rf_182205296_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-582-espias-git-al-limite_mf_182205296_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/a/e/9/e/ae9e1101bc68f588157b92d7f580fe14_XXL.jpg",
-      "embedId": "182205296",
-      "embedUrl": "https://www.ivoox.com/player_ej_182205296_6_1.html?c1=d69776"
     }
   ]
 }
