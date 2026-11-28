@@ -24,6 +24,24 @@ https://notienenombre.com/]]></description>
 <itunes:email><![CDATA[bcapuano@gmail.com]]></itunes:email>
 </itunes:owner>
 <item>
+<title><![CDATA[NTN 603 - ⚙️ Viernes técnico: un motor que no duerme  ]]></title>
+<link>https://www.ivoox.com/ntn-603-viernes-tecnico-motor-audios-mp3_rf_184487719_1.html</link>
+<enclosure url="https://www.ivoox.com/ntn-603-viernes-tecnico-motor_mf_184487719_feed_1.mp3" type="audio/mpeg" length="19570850"/>
+<description><![CDATA[ ️ ¡Vuelven los viernes técnicos a NTN!   Y gracias por escucharnos
+  Jon Hoyt (GitHub) quemó su primer motor de agentes y lo rehízo: SQLite, worktrees, watchdogs y un revisor independiente
+✅ 137 commits verificados en una sola noche
+  Historia: el telar de Toyoda que sabía frenar
+  Agentes no confiables + software aburrido y confiable
+  Fuentes:
+• https://jonmagic.com/posts/building-a-continuous-software-engine-the-hard-way/
+• https://thisistheway.to/engine]]></description>
+<pubDate>Fri, 27 Nov 2026 16:41:20 +0200</pubDate>
+<itunes:duration>20:23</itunes:duration>
+<guid>https://www.ivoox.com/184487719</guid>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:image href="https://static-1.ivoox.com/audios/f/8/a/8/f8a860dae732d671f1f075f742d432ae_XXL.jpg"/>
+</item>
+<item>
 <title><![CDATA[NTN 602 -   Ctrl+Z a Jensen y Code Red en Microsoft  ]]></title>
 <link>https://www.ivoox.com/ntn-602-ctrl-z-a-jensen-y-audios-mp3_rf_184404701_1.html</link>
 <enclosure url="https://www.ivoox.com/ntn-602-ctrl-z-a-jensen-y_mf_184404701_feed_1.mp3" type="audio/mpeg" length="21140287"/>

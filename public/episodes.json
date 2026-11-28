@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-27T11:33:44.967Z",
+  "generatedAt": "2026-11-28T11:03:55.605Z",
   "items": [
+    {
+      "title": "NTN 603 - ⚙️ Viernes técnico: un motor que no duerme",
+      "description": "️ ¡Vuelven los viernes técnicos a NTN!   Y gracias por escucharnos\r\n  Jon Hoyt (GitHub) quemó su primer motor de agentes y lo rehízo: SQLite, worktrees, watchdogs y un revisor independiente\r\n✅ 137 commits verificados en una sola noche\r\n  Historia: el telar de Toyoda que sabía frenar\r\n  Agentes no confiables + software aburrido y confiable\r\n  Fuentes:\r\n• https://jonmagic.com/posts/building-a-continuous-software-engine-the-hard-way/\r\n• https://thisistheway.to/engine",
+      "pubDate": "Fri, 27 Nov 2026 16:41:20 +0200",
+      "link": "https://www.ivoox.com/ntn-603-viernes-tecnico-motor-audios-mp3_rf_184487719_1.html",
+      "audioUrl": "https://www.ivoox.com/ntn-603-viernes-tecnico-motor_mf_184487719_feed_1.mp3",
+      "imageUrl": "https://static-1.ivoox.com/audios/f/8/a/8/f8a860dae732d671f1f075f742d432ae_XXL.jpg",
+      "embedId": "184487719",
+      "embedUrl": "https://www.ivoox.com/player_ej_184487719_6_1.html?c1=d69776"
+    },
     {
       "title": "NTN 602 -   Ctrl+Z a Jensen y Code Red en Microsoft",
       "description": "️ ¡Semana de reinicios en NTN!\r\n•   Jensen Huang vuelve como CEO de NVIDIA: qué pasó, su estilo de gestión y el impacto en política y mercados\r\n•   Microsoft declara \"Code Red\" tras 24 h sin Outlook\r\n•   Takeaway: tu bus factor no puede ser 1\r\n  Fuentes:\r\n• https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm\r\n• https://www.ibtimes.co.uk/microsoft-code-red-november-outage-coordination-failures-1834547",
@@ -190,16 +200,6 @@
       "imageUrl": "https://static-1.ivoox.com/audios/8/e/e/7/8ee7ea0c43fee3e1ef7c326cbfbc3978_XXL.jpg",
       "embedId": "182374486",
       "embedUrl": "https://www.ivoox.com/player_ej_182374486_6_1.html?c1=d69776"
-    },
-    {
-      "title": "NTN 583 -  ️ Clonar Photoshop mirando (y hacer trampa) - Parte 1",
-      "description": "¡Votá NTN como mejor podcast! https://go.ivoox.com/wv/premios26?c=5475\r\n\r\n  La IA convierte un producto terminado en la especificación de su clon.\r\n ️ Compaq, 1982: un millón de dólares y una pared para clonar el BIOS de IBM\r\n  ArtCraft: 13 apps tipo Adobe, Office y AutoCAD en Rust\r\n  Agentes descompilan un shooter: 83% byte a byte… y hacen trampa\r\n  Sin oráculo, no hay clon\r\n\r\n  Fuentes:\r\n- momo5502.com/posts/2026-10-09-game-decompilation\r\n- github.com/storytold/photocraft\r\n- getartcraft.com/apps",
-      "pubDate": "Fri, 16 Oct 2026 17:47:43 +0200",
-      "link": "https://www.ivoox.com/ntn-583-clonar-photoshop-mirando-y-audios-mp3_rf_182311727_1.html",
-      "audioUrl": "https://www.ivoox.com/ntn-583-clonar-photoshop-mirando-y_mf_182311727_feed_1.mp3",
-      "imageUrl": "https://static-1.ivoox.com/audios/b/b/4/2/bb42c18e5444f23fe55845fc04692443_XXL.jpg",
-      "embedId": "182311727",
-      "embedUrl": "https://www.ivoox.com/player_ej_182311727_6_1.html?c1=d69776"
     }
   ]
 }
